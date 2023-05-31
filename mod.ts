@@ -25,19 +25,27 @@
  * 
  * ## Direct import sample
  * 
- * `import { Tb123 } from "https://deno.land/x/react_icons_tb@1.0.1/mod.ts"`
+ * ```ts
+ * import { Tb123 } from "https://deno.land/x/react_icons_tb@1.0.1/mod.ts"
+ * ```
  * 
  * ## import_map import sample
  * 
- * `import { Tb123 } from "react-icons/tb"`
+ * ```ts
+ * import { Tb123 } from "react-icons/tb"
+ * ```
  * 
  * ## minimal import
  * 
- * `import { Tb123 } from "react-icons/tb/Tb123.ts"`
+ * ```ts
+ * import { Tb123 } from "react-icons/tb/Tb123.ts"
+ * ```
  * 
- * ## minimal import default
+ * ## minimal import using default export
  * 
- * `import Tb123 from "react-icons/tb/Tb123.ts"`
+ * ```ts
+ * import Tb123 from "react-icons/tb/Tb123.ts"
+ * ```
  * 
  * @module
  */
