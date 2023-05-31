@@ -15,31 +15,31 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/tb":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.6/mod.ts",
-    "react-icons/tb/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.6/ico/",
+    "react-icons/tb":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.7/mod.ts",
+    "react-icons/tb/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.7/ico/",
   }
 }
 ```
 
-## Direct import sample
+## Import an icon without import_map by and afer loading all icons from the lib tb
 
 ```ts
-import { Tb123 } from "https://deno.land/x/react_icons_tb@1.0.6/mod.ts"
+import { Tb123 } from "https://deno.land/x/react_icons_tb@1.0.7/mod.ts"
 ```
 
-## import_map import sample
+## import_map import an icon from all icons
 
 ```ts
 import { Tb123 } from "react-icons/tb"
 ```
 
-## minimal import
+## import a single icon, downloading just one icon
 
 ```ts
 import { Tb123 } from "react-icons/tb/Tb123.ts"
 ```
 
-## minimal import using default export
+or using default export
 
 ```ts
 import Tb123 from "react-icons/tb/Tb123.ts"
