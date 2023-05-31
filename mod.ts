@@ -6,7 +6,7 @@
  * 
  * **Project** [https://github.com/tabler/tabler-icons](https://github.com/tabler/tabler-icons)
  * 
- * [See available icons here](https://react-icons.github.io/react-icons/icons?name=tb)
+ * [See available icons here](https://react-icons.deno.dev/tb)
  * 
  * ## import_map.json
  * 
@@ -17,8 +17,8 @@
  *   "imports": {
  *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/tb":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.7/mod.ts",
- *     "react-icons/tb/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.7/ico/",
+ *     "react-icons/tb":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.8/mod.ts",
+ *     "react-icons/tb/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.8/ico/",
  *   }
  * }
  * ```
@@ -26,7 +26,7 @@
  * ## Import an icon without import_map by and afer loading all icons from the lib tb
  * 
  * ```ts
- * import { Tb123 } from "https://deno.land/x/react_icons_tb@1.0.7/mod.ts"
+ * import { Tb123 } from "https://deno.land/x/react_icons_tb@1.0.8/mod.ts"
  * ```
  * 
  * ## import_map import an icon from all icons
@@ -52,11 +52,86 @@
 
 import { GenIcon, type IconBaseProps } from "./deps.ts";
 
+export function TbBellOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M17 17h-13a4 4 0 0 0 2 -3v-3a7 7 0 0 1 1.279 -3.716m2.072 -1.934c.209 -.127 .425 -.244 .649 -.35a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3"}},{tag:"path",attr:{d:"M9 17v1a3 3 0 0 0 6 0v-1"}}]})(props);
+}
+export function TbBoxMultiple4(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2"}},{tag:"path",attr:{d:"M15 14v-8l-4 6h5"}}]})(props);
+}
+export function TbBrandAndroid(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 10l0 6"}},{tag:"path",attr:{d:"M20 10l0 6"}},{tag:"path",attr:{d:"M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0"}},{tag:"path",attr:{d:"M8 3l1 2"}},{tag:"path",attr:{d:"M16 3l-1 2"}},{tag:"path",attr:{d:"M9 18l0 3"}},{tag:"path",attr:{d:"M15 18l0 3"}}]})(props);
+}
+export function TbBrandBandcamp(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8.5 6h13.5l-7 12h-13z"}}]})(props);
+}
+export function TbBrandFlutter(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 14l-3 -3l8 -8h6z"}},{tag:"path",attr:{d:"M14 21l-5 -5l5 -5h5l-5 5l5 5z"}}]})(props);
+}
+export function TbBrandSafari(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 16l2 -6l6 -2l-2 6l-6 2"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}}]})(props);
+}
+export function TbBrandYoutubeKids(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17.782 17.03l-3.413 .235l-.023 0c-1.117 .09 -2.214 .335 -3.257 .725l-2.197 .794a3.597 3.597 0 0 1 -2.876 -.189a3.342 3.342 0 0 1 -1.732 -2.211l-1.204 -5.293a3.21 3.21 0 0 1 .469 -2.503a3.468 3.468 0 0 1 2.177 -1.452l9.843 -2.06c1.87 -.392 3.716 .744 4.124 2.537l1.227 5.392a3.217 3.217 0 0 1 -.61 2.7a3.506 3.506 0 0 1 -2.528 1.323z"}},{tag:"path",attr:{d:"M10 10l.972 4l4.028 -3z"}}]})(props);
+}
+export function TbChefHat(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3c1.918 0 3.52 1.35 3.91 3.151a4 4 0 0 1 2.09 7.723l0 7.126h-12v-7.126a4 4 0 1 1 2.092 -7.723a4 4 0 0 1 3.908 -3.151z"}},{tag:"path",attr:{d:"M6.161 17.009l11.839 -.009"}}]})(props);
+}
+export function TbCircleOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20.042 16.045a9 9 0 0 0 -12.087 -12.087m-2.318 1.677a9 9 0 1 0 12.725 12.73"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
+export function TbDeviceWatch(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 6m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z"}},{tag:"path",attr:{d:"M9 18v3h6v-3"}},{tag:"path",attr:{d:"M9 6v-3h6v3"}}]})(props);
+}
+export function TbFenceOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12h-8v4h12m4 0v-4h-4"}},{tag:"path",attr:{d:"M6 16v4h4v-4"}},{tag:"path",attr:{d:"M10 12v-2m0 -4l-2 -2m-2 2v6"}},{tag:"path",attr:{d:"M14 16v4h4v-2"}},{tag:"path",attr:{d:"M18 12v-6l-2 -2l-2 2v4"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
+export function TbGitBranchDeleted(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 8v8"}},{tag:"path",attr:{d:"M9 18h6a2 2 0 0 0 2 -2v-5"}},{tag:"path",attr:{d:"M14 14l3 -3l3 3"}},{tag:"path",attr:{d:"M15 4l4 4"}},{tag:"path",attr:{d:"M15 8l4 -4"}}]})(props);
+}
+export function TbHeart(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"}}]})(props);
+}
+export function TbHomeCog(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 21v-6a2 2 0 0 1 2 -2h1.6"}},{tag:"path",attr:{d:"M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h4.159"}},{tag:"path",attr:{d:"M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M18 14.5v1.5"}},{tag:"path",attr:{d:"M18 20v1.5"}},{tag:"path",attr:{d:"M21.032 16.25l-1.299 .75"}},{tag:"path",attr:{d:"M16.27 19l-1.3 .75"}},{tag:"path",attr:{d:"M14.97 16.25l1.3 .75"}},{tag:"path",attr:{d:"M19.733 19l1.3 .75"}}]})(props);
+}
+export function TbTallymark2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 5l0 14"}},{tag:"path",attr:{d:"M14 5l0 14"}}]})(props);
+}
+export function TbTemplate(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M14 12l6 0"}},{tag:"path",attr:{d:"M14 16l6 0"}},{tag:"path",attr:{d:"M14 20l6 0"}}]})(props);
+}
+export function TbTopologyStar2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M14 4a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M6 12h4"}},{tag:"path",attr:{d:"M14 12h4"}},{tag:"path",attr:{d:"M12 6v4"}},{tag:"path",attr:{d:"M12 14v4"}}]})(props);
+}
+export function Tb123(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 10l2 -2v8"}},{tag:"path",attr:{d:"M9 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M17 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}}]})(props);
+}
+export function Tb24Hours(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"}},{tag:"path",attr:{d:"M4 13a8.094 8.094 0 0 0 3 5.24"}},{tag:"path",attr:{d:"M11 15h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h2"}},{tag:"path",attr:{d:"M17 15v2a1 1 0 0 0 1 1h1"}},{tag:"path",attr:{d:"M20 15v6"}}]})(props);
+}
+export function Tb2Fa(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 16h-4l3.47 -4.66a2 2 0 1 0 -3.47 -1.54"}},{tag:"path",attr:{d:"M10 16v-8h4"}},{tag:"path",attr:{d:"M10 12l3 0"}},{tag:"path",attr:{d:"M17 16v-6a2 2 0 0 1 4 0v6"}},{tag:"path",attr:{d:"M17 13l4 0"}}]})(props);
+}
+export function Tb360View(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}},{tag:"path",attr:{d:"M3 5h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M17 7v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0z"}},{tag:"path",attr:{d:"M3 16c0 1.657 4.03 3 9 3s9 -1.343 9 -3"}}]})(props);
+}
+export function Tb360(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 15.328c2.414 -.718 4 -1.94 4 -3.328c0 -2.21 -4.03 -4 -9 -4s-9 1.79 -9 4s4.03 4 9 4"}},{tag:"path",attr:{d:"M9 13l3 3l-3 3"}}]})(props);
+}
 export function Tb3DCubeSphereOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 17.6l-2 -1.1v-2.5"}},{tag:"path",attr:{d:"M4 10v-2.5l2 -1.1"}},{tag:"path",attr:{d:"M10 4.1l2 -1.1l2 1.1"}},{tag:"path",attr:{d:"M18 6.4l2 1.1v2.5"}},{tag:"path",attr:{d:"M20 14v2"}},{tag:"path",attr:{d:"M14 19.9l-2 1.1l-2 -1.1"}},{tag:"path",attr:{d:"M18 8.6l2 -1.1"}},{tag:"path",attr:{d:"M12 12v2.5"}},{tag:"path",attr:{d:"M12 18.5v2.5"}},{tag:"path",attr:{d:"M12 12l-2 -1.12"}},{tag:"path",attr:{d:"M6 8.6l-2 -1.1"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
+export function Tb3DCubeSphere(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 17.6l-2 -1.1v-2.5"}},{tag:"path",attr:{d:"M4 10v-2.5l2 -1.1"}},{tag:"path",attr:{d:"M10 4.1l2 -1.1l2 1.1"}},{tag:"path",attr:{d:"M18 6.4l2 1.1v2.5"}},{tag:"path",attr:{d:"M20 14v2.5l-2 1.12"}},{tag:"path",attr:{d:"M14 19.9l-2 1.1l-2 -1.1"}},{tag:"path",attr:{d:"M12 12l2 -1.1"}},{tag:"path",attr:{d:"M18 8.6l2 -1.1"}},{tag:"path",attr:{d:"M12 12l0 2.5"}},{tag:"path",attr:{d:"M12 18.5l0 2.5"}},{tag:"path",attr:{d:"M12 12l-2 -1.12"}},{tag:"path",attr:{d:"M6 8.6l-2 -1.1"}}]})(props);
+}
+export function Tb3DRotate(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3a7 7 0 0 1 7 7v4l-3 -3"}},{tag:"path",attr:{d:"M22 11l-3 3"}},{tag:"path",attr:{d:"M8 15.5l-5 -3l5 -3l5 3v5.5l-5 3z"}},{tag:"path",attr:{d:"M3 12.5v5.5l5 3"}},{tag:"path",attr:{d:"M8 15.545l5 -3.03"}}]})(props);
+}
 export function TbAB2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 21h3c.81 0 1.48 -.67 1.48 -1.48l.02 -.02c0 -.82 -.69 -1.5 -1.5 -1.5h-3v3z"}},{tag:"path",attr:{d:"M16 15h2.5c.84 -.01 1.5 .66 1.5 1.5s-.66 1.5 -1.5 1.5h-2.5v-3z"}},{tag:"path",attr:{d:"M4 9v-4c0 -1.036 .895 -2 2 -2s2 .964 2 2v4"}},{tag:"path",attr:{d:"M2.99 11.98a9 9 0 0 0 9 9m9 -9a9 9 0 0 0 -9 -9"}},{tag:"path",attr:{d:"M8 7h-4"}}]})(props);
+}
+export function TbABOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 16v-5.5a2.5 2.5 0 0 1 5 0v5.5m0 -4h-5"}},{tag:"path",attr:{d:"M12 12v6"}},{tag:"path",attr:{d:"M12 6v2"}},{tag:"path",attr:{d:"M16 8h3a2 2 0 1 1 0 4h-3m3 0a2 2 0 0 1 .83 3.82m-3.83 -3.82v-4"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
 export function TbAB(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 16v-5.5a2.5 2.5 0 0 1 5 0v5.5m0 -4h-5"}},{tag:"path",attr:{d:"M12 6l0 12"}},{tag:"path",attr:{d:"M16 16v-8h3a2 2 0 0 1 0 4h-3m3 0a2 2 0 0 1 0 4h-3"}}]})(props);
@@ -66,6 +141,15 @@ export function TbAbacusOff(props: IconBaseProps) {
 }
 export function TbAbacus(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 3v18"}},{tag:"path",attr:{d:"M19 21v-18"}},{tag:"path",attr:{d:"M5 7h14"}},{tag:"path",attr:{d:"M5 15h14"}},{tag:"path",attr:{d:"M8 13v4"}},{tag:"path",attr:{d:"M11 13v4"}},{tag:"path",attr:{d:"M16 13v4"}},{tag:"path",attr:{d:"M14 5v4"}},{tag:"path",attr:{d:"M11 5v4"}},{tag:"path",attr:{d:"M8 5v4"}},{tag:"path",attr:{d:"M3 21h18"}}]})(props);
+}
+export function TbAbc(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 16v-6a2 2 0 1 1 4 0v6"}},{tag:"path",attr:{d:"M3 13h4"}},{tag:"path",attr:{d:"M10 8v6a2 2 0 1 0 4 0v-1a2 2 0 1 0 -4 0v1"}},{tag:"path",attr:{d:"M20.732 12a2 2 0 0 0 -3.732 1v1a2 2 0 0 0 3.726 1.01"}}]})(props);
+}
+export function TbAccessPointOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M14.828 9.172a4 4 0 0 1 1.172 2.828"}},{tag:"path",attr:{d:"M17.657 6.343a8 8 0 0 1 1.635 8.952"}},{tag:"path",attr:{d:"M9.168 14.828a4 4 0 0 1 0 -5.656"}},{tag:"path",attr:{d:"M6.337 17.657a8 8 0 0 1 0 -11.314"}}]})(props);
+}
+export function TbAccessPoint(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12l0 .01"}},{tag:"path",attr:{d:"M14.828 9.172a4 4 0 0 1 0 5.656"}},{tag:"path",attr:{d:"M17.657 6.343a8 8 0 0 1 0 11.314"}},{tag:"path",attr:{d:"M9.168 14.828a4 4 0 0 1 0 -5.656"}},{tag:"path",attr:{d:"M6.337 17.657a8 8 0 0 1 0 -11.314"}}]})(props);
 }
 export function TbAccessibleOffFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.051 6.844a1 1 0 0 0 -1.152 -.663l-.113 .03l-2.684 .895l-2.684 -.895l-.113 -.03a1 1 0 0 0 -.628 1.884l.109 .044l2.316 .771v.976l-1.832 2.75l-.06 .1a1 1 0 0 0 .237 1.21l.1 .076l.101 .06a1 1 0 0 0 1.21 -.237l.076 -.1l1.168 -1.752l1.168 1.752l.07 .093a1 1 0 0 0 1.653 -1.102l-.059 -.1l-1.832 -2.75v-.977l2.316 -.771l.109 -.044a1 1 0 0 0 .524 -1.221zm-3.949 -4.184a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0 -3z",strokeWidth:"0",fill:"currentColor"}}]})(props);
@@ -91,8 +175,20 @@ export function TbAdCircleOff(props: IconBaseProps) {
 export function TbAdCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-10 0a10 10 0 1 0 20 0a10 10 0 1 0 -20 0"}},{tag:"path",attr:{d:"M7 15v-4.5a1.5 1.5 0 0 1 3 0v4.5"}},{tag:"path",attr:{d:"M7 13h3"}},{tag:"path",attr:{d:"M14 9v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z"}}]})(props);
 }
+export function TbAdFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19 4h-14a3 3 0 0 0 -3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3 -3v-10a3 3 0 0 0 -3 -3zm-10 4a3 3 0 0 1 2.995 2.824l.005 .176v4a1 1 0 0 1 -1.993 .117l-.007 -.117v-1h-2v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-4a3 3 0 0 1 3 -3zm0 2a1 1 0 0 0 -.993 .883l-.007 .117v1h2v-1a1 1 0 0 0 -1 -1zm8 -2a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -.883 .993l-.117 .007h-1.5a2.5 2.5 0 1 1 .326 -4.979l.174 .029v-2.05a1 1 0 0 1 .883 -.993l.117 -.007zm-1.41 5.008l-.09 -.008a.5 .5 0 0 0 -.09 .992l.09 .008h.5v-.5l-.008 -.09a.5 .5 0 0 0 -.318 -.379l-.084 -.023z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbAdOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 5h10a2 2 0 0 1 2 2v10m-2 2h-14a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M7 15v-4a2 2 0 0 1 2 -2m2 2v4"}},{tag:"path",attr:{d:"M7 13h4"}},{tag:"path",attr:{d:"M17 9v4"}},{tag:"path",attr:{d:"M16.115 12.131c.33 .149 .595 .412 .747 .74"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
 export function TbAd(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M7 15v-4a2 2 0 0 1 4 0v4"}},{tag:"path",attr:{d:"M7 13l4 0"}},{tag:"path",attr:{d:"M17 9v6h-1.5a1.5 1.5 0 1 1 1.5 -1.5"}}]})(props);
+}
+export function TbAddressBookOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 4h10a2 2 0 0 1 2 2v10m-.57 3.399c-.363 .37 -.87 .601 -1.43 .601h-10a2 2 0 0 1 -2 -2v-12"}},{tag:"path",attr:{d:"M10 16h6"}},{tag:"path",attr:{d:"M11 11a2 2 0 0 0 2 2m2 -2a2 2 0 0 0 -2 -2"}},{tag:"path",attr:{d:"M4 8h3"}},{tag:"path",attr:{d:"M4 12h3"}},{tag:"path",attr:{d:"M4 16h3"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
+export function TbAddressBook(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z"}},{tag:"path",attr:{d:"M10 16h6"}},{tag:"path",attr:{d:"M13 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M4 8h3"}},{tag:"path",attr:{d:"M4 12h3"}},{tag:"path",attr:{d:"M4 16h3"}}]})(props);
 }
 export function TbAdjustmentsAlt(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 8h4v4h-4z"}},{tag:"path",attr:{d:"M6 4l0 4"}},{tag:"path",attr:{d:"M6 12l0 8"}},{tag:"path",attr:{d:"M10 14h4v4h-4z"}},{tag:"path",attr:{d:"M12 4l0 10"}},{tag:"path",attr:{d:"M12 18l0 2"}},{tag:"path",attr:{d:"M16 5h4v4h-4z"}},{tag:"path",attr:{d:"M18 4l0 1"}},{tag:"path",attr:{d:"M18 9l0 11"}}]})(props);
@@ -100,11 +196,29 @@ export function TbAdjustmentsAlt(props: IconBaseProps) {
 export function TbAdjustmentsFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3a1 1 0 0 1 .993 .883l.007 .117v3.171a3.001 3.001 0 0 1 0 5.658v7.171a1 1 0 0 1 -1.993 .117l-.007 -.117v-7.17a3.002 3.002 0 0 1 -1.995 -2.654l-.005 -.176l.005 -.176a3.002 3.002 0 0 1 1.995 -2.654v-3.17a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M12 3a1 1 0 0 1 .993 .883l.007 .117v9.171a3.001 3.001 0 0 1 0 5.658v1.171a1 1 0 0 1 -1.993 .117l-.007 -.117v-1.17a3.002 3.002 0 0 1 -1.995 -2.654l-.005 -.176l.005 -.176a3.002 3.002 0 0 1 1.995 -2.654v-9.17a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M18 3a1 1 0 0 1 .993 .883l.007 .117v.171a3.001 3.001 0 0 1 0 5.658v10.171a1 1 0 0 1 -1.993 .117l-.007 -.117v-10.17a3.002 3.002 0 0 1 -1.995 -2.654l-.005 -.176l.005 -.176a3.002 3.002 0 0 1 1.995 -2.654v-.17a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
+export function TbAdjustmentsHorizontal(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M4 6l8 0"}},{tag:"path",attr:{d:"M16 6l4 0"}},{tag:"path",attr:{d:"M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M4 12l2 0"}},{tag:"path",attr:{d:"M10 12l10 0"}},{tag:"path",attr:{d:"M17 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M4 18l11 0"}},{tag:"path",attr:{d:"M19 18l1 0"}}]})(props);
+}
+export function TbAdjustmentsOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 6v2"}},{tag:"path",attr:{d:"M6 12v8"}},{tag:"path",attr:{d:"M12 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M12 4v4"}},{tag:"path",attr:{d:"M12 12v2"}},{tag:"path",attr:{d:"M12 18v2"}},{tag:"path",attr:{d:"M18 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M18 4v1"}},{tag:"path",attr:{d:"M18 9v5"}},{tag:"path",attr:{d:"M18 18v2"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
 export function TbAdjustments(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 4l0 4"}},{tag:"path",attr:{d:"M6 12l0 8"}},{tag:"path",attr:{d:"M12 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M12 4l0 10"}},{tag:"path",attr:{d:"M12 18l0 2"}},{tag:"path",attr:{d:"M18 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M18 4l0 1"}},{tag:"path",attr:{d:"M18 9l0 11"}}]})(props);
 }
+export function TbAerialLift(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 5l16 -2m-8 1v10m-5.106 -6h10.306c2.45 3 2.45 9 -.2 12h-10.106c-2.544 -3 -2.544 -9 0 -12zm-1.894 6h14"}}]})(props);
+}
+export function TbAffiliateFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.5 3a2.5 2.5 0 1 1 -.912 4.828l-4.556 4.555a5.475 5.475 0 0 1 .936 3.714l2.624 .787a2.5 2.5 0 1 1 -.575 1.916l-2.623 -.788a5.5 5.5 0 0 1 -10.39 -2.29l-.004 -.222l.004 -.221a5.5 5.5 0 0 1 2.984 -4.673l-.788 -2.624a2.498 2.498 0 0 1 -2.194 -2.304l-.006 -.178l.005 -.164a2.5 2.5 0 1 1 4.111 2.071l.787 2.625a5.475 5.475 0 0 1 3.714 .936l4.555 -4.556a2.487 2.487 0 0 1 -.167 -.748l-.005 -.164l.005 -.164a2.5 2.5 0 0 1 2.495 -2.336z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbAffiliate(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275"}},{tag:"path",attr:{d:"M11.683 12.317l5.759 -5.759"}},{tag:"path",attr:{d:"M5.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"}},{tag:"path",attr:{d:"M18.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"}},{tag:"path",attr:{d:"M18.5 18.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"}},{tag:"path",attr:{d:"M8.5 15.5m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0"}}]})(props);
+}
+export function TbAirBalloon(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 19m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M12 16c3.314 0 6 -4.686 6 -8a6 6 0 1 0 -12 0c0 3.314 2.686 8 6 8z"}},{tag:"path",attr:{d:"M12 9m-2 0a2 7 0 1 0 4 0a2 7 0 1 0 -4 0"}}]})(props);
+}
+export function TbAirConditioningDisabled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 8m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M7 16v-3a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v3"}}]})(props);
 }
 export function TbAirConditioning(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 16a3 3 0 0 1 -3 3"}},{tag:"path",attr:{d:"M16 16a3 3 0 0 0 3 3"}},{tag:"path",attr:{d:"M12 16v4"}},{tag:"path",attr:{d:"M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M7 13v-3a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v3"}}]})(props);
@@ -139,11 +253,29 @@ export function TbAlarm(props: IconBaseProps) {
 export function TbAlbumOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 4h10a2 2 0 0 1 2 2v10m-.581 3.41c-.362 .364 -.864 .59 -1.419 .59h-12a2 2 0 0 1 -2 -2v-12c0 -.552 .224 -1.052 .585 -1.413"}},{tag:"path",attr:{d:"M12 4v4m1.503 1.497l.497 -.497l2 2v-7"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
+export function TbAlbum(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M12 4v7l2 -2l2 2v-7"}}]})(props);
+}
+export function TbAlertCircleFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-4.99 11.66l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -8a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbAlertCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 8l0 4"}},{tag:"path",attr:{d:"M12 16l.01 0"}}]})(props);
 }
+export function TbAlertOctagonFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15.3 2c.5 0 .914 .16 1.274 .47l.133 .123l4.7 4.7c.348 .348 .546 .745 .586 1.224l.007 .183v6.6c0 .5 -.16 .914 -.47 1.274l-.123 .133l-4.7 4.7c-.348 .348 -.745 .546 -1.224 .586l-.183 .007h-6.6c-.5 0 -.914 -.16 -1.274 -.47l-.133 -.123l-4.7 -4.7c-.348 -.348 -.546 -.745 -.586 -1.224l-.007 -.183v-6.6c0 -.5 .16 -.914 .47 -1.274l.123 -.133l4.7 -4.7c.348 -.348 .745 -.546 1.224 -.586l.183 -.007h6.6zm-3.29 13l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -8a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbAlertOctagon(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.103 2h5.794a3 3 0 0 1 2.122 .879l4.101 4.101a3 3 0 0 1 .88 2.123v5.794a3 3 0 0 1 -.879 2.122l-4.101 4.101a3 3 0 0 1 -2.122 .879h-5.795a3 3 0 0 1 -2.122 -.879l-4.101 -4.1a3 3 0 0 1 -.88 -2.123v-5.794a3 3 0 0 1 .879 -2.122l4.101 -4.101a3 3 0 0 1 2.123 -.88z"}},{tag:"path",attr:{d:"M12 8l0 4"}},{tag:"path",attr:{d:"M12 16l.01 0"}}]})(props);
+}
 export function TbAlertTriangleFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11.99 1.968c1.023 0 1.97 .521 2.512 1.359l.103 .172l7.1 12.25l.062 .126a3 3 0 0 1 -2.568 4.117l-.199 .008h-14l-.049 -.003l-.112 .002a3 3 0 0 1 -2.268 -1.226l-.109 -.16a3 3 0 0 1 -.32 -2.545l.072 -.194l.06 -.125l7.092 -12.233a3 3 0 0 1 2.625 -1.548zm.02 12.032l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -6a1 1 0 0 0 -.993 .883l-.007 .117v2l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-2l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbAlertTriangle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 9v2m0 4v.01"}},{tag:"path",attr:{d:"M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75"}}]})(props);
+}
+export function TbAlienFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12.004 2c4.942 0 8.288 2.503 8.85 6.444a12.884 12.884 0 0 1 -2.163 9.308a11.794 11.794 0 0 1 -3.51 3.356c-1.982 1.19 -4.376 1.19 -6.373 -.008a11.763 11.763 0 0 1 -3.489 -3.34a12.808 12.808 0 0 1 -2.171 -9.306c.564 -3.95 3.91 -6.454 8.856 -6.454zm1.913 14.6a1 1 0 0 0 -1.317 -.517l-.146 .055a1.5 1.5 0 0 1 -1.054 -.055l-.11 -.04a1 1 0 0 0 -.69 1.874a3.5 3.5 0 0 0 2.8 0a1 1 0 0 0 .517 -1.317zm-5.304 -6.39a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -1.497l-2 -2zm8.094 .083a1 1 0 0 0 -1.414 0l-2 2l-.083 .094a1 1 0 0 0 1.497 1.32l2 -2l.083 -.094a1 1 0 0 0 -.083 -1.32z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
 export function TbAlien(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 17a2.5 2.5 0 0 0 2 0"}},{tag:"path",attr:{d:"M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z"}},{tag:"path",attr:{d:"M8 11l2 2"}},{tag:"path",attr:{d:"M16 11l-2 2"}}]})(props);
@@ -157,11 +289,17 @@ export function TbAlignBoxBottomCenter(props: IconBaseProps) {
 export function TbAlignBoxBottomLeftFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3zm-11 11a1 1 0 0 0 -1 1v2l.007 .117a1 1 0 0 0 1.993 -.117v-2l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 -4a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 1.993 -.117v-6l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 2a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
+export function TbAlignBoxBottomLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M7 15v2"}},{tag:"path",attr:{d:"M10 11v6"}},{tag:"path",attr:{d:"M13 13v4"}}]})(props);
+}
 export function TbAlignBoxBottomRightFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3zm-7 11a1 1 0 0 0 -1 1v2l.007 .117a1 1 0 0 0 1.993 -.117v-2l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 -4a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 1.993 -.117v-6l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 2a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
 export function TbAlignBoxBottomRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M11 15v2"}},{tag:"path",attr:{d:"M14 11v6"}},{tag:"path",attr:{d:"M17 13v4"}}]})(props);
+}
+export function TbAlignBoxCenterMiddle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 19v-14a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M11 15h2"}},{tag:"path",attr:{d:"M9 12h6"}},{tag:"path",attr:{d:"M10 9h4"}}]})(props);
 }
 export function TbAlignBoxLeftBottomFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-9.222 13h-2l-.117 .007a1 1 0 0 0 .117 1.993h2l.117 -.007a1 1 0 0 0 -.117 -1.993zm4 -3h-6l-.117 .007a1 1 0 0 0 .117 1.993h6l.117 -.007a1 1 0 0 0 -.117 -1.993zm-2 -3h-4l-.117 .007a1 1 0 0 0 .117 1.993h4l.117 -.007a1 1 0 0 0 -.117 -1.993z",strokeWidth:"0",fill:"currentColor"}}]})(props);
@@ -169,359 +307,14 @@ export function TbAlignBoxLeftBottomFilled(props: IconBaseProps) {
 export function TbAlignBoxLeftBottom(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M9 17h-2"}},{tag:"path",attr:{d:"M13 14h-6"}},{tag:"path",attr:{d:"M11 11h-4"}}]})(props);
 }
+export function TbAlignBoxLeftMiddleFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-9.222 11h-2l-.117 .007a1 1 0 0 0 .117 1.993h2l.117 -.007a1 1 0 0 0 -.117 -1.993zm4 -3h-6l-.117 .007a1 1 0 0 0 .117 1.993h6l.117 -.007a1 1 0 0 0 -.117 -1.993zm-2 -3h-4l-.117 .007a1 1 0 0 0 .117 1.993h4l.117 -.007a1 1 0 0 0 -.117 -1.993z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbAlignBoxLeftMiddle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M9 15h-2"}},{tag:"path",attr:{d:"M13 12h-6"}},{tag:"path",attr:{d:"M11 9h-4"}}]})(props);
 }
 export function TbAlignBoxLeftTopFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-9.222 9h-2l-.117 .007a1 1 0 0 0 .117 1.993h2l.117 -.007a1 1 0 0 0 -.117 -1.993zm4 -3h-6l-.117 .007a1 1 0 0 0 .117 1.993h6l.117 -.007a1 1 0 0 0 -.117 -1.993zm-2 -3h-4l-.117 .007a1 1 0 0 0 .117 1.993h4l.117 -.007a1 1 0 0 0 -.117 -1.993z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAlignBoxRightBottom(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M15 17h2"}},{tag:"path",attr:{d:"M11 14h6"}},{tag:"path",attr:{d:"M13 11h4"}}]})(props);
-}
-export function TbAlignBoxRightTopFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-1.222 9h-2l-.117 .007a1 1 0 0 0 .117 1.993h2l.117 -.007a1 1 0 0 0 -.117 -1.993zm0 -3h-6l-.117 .007a1 1 0 0 0 .117 1.993h6l.117 -.007a1 1 0 0 0 -.117 -1.993zm0 -3h-4l-.117 .007a1 1 0 0 0 .117 1.993h4l.117 -.007a1 1 0 0 0 -.117 -1.993z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAlignBoxRightTop(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M15 13h2"}},{tag:"path",attr:{d:"M11 10h6"}},{tag:"path",attr:{d:"M13 7h4"}}]})(props);
-}
-export function TbAlignBoxTopCenter(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M9 9v-2"}},{tag:"path",attr:{d:"M12 13v-6"}},{tag:"path",attr:{d:"M15 11v-4"}}]})(props);
-}
-export function TbAlignBoxTopLeftFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-8.222 3a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 1.993 -.117v-6l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 0a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883zm-6 0a1 1 0 0 0 -1 1v2l.007 .117a1 1 0 0 0 1.993 -.117v-2l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAlignBoxTopRightFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-4.222 3a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 1.993 -.117v-6l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 0a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883zm-6 0a1 1 0 0 0 -1 1v2l.007 .117a1 1 0 0 0 1.993 -.117v-2l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAlignBoxTopRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M11 9v-2"}},{tag:"path",attr:{d:"M14 13v-6"}},{tag:"path",attr:{d:"M17 11v-4"}}]})(props);
-}
-export function TbAlignJustified(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 6l16 0"}},{tag:"path",attr:{d:"M4 12l16 0"}},{tag:"path",attr:{d:"M4 18l12 0"}}]})(props);
-}
-export function TbAlignLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 6l16 0"}},{tag:"path",attr:{d:"M4 12l10 0"}},{tag:"path",attr:{d:"M4 18l14 0"}}]})(props);
-}
-export function TbAlphabetCyrillic(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 10h2a2 2 0 0 1 2 2v5h-3a2 2 0 1 1 0 -4h3"}},{tag:"path",attr:{d:"M19 7h-3a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2 -2v-3a2 2 0 0 0 -2 -2h-3"}}]})(props);
-}
-export function TbAlphabetLatin(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 10h2a2 2 0 0 1 2 2v5h-3a2 2 0 1 1 0 -4h3"}},{tag:"path",attr:{d:"M14 7v10"}},{tag:"path",attr:{d:"M14 10m0 2a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2z"}}]})(props);
-}
-export function TbAmbulance(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"}},{tag:"path",attr:{d:"M6 10h4m-2 -2v4"}}]})(props);
-}
-export function TbAnalyzeFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4.99 12.862a7.1 7.1 0 0 0 12.171 3.924a1.956 1.956 0 0 1 -.156 -.637l-.005 -.149l.005 -.15a2 2 0 1 1 1.769 2.137a9.099 9.099 0 0 1 -15.764 -4.85a1 1 0 0 1 1.98 -.275z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M12 8a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M13.142 3.09a9.1 9.1 0 0 1 7.848 7.772a1 1 0 0 1 -1.98 .276a7.1 7.1 0 0 0 -6.125 -6.064a7.096 7.096 0 0 0 -6.048 2.136a2 2 0 1 1 -3.831 .939l-.006 -.149l.005 -.15a2 2 0 0 1 2.216 -1.838a9.094 9.094 0 0 1 7.921 -2.922z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAnalyze(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918"}},{tag:"path",attr:{d:"M4 13a8.1 8.1 0 0 0 15 3"}},{tag:"path",attr:{d:"M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}}]})(props);
-}
-export function TbAnchor(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 9v12m-8 -8a8 8 0 0 0 16 0m1 0h-2m-14 0h-2"}},{tag:"path",attr:{d:"M12 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}}]})(props);
-}
-export function TbAnkh(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 13h12"}},{tag:"path",attr:{d:"M12 21v-8l-.422 -.211a6.472 6.472 0 0 1 -3.578 -5.789a4 4 0 1 1 8 0a6.472 6.472 0 0 1 -3.578 5.789l-.422 .211"}}]})(props);
-}
-export function TbAntennaBars3(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 18l0 -3"}},{tag:"path",attr:{d:"M10 18l0 -6"}},{tag:"path",attr:{d:"M14 18l0 .01"}},{tag:"path",attr:{d:"M18 18l0 .01"}}]})(props);
-}
-export function TbAntennaBars5(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 18l0 -3"}},{tag:"path",attr:{d:"M10 18l0 -6"}},{tag:"path",attr:{d:"M14 18l0 -9"}},{tag:"path",attr:{d:"M18 18l0 -12"}}]})(props);
-}
-export function TbAntennaOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 4v8"}},{tag:"path",attr:{d:"M16 4.5v7"}},{tag:"path",attr:{d:"M12 5v3m0 4v9"}},{tag:"path",attr:{d:"M8 8v2.5"}},{tag:"path",attr:{d:"M4 6v4"}},{tag:"path",attr:{d:"M20 8h-8m-4 0h-4"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbApertureOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3.6 15h10.55"}},{tag:"path",attr:{d:"M5.641 5.631a9 9 0 1 0 12.719 12.738m1.68 -2.318a9 9 0 0 0 -12.074 -12.098"}},{tag:"path",attr:{d:"M7.395 7.534l2.416 7.438"}},{tag:"path",attr:{d:"M17.032 4.636l-4.852 3.526m-2.334 1.695l-1.349 .98"}},{tag:"path",attr:{d:"M20.559 14.51l-8.535 -6.201"}},{tag:"path",attr:{d:"M12.257 20.916l2.123 -6.533m.984 -3.028l.154 -.473"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbApiAppOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 15h-6.5a2.5 2.5 0 1 1 0 -5h.5"}},{tag:"path",attr:{d:"M15 15v3.5a2.5 2.5 0 1 1 -5 0v-.5"}},{tag:"path",attr:{d:"M13 9h5.5a2.5 2.5 0 1 1 0 5h-.5"}},{tag:"path",attr:{d:"M9 12v-3m.042 -3.957a2.5 2.5 0 0 1 4.958 .457v.5"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbApi(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 13h5"}},{tag:"path",attr:{d:"M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3"}},{tag:"path",attr:{d:"M20 8v8"}},{tag:"path",attr:{d:"M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5"}}]})(props);
-}
-export function TbAppWindow(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M6 8h.01"}},{tag:"path",attr:{d:"M9 8h.01"}}]})(props);
-}
-export function TbAppsFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 3h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M9 13h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M19 13h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M17 3a1 1 0 0 1 .993 .883l.007 .117v2h2a1 1 0 0 1 .117 1.993l-.117 .007h-2v2a1 1 0 0 1 -1.993 .117l-.007 -.117v-2h-2a1 1 0 0 1 -.117 -1.993l.117 -.007h2v-2a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAppsOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 4h1a1 1 0 0 1 1 1v1m-.29 3.704a1 1 0 0 1 -.71 .296h-4a1 1 0 0 1 -1 -1v-4c0 -.276 .111 -.525 .292 -.706"}},{tag:"path",attr:{d:"M18 14h1a1 1 0 0 1 1 1v1m-.29 3.704a1 1 0 0 1 -.71 .296h-4a1 1 0 0 1 -1 -1v-4c0 -.276 .111 -.525 .292 -.706"}},{tag:"path",attr:{d:"M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M14 7h6"}},{tag:"path",attr:{d:"M17 4v6"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbArmchairOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 13a2 2 0 1 1 4 0v4m-2 2h-14a2 2 0 0 1 -2 -2v-4a2 2 0 1 1 4 0v2h8.036"}},{tag:"path",attr:{d:"M5 11v-5a3 3 0 0 1 .134 -.89m1.987 -1.98a3 3 0 0 1 .879 -.13h8a3 3 0 0 1 3 3v5"}},{tag:"path",attr:{d:"M6 19v2"}},{tag:"path",attr:{d:"M18 19v2"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbArrowAutofitContent(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 4l-3 3l3 3"}},{tag:"path",attr:{d:"M18 4l3 3l-3 3"}},{tag:"path",attr:{d:"M4 14m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M10 7h-7"}},{tag:"path",attr:{d:"M21 7h-7"}}]})(props);
-}
-export function TbArrowAutofitHeight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 20h-6a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h6"}},{tag:"path",attr:{d:"M18 14v7"}},{tag:"path",attr:{d:"M18 3v7"}},{tag:"path",attr:{d:"M15 18l3 3l3 -3"}},{tag:"path",attr:{d:"M15 6l3 -3l3 3"}}]})(props);
-}
-export function TbArrowAutofitRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 12v-6a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v8"}},{tag:"path",attr:{d:"M4 18h17"}},{tag:"path",attr:{d:"M18 15l3 3l-3 3"}}]})(props);
-}
-export function TbArrowAutofitWidth(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v6"}},{tag:"path",attr:{d:"M10 18h-7"}},{tag:"path",attr:{d:"M21 18h-7"}},{tag:"path",attr:{d:"M6 15l-3 3l3 3"}},{tag:"path",attr:{d:"M18 15l3 3l-3 3"}}]})(props);
-}
-export function TbArrowBadgeDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 13v-6l-5 4l-5 -4v6l5 4z"}}]})(props);
-}
-export function TbArrowBadgeRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 7h-6l4 5l-4 5h6l4 -5z"}}]})(props);
-}
-export function TbArrowBarDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 20l0 -10"}},{tag:"path",attr:{d:"M12 20l4 -4"}},{tag:"path",attr:{d:"M12 20l-4 -4"}},{tag:"path",attr:{d:"M4 4l16 0"}}]})(props);
-}
-export function TbArrowBarRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 12l-10 0"}},{tag:"path",attr:{d:"M20 12l-4 4"}},{tag:"path",attr:{d:"M20 12l-4 -4"}},{tag:"path",attr:{d:"M4 4l0 16"}}]})(props);
-}
-export function TbArrowBarToLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 12l10 0"}},{tag:"path",attr:{d:"M10 12l4 4"}},{tag:"path",attr:{d:"M10 12l4 -4"}},{tag:"path",attr:{d:"M4 4l0 16"}}]})(props);
-}
-export function TbArrowBarUp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 4l0 10"}},{tag:"path",attr:{d:"M12 4l4 4"}},{tag:"path",attr:{d:"M12 4l-4 4"}},{tag:"path",attr:{d:"M4 20l16 0"}}]})(props);
-}
-export function TbArrowBearLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 3h-5v5"}},{tag:"path",attr:{d:"M8 3l7.536 7.536a5 5 0 0 1 1.464 3.534v6.93"}}]})(props);
-}
-export function TbArrowBearRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3h5v5"}},{tag:"path",attr:{d:"M17 3l-7.536 7.536a5 5 0 0 0 -1.464 3.534v6.93"}}]})(props);
-}
-export function TbArrowBigDownLineFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 5l-.117 .007a1 1 0 0 0 -.883 .993v4.999l-2.586 .001a2 2 0 0 0 -1.414 3.414l6.586 6.586a2 2 0 0 0 2.828 0l6.586 -6.586a2 2 0 0 0 .434 -2.18l-.068 -.145a2 2 0 0 0 -1.78 -1.089l-2.586 -.001v-4.999a1 1 0 0 0 -1 -1h-6z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 2a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbArrowBigDownLinesFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 8l-.117 .007a1 1 0 0 0 -.883 .993v1.999l-2.586 .001a2 2 0 0 0 -1.414 3.414l6.586 6.586a2 2 0 0 0 2.828 0l6.586 -6.586a2 2 0 0 0 .434 -2.18l-.068 -.145a2 2 0 0 0 -1.78 -1.089l-2.586 -.001v-1.999a1 1 0 0 0 -1 -1h-6z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 2a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 5a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbArrowBigDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 4v8h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-8a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1z"}}]})(props);
-}
-export function TbArrowBigLeftLineFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h5a1 1 0 0 0 1 -1v-6l-.007 -.117a1 1 0 0 0 -.993 -.883l-5 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M4.415 12l6.585 -6.586v3.586l.007 .117a1 1 0 0 0 .993 .883l5 -.001v4l-5 .001a1 1 0 0 0 -1 1v3.586l-6.585 -6.586z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M21 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbArrowBigLeftLinesFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h2a1 1 0 0 0 1 -1v-6l-.007 -.117a1 1 0 0 0 -.993 -.883l-2 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M21 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M18 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbArrowBigLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 15h-8v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h8a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1z"}}]})(props);
-}
-export function TbArrowBigRightLineFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12.089 3.634a2 2 0 0 0 -1.089 1.78l-.001 2.586h-4.999a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 .993 .883l4.999 -.001l.001 2.587a2 2 0 0 0 3.414 1.414l6.586 -6.586a2 2 0 0 0 0 -2.828l-6.586 -6.586a2 2 0 0 0 -2.18 -.434l-.145 .068z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M3 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbArrowBigRightLinesFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12.089 3.634a2 2 0 0 0 -1.089 1.78l-.001 2.585l-1.999 .001a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 .993 .883l1.999 -.001l.001 2.587a2 2 0 0 0 3.414 1.414l6.586 -6.586a2 2 0 0 0 0 -2.828l-6.586 -6.586a2 2 0 0 0 -2.18 -.434l-.145 .068z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M3 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M6 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbArrowBigRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 9h8v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1z"}}]})(props);
-}
-export function TbArrowBigUpLineFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10.586 3l-6.586 6.586a2 2 0 0 0 -.434 2.18l.068 .145a2 2 0 0 0 1.78 1.089h2.586v5a1 1 0 0 0 1 1h6l.117 -.007a1 1 0 0 0 .883 -.993l-.001 -5h2.587a2 2 0 0 0 1.414 -3.414l-6.586 -6.586a2 2 0 0 0 -2.828 0z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 20a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbArrowBigUpLinesFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10.586 3l-6.586 6.586a2 2 0 0 0 -.434 2.18l.068 .145a2 2 0 0 0 1.78 1.089h2.586v2a1 1 0 0 0 1 1h6l.117 -.007a1 1 0 0 0 .883 -.993l-.001 -2h2.587a2 2 0 0 0 1.414 -3.414l-6.586 -6.586a2 2 0 0 0 -2.828 0z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 20a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 17a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbArrowBigUp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 20v-8h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v8a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}}]})(props);
-}
-export function TbArrowCurveLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 7l-4 -4l-4 4"}},{tag:"path",attr:{d:"M10 3v4.394a6.737 6.737 0 0 0 3 5.606a6.737 6.737 0 0 1 3 5.606v2.394"}}]})(props);
-}
-export function TbArrowDownBar(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3v18"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"}},{tag:"path",attr:{d:"M9 3h6"}}]})(props);
-}
-export function TbArrowDownLeftCircle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15.536 8.464l-9.536 9.536"}},{tag:"path",attr:{d:"M6 14v4h4"}},{tag:"path",attr:{d:"M15.586 8.414a2 2 0 1 0 2.828 -2.828a2 2 0 0 0 -2.828 2.828"}}]})(props);
-}
-export function TbArrowDownRhombus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 8v13"}},{tag:"path",attr:{d:"M15 18l-3 3l-3 -3"}},{tag:"path",attr:{d:"M14.5 5.5l-2.5 -2.5l-2.5 2.5l2.5 2.5z"}}]})(props);
-}
-export function TbArrowDownRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 7l10 10"}},{tag:"path",attr:{d:"M17 8l0 9l-9 0"}}]})(props);
-}
-export function TbArrowDownTail(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 6v15"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"}},{tag:"path",attr:{d:"M9 3l3 3l3 -3"}}]})(props);
-}
-export function TbArrowGuide(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 19h3a2 2 0 0 0 2 -2v-8a2 2 0 0 1 2 -2h7"}},{tag:"path",attr:{d:"M18 4l3 3l-3 3"}}]})(props);
-}
-export function TbArrowLeftBar(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 12h-18"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"}},{tag:"path",attr:{d:"M21 9v6"}}]})(props);
-}
-export function TbArrowLeftRhombus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 12h-13"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"}},{tag:"path",attr:{d:"M18.5 9.5l2.5 2.5l-2.5 2.5l-2.5 -2.5z"}}]})(props);
-}
-export function TbArrowLeftSquare(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 12h-14"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"}},{tag:"path",attr:{d:"M21 14h-4v-4h4z"}}]})(props);
-}
-export function TbArrowLoopLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 21v-13a4 4 0 1 1 4 4h-13"}},{tag:"path",attr:{d:"M8 16l-4 -4l4 -4"}}]})(props);
-}
-export function TbArrowLoopRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 21v-13a4 4 0 1 0 -4 4h13"}},{tag:"path",attr:{d:"M17 16l4 -4l-4 -4"}}]})(props);
-}
-export function TbArrowMergeLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 8l4 -4l4 4"}},{tag:"path",attr:{d:"M12 20v-16"}},{tag:"path",attr:{d:"M6 18c4 -1.333 6 -4.667 6 -10"}}]})(props);
-}
-export function TbArrowMerge(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 7l4 -4l4 4"}},{tag:"path",attr:{d:"M12 3v5.394a6.737 6.737 0 0 1 -3 5.606a6.737 6.737 0 0 0 -3 5.606v1.394"}},{tag:"path",attr:{d:"M12 3v5.394a6.737 6.737 0 0 0 3 5.606a6.737 6.737 0 0 1 3 5.606v1.394"}}]})(props);
-}
-export function TbArrowMoveLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 12h-10"}},{tag:"path",attr:{d:"M6 15l-3 -3l3 -3"}},{tag:"path",attr:{d:"M17 12a2 2 0 1 1 4 0a2 2 0 0 1 -4 0z"}}]})(props);
-}
-export function TbArrowMoveUp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 13v-10"}},{tag:"path",attr:{d:"M9 6l3 -3l3 3"}},{tag:"path",attr:{d:"M12 17a2 2 0 1 1 0 4a2 2 0 0 1 0 -4z"}}]})(props);
-}
-export function TbArrowNarrowLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 12l14 0"}},{tag:"path",attr:{d:"M5 12l4 4"}},{tag:"path",attr:{d:"M5 12l4 -4"}}]})(props);
-}
-export function TbArrowRampLeft2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3v8.707"}},{tag:"path",attr:{d:"M8 14l-4 -4l4 -4"}},{tag:"path",attr:{d:"M18 21c0 -6.075 -4.925 -11 -11 -11h-3"}}]})(props);
-}
-export function TbArrowRampLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 3l0 8.707"}},{tag:"path",attr:{d:"M13 7l4 -4l4 4"}},{tag:"path",attr:{d:"M7 14l-4 -4l4 -4"}},{tag:"path",attr:{d:"M17 21a11 11 0 0 0 -11 -11h-3"}}]})(props);
-}
-export function TbArrowRampRight3(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3v6"}},{tag:"path",attr:{d:"M16 16l4 -4l-4 -4"}},{tag:"path",attr:{d:"M6 21v-6a3 3 0 0 1 3 -3h11"}}]})(props);
-}
-export function TbArrowRightBar(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 15l3 -3l-3 -3"}},{tag:"path",attr:{d:"M3 12h18"}},{tag:"path",attr:{d:"M3 9v6"}}]})(props);
-}
-export function TbArrowRightRhombus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 12h13"}},{tag:"path",attr:{d:"M18 9l3 3l-3 3"}},{tag:"path",attr:{d:"M5.5 9.5l-2.5 2.5l2.5 2.5l2.5 -2.5z"}}]})(props);
-}
-export function TbArrowRotaryFirstLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 10a3 3 0 1 1 0 -6a3 3 0 0 1 0 6z"}},{tag:"path",attr:{d:"M16 10v10"}},{tag:"path",attr:{d:"M13.5 9.5l-8.5 8.5"}},{tag:"path",attr:{d:"M10 18h-5v-5"}}]})(props);
-}
-export function TbArrowRotaryLastLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 15a3 3 0 1 1 0 -6a3 3 0 0 1 0 6z"}},{tag:"path",attr:{d:"M15 15v6"}},{tag:"path",attr:{d:"M12.5 9.5l-6.5 -6.5"}},{tag:"path",attr:{d:"M11 3h-5v5"}}]})(props);
-}
-export function TbArrowRotaryLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 10a3 3 0 1 1 0 -6a3 3 0 0 1 0 6z"}},{tag:"path",attr:{d:"M16 10v10"}},{tag:"path",attr:{d:"M13 7h-10"}},{tag:"path",attr:{d:"M7 11l-4 -4l4 -4"}}]})(props);
-}
-export function TbArrowRotaryStraight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 13m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M13 16v5"}},{tag:"path",attr:{d:"M13 3v7"}},{tag:"path",attr:{d:"M9 7l4 -4l4 4"}}]})(props);
-}
-export function TbArrowRoundaboutRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 9h-8a5 5 0 1 0 -5 5v7"}},{tag:"path",attr:{d:"M17 5l4 4l-4 4"}}]})(props);
-}
-export function TbArrowUpBar(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 21l0 -18"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"}},{tag:"path",attr:{d:"M9 21l6 0"}}]})(props);
-}
-export function TbArrowUpLeftCircle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15.536 15.536l-9.536 -9.536"}},{tag:"path",attr:{d:"M10 6h-4v4"}},{tag:"path",attr:{d:"M15.586 15.586a2 2 0 1 0 2.828 2.828a2 2 0 0 0 -2.828 -2.828"}}]})(props);
-}
-export function TbArrowUpRhombus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 16v-13"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"}},{tag:"path",attr:{d:"M14.5 18.5l-2.5 2.5l-2.5 -2.5l2.5 -2.5z"}}]})(props);
-}
-export function TbArrowUpRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 7l-10 10"}},{tag:"path",attr:{d:"M8 7l9 0l0 9"}}]})(props);
-}
-export function TbArrowUpTail(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 18l0 -15"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"}},{tag:"path",attr:{d:"M15 21l-3 -3l-3 3"}}]})(props);
-}
-export function TbArrowWaveLeftDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 14h-4v-4"}},{tag:"path",attr:{d:"M21 12c-.887 1.284 -2.48 2.033 -4 2c-1.52 .033 -3.113 -.716 -4 -2s-2.48 -2.033 -4 -2c-1.52 -.033 -3 1 -4 2l-2 2"}}]})(props);
-}
-export function TbArrowWaveRightDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 14h4v-4"}},{tag:"path",attr:{d:"M3 12c.887 1.284 2.48 2.033 4 2c1.52 .033 3.113 -.716 4 -2s2.48 -2.033 4 -2c1.52 -.033 3 1 4 2l2 2"}}]})(props);
-}
-export function TbArrowZigZag(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 20v-10l10 6v-12"}},{tag:"path",attr:{d:"M13 7l3 -3l3 3"}}]})(props);
-}
-export function TbArrowsDiagonal2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 20l4 0l0 -4"}},{tag:"path",attr:{d:"M14 14l6 6"}},{tag:"path",attr:{d:"M8 4l-4 0l0 4"}},{tag:"path",attr:{d:"M4 4l6 6"}}]})(props);
-}
-export function Tb123(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 10l2 -2v8"}},{tag:"path",attr:{d:"M9 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M17 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}}]})(props);
-}
-export function Tb24Hours(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"}},{tag:"path",attr:{d:"M4 13a8.094 8.094 0 0 0 3 5.24"}},{tag:"path",attr:{d:"M11 15h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h2"}},{tag:"path",attr:{d:"M17 15v2a1 1 0 0 0 1 1h1"}},{tag:"path",attr:{d:"M20 15v6"}}]})(props);
-}
-export function Tb2Fa(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 16h-4l3.47 -4.66a2 2 0 1 0 -3.47 -1.54"}},{tag:"path",attr:{d:"M10 16v-8h4"}},{tag:"path",attr:{d:"M10 12l3 0"}},{tag:"path",attr:{d:"M17 16v-6a2 2 0 0 1 4 0v6"}},{tag:"path",attr:{d:"M17 13l4 0"}}]})(props);
-}
-export function Tb360View(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}},{tag:"path",attr:{d:"M3 5h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M17 7v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0z"}},{tag:"path",attr:{d:"M3 16c0 1.657 4.03 3 9 3s9 -1.343 9 -3"}}]})(props);
-}
-export function Tb360(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 15.328c2.414 -.718 4 -1.94 4 -3.328c0 -2.21 -4.03 -4 -9 -4s-9 1.79 -9 4s4.03 4 9 4"}},{tag:"path",attr:{d:"M9 13l3 3l-3 3"}}]})(props);
-}
-export function Tb3DCubeSphere(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 17.6l-2 -1.1v-2.5"}},{tag:"path",attr:{d:"M4 10v-2.5l2 -1.1"}},{tag:"path",attr:{d:"M10 4.1l2 -1.1l2 1.1"}},{tag:"path",attr:{d:"M18 6.4l2 1.1v2.5"}},{tag:"path",attr:{d:"M20 14v2.5l-2 1.12"}},{tag:"path",attr:{d:"M14 19.9l-2 1.1l-2 -1.1"}},{tag:"path",attr:{d:"M12 12l2 -1.1"}},{tag:"path",attr:{d:"M18 8.6l2 -1.1"}},{tag:"path",attr:{d:"M12 12l0 2.5"}},{tag:"path",attr:{d:"M12 18.5l0 2.5"}},{tag:"path",attr:{d:"M12 12l-2 -1.12"}},{tag:"path",attr:{d:"M6 8.6l-2 -1.1"}}]})(props);
-}
-export function Tb3DRotate(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3a7 7 0 0 1 7 7v4l-3 -3"}},{tag:"path",attr:{d:"M22 11l-3 3"}},{tag:"path",attr:{d:"M8 15.5l-5 -3l5 -3l5 3v5.5l-5 3z"}},{tag:"path",attr:{d:"M3 12.5v5.5l5 3"}},{tag:"path",attr:{d:"M8 15.545l5 -3.03"}}]})(props);
-}
-export function TbABOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 16v-5.5a2.5 2.5 0 0 1 5 0v5.5m0 -4h-5"}},{tag:"path",attr:{d:"M12 12v6"}},{tag:"path",attr:{d:"M12 6v2"}},{tag:"path",attr:{d:"M16 8h3a2 2 0 1 1 0 4h-3m3 0a2 2 0 0 1 .83 3.82m-3.83 -3.82v-4"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbAbc(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 16v-6a2 2 0 1 1 4 0v6"}},{tag:"path",attr:{d:"M3 13h4"}},{tag:"path",attr:{d:"M10 8v6a2 2 0 1 0 4 0v-1a2 2 0 1 0 -4 0v1"}},{tag:"path",attr:{d:"M20.732 12a2 2 0 0 0 -3.732 1v1a2 2 0 0 0 3.726 1.01"}}]})(props);
-}
-export function TbAccessPointOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M14.828 9.172a4 4 0 0 1 1.172 2.828"}},{tag:"path",attr:{d:"M17.657 6.343a8 8 0 0 1 1.635 8.952"}},{tag:"path",attr:{d:"M9.168 14.828a4 4 0 0 1 0 -5.656"}},{tag:"path",attr:{d:"M6.337 17.657a8 8 0 0 1 0 -11.314"}}]})(props);
-}
-export function TbAccessPoint(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12l0 .01"}},{tag:"path",attr:{d:"M14.828 9.172a4 4 0 0 1 0 5.656"}},{tag:"path",attr:{d:"M17.657 6.343a8 8 0 0 1 0 11.314"}},{tag:"path",attr:{d:"M9.168 14.828a4 4 0 0 1 0 -5.656"}},{tag:"path",attr:{d:"M6.337 17.657a8 8 0 0 1 0 -11.314"}}]})(props);
-}
-export function TbAdFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19 4h-14a3 3 0 0 0 -3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3 -3v-10a3 3 0 0 0 -3 -3zm-10 4a3 3 0 0 1 2.995 2.824l.005 .176v4a1 1 0 0 1 -1.993 .117l-.007 -.117v-1h-2v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-4a3 3 0 0 1 3 -3zm0 2a1 1 0 0 0 -.993 .883l-.007 .117v1h2v-1a1 1 0 0 0 -1 -1zm8 -2a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -.883 .993l-.117 .007h-1.5a2.5 2.5 0 1 1 .326 -4.979l.174 .029v-2.05a1 1 0 0 1 .883 -.993l.117 -.007zm-1.41 5.008l-.09 -.008a.5 .5 0 0 0 -.09 .992l.09 .008h.5v-.5l-.008 -.09a.5 .5 0 0 0 -.318 -.379l-.084 -.023z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAdOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 5h10a2 2 0 0 1 2 2v10m-2 2h-14a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M7 15v-4a2 2 0 0 1 2 -2m2 2v4"}},{tag:"path",attr:{d:"M7 13h4"}},{tag:"path",attr:{d:"M17 9v4"}},{tag:"path",attr:{d:"M16.115 12.131c.33 .149 .595 .412 .747 .74"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbAddressBookOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 4h10a2 2 0 0 1 2 2v10m-.57 3.399c-.363 .37 -.87 .601 -1.43 .601h-10a2 2 0 0 1 -2 -2v-12"}},{tag:"path",attr:{d:"M10 16h6"}},{tag:"path",attr:{d:"M11 11a2 2 0 0 0 2 2m2 -2a2 2 0 0 0 -2 -2"}},{tag:"path",attr:{d:"M4 8h3"}},{tag:"path",attr:{d:"M4 12h3"}},{tag:"path",attr:{d:"M4 16h3"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbAddressBook(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z"}},{tag:"path",attr:{d:"M10 16h6"}},{tag:"path",attr:{d:"M13 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M4 8h3"}},{tag:"path",attr:{d:"M4 12h3"}},{tag:"path",attr:{d:"M4 16h3"}}]})(props);
-}
-export function TbAdjustmentsHorizontal(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M4 6l8 0"}},{tag:"path",attr:{d:"M16 6l4 0"}},{tag:"path",attr:{d:"M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M4 12l2 0"}},{tag:"path",attr:{d:"M10 12l10 0"}},{tag:"path",attr:{d:"M17 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M4 18l11 0"}},{tag:"path",attr:{d:"M19 18l1 0"}}]})(props);
-}
-export function TbAdjustmentsOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 6v2"}},{tag:"path",attr:{d:"M6 12v8"}},{tag:"path",attr:{d:"M12 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M12 4v4"}},{tag:"path",attr:{d:"M12 12v2"}},{tag:"path",attr:{d:"M12 18v2"}},{tag:"path",attr:{d:"M18 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M18 4v1"}},{tag:"path",attr:{d:"M18 9v5"}},{tag:"path",attr:{d:"M18 18v2"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbAerialLift(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 5l16 -2m-8 1v10m-5.106 -6h10.306c2.45 3 2.45 9 -.2 12h-10.106c-2.544 -3 -2.544 -9 0 -12zm-1.894 6h14"}}]})(props);
-}
-export function TbAffiliateFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.5 3a2.5 2.5 0 1 1 -.912 4.828l-4.556 4.555a5.475 5.475 0 0 1 .936 3.714l2.624 .787a2.5 2.5 0 1 1 -.575 1.916l-2.623 -.788a5.5 5.5 0 0 1 -10.39 -2.29l-.004 -.222l.004 -.221a5.5 5.5 0 0 1 2.984 -4.673l-.788 -2.624a2.498 2.498 0 0 1 -2.194 -2.304l-.006 -.178l.005 -.164a2.5 2.5 0 1 1 4.111 2.071l.787 2.625a5.475 5.475 0 0 1 3.714 .936l4.555 -4.556a2.487 2.487 0 0 1 -.167 -.748l-.005 -.164l.005 -.164a2.5 2.5 0 0 1 2.495 -2.336z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAirBalloon(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 19m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M12 16c3.314 0 6 -4.686 6 -8a6 6 0 1 0 -12 0c0 3.314 2.686 8 6 8z"}},{tag:"path",attr:{d:"M12 9m-2 0a2 7 0 1 0 4 0a2 7 0 1 0 -4 0"}}]})(props);
-}
-export function TbAirConditioningDisabled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 8m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M7 16v-3a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v3"}}]})(props);
-}
-export function TbAlbum(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M12 4v7l2 -2l2 2v-7"}}]})(props);
-}
-export function TbAlertCircleFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-4.99 11.66l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -8a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAlertOctagonFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15.3 2c.5 0 .914 .16 1.274 .47l.133 .123l4.7 4.7c.348 .348 .546 .745 .586 1.224l.007 .183v6.6c0 .5 -.16 .914 -.47 1.274l-.123 .133l-4.7 4.7c-.348 .348 -.745 .546 -1.224 .586l-.183 .007h-6.6c-.5 0 -.914 -.16 -1.274 -.47l-.133 -.123l-4.7 -4.7c-.348 -.348 -.546 -.745 -.586 -1.224l-.007 -.183v-6.6c0 -.5 .16 -.914 .47 -1.274l.123 -.133l4.7 -4.7c.348 -.348 .745 -.546 1.224 -.586l.183 -.007h6.6zm-3.29 13l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -8a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAlertOctagon(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.103 2h5.794a3 3 0 0 1 2.122 .879l4.101 4.101a3 3 0 0 1 .88 2.123v5.794a3 3 0 0 1 -.879 2.122l-4.101 4.101a3 3 0 0 1 -2.122 .879h-5.795a3 3 0 0 1 -2.122 -.879l-4.101 -4.1a3 3 0 0 1 -.88 -2.123v-5.794a3 3 0 0 1 .879 -2.122l4.101 -4.101a3 3 0 0 1 2.123 -.88z"}},{tag:"path",attr:{d:"M12 8l0 4"}},{tag:"path",attr:{d:"M12 16l.01 0"}}]})(props);
-}
-export function TbAlertTriangle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 9v2m0 4v.01"}},{tag:"path",attr:{d:"M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75"}}]})(props);
-}
-export function TbAlienFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12.004 2c4.942 0 8.288 2.503 8.85 6.444a12.884 12.884 0 0 1 -2.163 9.308a11.794 11.794 0 0 1 -3.51 3.356c-1.982 1.19 -4.376 1.19 -6.373 -.008a11.763 11.763 0 0 1 -3.489 -3.34a12.808 12.808 0 0 1 -2.171 -9.306c.564 -3.95 3.91 -6.454 8.856 -6.454zm1.913 14.6a1 1 0 0 0 -1.317 -.517l-.146 .055a1.5 1.5 0 0 1 -1.054 -.055l-.11 -.04a1 1 0 0 0 -.69 1.874a3.5 3.5 0 0 0 2.8 0a1 1 0 0 0 .517 -1.317zm-5.304 -6.39a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -1.497l-2 -2zm8.094 .083a1 1 0 0 0 -1.414 0l-2 2l-.083 .094a1 1 0 0 0 1.497 1.32l2 -2l.083 -.094a1 1 0 0 0 -.083 -1.32z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbAlignBoxBottomLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M7 15v2"}},{tag:"path",attr:{d:"M10 11v6"}},{tag:"path",attr:{d:"M13 13v4"}}]})(props);
-}
-export function TbAlignBoxCenterMiddle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 19v-14a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M11 15h2"}},{tag:"path",attr:{d:"M9 12h6"}},{tag:"path",attr:{d:"M10 9h4"}}]})(props);
-}
-export function TbAlignBoxLeftMiddleFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-9.222 11h-2l-.117 .007a1 1 0 0 0 .117 1.993h2l.117 -.007a1 1 0 0 0 -.117 -1.993zm4 -3h-6l-.117 .007a1 1 0 0 0 .117 1.993h6l.117 -.007a1 1 0 0 0 -.117 -1.993zm-2 -3h-4l-.117 .007a1 1 0 0 0 .117 1.993h4l.117 -.007a1 1 0 0 0 -.117 -1.993z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
 export function TbAlignBoxLeftTop(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M9 13h-2"}},{tag:"path",attr:{d:"M13 10h-6"}},{tag:"path",attr:{d:"M11 7h-4"}}]})(props);
@@ -529,17 +322,44 @@ export function TbAlignBoxLeftTop(props: IconBaseProps) {
 export function TbAlignBoxRightBottomFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-1.222 13h-2l-.117 .007a1 1 0 0 0 .117 1.993h2l.117 -.007a1 1 0 0 0 -.117 -1.993zm0 -3h-6l-.117 .007a1 1 0 0 0 .117 1.993h6l.117 -.007a1 1 0 0 0 -.117 -1.993zm0 -3h-4l-.117 .007a1 1 0 0 0 .117 1.993h4l.117 -.007a1 1 0 0 0 -.117 -1.993z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
+export function TbAlignBoxRightBottom(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M15 17h2"}},{tag:"path",attr:{d:"M11 14h6"}},{tag:"path",attr:{d:"M13 11h4"}}]})(props);
+}
 export function TbAlignBoxRightMiddle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M15 15h2"}},{tag:"path",attr:{d:"M11 12h6"}},{tag:"path",attr:{d:"M13 9h4"}}]})(props);
+}
+export function TbAlignBoxRightTopFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-1.222 9h-2l-.117 .007a1 1 0 0 0 .117 1.993h2l.117 -.007a1 1 0 0 0 -.117 -1.993zm0 -3h-6l-.117 .007a1 1 0 0 0 .117 1.993h6l.117 -.007a1 1 0 0 0 -.117 -1.993zm0 -3h-4l-.117 .007a1 1 0 0 0 .117 1.993h4l.117 -.007a1 1 0 0 0 -.117 -1.993z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbAlignBoxRightTop(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M15 13h2"}},{tag:"path",attr:{d:"M11 10h6"}},{tag:"path",attr:{d:"M13 7h4"}}]})(props);
 }
 export function TbAlignBoxTopCenterFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-6.222 3a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 1.993 -.117v-6l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 0a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883zm-6 0a1 1 0 0 0 -1 1v2l.007 .117a1 1 0 0 0 1.993 -.117v-2l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
+export function TbAlignBoxTopCenter(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M9 9v-2"}},{tag:"path",attr:{d:"M12 13v-6"}},{tag:"path",attr:{d:"M15 11v-4"}}]})(props);
+}
+export function TbAlignBoxTopLeftFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-8.222 3a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 1.993 -.117v-6l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 0a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883zm-6 0a1 1 0 0 0 -1 1v2l.007 .117a1 1 0 0 0 1.993 -.117v-2l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbAlignBoxTopLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M7 9v-2"}},{tag:"path",attr:{d:"M10 13v-6"}},{tag:"path",attr:{d:"M13 11v-4"}}]})(props);
 }
+export function TbAlignBoxTopRightFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.222 3a2.778 2.778 0 0 1 2.778 2.778v12.444a2.778 2.778 0 0 1 -2.778 2.778h-12.444a2.778 2.778 0 0 1 -2.778 -2.778v-12.444a2.778 2.778 0 0 1 2.778 -2.778zm-4.222 3a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 1.993 -.117v-6l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 0a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883zm-6 0a1 1 0 0 0 -1 1v2l.007 .117a1 1 0 0 0 1.993 -.117v-2l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbAlignBoxTopRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M11 9v-2"}},{tag:"path",attr:{d:"M14 13v-6"}},{tag:"path",attr:{d:"M17 11v-4"}}]})(props);
+}
 export function TbAlignCenter(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 6l16 0"}},{tag:"path",attr:{d:"M8 12l8 0"}},{tag:"path",attr:{d:"M6 18l12 0"}}]})(props);
+}
+export function TbAlignJustified(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 6l16 0"}},{tag:"path",attr:{d:"M4 12l16 0"}},{tag:"path",attr:{d:"M4 18l12 0"}}]})(props);
+}
+export function TbAlignLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 6l16 0"}},{tag:"path",attr:{d:"M4 12l10 0"}},{tag:"path",attr:{d:"M4 18l14 0"}}]})(props);
 }
 export function TbAlignRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 6l16 0"}},{tag:"path",attr:{d:"M10 12l10 0"}},{tag:"path",attr:{d:"M6 18l14 0"}}]})(props);
@@ -547,20 +367,41 @@ export function TbAlignRight(props: IconBaseProps) {
 export function TbAlpha(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.1 6c-1.1 2.913 -1.9 4.913 -2.4 6c-1.879 4.088 -3.713 6 -6 6c-2.4 0 -4.8 -2.4 -4.8 -6s2.4 -6 4.8 -6c2.267 0 4.135 1.986 6 6c.512 1.102 1.312 3.102 2.4 6"}}]})(props);
 }
+export function TbAlphabetCyrillic(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 10h2a2 2 0 0 1 2 2v5h-3a2 2 0 1 1 0 -4h3"}},{tag:"path",attr:{d:"M19 7h-3a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2 -2v-3a2 2 0 0 0 -2 -2h-3"}}]})(props);
+}
 export function TbAlphabetGreek(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 10v7"}},{tag:"path",attr:{d:"M5 10m0 2a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M14 20v-11a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2"}}]})(props);
+}
+export function TbAlphabetLatin(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 10h2a2 2 0 0 1 2 2v5h-3a2 2 0 1 1 0 -4h3"}},{tag:"path",attr:{d:"M14 7v10"}},{tag:"path",attr:{d:"M14 10m0 2a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2z"}}]})(props);
+}
+export function TbAmbulance(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"}},{tag:"path",attr:{d:"M6 10h4m-2 -2v4"}}]})(props);
 }
 export function TbAmpersand(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19 20l-10.403 -10.972a2.948 2.948 0 0 1 0 -4.165a2.94 2.94 0 0 1 4.161 0a2.948 2.948 0 0 1 0 4.165l-4.68 4.687a3.685 3.685 0 0 0 0 5.207a3.675 3.675 0 0 0 5.2 0l5.722 -5.922"}}]})(props);
 }
+export function TbAnalyzeFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4.99 12.862a7.1 7.1 0 0 0 12.171 3.924a1.956 1.956 0 0 1 -.156 -.637l-.005 -.149l.005 -.15a2 2 0 1 1 1.769 2.137a9.099 9.099 0 0 1 -15.764 -4.85a1 1 0 0 1 1.98 -.275z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M12 8a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M13.142 3.09a9.1 9.1 0 0 1 7.848 7.772a1 1 0 0 1 -1.98 .276a7.1 7.1 0 0 0 -6.125 -6.064a7.096 7.096 0 0 0 -6.048 2.136a2 2 0 1 1 -3.831 .939l-.006 -.149l.005 -.15a2 2 0 0 1 2.216 -1.838a9.094 9.094 0 0 1 7.921 -2.922z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbAnalyzeOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.086 8.086 0 0 0 -4.31 .62m-2.383 1.608a8.089 8.089 0 0 0 -1.326 1.69"}},{tag:"path",attr:{d:"M4 13a8.1 8.1 0 0 0 13.687 4.676"}},{tag:"path",attr:{d:"M20 16a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M9.888 9.87a3 3 0 1 0 4.233 4.252m.595 -3.397a3.012 3.012 0 0 0 -1.426 -1.435"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
+export function TbAnalyze(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918"}},{tag:"path",attr:{d:"M4 13a8.1 8.1 0 0 0 15 3"}},{tag:"path",attr:{d:"M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}}]})(props);
 }
 export function TbAnchorOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12v9"}},{tag:"path",attr:{d:"M4 13a8 8 0 0 0 14.138 5.13m1.44 -2.56a7.99 7.99 0 0 0 .422 -2.57"}},{tag:"path",attr:{d:"M21 13h-2"}},{tag:"path",attr:{d:"M5 13h-2"}},{tag:"path",attr:{d:"M12.866 8.873a3 3 0 1 0 -3.737 -3.747"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
+export function TbAnchor(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 9v12m-8 -8a8 8 0 0 0 16 0m1 0h-2m-14 0h-2"}},{tag:"path",attr:{d:"M12 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}}]})(props);
+}
 export function TbAngle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 19h-18l9 -15"}},{tag:"path",attr:{d:"M20.615 15.171h.015"}},{tag:"path",attr:{d:"M19.515 11.771h.015"}},{tag:"path",attr:{d:"M17.715 8.671h.015"}},{tag:"path",attr:{d:"M15.415 5.971h.015"}}]})(props);
+}
+export function TbAnkh(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 13h12"}},{tag:"path",attr:{d:"M12 21v-8l-.422 -.211a6.472 6.472 0 0 1 -3.578 -5.789a4 4 0 1 1 8 0a6.472 6.472 0 0 1 -3.578 5.789l-.422 .211"}}]})(props);
 }
 export function TbAntennaBars1(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 18l0 .01"}},{tag:"path",attr:{d:"M10 18l0 .01"}},{tag:"path",attr:{d:"M14 18l0 .01"}},{tag:"path",attr:{d:"M18 18l0 .01"}}]})(props);
@@ -568,17 +409,32 @@ export function TbAntennaBars1(props: IconBaseProps) {
 export function TbAntennaBars2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 18l0 -3"}},{tag:"path",attr:{d:"M10 18l0 .01"}},{tag:"path",attr:{d:"M14 18l0 .01"}},{tag:"path",attr:{d:"M18 18l0 .01"}}]})(props);
 }
+export function TbAntennaBars3(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 18l0 -3"}},{tag:"path",attr:{d:"M10 18l0 -6"}},{tag:"path",attr:{d:"M14 18l0 .01"}},{tag:"path",attr:{d:"M18 18l0 .01"}}]})(props);
+}
 export function TbAntennaBars4(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 18l0 -3"}},{tag:"path",attr:{d:"M10 18l0 -6"}},{tag:"path",attr:{d:"M14 18l0 -9"}},{tag:"path",attr:{d:"M18 18l0 .01"}}]})(props);
+}
+export function TbAntennaBars5(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 18l0 -3"}},{tag:"path",attr:{d:"M10 18l0 -6"}},{tag:"path",attr:{d:"M14 18l0 -9"}},{tag:"path",attr:{d:"M18 18l0 -12"}}]})(props);
 }
 export function TbAntennaBarsOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 18v-3"}},{tag:"path",attr:{d:"M10 18v-6"}},{tag:"path",attr:{d:"M14 18v-4"}},{tag:"path",attr:{d:"M14 10v-1"}},{tag:"path",attr:{d:"M18 14v-8"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
+export function TbAntennaOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 4v8"}},{tag:"path",attr:{d:"M16 4.5v7"}},{tag:"path",attr:{d:"M12 5v3m0 4v9"}},{tag:"path",attr:{d:"M8 8v2.5"}},{tag:"path",attr:{d:"M4 6v4"}},{tag:"path",attr:{d:"M20 8h-8m-4 0h-4"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
 export function TbAntenna(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 4v8"}},{tag:"path",attr:{d:"M16 4.5v7"}},{tag:"path",attr:{d:"M12 5v16"}},{tag:"path",attr:{d:"M8 5.5v5"}},{tag:"path",attr:{d:"M4 6v4"}},{tag:"path",attr:{d:"M20 8h-16"}}]})(props);
 }
+export function TbApertureOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3.6 15h10.55"}},{tag:"path",attr:{d:"M5.641 5.631a9 9 0 1 0 12.719 12.738m1.68 -2.318a9 9 0 0 0 -12.074 -12.098"}},{tag:"path",attr:{d:"M7.395 7.534l2.416 7.438"}},{tag:"path",attr:{d:"M17.032 4.636l-4.852 3.526m-2.334 1.695l-1.349 .98"}},{tag:"path",attr:{d:"M20.559 14.51l-8.535 -6.201"}},{tag:"path",attr:{d:"M12.257 20.916l2.123 -6.533m.984 -3.028l.154 -.473"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
 export function TbAperture(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M3.6 15h10.55"}},{tag:"path",attr:{d:"M6.551 4.938l3.26 10.034"}},{tag:"path",attr:{d:"M17.032 4.636l-8.535 6.201"}},{tag:"path",attr:{d:"M20.559 14.51l-8.535 -6.201"}},{tag:"path",attr:{d:"M12.257 20.916l3.261 -10.034"}}]})(props);
+}
+export function TbApiAppOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 15h-6.5a2.5 2.5 0 1 1 0 -5h.5"}},{tag:"path",attr:{d:"M15 15v3.5a2.5 2.5 0 1 1 -5 0v-.5"}},{tag:"path",attr:{d:"M13 9h5.5a2.5 2.5 0 1 1 0 5h-.5"}},{tag:"path",attr:{d:"M9 12v-3m.042 -3.957a2.5 2.5 0 0 1 4.958 .457v.5"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
 export function TbApiApp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 15h-6.5a2.5 2.5 0 1 1 0 -5h.5"}},{tag:"path",attr:{d:"M15 12v6.5a2.5 2.5 0 1 1 -5 0v-.5"}},{tag:"path",attr:{d:"M12 9h6.5a2.5 2.5 0 1 1 0 5h-.5"}},{tag:"path",attr:{d:"M9 12v-6.5a2.5 2.5 0 0 1 5 0v.5"}}]})(props);
@@ -586,11 +442,23 @@ export function TbApiApp(props: IconBaseProps) {
 export function TbApiOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 13h5"}},{tag:"path",attr:{d:"M12 16v-4m0 -4h3a2 2 0 0 1 2 2v1c0 .554 -.225 1.055 -.589 1.417m-3.411 .583h-1"}},{tag:"path",attr:{d:"M20 8v8"}},{tag:"path",attr:{d:"M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
+export function TbApi(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 13h5"}},{tag:"path",attr:{d:"M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3"}},{tag:"path",attr:{d:"M20 8v8"}},{tag:"path",attr:{d:"M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5"}}]})(props);
+}
 export function TbAppWindowFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19 4a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3zm-12.99 3l-.127 .007a1 1 0 0 0 .117 1.993l.127 -.007a1 1 0 0 0 -.117 -1.993zm3 0l-.127 .007a1 1 0 0 0 .117 1.993l.127 -.007a1 1 0 0 0 -.117 -1.993z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
+export function TbAppWindow(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M6 8h.01"}},{tag:"path",attr:{d:"M9 8h.01"}}]})(props);
+}
 export function TbApple(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 14m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"}},{tag:"path",attr:{d:"M12 11v-6a2 2 0 0 1 2 -2h2v1a2 2 0 0 1 -2 2h-2"}},{tag:"path",attr:{d:"M10 10.5c1.333 .667 2.667 .667 4 0"}}]})(props);
+}
+export function TbAppsFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 3h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M9 13h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M19 13h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M17 3a1 1 0 0 1 .993 .883l.007 .117v2h2a1 1 0 0 1 .117 1.993l-.117 .007h-2v2a1 1 0 0 1 -1.993 .117l-.007 -.117v-2h-2a1 1 0 0 1 -.117 -1.993l.117 -.007h2v-2a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbAppsOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 4h1a1 1 0 0 1 1 1v1m-.29 3.704a1 1 0 0 1 -.71 .296h-4a1 1 0 0 1 -1 -1v-4c0 -.276 .111 -.525 .292 -.706"}},{tag:"path",attr:{d:"M18 14h1a1 1 0 0 1 1 1v1m-.29 3.704a1 1 0 0 1 -.71 .296h-4a1 1 0 0 1 -1 -1v-4c0 -.276 .111 -.525 .292 -.706"}},{tag:"path",attr:{d:"M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M14 7h6"}},{tag:"path",attr:{d:"M17 4v6"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
 export function TbApps(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M14 7l6 0"}},{tag:"path",attr:{d:"M17 4l0 6"}}]})(props);
@@ -607,20 +475,29 @@ export function TbArmchair2Off(props: IconBaseProps) {
 export function TbArmchair2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 10v-4a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v4"}},{tag:"path",attr:{d:"M16 15v-2a3 3 0 1 1 3 3v3h-14v-3a3 3 0 1 1 3 -3v2"}},{tag:"path",attr:{d:"M8 12h8"}},{tag:"path",attr:{d:"M7 19v2"}},{tag:"path",attr:{d:"M17 19v2"}}]})(props);
 }
+export function TbArmchairOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 13a2 2 0 1 1 4 0v4m-2 2h-14a2 2 0 0 1 -2 -2v-4a2 2 0 1 1 4 0v2h8.036"}},{tag:"path",attr:{d:"M5 11v-5a3 3 0 0 1 .134 -.89m1.987 -1.98a3 3 0 0 1 .879 -.13h8a3 3 0 0 1 3 3v5"}},{tag:"path",attr:{d:"M6 19v2"}},{tag:"path",attr:{d:"M18 19v2"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
 export function TbArmchair(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2z"}},{tag:"path",attr:{d:"M5 11v-5a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v5"}},{tag:"path",attr:{d:"M6 19v2"}},{tag:"path",attr:{d:"M18 19v2"}}]})(props);
 }
 export function TbArrowAutofitContentFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6.707 3.293a1 1 0 0 1 .083 1.32l-.083 .094l-1.292 1.293h4.585a1 1 0 0 1 .117 1.993l-.117 .007h-4.585l1.292 1.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.32 .083l-.094 -.083l-3 -3a1.008 1.008 0 0 1 -.097 -.112l-.071 -.11l-.054 -.114l-.035 -.105l-.025 -.118l-.007 -.058l-.004 -.09l.003 -.075l.017 -.126l.03 -.111l.044 -.111l.052 -.098l.064 -.092l.083 -.094l3 -3a1 1 0 0 1 1.414 0z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M18.613 3.21l.094 .083l3 3a.927 .927 0 0 1 .097 .112l.071 .11l.054 .114l.035 .105l.03 .148l.006 .118l-.003 .075l-.017 .126l-.03 .111l-.044 .111l-.052 .098l-.074 .104l-.073 .082l-3 3a1 1 0 0 1 -1.497 -1.32l.083 -.094l1.292 -1.293h-4.585a1 1 0 0 1 -.117 -1.993l.117 -.007h4.585l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.32 -.083z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M18 13h-12a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h12a3 3 0 0 0 3 -3v-2a3 3 0 0 0 -3 -3z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
-export function TbArrowAutofitDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 20h-6a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h8"}},{tag:"path",attr:{d:"M18 4v17"}},{tag:"path",attr:{d:"M15 18l3 3l3 -3"}}]})(props);
+export function TbArrowAutofitContent(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 4l-3 3l3 3"}},{tag:"path",attr:{d:"M18 4l3 3l-3 3"}},{tag:"path",attr:{d:"M4 14m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M10 7h-7"}},{tag:"path",attr:{d:"M21 7h-7"}}]})(props);
 }
 export function TbArrowAutofitLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v8"}},{tag:"path",attr:{d:"M20 18h-17"}},{tag:"path",attr:{d:"M6 15l-3 3l3 3"}}]})(props);
 }
+export function TbArrowAutofitRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 12v-6a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v8"}},{tag:"path",attr:{d:"M4 18h17"}},{tag:"path",attr:{d:"M18 15l3 3l-3 3"}}]})(props);
+}
 export function TbArrowAutofitUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 4h-6a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h8"}},{tag:"path",attr:{d:"M18 20v-17"}},{tag:"path",attr:{d:"M15 6l3 -3l3 3"}}]})(props);
+}
+export function TbArrowAutofitWidth(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v6"}},{tag:"path",attr:{d:"M10 18h-7"}},{tag:"path",attr:{d:"M21 18h-7"}},{tag:"path",attr:{d:"M6 15l-3 3l3 3"}},{tag:"path",attr:{d:"M18 15l3 3l-3 3"}}]})(props);
 }
 export function TbArrowBackUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1"}}]})(props);
@@ -628,17 +505,32 @@ export function TbArrowBackUp(props: IconBaseProps) {
 export function TbArrowBack(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1"}}]})(props);
 }
+export function TbArrowBadgeDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 13v-6l-5 4l-5 -4v6l5 4z"}}]})(props);
+}
 export function TbArrowBadgeLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 17h6l-4 -5l4 -5h-6l-4 5z"}}]})(props);
+}
+export function TbArrowBadgeRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 7h-6l4 5l-4 5h6l4 -5z"}}]})(props);
 }
 export function TbArrowBadgeUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 11v6l-5 -4l-5 4v-6l5 -4z"}}]})(props);
 }
+export function TbArrowBarDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 20l0 -10"}},{tag:"path",attr:{d:"M12 20l4 -4"}},{tag:"path",attr:{d:"M12 20l-4 -4"}},{tag:"path",attr:{d:"M4 4l16 0"}}]})(props);
+}
 export function TbArrowBarLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12l10 0"}},{tag:"path",attr:{d:"M4 12l4 4"}},{tag:"path",attr:{d:"M4 12l4 -4"}},{tag:"path",attr:{d:"M20 4l0 16"}}]})(props);
 }
+export function TbArrowBarRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 12l-10 0"}},{tag:"path",attr:{d:"M20 12l-4 4"}},{tag:"path",attr:{d:"M20 12l-4 -4"}},{tag:"path",attr:{d:"M4 4l0 16"}}]})(props);
+}
 export function TbArrowBarToDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 20l16 0"}},{tag:"path",attr:{d:"M12 14l0 -10"}},{tag:"path",attr:{d:"M12 14l4 -4"}},{tag:"path",attr:{d:"M12 14l-4 -4"}}]})(props);
+}
+export function TbArrowBarToLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 12l10 0"}},{tag:"path",attr:{d:"M10 12l4 4"}},{tag:"path",attr:{d:"M10 12l4 -4"}},{tag:"path",attr:{d:"M4 4l0 16"}}]})(props);
 }
 export function TbArrowBarToRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 12l-10 0"}},{tag:"path",attr:{d:"M14 12l-4 4"}},{tag:"path",attr:{d:"M14 12l-4 -4"}},{tag:"path",attr:{d:"M20 4l0 16"}}]})(props);
@@ -646,65 +538,128 @@ export function TbArrowBarToRight(props: IconBaseProps) {
 export function TbArrowBarToUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 10l0 10"}},{tag:"path",attr:{d:"M12 10l4 4"}},{tag:"path",attr:{d:"M12 10l-4 4"}},{tag:"path",attr:{d:"M4 4l16 0"}}]})(props);
 }
+export function TbArrowBarUp(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 4l0 10"}},{tag:"path",attr:{d:"M12 4l4 4"}},{tag:"path",attr:{d:"M12 4l-4 4"}},{tag:"path",attr:{d:"M4 20l16 0"}}]})(props);
+}
 export function TbArrowBearLeft2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 3h-5v5"}},{tag:"path",attr:{d:"M4 3l7.536 7.536a5 5 0 0 1 1.464 3.534v6.93"}},{tag:"path",attr:{d:"M20 5l-4.5 4.5"}}]})(props);
+}
+export function TbArrowBearLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 3h-5v5"}},{tag:"path",attr:{d:"M8 3l7.536 7.536a5 5 0 0 1 1.464 3.534v6.93"}}]})(props);
 }
 export function TbArrowBearRight2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 3h5v5"}},{tag:"path",attr:{d:"M20 3l-7.536 7.536a5 5 0 0 0 -1.464 3.534v6.93"}},{tag:"path",attr:{d:"M4 5l4.5 4.5"}}]})(props);
 }
+export function TbArrowBearRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3h5v5"}},{tag:"path",attr:{d:"M17 3l-7.536 7.536a5 5 0 0 0 -1.464 3.534v6.93"}}]})(props);
+}
 export function TbArrowBigDownFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 2l-.15 .005a2 2 0 0 0 -1.85 1.995v6.999l-2.586 .001a2 2 0 0 0 -1.414 3.414l6.586 6.586a2 2 0 0 0 2.828 0l6.586 -6.586a2 2 0 0 0 .434 -2.18l-.068 -.145a2 2 0 0 0 -1.78 -1.089l-2.586 -.001v-6.999a2 2 0 0 0 -2 -2h-4z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbArrowBigDownLineFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 5l-.117 .007a1 1 0 0 0 -.883 .993v4.999l-2.586 .001a2 2 0 0 0 -1.414 3.414l6.586 6.586a2 2 0 0 0 2.828 0l6.586 -6.586a2 2 0 0 0 .434 -2.18l-.068 -.145a2 2 0 0 0 -1.78 -1.089l-2.586 -.001v-4.999a1 1 0 0 0 -1 -1h-6z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 2a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
 export function TbArrowBigDownLine(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 12h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-6h6v6z"}},{tag:"path",attr:{d:"M15 3h-6"}}]})(props);
 }
+export function TbArrowBigDownLinesFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 8l-.117 .007a1 1 0 0 0 -.883 .993v1.999l-2.586 .001a2 2 0 0 0 -1.414 3.414l6.586 6.586a2 2 0 0 0 2.828 0l6.586 -6.586a2 2 0 0 0 .434 -2.18l-.068 -.145a2 2 0 0 0 -1.78 -1.089l-2.586 -.001v-1.999a1 1 0 0 0 -1 -1h-6z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 2a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 5a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbArrowBigDownLines(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 12h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-3h6v3z"}},{tag:"path",attr:{d:"M15 3h-6"}},{tag:"path",attr:{d:"M15 6h-6"}}]})(props);
+}
+export function TbArrowBigDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 4v8h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-8a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1z"}}]})(props);
 }
 export function TbArrowBigLeftFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h7a2 2 0 0 0 2 -2v-4l-.005 -.15a2 2 0 0 0 -1.995 -1.85l-7 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
+export function TbArrowBigLeftLineFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h5a1 1 0 0 0 1 -1v-6l-.007 -.117a1 1 0 0 0 -.993 -.883l-5 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M4.415 12l6.585 -6.586v3.586l.007 .117a1 1 0 0 0 .993 .883l5 -.001v4l-5 .001a1 1 0 0 0 -1 1v3.586l-6.585 -6.586z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M21 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbArrowBigLeftLine(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h6v6h-6z"}},{tag:"path",attr:{d:"M21 15v-6"}}]})(props);
+}
+export function TbArrowBigLeftLinesFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h2a1 1 0 0 0 1 -1v-6l-.007 -.117a1 1 0 0 0 -.993 -.883l-2 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M21 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M18 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
 export function TbArrowBigLeftLines(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h3v6h-3z"}},{tag:"path",attr:{d:"M21 15v-6"}},{tag:"path",attr:{d:"M18 15v-6"}}]})(props);
 }
+export function TbArrowBigLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 15h-8v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h8a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1z"}}]})(props);
+}
 export function TbArrowBigRightFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12.089 3.634a2 2 0 0 0 -1.089 1.78l-.001 2.586h-6.999a2 2 0 0 0 -2 2v4l.005 .15a2 2 0 0 0 1.995 1.85l6.999 -.001l.001 2.587a2 2 0 0 0 3.414 1.414l6.586 -6.586a2 2 0 0 0 0 -2.828l-6.586 -6.586a2 2 0 0 0 -2.18 -.434l-.145 .068z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbArrowBigRightLineFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12.089 3.634a2 2 0 0 0 -1.089 1.78l-.001 2.586h-4.999a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 .993 .883l4.999 -.001l.001 2.587a2 2 0 0 0 3.414 1.414l6.586 -6.586a2 2 0 0 0 0 -2.828l-6.586 -6.586a2 2 0 0 0 -2.18 -.434l-.145 .068z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M3 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
 export function TbArrowBigRightLine(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 9v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-6v-6h6z"}},{tag:"path",attr:{d:"M3 9v6"}}]})(props);
 }
+export function TbArrowBigRightLinesFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12.089 3.634a2 2 0 0 0 -1.089 1.78l-.001 2.585l-1.999 .001a1 1 0 0 0 -1 1v6l.007 .117a1 1 0 0 0 .993 .883l1.999 -.001l.001 2.587a2 2 0 0 0 3.414 1.414l6.586 -6.586a2 2 0 0 0 0 -2.828l-6.586 -6.586a2 2 0 0 0 -2.18 -.434l-.145 .068z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M3 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M6 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbArrowBigRightLines(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 9v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-3v-6h3z"}},{tag:"path",attr:{d:"M3 9v6"}},{tag:"path",attr:{d:"M6 9v6"}}]})(props);
+}
+export function TbArrowBigRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 9h8v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1z"}}]})(props);
 }
 export function TbArrowBigUpFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10.586 3l-6.586 6.586a2 2 0 0 0 -.434 2.18l.068 .145a2 2 0 0 0 1.78 1.089h2.586v7a2 2 0 0 0 2 2h4l.15 -.005a2 2 0 0 0 1.85 -1.995l-.001 -7h2.587a2 2 0 0 0 1.414 -3.414l-6.586 -6.586a2 2 0 0 0 -2.828 0z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
+export function TbArrowBigUpLineFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10.586 3l-6.586 6.586a2 2 0 0 0 -.434 2.18l.068 .145a2 2 0 0 0 1.78 1.089h2.586v5a1 1 0 0 0 1 1h6l.117 -.007a1 1 0 0 0 .883 -.993l-.001 -5h2.587a2 2 0 0 0 1.414 -3.414l-6.586 -6.586a2 2 0 0 0 -2.828 0z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 20a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbArrowBigUpLine(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"}},{tag:"path",attr:{d:"M9 21h6"}}]})(props);
+}
+export function TbArrowBigUpLinesFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10.586 3l-6.586 6.586a2 2 0 0 0 -.434 2.18l.068 .145a2 2 0 0 0 1.78 1.089h2.586v2a1 1 0 0 0 1 1h6l.117 -.007a1 1 0 0 0 .883 -.993l-.001 -2h2.587a2 2 0 0 0 1.414 -3.414l-6.586 -6.586a2 2 0 0 0 -2.828 0z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 20a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M15 17a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
 export function TbArrowBigUpLines(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v3h-6v-3z"}},{tag:"path",attr:{d:"M9 21h6"}},{tag:"path",attr:{d:"M9 18h6"}}]})(props);
 }
+export function TbArrowBigUp(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 20v-8h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v8a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}}]})(props);
+}
 export function TbArrowBounce(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 18h4"}},{tag:"path",attr:{d:"M3 8a9 9 0 0 1 9 9v1l1.428 -4.285a12 12 0 0 1 6.018 -6.938l.554 -.277"}},{tag:"path",attr:{d:"M15 6h5v5"}}]})(props);
+}
+export function TbArrowCurveLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 7l-4 -4l-4 4"}},{tag:"path",attr:{d:"M10 3v4.394a6.737 6.737 0 0 0 3 5.606a6.737 6.737 0 0 1 3 5.606v2.394"}}]})(props);
 }
 export function TbArrowCurveRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 7l4 -4l4 4"}},{tag:"path",attr:{d:"M14 3v4.394a6.737 6.737 0 0 1 -3 5.606a6.737 6.737 0 0 0 -3 5.606v2.394"}}]})(props);
 }
+export function TbArrowDownBar(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3v18"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"}},{tag:"path",attr:{d:"M9 3h6"}}]})(props);
+}
 export function TbArrowDownCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 7v14"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"}},{tag:"path",attr:{d:"M12 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4"}}]})(props);
+}
+export function TbArrowDownLeftCircle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15.536 8.464l-9.536 9.536"}},{tag:"path",attr:{d:"M6 14v4h4"}},{tag:"path",attr:{d:"M15.586 8.414a2 2 0 1 0 2.828 -2.828a2 2 0 0 0 -2.828 2.828"}}]})(props);
 }
 export function TbArrowDownLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 7l-10 10"}},{tag:"path",attr:{d:"M16 17l-9 0l0 -9"}}]})(props);
 }
+export function TbArrowDownRhombus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 8v13"}},{tag:"path",attr:{d:"M15 18l-3 3l-3 -3"}},{tag:"path",attr:{d:"M14.5 5.5l-2.5 -2.5l-2.5 2.5l2.5 2.5z"}}]})(props);
+}
 export function TbArrowDownRightCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8.464 8.464l9.536 9.536"}},{tag:"path",attr:{d:"M14 18h4v-4"}},{tag:"path",attr:{d:"M8.414 8.414a2 2 0 1 0 -2.828 -2.828a2 2 0 0 0 2.828 2.828"}}]})(props);
 }
+export function TbArrowDownRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 7l10 10"}},{tag:"path",attr:{d:"M17 8l0 9l-9 0"}}]})(props);
+}
 export function TbArrowDownSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 7v14"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"}},{tag:"path",attr:{d:"M14 3v4h-4v-4z"}}]})(props);
+}
+export function TbArrowDownTail(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 6v15"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"}},{tag:"path",attr:{d:"M9 3l3 3l3 -3"}}]})(props);
 }
 export function TbArrowDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 5l0 14"}},{tag:"path",attr:{d:"M18 13l-6 6"}},{tag:"path",attr:{d:"M6 13l6 6"}}]})(props);
@@ -718,14 +673,26 @@ export function TbArrowForwardUp(props: IconBaseProps) {
 export function TbArrowForward(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 11l4 4l-4 4m4 -4h-11a4 4 0 0 1 0 -8h1"}}]})(props);
 }
+export function TbArrowGuide(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 19h3a2 2 0 0 0 2 -2v-8a2 2 0 0 1 2 -2h7"}},{tag:"path",attr:{d:"M18 4l3 3l-3 3"}}]})(props);
+}
 export function TbArrowIteration(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8.5 16a5.5 5.5 0 1 0 -5.5 -5.5v.5"}},{tag:"path",attr:{d:"M3 16h18"}},{tag:"path",attr:{d:"M18 13l3 3l-3 3"}}]})(props);
+}
+export function TbArrowLeftBar(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 12h-18"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"}},{tag:"path",attr:{d:"M21 9v6"}}]})(props);
 }
 export function TbArrowLeftCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 12h-14"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"}},{tag:"path",attr:{d:"M19 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}}]})(props);
 }
+export function TbArrowLeftRhombus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 12h-13"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"}},{tag:"path",attr:{d:"M18.5 9.5l2.5 2.5l-2.5 2.5l-2.5 -2.5z"}}]})(props);
+}
 export function TbArrowLeftRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 13l4 -4l-4 -4"}},{tag:"path",attr:{d:"M7 13l-4 -4l4 -4"}},{tag:"path",attr:{d:"M12 14a5 5 0 0 1 5 -5h4"}},{tag:"path",attr:{d:"M12 19v-5a5 5 0 0 0 -5 -5h-4"}}]})(props);
+}
+export function TbArrowLeftSquare(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 12h-14"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"}},{tag:"path",attr:{d:"M21 14h-4v-4h4z"}}]})(props);
 }
 export function TbArrowLeftTail(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 12h-15"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"}},{tag:"path",attr:{d:"M21 9l-3 3l3 3"}}]})(props);
@@ -736,23 +703,44 @@ export function TbArrowLeft(props: IconBaseProps) {
 export function TbArrowLoopLeft2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 21v-6m0 -6v-1a4 4 0 1 1 4 4h-13"}},{tag:"path",attr:{d:"M8 16l-4 -4l4 -4"}}]})(props);
 }
+export function TbArrowLoopLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 21v-13a4 4 0 1 1 4 4h-13"}},{tag:"path",attr:{d:"M8 16l-4 -4l4 -4"}}]})(props);
+}
 export function TbArrowLoopRight2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 21v-6m0 -6v-1a4 4 0 1 0 -4 4h13"}},{tag:"path",attr:{d:"M17 16l4 -4l-4 -4"}}]})(props);
+}
+export function TbArrowLoopRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 21v-13a4 4 0 1 0 -4 4h13"}},{tag:"path",attr:{d:"M17 16l4 -4l-4 -4"}}]})(props);
 }
 export function TbArrowMergeBoth(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 8l-4 -4l-4 4"}},{tag:"path",attr:{d:"M12 20v-16"}},{tag:"path",attr:{d:"M18 18c-4 -1.333 -6 -4.667 -6 -10"}},{tag:"path",attr:{d:"M6 18c4 -1.333 6 -4.667 6 -10"}}]})(props);
 }
+export function TbArrowMergeLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 8l4 -4l4 4"}},{tag:"path",attr:{d:"M12 20v-16"}},{tag:"path",attr:{d:"M6 18c4 -1.333 6 -4.667 6 -10"}}]})(props);
+}
 export function TbArrowMergeRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 8l-4 -4l-4 4"}},{tag:"path",attr:{d:"M12 20v-16"}},{tag:"path",attr:{d:"M18 18c-4 -1.333 -6 -4.667 -6 -10"}}]})(props);
+}
+export function TbArrowMerge(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 7l4 -4l4 4"}},{tag:"path",attr:{d:"M12 3v5.394a6.737 6.737 0 0 1 -3 5.606a6.737 6.737 0 0 0 -3 5.606v1.394"}},{tag:"path",attr:{d:"M12 3v5.394a6.737 6.737 0 0 0 3 5.606a6.737 6.737 0 0 1 3 5.606v1.394"}}]})(props);
 }
 export function TbArrowMoveDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 11v10"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"}},{tag:"path",attr:{d:"M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}}]})(props);
 }
+export function TbArrowMoveLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 12h-10"}},{tag:"path",attr:{d:"M6 15l-3 -3l3 -3"}},{tag:"path",attr:{d:"M17 12a2 2 0 1 1 4 0a2 2 0 0 1 -4 0z"}}]})(props);
+}
 export function TbArrowMoveRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 12h10"}},{tag:"path",attr:{d:"M18 9l3 3l-3 3"}},{tag:"path",attr:{d:"M7 12a2 2 0 1 1 -4 0a2 2 0 0 1 4 0z"}}]})(props);
 }
+export function TbArrowMoveUp(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 13v-10"}},{tag:"path",attr:{d:"M9 6l3 -3l3 3"}},{tag:"path",attr:{d:"M12 17a2 2 0 1 1 0 4a2 2 0 0 1 0 -4z"}}]})(props);
+}
 export function TbArrowNarrowDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 5l0 14"}},{tag:"path",attr:{d:"M16 15l-4 4"}},{tag:"path",attr:{d:"M8 15l4 4"}}]})(props);
+}
+export function TbArrowNarrowLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 12l14 0"}},{tag:"path",attr:{d:"M5 12l4 4"}},{tag:"path",attr:{d:"M5 12l4 -4"}}]})(props);
 }
 export function TbArrowNarrowRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 12l14 0"}},{tag:"path",attr:{d:"M15 16l4 -4"}},{tag:"path",attr:{d:"M15 8l4 4"}}]})(props);
@@ -760,17 +748,32 @@ export function TbArrowNarrowRight(props: IconBaseProps) {
 export function TbArrowNarrowUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 5l0 14"}},{tag:"path",attr:{d:"M16 9l-4 -4"}},{tag:"path",attr:{d:"M8 9l4 -4"}}]})(props);
 }
+export function TbArrowRampLeft2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3v8.707"}},{tag:"path",attr:{d:"M8 14l-4 -4l4 -4"}},{tag:"path",attr:{d:"M18 21c0 -6.075 -4.925 -11 -11 -11h-3"}}]})(props);
+}
 export function TbArrowRampLeft3(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3v6"}},{tag:"path",attr:{d:"M8 16l-4 -4l4 -4"}},{tag:"path",attr:{d:"M18 21v-6a3 3 0 0 0 -3 -3h-11"}}]})(props);
+}
+export function TbArrowRampLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 3l0 8.707"}},{tag:"path",attr:{d:"M13 7l4 -4l4 4"}},{tag:"path",attr:{d:"M7 14l-4 -4l4 -4"}},{tag:"path",attr:{d:"M17 21a11 11 0 0 0 -11 -11h-3"}}]})(props);
 }
 export function TbArrowRampRight2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3v8.707"}},{tag:"path",attr:{d:"M16 14l4 -4l-4 -4"}},{tag:"path",attr:{d:"M6 21c0 -6.075 4.925 -11 11 -11h3"}}]})(props);
 }
+export function TbArrowRampRight3(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3v6"}},{tag:"path",attr:{d:"M16 16l4 -4l-4 -4"}},{tag:"path",attr:{d:"M6 21v-6a3 3 0 0 1 3 -3h11"}}]})(props);
+}
 export function TbArrowRampRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 3l0 8.707"}},{tag:"path",attr:{d:"M11 7l-4 -4l-4 4"}},{tag:"path",attr:{d:"M17 14l4 -4l-4 -4"}},{tag:"path",attr:{d:"M7 21a11 11 0 0 1 11 -11h3"}}]})(props);
 }
+export function TbArrowRightBar(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 15l3 -3l-3 -3"}},{tag:"path",attr:{d:"M3 12h18"}},{tag:"path",attr:{d:"M3 9v6"}}]})(props);
+}
 export function TbArrowRightCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 15l3 -3l-3 -3"}},{tag:"path",attr:{d:"M5 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 12h14"}}]})(props);
+}
+export function TbArrowRightRhombus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 12h13"}},{tag:"path",attr:{d:"M18 9l3 3l-3 3"}},{tag:"path",attr:{d:"M5.5 9.5l-2.5 2.5l2.5 2.5l2.5 -2.5z"}}]})(props);
 }
 export function TbArrowRightSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 12l14 0"}},{tag:"path",attr:{d:"M18 15l3 -3l-3 -3"}},{tag:"path",attr:{d:"M3 10h4v4h-4z"}}]})(props);
@@ -781,17 +784,32 @@ export function TbArrowRightTail(props: IconBaseProps) {
 export function TbArrowRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 12l14 0"}},{tag:"path",attr:{d:"M13 18l6 -6"}},{tag:"path",attr:{d:"M13 6l6 6"}}]})(props);
 }
+export function TbArrowRotaryFirstLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 10a3 3 0 1 1 0 -6a3 3 0 0 1 0 6z"}},{tag:"path",attr:{d:"M16 10v10"}},{tag:"path",attr:{d:"M13.5 9.5l-8.5 8.5"}},{tag:"path",attr:{d:"M10 18h-5v-5"}}]})(props);
+}
 export function TbArrowRotaryFirstRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M8 10v10"}},{tag:"path",attr:{d:"M10.5 9.5l8.5 8.5"}},{tag:"path",attr:{d:"M14 18h5v-5"}}]})(props);
+}
+export function TbArrowRotaryLastLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 15a3 3 0 1 1 0 -6a3 3 0 0 1 0 6z"}},{tag:"path",attr:{d:"M15 15v6"}},{tag:"path",attr:{d:"M12.5 9.5l-6.5 -6.5"}},{tag:"path",attr:{d:"M11 3h-5v5"}}]})(props);
 }
 export function TbArrowRotaryLastRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M9 15v6"}},{tag:"path",attr:{d:"M11.5 9.5l6.5 -6.5"}},{tag:"path",attr:{d:"M13 3h5v5"}}]})(props);
 }
+export function TbArrowRotaryLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 10a3 3 0 1 1 0 -6a3 3 0 0 1 0 6z"}},{tag:"path",attr:{d:"M16 10v10"}},{tag:"path",attr:{d:"M13 7h-10"}},{tag:"path",attr:{d:"M7 11l-4 -4l4 -4"}}]})(props);
+}
 export function TbArrowRotaryRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M8 10v10"}},{tag:"path",attr:{d:"M17 11l4 -4l-4 -4"}},{tag:"path",attr:{d:"M11 7h10"}}]})(props);
 }
+export function TbArrowRotaryStraight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 13m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M13 16v5"}},{tag:"path",attr:{d:"M13 3v7"}},{tag:"path",attr:{d:"M9 7l4 -4l4 4"}}]})(props);
+}
 export function TbArrowRoundaboutLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 9h8a5 5 0 1 1 5 5v7"}},{tag:"path",attr:{d:"M7 5l-4 4l4 4"}}]})(props);
+}
+export function TbArrowRoundaboutRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 9h-8a5 5 0 1 0 -5 5v7"}},{tag:"path",attr:{d:"M17 5l4 4l-4 4"}}]})(props);
 }
 export function TbArrowSharpTurnLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 18v-11.31a.7 .7 0 0 0 -1.195 -.495l-9.805 9.805"}},{tag:"path",attr:{d:"M11 16h-5v-5"}}]})(props);
@@ -802,29 +820,56 @@ export function TbArrowSharpTurnRight(props: IconBaseProps) {
 export function TbArrowTopCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 17v-14"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"}},{tag:"path",attr:{d:"M12 17a2 2 0 1 0 0 4a2 2 0 0 0 0 -4"}}]})(props);
 }
+export function TbArrowUpBar(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 21l0 -18"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"}},{tag:"path",attr:{d:"M9 21l6 0"}}]})(props);
+}
 export function TbArrowUpCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 8l-4 4"}},{tag:"path",attr:{d:"M12 8l0 8"}},{tag:"path",attr:{d:"M16 12l-4 -4"}}]})(props);
+}
+export function TbArrowUpLeftCircle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15.536 15.536l-9.536 -9.536"}},{tag:"path",attr:{d:"M10 6h-4v4"}},{tag:"path",attr:{d:"M15.586 15.586a2 2 0 1 0 2.828 2.828a2 2 0 0 0 -2.828 -2.828"}}]})(props);
 }
 export function TbArrowUpLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 7l10 10"}},{tag:"path",attr:{d:"M16 7l-9 0l0 9"}}]})(props);
 }
+export function TbArrowUpRhombus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 16v-13"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"}},{tag:"path",attr:{d:"M14.5 18.5l-2.5 2.5l-2.5 -2.5l2.5 -2.5z"}}]})(props);
+}
 export function TbArrowUpRightCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8.464 15.536l9.536 -9.536"}},{tag:"path",attr:{d:"M18 10v-4h-4"}},{tag:"path",attr:{d:"M8.414 15.586a2 2 0 1 0 -2.828 2.828a2 2 0 0 0 2.828 -2.828"}}]})(props);
+}
+export function TbArrowUpRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 7l-10 10"}},{tag:"path",attr:{d:"M8 7l9 0l0 9"}}]})(props);
 }
 export function TbArrowUpSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 17l0 -14"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"}},{tag:"path",attr:{d:"M10 21v-4h4v4z"}}]})(props);
 }
+export function TbArrowUpTail(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 18l0 -15"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"}},{tag:"path",attr:{d:"M15 21l-3 -3l-3 3"}}]})(props);
+}
 export function TbArrowUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 5l0 14"}},{tag:"path",attr:{d:"M18 11l-6 -6"}},{tag:"path",attr:{d:"M6 11l6 -6"}}]})(props);
+}
+export function TbArrowWaveLeftDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 14h-4v-4"}},{tag:"path",attr:{d:"M21 12c-.887 1.284 -2.48 2.033 -4 2c-1.52 .033 -3.113 -.716 -4 -2s-2.48 -2.033 -4 -2c-1.52 -.033 -3 1 -4 2l-2 2"}}]})(props);
+}
+export function TbArrowWaveLeftUp(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 10h-4v4"}},{tag:"path",attr:{d:"M21 12c-.887 -1.285 -2.48 -2.033 -4 -2c-1.52 -.033 -3.113 .715 -4 2c-.887 1.284 -2.48 2.033 -4 2c-1.52 .033 -3 -1 -4 -2l-2 -2"}}]})(props);
+}
+export function TbArrowWaveRightDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 14h4v-4"}},{tag:"path",attr:{d:"M3 12c.887 1.284 2.48 2.033 4 2c1.52 .033 3.113 -.716 4 -2s2.48 -2.033 4 -2c1.52 -.033 3 1 4 2l2 2"}}]})(props);
+}
+export function TbArrowWaveRightUp(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 10h4v4"}},{tag:"path",attr:{d:"M3 12c.887 -1.284 2.48 -2.033 4 -2c1.52 -.033 3.113 .716 4 2s2.48 2.033 4 2c1.52 .033 3 -1 4 -2l2 -2"}}]})(props);
+}
+export function TbArrowZigZag(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 20v-10l10 6v-12"}},{tag:"path",attr:{d:"M13 7l3 -3l3 3"}}]})(props);
 }
 export function TbArrowsCross(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 4h4v4"}},{tag:"path",attr:{d:"M15 9l5 -5"}},{tag:"path",attr:{d:"M4 20l5 -5"}},{tag:"path",attr:{d:"M16 20h4v-4"}},{tag:"path",attr:{d:"M4 4l16 16"}}]})(props);
 }
-export function TbArrowsDiagonalMinimize2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 10h-4v-4"}},{tag:"path",attr:{d:"M20 4l-6 6"}},{tag:"path",attr:{d:"M6 14h4v4"}},{tag:"path",attr:{d:"M10 14l-6 6"}}]})(props);
-}
-export function TbArrowsDiagonalMinimize(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 10h4v-4"}},{tag:"path",attr:{d:"M4 4l6 6"}},{tag:"path",attr:{d:"M18 14h-4v4"}},{tag:"path",attr:{d:"M14 14l6 6"}}]})(props);
+export function TbArrowsDiagonal2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 20l4 0l0 -4"}},{tag:"path",attr:{d:"M14 14l6 6"}},{tag:"path",attr:{d:"M8 4l-4 0l0 4"}},{tag:"path",attr:{d:"M4 4l6 6"}}]})(props);
 }
 export function TbArrowsDiagonal(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 4l4 0l0 4"}},{tag:"path",attr:{d:"M14 10l6 -6"}},{tag:"path",attr:{d:"M8 20l-4 0l0 -4"}},{tag:"path",attr:{d:"M4 20l6 -6"}}]})(props);
@@ -1201,14 +1246,14 @@ export function TbBattery3(props: IconBaseProps) {
 export function TbBattery4Filled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 6a3 3 0 0 1 2.995 2.824l.005 .176v.086l.052 .019a1.5 1.5 0 0 1 .941 1.25l.007 .145v3a1.5 1.5 0 0 1 -.948 1.395l-.052 .018v.087a3 3 0 0 1 -2.824 2.995l-.176 .005h-11a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-6a3 3 0 0 1 2.824 -2.995l.176 -.005h11zm-10 3a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 0a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 0a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883zm3 0a1 1 0 0 0 -1 1v4l.007 .117a1 1 0 0 0 1.993 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
+export function TbBattery4(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 7h11a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M7 10l0 4"}},{tag:"path",attr:{d:"M10 10l0 4"}},{tag:"path",attr:{d:"M13 10l0 4"}},{tag:"path",attr:{d:"M16 10l0 4"}}]})(props);
+}
+export function TbBatteryAutomotive(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 6m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M6 6v-2"}},{tag:"path",attr:{d:"M19 4l0 2"}},{tag:"path",attr:{d:"M6.5 13l3 0"}},{tag:"path",attr:{d:"M14.5 13l3 0"}},{tag:"path",attr:{d:"M16 11.5l0 3"}}]})(props);
+}
 export function TbBatteryCharging2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 9a2 2 0 0 1 2 -2h11a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-4.5"}},{tag:"path",attr:{d:"M3 15h6v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2v-2z"}},{tag:"path",attr:{d:"M6 22v-3"}},{tag:"path",attr:{d:"M4 15v-2.5"}},{tag:"path",attr:{d:"M8 15v-2.5"}}]})(props);
-}
-export function TbBatteryCharging(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 7h1a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-2"}},{tag:"path",attr:{d:"M8 7h-2a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h1"}},{tag:"path",attr:{d:"M12 8l-2 4h3l-2 4"}}]})(props);
-}
-export function TbBatteryEco(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 9a2 2 0 0 1 2 -2h11a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-5.5"}},{tag:"path",attr:{d:"M3 16.143c0 -2.84 2.09 -5.143 4.667 -5.143h2.333v.857c0 2.84 -2.09 5.143 -4.667 5.143h-2.333v-.857z"}},{tag:"path",attr:{d:"M3 20v-3"}}]})(props);
 }
 export function TbBatteryFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 6a3 3 0 0 1 2.995 2.824l.005 .176v.086l.052 .019a1.5 1.5 0 0 1 .941 1.25l.007 .145v3a1.5 1.5 0 0 1 -.948 1.395l-.052 .018v.087a3 3 0 0 1 -2.824 2.995l-.176 .005h-11a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-6a3 3 0 0 1 2.824 -2.995l.176 -.005h11z",strokeWidth:"0",fill:"currentColor"}}]})(props);
@@ -1245,9 +1290,6 @@ export function TbBellMinusFilled(props: IconBaseProps) {
 }
 export function TbBellMinus(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"}},{tag:"path",attr:{d:"M9 17v1a3 3 0 0 0 6 0v-1"}},{tag:"path",attr:{d:"M10 11l4 0"}}]})(props);
-}
-export function TbBellOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M17 17h-13a4 4 0 0 0 2 -3v-3a7 7 0 0 1 1.279 -3.716m2.072 -1.934c.209 -.127 .425 -.244 .649 -.35a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3"}},{tag:"path",attr:{d:"M9 17v1a3 3 0 0 0 6 0v-1"}}]})(props);
 }
 export function TbBellPlusFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14.235 19c.865 0 1.322 1.024 .745 1.668a3.992 3.992 0 0 1 -2.98 1.332a3.992 3.992 0 0 1 -2.98 -1.332c-.552 -.616 -.158 -1.579 .634 -1.661l.11 -.006h4.471z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M12 2c1.358 0 2.506 .903 2.875 2.141l.046 .171l.008 .043a8.013 8.013 0 0 1 4.024 6.069l.028 .287l.019 .289v2.931l.021 .136a3 3 0 0 0 1.143 1.847l.167 .117l.162 .099c.86 .487 .56 1.766 -.377 1.864l-.116 .006h-16c-1.028 0 -1.387 -1.364 -.493 -1.87a3 3 0 0 0 1.472 -2.063l.021 -.143l.001 -2.97a8 8 0 0 1 3.821 -6.454l.248 -.146l.01 -.043a3.003 3.003 0 0 1 2.562 -2.29l.182 -.017l.176 -.004zm0 6a1 1 0 0 0 -1 1v1h-1l-.117 .007a1 1 0 0 0 .117 1.993h1v1l.007 .117a1 1 0 0 0 1.993 -.117v-1h1l.117 -.007a1 1 0 0 0 -.117 -1.993h-1v-1l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
@@ -1528,9 +1570,6 @@ export function TbBoxMultiple2(props: IconBaseProps) {
 export function TbBoxMultiple3(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2"}},{tag:"path",attr:{d:"M14 10a2 2 0 1 0 -2 -2"}},{tag:"path",attr:{d:"M12 12a2 2 0 1 0 2 -2"}}]})(props);
 }
-export function TbBoxMultiple4(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2"}},{tag:"path",attr:{d:"M15 14v-8l-4 6h5"}}]})(props);
-}
 export function TbBoxMultiple5(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M12 14h2a2 2 0 1 0 0 -4h-2v-4h4"}},{tag:"path",attr:{d:"M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2"}}]})(props);
 }
@@ -1585,6 +1624,12 @@ export function TbBrackets(props: IconBaseProps) {
 export function TbBraille(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 5a1 1 0 1 0 2 0a1 1 0 0 0 -2 0z"}},{tag:"path",attr:{d:"M7 5a1 1 0 1 0 2 0a1 1 0 0 0 -2 0z"}},{tag:"path",attr:{d:"M7 19a1 1 0 1 0 2 0a1 1 0 0 0 -2 0z"}},{tag:"path",attr:{d:"M16 12h.01"}},{tag:"path",attr:{d:"M8 12h.01"}},{tag:"path",attr:{d:"M16 19h.01"}}]})(props);
 }
+export function TbBrain(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8"}},{tag:"path",attr:{d:"M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8"}},{tag:"path",attr:{d:"M17.5 16a3.5 3.5 0 0 0 0 -7h-.5"}},{tag:"path",attr:{d:"M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0"}},{tag:"path",attr:{d:"M6.5 16a3.5 3.5 0 0 1 0 -7h.5"}},{tag:"path",attr:{d:"M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10"}}]})(props);
+}
+export function TbBrand4Chan(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z"}},{tag:"path",attr:{d:"M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z"}},{tag:"path",attr:{d:"M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z"}},{tag:"path",attr:{d:"M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z"}},{tag:"path",attr:{d:"M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z"}}]})(props);
+}
 export function TbBrandAbstract(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}},{tag:"path",attr:{d:"M10.5 13.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0"}},{tag:"path",attr:{d:"M8 8h8v8"}}]})(props);
 }
@@ -1593,12 +1638,6 @@ export function TbBrandAdobe(props: IconBaseProps) {
 }
 export function TbBrandAdonisJs(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}},{tag:"path",attr:{d:"M8.863 16.922c1.137 -.422 1.637 -.922 3.137 -.922s2 .5 3.138 .922c.713 .264 1.516 -.102 1.778 -.772c.126 -.32 .11 -.673 -.044 -.983l-3.708 -7.474c-.297 -.598 -1.058 -.859 -1.7 -.583a1.24 1.24 0 0 0 -.627 .583l-3.709 7.474c-.321 .648 -.017 1.415 .679 1.714c.332 .143 .715 .167 1.056 .04z"}}]})(props);
-}
-export function TbBrandAirbnb(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 10c-2 0 -3 1 -3 3c0 1.5 1.494 3.535 3 5.5c1 1 1.5 1.5 2.5 2s2.5 1 4.5 -.5s1.5 -3.5 .5 -6s-2.333 -5.5 -5 -9.5c-.834 -1 -1.5 -1.5 -2.503 -1.5c-1 0 -1.623 .45 -2.497 1.5c-2.667 4 -4 7 -5 9.5s-1.5 4.5 .5 6s3.5 1 4.5 .5s1.5 -1 2.5 -2c1.506 -1.965 3 -4 3 -5.5c0 -2 -1 -3 -3 -3z"}}]})(props);
-}
-export function TbBrandAirtable(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 10v8l7 -3v-2.6z"}},{tag:"path",attr:{d:"M3 6l9 3l9 -3l-9 -3z"}},{tag:"path",attr:{d:"M14 12.3v8.7l7 -3v-8z"}}]})(props);
 }
 export function TbBrandAlgolia(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15.5 11c-.414 -1.477 -1.886 -2.5 -3.5 -2.5a3.47 3.47 0 0 0 -3.5 3.5a3.47 3.47 0 0 0 3.5 3.5c.974 0 1.861 -.357 2.5 -1l4.5 4.5v-15h-7c-4.386 0 -8 3.582 -8 8s3.614 8 8 8a7.577 7.577 0 0 0 2.998 -.614"}}]})(props);
@@ -1620,9 +1659,6 @@ export function TbBrandAmigo(props: IconBaseProps) {
 }
 export function TbBrandAmongUs(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10.646 12.774c-1.939 .396 -4.467 .317 -6.234 -.601c-2.454 -1.263 -1.537 -4.66 1.423 -4.982c2.254 -.224 3.814 -.354 5.65 .214c.835 .256 1.93 .569 1.355 3.281c-.191 1.067 -1.07 1.904 -2.194 2.088z"}},{tag:"path",attr:{d:"M5.84 7.132c.083 -.564 .214 -1.12 .392 -1.661c.456 -.936 1.095 -2.068 3.985 -2.456a22.464 22.464 0 0 1 2.867 .08c1.776 .14 2.643 1.234 3.287 3.368c.339 1.157 .46 2.342 .629 3.537v11l-12.704 -.019c-.552 -2.386 -.262 -5.894 .204 -8.481"}},{tag:"path",attr:{d:"M17 10c.991 .163 2.105 .383 3.069 .67c.255 .13 .52 .275 .534 .505c.264 3.434 .57 7.448 .278 9.825h-3.881"}}]})(props);
-}
-export function TbBrandAndroid(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 10l0 6"}},{tag:"path",attr:{d:"M20 10l0 6"}},{tag:"path",attr:{d:"M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0"}},{tag:"path",attr:{d:"M8 3l1 2"}},{tag:"path",attr:{d:"M16 3l-1 2"}},{tag:"path",attr:{d:"M9 18l0 3"}},{tag:"path",attr:{d:"M15 18l0 3"}}]})(props);
 }
 export function TbBrandAngular(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5.428 17.245l6.076 3.471a1 1 0 0 0 .992 0l6.076 -3.471a1 1 0 0 0 .495 -.734l1.323 -9.704a1 1 0 0 0 -.658 -1.078l-7.4 -2.612a1 1 0 0 0 -.665 0l-7.399 2.613a1 1 0 0 0 -.658 1.078l1.323 9.704a1 1 0 0 0 .495 .734z"}},{tag:"path",attr:{d:"M9 15l3 -8l3 8"}},{tag:"path",attr:{d:"M10 13h4"}}]})(props);
@@ -1656,9 +1692,6 @@ export function TbBrandBadoo(props: IconBaseProps) {
 }
 export function TbBrandBaidu(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 9.5m-1 0a1 1.5 0 1 0 2 0a1 1.5 0 1 0 -2 0"}},{tag:"path",attr:{d:"M14.463 11.596c1.282 1.774 3.476 3.416 3.476 3.416s1.921 1.574 .593 3.636c-1.328 2.063 -4.892 1.152 -4.892 1.152s-1.416 -.44 -3.06 -.088c-1.644 .356 -3.06 .22 -3.06 .22s-2.055 -.22 -2.47 -2.304c-.416 -2.084 1.918 -3.638 2.102 -3.858c.182 -.222 1.409 -.966 2.284 -2.394c.875 -1.428 3.337 -2.287 5.027 .221z"}},{tag:"path",attr:{d:"M9 4.5m-1 0a1 1.5 0 1 0 2 0a1 1.5 0 1 0 -2 0"}},{tag:"path",attr:{d:"M15 4.5m-1 0a1 1.5 0 1 0 2 0a1 1.5 0 1 0 -2 0"}},{tag:"path",attr:{d:"M19 9.5m-1 0a1 1.5 0 1 0 2 0a1 1.5 0 1 0 -2 0"}}]})(props);
-}
-export function TbBrandBandcamp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8.5 6h13.5l-7 12h-13z"}}]})(props);
 }
 export function TbBrandBandlab(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6.885 7l-2.536 4.907c-2.021 3.845 -2.499 8.775 3.821 9.093h6.808c4.86 -.207 7.989 -2.975 4.607 -9.093l-2.988 -4.907"}},{tag:"path",attr:{d:"M15.078 4h-5.136l3.678 8.768c.547 1.14 .847 1.822 .162 2.676c-.053 .093 -1.332 1.907 -3.053 1.495c-.825 -.187 -1.384 -.926 -1.32 -1.74c.04 -.91 .62 -1.717 1.488 -2.074a4.463 4.463 0 0 1 2.723 -.358"}}]})(props);
@@ -1882,9 +1915,6 @@ export function TbBrandFlightradar24(props: IconBaseProps) {
 export function TbBrandFlipboard(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3.973 3h16.054c.537 0 .973 .436 .973 .973v4.052a.973 .973 0 0 1 -.973 .973h-5.025v4.831c0 .648 -.525 1.173 -1.173 1.173h-4.829v5.025a.973 .973 0 0 1 -.974 .973h-4.053a.973 .973 0 0 1 -.973 -.973v-16.054c0 -.537 .436 -.973 .973 -.973z"}}]})(props);
 }
-export function TbBrandFlutter(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 14l-3 -3l8 -8h6z"}},{tag:"path",attr:{d:"M14 21l-5 -5l5 -5h5l-5 5l5 5z"}}]})(props);
-}
 export function TbBrandFortnite(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 3h7.5l-.5 4h-3v3h3v3.5h-3v6.5l-4 1z"}}]})(props);
 }
@@ -1969,6 +1999,12 @@ export function TbBrandGuardian(props: IconBaseProps) {
 export function TbBrandGumroad(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z"}},{tag:"path",attr:{d:"M13.5 13h2.5v3"}},{tag:"path",attr:{d:"M15.024 9.382a4 4 0 1 0 -3.024 6.618c1.862 0 2.554 -1.278 3 -3"}}]})(props);
 }
+export function TbBrandHbo(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M2 16v-8"}},{tag:"path",attr:{d:"M6 8v8"}},{tag:"path",attr:{d:"M2 12h4"}},{tag:"path",attr:{d:"M9 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2v8z"}},{tag:"path",attr:{d:"M19 8a4 4 0 1 1 0 8a4 4 0 0 1 0 -8z"}},{tag:"path",attr:{d:"M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}}]})(props);
+}
+export function TbBrandHeadlessui(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6.744 4.325l7.82 -1.267a4.456 4.456 0 0 1 5.111 3.686l1.267 7.82a4.456 4.456 0 0 1 -3.686 5.111l-7.82 1.267a4.456 4.456 0 0 1 -5.111 -3.686l-1.267 -7.82a4.456 4.456 0 0 1 3.686 -5.111z"}},{tag:"path",attr:{d:"M7.252 7.704l7.897 -1.28a1 1 0 0 1 1.147 .828l.36 2.223l-9.562 3.51l-.67 -4.134a1 1 0 0 1 .828 -1.147z"}}]})(props);
+}
 export function TbBrandHipchat(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17.802 17.292s.077 -.055 .2 -.149c1.843 -1.425 3 -3.49 3 -5.789c0 -4.286 -4.03 -7.764 -9 -7.764c-4.97 0 -9 3.478 -9 7.764c0 4.288 4.03 7.646 9 7.646c.424 0 1.12 -.028 2.088 -.084c1.262 .82 3.104 1.493 4.716 1.493c.499 0 .734 -.41 .414 -.828c-.486 -.596 -1.156 -1.551 -1.416 -2.29z"}},{tag:"path",attr:{d:"M7.5 13.5c2.5 2.5 6.5 2.5 9 0"}}]})(props);
 }
@@ -1986,12 +2022,6 @@ export function TbBrandIntercom(props: IconBaseProps) {
 }
 export function TbBrandJavascript(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"}},{tag:"path",attr:{d:"M7.5 8h3v8l-2 -1"}},{tag:"path",attr:{d:"M16.5 8h-2.5a.5 .5 0 0 0 -.5 .5v3a.5 .5 0 0 0 .5 .5h1.423a.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5"}}]})(props);
-}
-export function TbBrandJuejin(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M2 12l10 7.422l10 -7.422"}},{tag:"path",attr:{d:"M7 9l5 4l5 -4"}},{tag:"path",attr:{d:"M11 6l1 .8l1 -.8l-1 -.8z"}}]})(props);
-}
-export function TbBrandKickstarter(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 9l2.975 -4.65c.615 -.9 1.405 -1.35 2.377 -1.35c.79 0 1.474 .286 2.054 .858c.576 .574 .866 1.256 .866 2.054c0 .588 -.153 1.109 -.46 1.559l-2.812 4.029l3.465 4.912c.356 .46 .535 1 .535 1.613a2.92 2.92 0 0 1 -.843 2.098c-.561 .584 -1.242 .877 -2.04 .877c-.876 0 -1.545 -.29 -2 -.87l-4.112 -5.697v3.067c0 .876 -.313 1.69 -.611 2.175c-.543 .883 -1.35 1.325 -2.389 1.325c-.944 0 -1.753 -.327 -2.271 -.974c-.486 -.6 -.729 -1.392 -.729 -2.38v-11.371c0 -.934 .247 -1.706 .74 -2.313c.512 -.641 1.347 -.962 2.26 -.962c.868 0 1.821 .321 2.4 .962c.323 .356 .515 .714 .6 1.08c.052 .224 0 .643 0 1.26v2.698z"}}]})(props);
 }
 export function TbBrandKotlin(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 20h-16v-16h16"}},{tag:"path",attr:{d:"M4 20l16 -16"}},{tag:"path",attr:{d:"M4 12l8 -8"}},{tag:"path",attr:{d:"M12 12l8 8"}}]})(props);
@@ -2206,9 +2236,6 @@ export function TbBrandRedux(props: IconBaseProps) {
 export function TbBrandRevolut(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10.908 6c-.091 .363 -.908 5 -.908 5h1.228c1.59 0 2.772 -1.168 2.772 -2.943c0 -1.249 -.818 -2.057 -2.087 -2.057h-1z"}},{tag:"path",attr:{d:"M15.5 13.5l1.791 4.558c.535 1.352 1.13 2.008 1.709 2.442c-1 .5 -2.616 .522 -3.605 .497c-.973 0 -2.28 -.24 -3.106 -2.6l-1.289 -3.397h-1.5s-.465 2.243 -.65 3.202c-.092 .704 .059 1.594 .15 2.298c-1 .5 -2.5 .5 -3.5 .5c-.727 0 -1.45 -.248 -1.5 -1.5l0 -.311a7 7 0 0 1 .149 -1.409c.75 -3.577 1.366 -7.17 1.847 -10.78c.23 -1.722 0 -3.5 0 -3.5c.585 -.144 2.709 -.602 6.787 -.471a10.26 10.26 0 0 1 3.641 .722c.308 .148 .601 .326 .875 .531c.254 .212 .497 .437 .727 .674c.3 .382 .545 .804 .727 1.253c.155 .483 .237 .987 .243 1.493c0 2.462 -1.412 4.676 -3.5 5.798z"}}]})(props);
 }
-export function TbBrandSafari(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 16l2 -6l6 -2l-2 6l-6 2"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}}]})(props);
-}
 export function TbBrandSamsungpass(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 10m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M7 10v-1.862c0 -2.838 2.239 -5.138 5 -5.138s5 2.3 5 5.138v1.862"}},{tag:"path",attr:{d:"M10.485 17.577c.337 .29 .7 .423 1.515 .423h.413c.323 0 .633 -.133 .862 -.368a1.27 1.27 0 0 0 .356 -.886c0 -.332 -.128 -.65 -.356 -.886a1.203 1.203 0 0 0 -.862 -.368h-.826a1.2 1.2 0 0 1 -.861 -.367a1.27 1.27 0 0 1 -.356 -.886c0 -.332 .128 -.651 .356 -.886a1.2 1.2 0 0 1 .861 -.368h.413c.816 0 1.178 .133 1.515 .423"}}]})(props);
 }
@@ -2353,6 +2380,12 @@ export function TbBrandTripadvisor(props: IconBaseProps) {
 export function TbBrandTumblr(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 21h4v-4h-4v-6h4v-4h-4v-4h-4v1a3 3 0 0 1 -3 3h-1v4h4v6a4 4 0 0 0 4 4"}}]})(props);
 }
+export function TbBrandTwilio(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z"}},{tag:"path",attr:{d:"M9 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M15 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M9 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}}]})(props);
+}
+export function TbBrandTwitch(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z"}},{tag:"path",attr:{d:"M16 8l0 4"}},{tag:"path",attr:{d:"M12 8l0 4"}}]})(props);
+}
 export function TbBrandTwitter(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z"}}]})(props);
 }
@@ -2373,12 +2406,6 @@ export function TbBrandUnsplash(props: IconBaseProps) {
 }
 export function TbBrandUpwork(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 7v5a3 3 0 0 0 6 0v-5h1l4 6c.824 1.319 1.945 2 3.5 2a3.5 3.5 0 0 0 0 -7c-2.027 0 -3.137 1 -3.5 3c-.242 1.33 -.908 4 -2 8"}}]})(props);
-}
-export function TbBrandValorant(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14.5 14h4.5l2 -2v-6z"}},{tag:"path",attr:{d:"M9 19h5l-11 -13v6z"}}]})(props);
-}
-export function TbBrandVercel(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 19h18l-9 -15z"}}]})(props);
 }
 export function TbBrandVimeo(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 8.5l1 1s1.5 -1.102 2 -.5c.509 .609 1.863 7.65 2.5 9c.556 1.184 1.978 2.89 4 1.5c2 -1.5 7.5 -5.5 8.5 -11.5c.444 -2.661 -1 -4 -2.5 -4c-2 0 -4.047 1.202 -4.5 4c2.05 -1.254 2.551 1 1.5 3c-1.052 2 -2 3 -2.5 3c-.49 0 -.924 -1.165 -1.5 -3.5c-.59 -2.42 -.5 -6.5 -3 -6.5s-5.5 4.5 -5.5 4.5z"}}]})(props);
@@ -2460,9 +2487,6 @@ export function TbBrandYatse(props: IconBaseProps) {
 }
 export function TbBrandYcombinator(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M8 7l4 6l4 -6"}},{tag:"path",attr:{d:"M12 17l0 -4"}}]})(props);
-}
-export function TbBrandYoutubeKids(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17.782 17.03l-3.413 .235l-.023 0c-1.117 .09 -2.214 .335 -3.257 .725l-2.197 .794a3.597 3.597 0 0 1 -2.876 -.189a3.342 3.342 0 0 1 -1.732 -2.211l-1.204 -5.293a3.21 3.21 0 0 1 .469 -2.503a3.468 3.468 0 0 1 2.177 -1.452l9.843 -2.06c1.87 -.392 3.716 .744 4.124 2.537l1.227 5.392a3.217 3.217 0 0 1 -.61 2.7a3.506 3.506 0 0 1 -2.528 1.323z"}},{tag:"path",attr:{d:"M10 10l.972 4l4.028 -3z"}}]})(props);
 }
 export function TbBrandYoutube(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 5m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"}},{tag:"path",attr:{d:"M10 9l5 3l-5 3z"}}]})(props);
@@ -2737,6 +2761,12 @@ export function TbCandyOff(props: IconBaseProps) {
 export function TbCandy(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7.05 11.293l4.243 -4.243a2 2 0 0 1 2.828 0l2.829 2.83a2 2 0 0 1 0 2.828l-4.243 4.243a2 2 0 0 1 -2.828 0l-2.829 -2.831a2 2 0 0 1 0 -2.828z"}},{tag:"path",attr:{d:"M16.243 9.172l3.086 -.772a1.5 1.5 0 0 0 .697 -2.516l-2.216 -2.217a1.5 1.5 0 0 0 -2.44 .47l-1.248 2.913"}},{tag:"path",attr:{d:"M9.172 16.243l-.772 3.086a1.5 1.5 0 0 1 -2.516 .697l-2.217 -2.216a1.5 1.5 0 0 1 .47 -2.44l2.913 -1.248"}}]})(props);
 }
+export function TbCane(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 21l6.324 -11.69c.54 -.974 1.756 -4.104 -1.499 -5.762c-3.255 -1.657 -5.175 .863 -5.825 2.032"}}]})(props);
+}
+export function TbCannabis(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 20s0 -2 1 -3.5c-1.5 0 -2 -.5 -4 -1.5c0 0 1.839 -1.38 5 -1c-1.789 -.97 -3.279 -2.03 -5 -6c0 0 3.98 -.3 6.5 3.5c-2.284 -4.9 1.5 -9.5 1.5 -9.5c2.734 5.47 2.389 7.5 1.5 9.5c2.531 -3.77 6.5 -3.5 6.5 -3.5c-1.721 3.97 -3.211 5.03 -5 6c3.161 -.38 5 1 5 1c-2 1 -2.5 1.5 -4 1.5c1 1.5 1 3.5 1 3.5c-2 0 -4.438 -2.22 -5 -3c-.563 .78 -3 3 -5 3z"}},{tag:"path",attr:{d:"M12 22v-5"}}]})(props);
+}
 export function TbCaptureOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 16v2a2 2 0 0 0 2 2h2"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v2"}},{tag:"path",attr:{d:"M16 20h2c.554 0 1.055 -.225 1.417 -.589"}},{tag:"path",attr:{d:"M9.87 9.887a3 3 0 0 0 4.255 4.23m.58 -3.416a3.012 3.012 0 0 0 -1.4 -1.403"}},{tag:"path",attr:{d:"M4 8v-2c0 -.548 .22 -1.044 .577 -1.405"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
@@ -2760,12 +2790,6 @@ export function TbCar(props: IconBaseProps) {
 }
 export function TbCaravan(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M21 17l-8 0"}},{tag:"path",attr:{d:"M9 17h-5a1 1 0 0 1 -1 -1v-9a2 2 0 0 1 2 -2h10l4 4v8"}},{tag:"path",attr:{d:"M6 8m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}}]})(props);
-}
-export function TbCardboardsOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20.96 16.953c.026 -.147 .04 -.298 .04 -.453v-8.5a2 2 0 0 0 -2 -2h-9m-4 0h-1a2 2 0 0 0 -2 2v8.5a2.5 2.5 0 0 0 2.5 2.5h1.06a3 3 0 0 0 2.34 -1.13l1.54 -1.92a2 2 0 0 1 3.12 0l1.54 1.92a3 3 0 0 0 2.34 1.13h1.06c.155 0 .307 -.014 .454 -.041"}},{tag:"path",attr:{d:"M8 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M16.714 12.7a1 1 0 0 0 -1.417 -1.411l1.417 1.41z"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbCardboards(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 8v8.5a2.5 2.5 0 0 0 2.5 2.5h1.06a3 3 0 0 0 2.34 -1.13l1.54 -1.92a2 2 0 0 1 3.12 0l1.54 1.92a3 3 0 0 0 2.34 1.13h1.06a2.5 2.5 0 0 0 2.5 -2.5v-8.5a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2z"}},{tag:"path",attr:{d:"M8 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}}]})(props);
 }
 export function TbCards(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3.604 7.197l7.138 -3.109a.96 .96 0 0 1 1.27 .527l4.924 11.902a1 1 0 0 1 -.514 1.304l-7.137 3.109a.96 .96 0 0 1 -1.271 -.527l-4.924 -11.903a1 1 0 0 1 .514 -1.304z"}},{tag:"path",attr:{d:"M15 4h1a1 1 0 0 1 1 1v3.5"}},{tag:"path",attr:{d:"M20 6c.264 .112 .52 .217 .768 .315a1 1 0 0 1 .53 1.311l-2.298 5.374"}}]})(props);
@@ -3004,9 +3028,6 @@ export function TbCheese(props: IconBaseProps) {
 export function TbChefHatOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8.72 4.712a4 4 0 0 1 7.19 1.439a4 4 0 0 1 2.09 7.723v.126m0 4v3h-12v-7.126a4 4 0 0 1 .081 -7.796"}},{tag:"path",attr:{d:"M6.161 17.009l10.839 -.009"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbChefHat(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3c1.918 0 3.52 1.35 3.91 3.151a4 4 0 0 1 2.09 7.723l0 7.126h-12v-7.126a4 4 0 1 1 2.092 -7.723a4 4 0 0 1 3.908 -3.151z"}},{tag:"path",attr:{d:"M6.161 17.009l11.839 -.009"}}]})(props);
-}
 export function TbCherryFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16.588 5.191l.058 .045l.078 .074l.072 .084l.013 .018a.998 .998 0 0 1 .182 .727l-.022 .111l-.03 .092c-.99 2.725 -.666 5.158 .679 7.706a4 4 0 1 1 -4.613 4.152l-.005 -.2l.005 -.2a4.002 4.002 0 0 1 2.5 -3.511c-.947 -2.03 -1.342 -4.065 -1.052 -6.207c-.166 .077 -.332 .15 -.499 .218l.094 -.064c-2.243 1.47 -3.552 3.004 -3.98 4.57a4.5 4.5 0 1 1 -7.064 3.906l-.004 -.212l.005 -.212a4.5 4.5 0 0 1 5.2 -4.233c.332 -1.073 .945 -2.096 1.83 -3.069c-1.794 -.096 -3.586 -.759 -5.355 -1.986l-.268 -.19l-.051 -.04l-.046 -.04l-.044 -.044l-.04 -.046l-.04 -.05l-.032 -.047l-.035 -.06l-.053 -.11l-.038 -.116l-.023 -.117l-.005 -.042l-.005 -.118l.01 -.118l.023 -.117l.038 -.115l.03 -.066l.023 -.045l.035 -.06l.032 -.046l.04 -.051l.04 -.046l.044 -.044l.046 -.04l.05 -.04c4.018 -2.922 8.16 -2.922 12.177 0z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
@@ -3121,6 +3142,12 @@ export function TbCircle3Filled(props: IconBaseProps) {
 export function TbCircle4Filled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10s-10 -4.477 -10 -10s4.477 -10 10 -10zm2 5a1 1 0 0 0 -.993 .883l-.007 .117v3h-2v-3l-.007 -.117a1 1 0 0 0 -1.986 0l-.007 .117v3l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h2v3l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-8l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
+export function TbCircle5Filled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10s-10 -4.477 -10 -10s4.477 -10 10 -10zm2 5h-4a1 1 0 0 0 -.993 .883l-.007 .117v4a1 1 0 0 0 .883 .993l.117 .007h3v2h-2l-.007 -.117a1 1 0 0 0 -1.993 .117a2 2 0 0 0 1.85 1.995l.15 .005h2a2 2 0 0 0 1.995 -1.85l.005 -.15v-2a2 2 0 0 0 -1.85 -1.995l-.15 -.005h-2v-2h3a1 1 0 0 0 .993 -.883l.007 -.117a1 1 0 0 0 -.883 -.993l-.117 -.007z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbCircle6Filled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10s-10 -4.477 -10 -10s4.477 -10 10 -10zm1 5h-2l-.15 .005a2 2 0 0 0 -1.844 1.838l-.006 .157v6l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h2l.15 -.005a2 2 0 0 0 1.844 -1.838l.006 -.157v-2l-.005 -.15a2 2 0 0 0 -1.838 -1.844l-.157 -.006h-2v-2h2l.007 .117a1 1 0 0 0 1.993 -.117a2 2 0 0 0 -1.85 -1.995l-.15 -.005zm0 6v2h-2v-2h2z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
 export function TbCircle7Filled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10s-10 -4.477 -10 -10s4.477 -10 10 -10zm2 5h-4l-.117 .007a1 1 0 0 0 -.876 .876l-.007 .117l.007 .117a1 1 0 0 0 .876 .876l.117 .007h2.718l-1.688 6.757l-.022 .115a1 1 0 0 0 1.927 .482l.035 -.111l2 -8l.021 -.112a1 1 0 0 0 -.878 -1.125l-.113 -.006z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
@@ -3147,12 +3174,6 @@ export function TbCircleArrowDownRight(props: IconBaseProps) {
 }
 export function TbCircleArrowDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"}},{tag:"path",attr:{d:"M8 12l4 4"}},{tag:"path",attr:{d:"M12 8v8"}},{tag:"path",attr:{d:"M16 12l-4 4"}}]})(props);
-}
-export function TbCircleArrowLeftFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2a10 10 0 0 1 .324 19.995l-.324 .005l-.324 -.005a10 10 0 0 1 .324 -19.995zm.707 5.293a1 1 0 0 0 -1.414 0l-4 4a1.048 1.048 0 0 0 -.083 .094l-.064 .092l-.052 .098l-.044 .11l-.03 .112l-.017 .126l-.003 .075l.004 .09l.007 .058l.025 .118l.035 .105l.054 .113l.043 .07l.071 .095l.054 .058l4 4l.094 .083a1 1 0 0 0 1.32 -1.497l-2.292 -2.293h5.585l.117 -.007a1 1 0 0 0 -.117 -1.993h-5.586l2.293 -2.293l.083 -.094a1 1 0 0 0 -.083 -1.32z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbCircleArrowLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 21a9 9 0 1 0 0 -18a9 9 0 0 0 0 18"}},{tag:"path",attr:{d:"M8 12l4 4"}},{tag:"path",attr:{d:"M8 12h8"}},{tag:"path",attr:{d:"M12 8l-4 4"}}]})(props);
 }
 export function TbCircleArrowRightFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2l.324 .005a10 10 0 1 1 -.648 0l.324 -.005zm.613 5.21a1 1 0 0 0 -1.32 1.497l2.291 2.293h-5.584l-.117 .007a1 1 0 0 0 .117 1.993h5.584l-2.291 2.293l-.083 .094a1 1 0 0 0 1.497 1.32l4 -4l.073 -.082l.064 -.089l.062 -.113l.044 -.11l.03 -.112l.017 -.126l.003 -.075l-.007 -.118l-.029 -.148l-.035 -.105l-.054 -.113l-.071 -.111a1.008 1.008 0 0 0 -.097 -.112l-4 -4z",strokeWidth:"0",fill:"currentColor"}}]})(props);
@@ -3361,9 +3382,6 @@ export function TbCircleNumber8(props: IconBaseProps) {
 export function TbCircleNumber9(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}}]})(props);
 }
-export function TbCircleOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20.042 16.045a9 9 0 0 0 -12.087 -12.087m-2.318 1.677a9 9 0 1 0 12.725 12.73"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
 export function TbCirclePlus(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M9 12l6 0"}},{tag:"path",attr:{d:"M12 9l0 6"}}]})(props);
 }
@@ -3505,6 +3523,12 @@ export function TbClockCancel(props: IconBaseProps) {
 export function TbClockEdit(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 12a9 9 0 1 0 -9.972 8.948c.32 .034 .644 .052 .972 .052"}},{tag:"path",attr:{d:"M12 7v5l2 2"}},{tag:"path",attr:{d:"M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z"}}]})(props);
 }
+export function TbClockFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-5 2.66a1 1 0 0 0 -.993 .883l-.007 .117v5l.009 .131a1 1 0 0 0 .197 .477l.087 .1l3 3l.094 .082a1 1 0 0 0 1.226 0l.094 -.083l.083 -.094a1 1 0 0 0 0 -1.226l-.083 -.094l-2.707 -2.708v-4.585l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+}
+export function TbClockHour1(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 7v5"}},{tag:"path",attr:{d:"M12 12l2 -3"}}]})(props);
+}
 export function TbClockHour10(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 12l-3 -2"}},{tag:"path",attr:{d:"M12 7v5"}}]})(props);
 }
@@ -3534,12 +3558,6 @@ export function TbClockHour7(props: IconBaseProps) {
 }
 export function TbClockHour8(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 12l-3 2"}},{tag:"path",attr:{d:"M12 7v5"}}]})(props);
-}
-export function TbClockHour9(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 12h-3.5"}},{tag:"path",attr:{d:"M12 7v5"}}]})(props);
-}
-export function TbClockOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 7v1"}},{tag:"path",attr:{d:"M20.042 16.045a9 9 0 0 0 -12.087 -12.087m-2.318 1.677a9 9 0 1 0 12.725 12.73"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
 export function TbClockPause(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 20.94a8.916 8.916 0 0 1 -7.364 -2.576a9 9 0 1 1 15.306 -5.342"}},{tag:"path",attr:{d:"M12 7v5l2 2"}},{tag:"path",attr:{d:"M17 17v5"}},{tag:"path",attr:{d:"M21 17v5"}}]})(props);
@@ -3889,6 +3907,12 @@ export function TbCreativeCommonsZero(props: IconBaseProps) {
 export function TbCreativeCommons(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M10.5 10.5c-.847 -.71 -2.132 -.658 -2.914 .116a1.928 1.928 0 0 0 0 2.768c.782 .774 2.067 .825 2.914 .116"}},{tag:"path",attr:{d:"M16.5 10.5c-.847 -.71 -2.132 -.658 -2.914 .116a1.928 1.928 0 0 0 0 2.768c.782 .774 2.067 .825 2.914 .116"}}]})(props);
 }
+export function TbCreditCardOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M9 5h9a3 3 0 0 1 3 3v8a3 3 0 0 1 -.128 .87"}},{tag:"path",attr:{d:"M18.87 18.872a3 3 0 0 1 -.87 .128h-12a3 3 0 0 1 -3 -3v-8c0 -1.352 .894 -2.495 2.124 -2.87"}},{tag:"path",attr:{d:"M3 11l8 0"}},{tag:"path",attr:{d:"M15 11l6 0"}},{tag:"path",attr:{d:"M7 15l.01 0"}},{tag:"path",attr:{d:"M11 15l2 0"}}]})(props);
+}
+export function TbCreditCard(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z"}},{tag:"path",attr:{d:"M3 10l18 0"}},{tag:"path",attr:{d:"M7 15l.01 0"}},{tag:"path",attr:{d:"M11 15l2 0"}}]})(props);
+}
 export function TbCricket(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11.105 18.79l-1 .992a4.159 4.159 0 0 1 -6.038 -5.715l.157 -.166l8.282 -8.401l1.5 1.5l3.45 -3.391a2.08 2.08 0 0 1 3.057 2.815l-.116 .126l-3.391 3.45l1.5 1.5l-3.668 3.617"}},{tag:"path",attr:{d:"M10.5 7.5l6 6"}},{tag:"path",attr:{d:"M14 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}}]})(props);
 }
@@ -3918,12 +3942,6 @@ export function TbCrutchesOff(props: IconBaseProps) {
 }
 export function TbCrutches(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 3m0 2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M11 21h2"}},{tag:"path",attr:{d:"M12 21v-4.092a3 3 0 0 1 .504 -1.664l.992 -1.488a3 3 0 0 0 .504 -1.664v-5.092"}},{tag:"path",attr:{d:"M12 21v-4.092a3 3 0 0 0 -.504 -1.664l-.992 -1.488a3 3 0 0 1 -.504 -1.664v-5.092"}},{tag:"path",attr:{d:"M10 11h4"}}]})(props);
-}
-export function TbCrystalBall(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6.73 17.018a8 8 0 1 1 10.54 0"}},{tag:"path",attr:{d:"M5 19a2 2 0 0 0 2 2h10a2 2 0 1 0 0 -4h-10a2 2 0 0 0 -2 2z"}},{tag:"path",attr:{d:"M11 7a3 3 0 0 0 -3 3"}}]})(props);
-}
-export function TbCsv(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1"}},{tag:"path",attr:{d:"M17 8l2 8l2 -8"}},{tag:"path",attr:{d:"M7 10a2 2 0 1 0 -4 0v4a2 2 0 1 0 4 0"}}]})(props);
 }
 export function TbCubeSend(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 12.5l-5 -3l5 -3l5 3v5.5l-5 3z"}},{tag:"path",attr:{d:"M11 9.5v5.5l5 3"}},{tag:"path",attr:{d:"M16 12.545l5 -3.03"}},{tag:"path",attr:{d:"M7 9h-5"}},{tag:"path",attr:{d:"M7 12h-3"}},{tag:"path",attr:{d:"M7 15h-1"}}]})(props);
@@ -4273,6 +4291,12 @@ export function TbDeviceMobileRotated(props: IconBaseProps) {
 export function TbDeviceMobileVibration(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M8 4l2 0"}},{tag:"path",attr:{d:"M9 17l0 .01"}},{tag:"path",attr:{d:"M21 6l-2 3l2 3l-2 3l2 3"}}]})(props);
 }
+export function TbDeviceMobile(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M11 4l2 0"}},{tag:"path",attr:{d:"M12 17l0 .01"}}]})(props);
+}
+export function TbDeviceNintendoOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4.713 4.718a4 4 0 0 0 -1.713 3.282v8a4 4 0 0 0 4 4h3v-10m0 -4v-2h-2"}},{tag:"path",attr:{d:"M14 10v-6h3a4 4 0 0 1 4 4v8c0 .308 -.035 .608 -.1 .896m-1.62 2.39a3.982 3.982 0 0 1 -2.28 .714h-3v-6"}},{tag:"path",attr:{d:"M6.5 8.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
 export function TbDeviceNintendo(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 20v-16h-3a4 4 0 0 0 -4 4v8a4 4 0 0 0 4 4h3z"}},{tag:"path",attr:{d:"M14 20v-16h3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-3z"}},{tag:"circle",attr:{"cx":"17.5","cy":"15.5","r":"1",fill:"currentColor"}},{tag:"circle",attr:{"cx":"6.5","cy":"8.5","r":"1",fill:"currentColor"}}]})(props);
 }
@@ -4303,12 +4327,6 @@ export function TbDeviceSpeaker(props: IconBaseProps) {
 export function TbDeviceTabletOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 3h11a1 1 0 0 1 1 1v11m0 4v1a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1v-15"}},{tag:"path",attr:{d:"M12 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbDeviceTablet(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 3m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M12 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}}]})(props);
-}
-export function TbDeviceTvOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 7h8a2 2 0 0 1 2 2v8m-1.178 2.824c-.25 .113 -.529 .176 -.822 .176h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h2"}},{tag:"path",attr:{d:"M16 3l-4 4l-4 -4"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
 export function TbDeviceTvOld(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M16 3l-4 4l-4 -4"}},{tag:"path",attr:{d:"M15 7v13"}},{tag:"path",attr:{d:"M18 15v.01"}},{tag:"path",attr:{d:"M18 12v.01"}}]})(props);
 }
@@ -4323,9 +4341,6 @@ export function TbDeviceWatchStats2(props: IconBaseProps) {
 }
 export function TbDeviceWatchStats(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 6m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z"}},{tag:"path",attr:{d:"M9 18v3h6v-3"}},{tag:"path",attr:{d:"M9 6v-3h6v3"}},{tag:"path",attr:{d:"M9 14v-4"}},{tag:"path",attr:{d:"M12 14v-1"}},{tag:"path",attr:{d:"M15 14v-3"}}]})(props);
-}
-export function TbDeviceWatch(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 6m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z"}},{tag:"path",attr:{d:"M9 18v3h6v-3"}},{tag:"path",attr:{d:"M9 6v-3h6v3"}}]})(props);
 }
 export function TbDevices2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 15h-6a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h6"}},{tag:"path",attr:{d:"M13 4m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M7 19l3 0"}},{tag:"path",attr:{d:"M17 8l0 .01"}},{tag:"path",attr:{d:"M17 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M9 15l0 4"}}]})(props);
@@ -4657,6 +4672,12 @@ export function TbError404Off(props: IconBaseProps) {
 export function TbError404(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 7v4a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M7 7v10"}},{tag:"path",attr:{d:"M10 8v8a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-8a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1z"}},{tag:"path",attr:{d:"M17 7v4a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M21 7v10"}}]})(props);
 }
+export function TbExchangeOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M19 8v5c0 .594 -.104 1.164 -.294 1.692m-1.692 2.298a4.978 4.978 0 0 1 -3.014 1.01h-3l3 -3"}},{tag:"path",attr:{d:"M14 21l-3 -3"}},{tag:"path",attr:{d:"M5 16v-5c0 -1.632 .782 -3.082 1.992 -4m3.008 -1h3l-3 -3"}},{tag:"path",attr:{d:"M11.501 7.499l1.499 -1.499"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
+export function TbExchange(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M19 8v5a5 5 0 0 1 -5 5h-3l3 -3m0 6l-3 -3"}},{tag:"path",attr:{d:"M5 16v-5a5 5 0 0 1 5 -5h3l-3 -3m0 6l3 -3"}}]})(props);
+}
 export function TbExclamationCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 9v4"}},{tag:"path",attr:{d:"M12 16v.01"}}]})(props);
 }
@@ -4689,12 +4710,6 @@ export function TbExposurePlus1(props: IconBaseProps) {
 }
 export function TbExposurePlus2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 9a4 4 0 1 1 8 0c0 1.098 -.564 2.025 -1.159 2.815l-6.841 7.185h8"}},{tag:"path",attr:{d:"M3 12h6"}},{tag:"path",attr:{d:"M6 9v6"}}]})(props);
-}
-export function TbExposure(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M4.6 19.4l14.8 -14.8"}},{tag:"path",attr:{d:"M7 9h4m-2 -2v4"}},{tag:"path",attr:{d:"M13 16l4 0"}}]})(props);
-}
-export function TbExternalLinkOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1"}},{tag:"path",attr:{d:"M10 14l2 -2m2.007 -2.007l6 -6"}},{tag:"path",attr:{d:"M15 4h5v5"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
 export function TbExternalLink(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"}},{tag:"path",attr:{d:"M10 14l10 -10"}},{tag:"path",attr:{d:"M15 4l5 0l0 5"}}]})(props);
@@ -4743,9 +4758,6 @@ export function TbFeatherOff(props: IconBaseProps) {
 }
 export function TbFeather(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4"}},{tag:"path",attr:{d:"M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4"}}]})(props);
-}
-export function TbFenceOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12h-8v4h12m4 0v-4h-4"}},{tag:"path",attr:{d:"M6 16v4h4v-4"}},{tag:"path",attr:{d:"M10 12v-2m0 -4l-2 -2m-2 2v6"}},{tag:"path",attr:{d:"M14 16v4h4v-2"}},{tag:"path",attr:{d:"M18 12v-6l-2 -2l-2 2v4"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
 export function TbFence(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12v4h16v-4z"}},{tag:"path",attr:{d:"M6 16v4h4v-4m0 -4v-6l-2 -2l-2 2v6"}},{tag:"path",attr:{d:"M14 16v4h4v-4m0 -4v-6l-2 -2l-2 2v6"}}]})(props);
@@ -5041,6 +5053,12 @@ export function TbFlask(props: IconBaseProps) {
 export function TbFlipFlops(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 4c2.21 0 4 1.682 4 3.758c0 .078 0 .156 -.008 .234l-.6 9.014c-.11 1.683 -1.596 3 -3.392 3s-3.28 -1.311 -3.392 -3l-.6 -9.014c-.138 -2.071 1.538 -3.855 3.743 -3.985a4.15 4.15 0 0 1 .25 -.007z"}},{tag:"path",attr:{d:"M14.5 14c1 -3.333 2.167 -5 3.5 -5c1.333 0 2.5 1.667 3.5 5"}},{tag:"path",attr:{d:"M18 16v1"}},{tag:"path",attr:{d:"M6 4c2.21 0 4 1.682 4 3.758c0 .078 0 .156 -.008 .234l-.6 9.014c-.11 1.683 -1.596 3 -3.392 3s-3.28 -1.311 -3.392 -3l-.6 -9.014c-.138 -2.071 1.538 -3.855 3.742 -3.985c.084 0 .167 -.007 .25 -.007z"}},{tag:"path",attr:{d:"M2.5 14c1 -3.333 2.167 -5 3.5 -5c1.333 0 2.5 1.667 3.5 5"}},{tag:"path",attr:{d:"M6 16v1"}}]})(props);
 }
+export function TbFlipHorizontal(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 12l18 0"}},{tag:"path",attr:{d:"M7 16l10 0l-10 5l0 -5"}},{tag:"path",attr:{d:"M7 8l10 0l-10 -5l0 5"}}]})(props);
+}
+export function TbFlipVertical(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3l0 18"}},{tag:"path",attr:{d:"M16 7l0 10l5 0l-5 -10"}},{tag:"path",attr:{d:"M8 7l0 10l-5 0l5 -10"}}]})(props);
+}
 export function TbFloatCenter(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 5m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M4 7l1 0"}},{tag:"path",attr:{d:"M4 11l1 0"}},{tag:"path",attr:{d:"M19 7l1 0"}},{tag:"path",attr:{d:"M19 11l1 0"}},{tag:"path",attr:{d:"M4 15l16 0"}},{tag:"path",attr:{d:"M4 19l16 0"}}]})(props);
 }
@@ -5076,12 +5094,6 @@ export function TbFoldUp(props: IconBaseProps) {
 }
 export function TbFold(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3v6l3 -3m-6 0l3 3"}},{tag:"path",attr:{d:"M12 21v-6l3 3m-6 0l3 -3"}},{tag:"path",attr:{d:"M4 12l1 0"}},{tag:"path",attr:{d:"M9 12l1 0"}},{tag:"path",attr:{d:"M14 12l1 0"}},{tag:"path",attr:{d:"M19 12l1 0"}}]})(props);
-}
-export function TbFolderFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 3a1 1 0 0 1 .608 .206l.1 .087l2.706 2.707h6.586a3 3 0 0 1 2.995 2.824l.005 .176v8a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-11a3 3 0 0 1 2.824 -2.995l.176 -.005h4z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbFolderMinus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M9 13l6 0"}}]})(props);
 }
 export function TbFolderOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M19 19h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 1.172 -1.821m3.828 -.179h1l3 3h7a2 2 0 0 1 2 2v8"}}]})(props);
@@ -5250,9 +5262,6 @@ export function TbGiftOff(props: IconBaseProps) {
 }
 export function TbGift(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 8m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M12 8l0 13"}},{tag:"path",attr:{d:"M19 12v7a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-7"}},{tag:"path",attr:{d:"M7.5 8a2.5 2.5 0 0 1 0 -5a4.8 8 0 0 1 4.5 5a4.8 8 0 0 1 4.5 -5a2.5 2.5 0 0 1 0 5"}}]})(props);
-}
-export function TbGitBranchDeleted(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 8v8"}},{tag:"path",attr:{d:"M9 18h6a2 2 0 0 0 2 -2v-5"}},{tag:"path",attr:{d:"M14 14l3 -3l3 3"}},{tag:"path",attr:{d:"M15 4l4 4"}},{tag:"path",attr:{d:"M15 8l4 -4"}}]})(props);
 }
 export function TbGitBranch(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M17 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 8l0 8"}},{tag:"path",attr:{d:"M9 18h6a2 2 0 0 0 2 -2v-5"}},{tag:"path",attr:{d:"M14 14l3 -3l3 3"}}]})(props);
@@ -5425,6 +5434,12 @@ export function TbHandStop(props: IconBaseProps) {
 export function TbHandThreeFingers(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5"}},{tag:"path",attr:{d:"M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"}},{tag:"path",attr:{d:"M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5"}},{tag:"path",attr:{d:"M14 5.5a1.5 1.5 0 0 1 3 0v6.5"}}]})(props);
 }
+export function TbHandTwoFingers(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5"}},{tag:"path",attr:{d:"M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"}},{tag:"path",attr:{d:"M14 10.5a1.5 1.5 0 0 1 3 0v1.5"}},{tag:"path",attr:{d:"M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5"}}]})(props);
+}
+export function TbHanger2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 9l-7.971 4.428a2 2 0 0 0 -1.029 1.749v.823a2 2 0 0 0 2 2h1"}},{tag:"path",attr:{d:"M18 18h1a2 2 0 0 0 2 -2v-.823a2 2 0 0 0 -1.029 -1.749l-7.971 -4.428c-1.457 -.81 -1.993 -2.333 -2 -4a2 2 0 1 1 4 0"}},{tag:"path",attr:{d:"M6 16m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"}}]})(props);
+}
 export function TbHangerOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 6a2 2 0 1 0 -4 0m6.506 6.506l3.461 1.922a2 2 0 0 1 1.029 1.749v.823m-2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l6.673 -3.707"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
@@ -5464,12 +5479,6 @@ export function TbHeartBroken(props: IconBaseProps) {
 export function TbHeartFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6.979 3.074a6 6 0 0 1 4.988 1.425l.037 .033l.034 -.03a6 6 0 0 1 4.733 -1.44l.246 .036a6 6 0 0 1 3.364 10.008l-.18 .185l-.048 .041l-7.45 7.379a1 1 0 0 1 -1.313 .082l-.094 -.082l-7.493 -7.422a6 6 0 0 1 3.176 -10.215z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
-export function TbHeartHandshake(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"}},{tag:"path",attr:{d:"M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25"}},{tag:"path",attr:{d:"M12.5 15.5l2 2"}},{tag:"path",attr:{d:"M15 13l2 2"}}]})(props);
-}
-export function TbHeartMinus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 19l-1 1l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 0 1 8 6"}},{tag:"path",attr:{d:"M14 16h6"}}]})(props);
-}
 export function TbHeartOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M19.5 12.572l-1.5 1.428m-2 2l-4 4l-7.5 -7.428a5 5 0 0 1 -1.288 -5.068a4.976 4.976 0 0 1 1.788 -2.504m3 -1c1.56 0 3.05 .727 4 2a5 5 0 1 1 7.5 6.572"}}]})(props);
 }
@@ -5478,9 +5487,6 @@ export function TbHeartPlus(props: IconBaseProps) {
 }
 export function TbHeartRateMonitor(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M7 20h10"}},{tag:"path",attr:{d:"M9 16v4"}},{tag:"path",attr:{d:"M15 16v4"}},{tag:"path",attr:{d:"M7 10h2l2 3l2 -6l1 3h3"}}]})(props);
-}
-export function TbHeart(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"}}]})(props);
 }
 export function TbHeartbeat(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19.5 13.572l-7.5 7.428l-2.896 -2.868m-6.117 -8.104a5 5 0 0 1 9.013 -3.022a5 5 0 1 1 7.5 6.572"}},{tag:"path",attr:{d:"M3 13h2l2 3l2 -6l1 3h3"}}]})(props);
@@ -5710,9 +5716,6 @@ export function TbHomeCancel(props: IconBaseProps) {
 export function TbHomeCheck(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M19 13.488v-1.488h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4.525"}},{tag:"path",attr:{d:"M15 19l2 2l4 -4"}}]})(props);
 }
-export function TbHomeCog(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 21v-6a2 2 0 0 1 2 -2h1.6"}},{tag:"path",attr:{d:"M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h4.159"}},{tag:"path",attr:{d:"M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M18 14.5v1.5"}},{tag:"path",attr:{d:"M18 20v1.5"}},{tag:"path",attr:{d:"M21.032 16.25l-1.299 .75"}},{tag:"path",attr:{d:"M16.27 19l-1.3 .75"}},{tag:"path",attr:{d:"M14.97 16.25l1.3 .75"}},{tag:"path",attr:{d:"M19.733 19l1.3 .75"}}]})(props);
-}
 export function TbHomeDollar(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19 10l-7 -7l-9 9h2v7a2 2 0 0 0 2 2h6"}},{tag:"path",attr:{d:"M9 21v-6a2 2 0 0 1 2 -2h2c.387 0 .748 .11 1.054 .3"}},{tag:"path",attr:{d:"M21 15h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"}},{tag:"path",attr:{d:"M19 21v1m0 -8v1"}}]})(props);
 }
@@ -5809,6 +5812,12 @@ export function TbHourglassLow(props: IconBaseProps) {
 export function TbHourglassOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 18v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1v-2a6 6 0 0 1 6 -6"}},{tag:"path",attr:{d:"M6 6a6 6 0 0 0 6 6m3.13 -.88a6 6 0 0 0 2.87 -5.12v-2a1 1 0 0 0 -1 -1h-10"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
+export function TbHourglass(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6.5 7h11"}},{tag:"path",attr:{d:"M6.5 17h11"}},{tag:"path",attr:{d:"M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"}}]})(props);
+}
+export function TbHtml(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 16v-8l2 5l2 -5v8"}},{tag:"path",attr:{d:"M1 16v-8"}},{tag:"path",attr:{d:"M5 8v8"}},{tag:"path",attr:{d:"M1 12h4"}},{tag:"path",attr:{d:"M7 8h4"}},{tag:"path",attr:{d:"M9 8v8"}},{tag:"path",attr:{d:"M20 8v8h3"}}]})(props);
+}
 export function TbIceCream2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17.657 11a6 6 0 1 0 -11.315 0"}},{tag:"path",attr:{d:"M6.342 11l5.658 11l5.657 -11z"}}]})(props);
 }
@@ -5853,12 +5862,6 @@ export function TbIndentDecrease(props: IconBaseProps) {
 }
 export function TbIndentIncrease(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 6l-11 0"}},{tag:"path",attr:{d:"M20 12l-7 0"}},{tag:"path",attr:{d:"M20 18l-11 0"}},{tag:"path",attr:{d:"M4 8l4 4l-4 4"}}]})(props);
-}
-export function TbInfinityOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8.165 8.174a4 4 0 0 0 -5.166 3.826a4 4 0 0 0 6.829 2.828a10 10 0 0 0 2.172 -2.828m1.677 -2.347a10 10 0 0 1 .495 -.481a4 4 0 1 1 5.129 6.1m-3.521 .537a4 4 0 0 1 -1.608 -.981a10 10 0 0 1 -2.172 -2.828"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbInfinity(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.828 9.172a4 4 0 1 0 0 5.656a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828"}}]})(props);
 }
 export function TbInfoCircleFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-5 7.66h-1l-.117 .007a1 1 0 0 0 .117 1.993v3l.007 .117a1 1 0 0 0 .993 .883h1l.117 -.007a1 1 0 0 0 .883 -.993l-.007 -.117a1 1 0 0 0 -.876 -.876l-.117 -.007v-3l-.007 -.117a1 1 0 0 0 -.993 -.883zm.01 -4l-.127 .007a1 1 0 0 0 .117 1.993l.127 -.007a1 1 0 0 0 -.117 -1.993z",fill:"currentColor",strokeWidth:"0"}}]})(props);
@@ -6193,6 +6196,12 @@ export function TbLego(props: IconBaseProps) {
 export function TbLemon2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 4a2 2 0 0 1 1.185 3.611c1.55 2.94 .873 6.917 -1.892 9.682c-2.765 2.765 -6.743 3.442 -9.682 1.892a2 2 0 1 1 -2.796 -2.796c-1.55 -2.94 -.873 -6.917 1.892 -9.682c2.765 -2.765 6.743 -3.442 9.682 -1.892a2 2 0 0 1 1.611 -.815z"}}]})(props);
 }
+export function TbLemon(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17.536 3.393c3.905 3.906 3.905 10.237 0 14.143c-3.906 3.905 -10.237 3.905 -14.143 0l14.143 -14.143"}},{tag:"path",attr:{d:"M5.868 15.06a6.5 6.5 0 0 0 9.193 -9.192"}},{tag:"path",attr:{d:"M10.464 10.464l4.597 4.597"}},{tag:"path",attr:{d:"M10.464 10.464v6.364"}},{tag:"path",attr:{d:"M10.464 10.464h6.364"}}]})(props);
+}
+export function TbLetterA(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 20v-12a4 4 0 0 1 4 -4h2a4 4 0 0 1 4 4v12"}},{tag:"path",attr:{d:"M7 13l10 0"}}]})(props);
+}
 export function TbLetterB(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 20v-16h6a4 4 0 0 1 0 8a4 4 0 0 1 0 8h-6"}},{tag:"path",attr:{d:"M7 12l6 0"}}]})(props);
 }
@@ -6237,12 +6246,6 @@ export function TbLetterK(props: IconBaseProps) {
 }
 export function TbLetterL(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 4v16h10"}}]})(props);
-}
-export function TbLetterM(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 20v-16l6 14l6 -14v16"}}]})(props);
-}
-export function TbLetterN(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 20v-16l10 16v-16"}}]})(props);
 }
 export function TbLetterO(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 9a5 5 0 0 0 -5 -5h-2a5 5 0 0 0 -5 5v6a5 5 0 0 0 5 5h2a5 5 0 0 0 5 -5v-6"}}]})(props);
@@ -6577,6 +6580,12 @@ export function TbMathIntegral(props: IconBaseProps) {
 export function TbMathIntegrals(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 19a2 2 0 0 0 2 2c2 0 2 -4 3 -9s1 -9 3 -9a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M11 19a2 2 0 0 0 2 2c2 0 2 -4 3 -9s1 -9 3 -9a2 2 0 0 1 2 2"}}]})(props);
 }
+export function TbMathLower(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19 18l-14 -6l14 -6"}}]})(props);
+}
+export function TbMathMax(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M3 20c0 -8.75 4 -14 7 -14.5m4 0c3 .5 7 5.75 7 14.5"}}]})(props);
+}
 export function TbMathMin(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 17a2 2 0 1 1 0 4a2 2 0 0 1 0 -4z"}},{tag:"path",attr:{d:"M3 4c0 8.75 4 14 7 14.5"}},{tag:"path",attr:{d:"M14 18.5c3 -.5 7 -5.75 7 -14.5"}}]})(props);
 }
@@ -6621,12 +6630,6 @@ export function TbMathXy(props: IconBaseProps) {
 }
 export function TbMathYMinusY(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M2 9l3 5.063"}},{tag:"path",attr:{d:"M8 9l-4.8 9"}},{tag:"path",attr:{d:"M16 9l3 5.063"}},{tag:"path",attr:{d:"M22 9l-4.8 9"}},{tag:"path",attr:{d:"M10 12h4"}}]})(props);
-}
-export function TbMathYPlusY(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M2 9l3 5.063"}},{tag:"path",attr:{d:"M8 9l-4.8 9"}},{tag:"path",attr:{d:"M16 9l3 5.063"}},{tag:"path",attr:{d:"M22 9l-4.8 9"}},{tag:"path",attr:{d:"M10 12h4"}},{tag:"path",attr:{d:"M12 10v4"}}]})(props);
-}
-export function TbMath(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19 5h-7l-4 14l-3 -6h-2"}},{tag:"path",attr:{d:"M14 13l6 6"}},{tag:"path",attr:{d:"M14 19l6 -6"}}]})(props);
 }
 export function TbMaximizeOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 8v-2c0 -.551 .223 -1.05 .584 -1.412"}},{tag:"path",attr:{d:"M4 16v2a2 2 0 0 0 2 2h2"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v2"}},{tag:"path",attr:{d:"M16 20h2c.545 0 1.04 -.218 1.4 -.572"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
@@ -6961,6 +6964,12 @@ export function TbMotorbike(props: IconBaseProps) {
 export function TbMountainOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18.281 14.26l-4.201 -8.872a2.3 2.3 0 0 0 -4.158 0l-.165 .349m-1.289 2.719l-5.468 11.544h17"}},{tag:"path",attr:{d:"M7.5 11l2 2.5l2 -2"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
+export function TbMountain(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 20h18l-6.921 -14.612a2.3 2.3 0 0 0 -4.158 0l-6.921 14.612z"}},{tag:"path",attr:{d:"M7.5 11l2 2.5l2.5 -2.5l2 3l2.5 -2"}}]})(props);
+}
+export function TbMouse2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3m0 4a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-4a4 4 0 0 1 -4 -4z"}},{tag:"path",attr:{d:"M12 3v7"}},{tag:"path",attr:{d:"M6 10h12"}}]})(props);
+}
 export function TbMouseOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7.733 3.704a3.982 3.982 0 0 1 2.267 -.704h4a4 4 0 0 1 4 4v7m-.1 3.895a4 4 0 0 1 -3.9 3.105h-4a4 4 0 0 1 -4 -4v-10c0 -.3 .033 -.593 .096 -.874"}},{tag:"path",attr:{d:"M12 7v1"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
@@ -7005,12 +7014,6 @@ export function TbMusicOff(props: IconBaseProps) {
 }
 export function TbMusic(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M16 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M9 17l0 -13l10 0l0 13"}},{tag:"path",attr:{d:"M9 8l10 0"}}]})(props);
-}
-export function TbNavigationFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11.092 2.581a1 1 0 0 1 1.754 -.116l.062 .116l8.005 17.365c.198 .566 .05 1.196 -.378 1.615a1.53 1.53 0 0 1 -1.459 .393l-7.077 -2.398l-6.899 2.338a1.535 1.535 0 0 1 -1.52 -.231l-.112 -.1c-.398 -.386 -.556 -.954 -.393 -1.556l.047 -.15l7.97 -17.276z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbNavigationOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16.28 12.28c-.95 -2.064 -2.377 -5.157 -4.28 -9.28c-.7 1.515 -1.223 2.652 -1.573 3.41m-1.27 2.75c-.882 1.913 -2.59 5.618 -5.127 11.115c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-.26 -.563"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
 export function TbNavigation(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 18.5l7.265 2.463a.535 .535 0 0 0 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275a.547 .547 0 0 0 .135 .572a.535 .535 0 0 0 .57 .116l7.265 -2.463"}}]})(props);
@@ -7345,6 +7348,12 @@ export function TbPhone(props: IconBaseProps) {
 export function TbPhotoCancel(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 8h.01"}},{tag:"path",attr:{d:"M12 20h-5a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v5"}},{tag:"path",attr:{d:"M4 15l4 -4c.928 -.893 2.072 -.893 3 0l3 3"}},{tag:"path",attr:{d:"M14 14l1 -1c.553 -.532 1.182 -.747 1.796 -.645"}},{tag:"path",attr:{d:"M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M17 21l4 -4"}}]})(props);
 }
+export function TbPhotoCheck(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 8h.01"}},{tag:"path",attr:{d:"M11 20h-4a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6"}},{tag:"path",attr:{d:"M4 15l4 -4c.928 -.893 2.072 -.893 3 0l4 4"}},{tag:"path",attr:{d:"M14 14l1 -1c.928 -.893 2.072 -.893 3 0"}},{tag:"path",attr:{d:"M15 19l2 2l4 -4"}}]})(props);
+}
+export function TbPhotoDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 8h.01"}},{tag:"path",attr:{d:"M12 20h-5a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v5"}},{tag:"path",attr:{d:"M4 15l4 -4c.928 -.893 2.072 -.893 3 0l4 4"}},{tag:"path",attr:{d:"M14 14l1 -1c.617 -.593 1.328 -.793 2.009 -.598"}},{tag:"path",attr:{d:"M19 16v6"}},{tag:"path",attr:{d:"M22 19l-3 3l-3 -3"}}]})(props);
+}
 export function TbPhotoEdit(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 8h.01"}},{tag:"path",attr:{d:"M11 20h-4a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v4"}},{tag:"path",attr:{d:"M4 15l4 -4c.928 -.893 2.072 -.893 3 0l3 3"}},{tag:"path",attr:{d:"M14 14l1 -1c.31 -.298 .644 -.497 .987 -.596"}},{tag:"path",attr:{d:"M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z"}}]})(props);
 }
@@ -7389,12 +7398,6 @@ export function TbPhoto(props: IconBaseProps) {
 }
 export function TbPhysotherapist(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 15l-1 -3l4 -2l4 1h3.5"}},{tag:"path",attr:{d:"M4 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M12 6m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M12 17v-7"}},{tag:"path",attr:{d:"M8 20h7l1 -4l4 -2"}},{tag:"path",attr:{d:"M18 20h3"}}]})(props);
-}
-export function TbPictureInPictureOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M14 14m0 1a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M7 9l4 4"}},{tag:"path",attr:{d:"M7 12v-3h3"}}]})(props);
-}
-export function TbPictureInPictureOn(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M14 14m0 1a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M7 9l4 4"}},{tag:"path",attr:{d:"M8 13h3v-3"}}]})(props);
 }
 export function TbPictureInPictureTop(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 5h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-4"}},{tag:"path",attr:{d:"M15 10h5a1 1 0 0 0 1 -1v-3a1 1 0 0 0 -1 -1h-5a1 1 0 0 0 -1 1v3a1 1 0 0 0 1 1z"}}]})(props);
@@ -7729,6 +7732,12 @@ export function TbRadarOff(props: IconBaseProps) {
 export function TbRadar(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 12h-8a1 1 0 1 0 -1 1v8a9 9 0 0 0 9 -9"}},{tag:"path",attr:{d:"M16 9a5 5 0 1 0 -7 7"}},{tag:"path",attr:{d:"M20.486 9a9 9 0 1 0 -11.482 11.495"}}]})(props);
 }
+export function TbRadioOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 3l-4.986 2m-2.875 1.15l-1.51 .604a1 1 0 0 0 -.629 .928v11.323a1 1 0 0 0 1 1h14a1 1 0 0 0 .708 -.294m.292 -3.706v-8a1 1 0 0 0 -1 -1h-8m-4 0h-2.5"}},{tag:"path",attr:{d:"M4 12h8m4 0h4"}},{tag:"path",attr:{d:"M7 12v-2"}},{tag:"path",attr:{d:"M13 16v.01"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
+export function TbRadio(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 3l-9.371 3.749a1 1 0 0 0 -.629 .928v11.323a1 1 0 0 0 1 1h14a1 1 0 0 0 1 -1v-11a1 1 0 0 0 -1 -1h-14.5"}},{tag:"path",attr:{d:"M4 12h16"}},{tag:"path",attr:{d:"M7 12v-2"}},{tag:"path",attr:{d:"M17 16v.01"}},{tag:"path",attr:{d:"M13 16v.01"}}]})(props);
+}
 export function TbRadioactiveFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 11a1 1 0 0 1 1 1a10 10 0 0 1 -5 8.656a1 1 0 0 1 -1.302 -.268l-.064 -.098l-3 -5.19a.995 .995 0 0 1 -.133 -.542l.01 -.11l.023 -.106l.034 -.106l.046 -.1l.056 -.094l.067 -.089a.994 .994 0 0 1 .165 -.155l.098 -.064a2 2 0 0 0 .993 -1.57l.007 -.163a1 1 0 0 1 .883 -.994l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M7 3.344a10 10 0 0 1 10 0a1 1 0 0 1 .418 1.262l-.052 .104l-3 5.19l-.064 .098a.994 .994 0 0 1 -.155 .165l-.089 .067a1 1 0 0 1 -.195 .102l-.105 .034l-.107 .022a1.003 1.003 0 0 1 -.547 -.07l-.104 -.052a2 2 0 0 0 -1.842 -.082l-.158 .082a1 1 0 0 1 -1.302 -.268l-.064 -.098l-3 -5.19a1 1 0 0 1 .366 -1.366z",strokeWidth:"0",fill:"currentColor"}},{tag:"path",attr:{d:"M9 11a1 1 0 0 1 .993 .884l.007 .117a2 2 0 0 0 .861 1.645l.237 .152a.994 .994 0 0 1 .165 .155l.067 .089l.056 .095l.045 .099c.014 .036 .026 .07 .035 .106l.022 .107l.011 .11a.994 .994 0 0 1 -.08 .437l-.053 .104l-3 5.19a1 1 0 0 1 -1.366 .366a10 10 0 0 1 -5 -8.656a1 1 0 0 1 .883 -.993l.117 -.007h6z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
@@ -7773,12 +7782,6 @@ export function TbRating21Plus(props: IconBaseProps) {
 }
 export function TbRazorElectric(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 3v2"}},{tag:"path",attr:{d:"M12 3v2"}},{tag:"path",attr:{d:"M16 3v2"}},{tag:"path",attr:{d:"M9 12v6a3 3 0 0 0 6 0v-6h-6z"}},{tag:"path",attr:{d:"M8 5h8l-1 4h-6z"}},{tag:"path",attr:{d:"M12 17v1"}}]})(props);
-}
-export function TbRazor(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 3h10v4h-10z"}},{tag:"path",attr:{d:"M12 7v4"}},{tag:"path",attr:{d:"M12 11a2 2 0 0 1 2 2v6a2 2 0 1 1 -4 0v-6a2 2 0 0 1 2 -2z"}}]})(props);
-}
-export function TbReceipt2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2"}},{tag:"path",attr:{d:"M14 8h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5m2 0v1.5m0 -9v1.5"}}]})(props);
 }
 export function TbReceiptOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 21v-16m2 -2h10a2 2 0 0 1 2 2v10m0 4.01v1.99l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2"}},{tag:"path",attr:{d:"M11 7l4 0"}},{tag:"path",attr:{d:"M9 11l2 0"}},{tag:"path",attr:{d:"M13 15l2 0"}},{tag:"path",attr:{d:"M15 11l0 .01"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
@@ -8113,6 +8116,12 @@ export function TbScissorsOff(props: IconBaseProps) {
 export function TbScissors(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M6 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M8.6 8.6l10.4 10.4"}},{tag:"path",attr:{d:"M8.6 15.4l10.4 -10.4"}}]})(props);
 }
+export function TbScooterElectric(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M8 17h5a6 6 0 0 1 5 -5v-5a2 2 0 0 0 -2 -2h-1"}},{tag:"path",attr:{d:"M10 4l-2 4h3l-2 4"}}]})(props);
+}
+export function TbScooter(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M8 17h5a6 6 0 0 1 5 -5v-5a2 2 0 0 0 -2 -2h-1"}}]})(props);
+}
 export function TbScreenShareOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 12v3a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h9"}},{tag:"path",attr:{d:"M7 20l10 0"}},{tag:"path",attr:{d:"M9 16l0 4"}},{tag:"path",attr:{d:"M15 16l0 4"}},{tag:"path",attr:{d:"M17 8l4 -4m-4 0l4 4"}}]})(props);
 }
@@ -8157,12 +8166,6 @@ export function TbSearch(props: IconBaseProps) {
 }
 export function TbSectionSign(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.172 19a3 3 0 1 0 2.828 -4"}},{tag:"path",attr:{d:"M14.83 5a3 3 0 1 0 -2.83 4"}},{tag:"path",attr:{d:"M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}}]})(props);
-}
-export function TbSection(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 20h.01"}},{tag:"path",attr:{d:"M4 20h.01"}},{tag:"path",attr:{d:"M8 20h.01"}},{tag:"path",attr:{d:"M12 20h.01"}},{tag:"path",attr:{d:"M16 20h.01"}},{tag:"path",attr:{d:"M20 4h.01"}},{tag:"path",attr:{d:"M4 4h.01"}},{tag:"path",attr:{d:"M8 4h.01"}},{tag:"path",attr:{d:"M12 4h.01"}},{tag:"path",attr:{d:"M16 4l0 .01"}},{tag:"path",attr:{d:"M4 8m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z"}}]})(props);
-}
-export function TbSeedingOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11.412 7.407a6.025 6.025 0 0 0 -2.82 -2.82m-4.592 -.587h-1v2a6 6 0 0 0 6 6h3"}},{tag:"path",attr:{d:"M12 14a6 6 0 0 1 .255 -1.736m1.51 -2.514a5.981 5.981 0 0 1 4.235 -1.75h3v1c0 2.158 -1.14 4.05 -2.85 5.107m-3.15 .893h-3"}},{tag:"path",attr:{d:"M12 20v-8"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
 export function TbSeeding(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 10a6 6 0 0 0 -6 -6h-3v2a6 6 0 0 0 6 6h3"}},{tag:"path",attr:{d:"M12 14a6 6 0 0 1 6 -6h3v1a6 6 0 0 1 -6 6h-3"}},{tag:"path",attr:{d:"M12 20l0 -10"}}]})(props);
@@ -8497,6 +8500,12 @@ export function TbSoup(props: IconBaseProps) {
 export function TbSourceCode(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14.5 4h2.5a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-5"}},{tag:"path",attr:{d:"M6 5l-2 2l2 2"}},{tag:"path",attr:{d:"M10 9l2 -2l-2 -2"}}]})(props);
 }
+export function TbSpaceOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 10v3a1 1 0 0 0 1 1h9m4 0h1a1 1 0 0 0 1 -1v-3"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
+export function TbSpace(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 10v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1 -1v-3"}}]})(props);
+}
 export function TbSpacingHorizontal(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 20h-2a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h2"}},{tag:"path",attr:{d:"M4 20h2a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"}},{tag:"path",attr:{d:"M12 8v8"}}]})(props);
 }
@@ -8541,12 +8550,6 @@ export function TbSpy(props: IconBaseProps) {
 }
 export function TbSql(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z"}},{tag:"path",attr:{d:"M17 8v8h4"}},{tag:"path",attr:{d:"M13 15l1 1"}},{tag:"path",attr:{d:"M3 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1"}}]})(props);
-}
-export function TbSquare0Filled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-6 4a3 3 0 0 0 -2.995 2.824l-.005 .176v4l.005 .176a3 3 0 0 0 5.99 0l.005 -.176v-4l-.005 -.176a3 3 0 0 0 -2.995 -2.824zm0 2a1 1 0 0 1 .993 .883l.007 .117v4l-.007 .117a1 1 0 0 1 -1.986 0l-.007 -.117v-4l.007 -.117a1 1 0 0 1 .993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
-}
-export function TbSquare1Filled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-5.006 4.886c-.083 -.777 -1.008 -1.16 -1.617 -.67l-.084 .077l-2 2l-.083 .094a1 1 0 0 0 0 1.226l.083 .094l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l.293 -.293v5.586l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-8l-.006 -.114z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
 export function TbSquare3Filled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-5 4h-2l-.15 .005a2 2 0 0 0 -1.85 1.995a1 1 0 0 0 1.974 .23l.02 -.113l.006 -.117h2v2h-2l-.133 .007c-1.111 .12 -1.154 1.73 -.128 1.965l.128 .021l.133 .007h2v2h-2l-.007 -.117a1 1 0 0 0 -1.993 .117a2 2 0 0 0 1.85 1.995l.15 .005h2l.15 -.005a2 2 0 0 0 1.844 -1.838l.006 -.157v-2l-.005 -.15a1.988 1.988 0 0 0 -.17 -.667l-.075 -.152l-.019 -.032l.02 -.03a2.01 2.01 0 0 0 .242 -.795l.007 -.174v-2l-.005 -.15a2 2 0 0 0 -1.838 -1.844l-.157 -.006z",strokeWidth:"0",fill:"currentColor"}}]})(props);
@@ -8881,6 +8884,12 @@ export function TbSquareRoundedChevronUpFilled(props: IconBaseProps) {
 export function TbSquareRoundedChevronUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 13l3 -3l3 3"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}}]})(props);
 }
+export function TbSquareRoundedChevronsDownFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2c-.218 0 -.432 .002 -.642 .005l-.616 .017l-.299 .013l-.579 .034l-.553 .046c-4.785 .464 -6.732 2.411 -7.196 7.196l-.046 .553l-.034 .579c-.005 .098 -.01 .198 -.013 .299l-.017 .616l-.004 .318l-.001 .324c0 .218 .002 .432 .005 .642l.017 .616l.013 .299l.034 .579l.046 .553c.464 4.785 2.411 6.732 7.196 7.196l.553 .046l.579 .034c.098 .005 .198 .01 .299 .013l.616 .017l.642 .005l.642 -.005l.616 -.017l.299 -.013l.579 -.034l.553 -.046c4.785 -.464 6.732 -2.411 7.196 -7.196l.046 -.553l.034 -.579c.005 -.098 .01 -.198 .013 -.299l.017 -.616l.005 -.642l-.005 -.642l-.017 -.616l-.013 -.299l-.034 -.579l-.046 -.553c-.464 -4.785 -2.411 -6.732 -7.196 -7.196l-.553 -.046l-.579 -.034a28.058 28.058 0 0 0 -.299 -.013l-.616 -.017l-.318 -.004l-.324 -.001zm-3.707 6.293a1 1 0 0 1 1.32 -.083l.094 .083l2.293 2.292l2.293 -2.292a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 .083 1.32l-.083 .094l-3 3a1 1 0 0 1 -1.32 .083l-.094 -.083l-3 -3a1 1 0 0 1 0 -1.414zm0 4a1 1 0 0 1 1.32 -.083l.094 .083l2.293 2.292l2.293 -2.292a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 .083 1.32l-.083 .094l-3 3a1 1 0 0 1 -1.32 .083l-.094 -.083l-3 -3a1 1 0 0 1 0 -1.414z",fill:"currentColor",strokeWidth:"0"}}]})(props);
+}
+export function TbSquareRoundedChevronsDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 9l-3 3l-3 -3"}},{tag:"path",attr:{d:"M15 13l-3 3l-3 -3"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}}]})(props);
+}
 export function TbSquareRoundedChevronsLeftFilled(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2c-.218 0 -.432 .002 -.642 .005l-.616 .017l-.299 .013l-.579 .034l-.553 .046c-4.785 .464 -6.732 2.411 -7.196 7.196l-.046 .553l-.034 .579c-.005 .098 -.01 .198 -.013 .299l-.017 .616l-.004 .318l-.001 .324c0 .218 .002 .432 .005 .642l.017 .616l.013 .299l.034 .579l.046 .553c.464 4.785 2.411 6.732 7.196 7.196l.553 .046l.579 .034c.098 .005 .198 .01 .299 .013l.616 .017l.642 .005l.642 -.005l.616 -.017l.299 -.013l.579 -.034l.553 -.046c4.785 -.464 6.732 -2.411 7.196 -7.196l.046 -.553l.034 -.579c.005 -.098 .01 -.198 .013 -.299l.017 -.616l.005 -.642l-.005 -.642l-.017 -.616l-.013 -.299l-.034 -.579l-.046 -.553c-.464 -4.785 -2.411 -6.732 -7.196 -7.196l-.553 -.046l-.579 -.034a28.058 28.058 0 0 0 -.299 -.013l-.616 -.017l-.318 -.004l-.324 -.001zm2.293 6.293a1 1 0 0 1 1.497 1.32l-.083 .094l-2.292 2.293l2.292 2.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.32 .083l-.094 -.083l-3 -3a1 1 0 0 1 -.083 -1.32l.083 -.094l3 -3zm-4 0a1 1 0 0 1 1.497 1.32l-.083 .094l-2.292 2.293l2.292 2.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.32 .083l-.094 -.083l-3 -3a1 1 0 0 1 -.083 -1.32l.083 -.094l3 -3z",fill:"currentColor",strokeWidth:"0"}}]})(props);
 }
@@ -8925,12 +8934,6 @@ export function TbSquareRoundedLetterG(props: IconBaseProps) {
 }
 export function TbSquareRoundedLetterH(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 16v-8m4 0v8"}},{tag:"path",attr:{d:"M10 12h4"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}}]})(props);
-}
-export function TbSquareRoundedLetterI(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 8v8"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}}]})(props);
-}
-export function TbSquareRoundedLetterJ(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 8h4v6a2 2 0 1 1 -4 0"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}}]})(props);
 }
 export function TbSquareRoundedLetterK(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 8v8"}},{tag:"path",attr:{d:"M14 8l-2.5 4l2.5 4"}},{tag:"path",attr:{d:"M10 12h1.5"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}}]})(props);
@@ -9265,6 +9268,12 @@ export function TbTableImport(props: IconBaseProps) {
 export function TbTableOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 4h10a2 2 0 0 1 2 2v10m-.588 3.417c-.362 .36 -.86 .583 -1.412 .583h-12a2 2 0 0 1 -2 -2v-12c0 -.552 .224 -1.053 .586 -1.414"}},{tag:"path",attr:{d:"M4 10h6m4 0h6"}},{tag:"path",attr:{d:"M10 4v2m0 4v10"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
+export function TbTableOptions(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6"}},{tag:"path",attr:{d:"M4 10h16"}},{tag:"path",attr:{d:"M10 4v9"}},{tag:"path",attr:{d:"M5.281 18.5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M5.281 15v1.5"}},{tag:"path",attr:{d:"M5.281 20.5v1.5"}},{tag:"path",attr:{d:"M8.312 16.75l-1.299 .75"}},{tag:"path",attr:{d:"M3.55 19.5l-1.3 .75"}},{tag:"path",attr:{d:"M2.25 16.75l1.3 .75"}},{tag:"path",attr:{d:"M7.013 19.5l1.3 .75"}}]})(props);
+}
+export function TbTableShortcut(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6"}},{tag:"path",attr:{d:"M4 10h16"}},{tag:"path",attr:{d:"M10 4v8"}},{tag:"path",attr:{d:"M3 21l6 -6"}},{tag:"path",attr:{d:"M4 15h5v5"}}]})(props);
+}
 export function TbTable(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M4 10l16 0"}},{tag:"path",attr:{d:"M10 4l0 16"}}]})(props);
 }
@@ -9282,9 +9291,6 @@ export function TbTags(props: IconBaseProps) {
 }
 export function TbTallymark1(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 5l0 14"}}]})(props);
-}
-export function TbTallymark2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 5l0 14"}},{tag:"path",attr:{d:"M14 5l0 14"}}]})(props);
 }
 export function TbTallymark3(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 5l0 14"}},{tag:"path",attr:{d:"M12 5l0 14"}},{tag:"path",attr:{d:"M16 5l0 14"}}]})(props);
@@ -9313,12 +9319,6 @@ export function TbTeapot(props: IconBaseProps) {
 export function TbTelescopeOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 21l6 -5l6 5"}},{tag:"path",attr:{d:"M12 13v8"}},{tag:"path",attr:{d:"M8.238 8.264l-4.183 2.51c-1.02 .614 -1.357 1.898 -.76 2.906l.165 .28c.52 .88 1.624 1.266 2.605 .91l6.457 -2.34m2.907 -1.055l4.878 -1.77a1.023 1.023 0 0 0 .565 -1.455l-2.62 -4.705a1.087 1.087 0 0 0 -1.447 -.42l-.056 .032l-6.016 3.61"}},{tag:"path",attr:{d:"M14 5l3 5.5"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbTelescope(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 21l6 -5l6 5"}},{tag:"path",attr:{d:"M12 13v8"}},{tag:"path",attr:{d:"M3.294 13.678l.166 .281c.52 .88 1.624 1.265 2.605 .91l14.242 -5.165a1.023 1.023 0 0 0 .565 -1.456l-2.62 -4.705a1.087 1.087 0 0 0 -1.447 -.42l-.056 .032l-12.694 7.618c-1.02 .613 -1.357 1.897 -.76 2.905z"}},{tag:"path",attr:{d:"M14 5l3 5.5"}}]})(props);
-}
-export function TbTemperatureCelsius(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M20 9a3 3 0 0 0 -3 -3h-1a3 3 0 0 0 -3 3v6a3 3 0 0 0 3 3h1a3 3 0 0 0 3 -3"}}]})(props);
-}
 export function TbTemperatureFahrenheit(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M13 12l5 0"}},{tag:"path",attr:{d:"M20 6h-6a1 1 0 0 0 -1 1v11"}}]})(props);
 }
@@ -9336,9 +9336,6 @@ export function TbTemperature(props: IconBaseProps) {
 }
 export function TbTemplateOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 4h11a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-7m-4 0h-3a1 1 0 0 1 -1 -1v-2c0 -.271 .108 -.517 .283 -.697"}},{tag:"path",attr:{d:"M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M16 12h4"}},{tag:"path",attr:{d:"M14 16h2"}},{tag:"path",attr:{d:"M14 20h6"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
-}
-export function TbTemplate(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M14 12l6 0"}},{tag:"path",attr:{d:"M14 16l6 0"}},{tag:"path",attr:{d:"M14 20l6 0"}}]})(props);
 }
 export function TbTentOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 14l4 6h5m-2.863 -6.868l-5.137 -9.132l-1.44 2.559m-1.44 2.563l-6.12 10.878h6l4 -6"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
@@ -9535,9 +9532,6 @@ export function TbTopologyRing3(props: IconBaseProps) {
 export function TbTopologyRing(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M14 4a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M13.5 5.5l5 5"}},{tag:"path",attr:{d:"M5.5 13.5l5 5"}},{tag:"path",attr:{d:"M13.5 18.5l5 -5"}},{tag:"path",attr:{d:"M10.5 5.5l-5 5"}}]})(props);
 }
-export function TbTopologyStar2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M14 4a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M6 12h4"}},{tag:"path",attr:{d:"M14 12h4"}},{tag:"path",attr:{d:"M12 6v4"}},{tag:"path",attr:{d:"M12 14v4"}}]})(props);
-}
 export function TbTopologyStar3(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M18 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M10 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M18 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M6 12h4"}},{tag:"path",attr:{d:"M14 12h4"}},{tag:"path",attr:{d:"M15 7l-2 3"}},{tag:"path",attr:{d:"M9 7l2 3"}},{tag:"path",attr:{d:"M11 14l-2 3"}},{tag:"path",attr:{d:"M13 14l2 3"}}]})(props);
 }
@@ -9649,6 +9643,12 @@ export function TbTrendingDown3(props: IconBaseProps) {
 export function TbTrendingDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 7l6 6l4 -4l8 8"}},{tag:"path",attr:{d:"M21 10l0 7l-7 0"}}]})(props);
 }
+export function TbTrendingUp2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 5l3 3l-3 3"}},{tag:"path",attr:{d:"M3 18h5l7 -10h6"}}]})(props);
+}
+export function TbTrendingUp3(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 5l3 3l-3 3"}},{tag:"path",attr:{d:"M3 18h2.397a5 5 0 0 0 4.096 -2.133l4.014 -5.734a5 5 0 0 1 4.096 -2.133h3.397"}}]})(props);
+}
 export function TbTrendingUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 17l6 -6l4 4l8 -8"}},{tag:"path",attr:{d:"M14 7l7 0l0 7"}}]})(props);
 }
@@ -9702,12 +9702,6 @@ export function TbTruckOff(props: IconBaseProps) {
 }
 export function TbTruckReturn(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M5 17h-2v-11a1 1 0 0 1 1 -1h9v6h-5l2 2m0 -4l-2 2"}},{tag:"path",attr:{d:"M9 17l6 0"}},{tag:"path",attr:{d:"M13 6h5l3 5v6h-2"}}]})(props);
-}
-export function TbTruck(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"}}]})(props);
-}
-export function TbTxt(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 8h4"}},{tag:"path",attr:{d:"M5 8v8"}},{tag:"path",attr:{d:"M17 8h4"}},{tag:"path",attr:{d:"M19 8v8"}},{tag:"path",attr:{d:"M10 8l4 8"}},{tag:"path",attr:{d:"M10 16l4 -8"}}]})(props);
 }
 export function TbTypographyOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 20h3"}},{tag:"path",attr:{d:"M14 20h6"}},{tag:"path",attr:{d:"M6.9 15h6.9"}},{tag:"path",attr:{d:"M13 13l3 7"}},{tag:"path",attr:{d:"M5 20l4.09 -10.906"}},{tag:"path",attr:{d:"M10.181 6.183l.819 -2.183h2l3.904 8.924"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
@@ -10033,6 +10027,12 @@ export function TbWaveSine(props: IconBaseProps) {
 export function TbWaveSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 12h5v8h4v-16h4v8h5"}}]})(props);
 }
+export function TbWebhookOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4.876 13.61a4 4 0 1 0 6.124 3.39h6"}},{tag:"path",attr:{d:"M15.066 20.502a4 4 0 0 0 4.763 -.675m1.171 -2.827a4 4 0 0 0 -4 -4"}},{tag:"path",attr:{d:"M16 8a4 4 0 0 0 -6.824 -2.833m-1.176 2.833c0 1.506 .77 2.818 2 3.5l-3 5.5"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+}
+export function TbWebhook(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4.876 13.61a4 4 0 1 0 6.124 3.39h6"}},{tag:"path",attr:{d:"M15.066 20.502a4 4 0 1 0 1.934 -7.502c-.706 0 -1.424 .179 -2 .5l-3 -5.5"}},{tag:"path",attr:{d:"M16 8a4 4 0 1 0 -8 0c0 1.506 .77 2.818 2 3.5l-3 5.5"}}]})(props);
+}
 export function TbWeight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M6.835 9h10.33a1 1 0 0 1 .984 .821l1.637 9a1 1 0 0 1 -.984 1.179h-13.604a1 1 0 0 1 -.984 -1.179l1.637 -9a1 1 0 0 1 .984 -.821z"}}]})(props);
 }
@@ -10086,12 +10086,6 @@ export function TbWindowOff(props: IconBaseProps) {
 }
 export function TbWindow(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3c-3.866 0 -7 3.272 -7 7v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1 -1v-10c0 -3.728 -3.134 -7 -7 -7z"}},{tag:"path",attr:{d:"M5 13l14 0"}},{tag:"path",attr:{d:"M12 3l0 18"}}]})(props);
-}
-export function TbWindsock(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3v18"}},{tag:"path",attr:{d:"M6 11l12 -1v-4l-12 -1"}},{tag:"path",attr:{d:"M10 5.5v5"}},{tag:"path",attr:{d:"M14 6v4"}},{tag:"path",attr:{d:"M4 21h4"}}]})(props);
-}
-export function TbWiperWash(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 20m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M3 11l5.5 5.5a5 5 0 0 1 7 0l5.5 -5.5a12 12 0 0 0 -18 0"}},{tag:"path",attr:{d:"M12 20l0 -14"}},{tag:"path",attr:{d:"M4 6a4 4 0 0 1 .4 -1.8"}},{tag:"path",attr:{d:"M7 2.1a4 4 0 0 1 2 0"}},{tag:"path",attr:{d:"M12 6a4 4 0 0 0 -.4 -1.8"}},{tag:"path",attr:{d:"M12 6a4 4 0 0 1 .4 -1.8"}},{tag:"path",attr:{d:"M15 2.1a4 4 0 0 1 2 0"}},{tag:"path",attr:{d:"M20 6a4 4 0 0 0 -.4 -1.8"}}]})(props);
 }
 export function TbWiper(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 18m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M3 9l5.5 5.5a5 5 0 0 1 7 0l5.5 -5.5a12 12 0 0 0 -18 0"}},{tag:"path",attr:{d:"M12 18l-2.2 -12.8"}}]})(props);
@@ -10267,153 +10261,159 @@ export function TbZzzOff(props: IconBaseProps) {
 export function TbZzz(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12h6l-6 8h6"}},{tag:"path",attr:{d:"M14 4h6l-6 8h6"}}]})(props);
 }
-export function TbArrowWaveLeftUp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 10h-4v4"}},{tag:"path",attr:{d:"M21 12c-.887 -1.285 -2.48 -2.033 -4 -2c-1.52 -.033 -3.113 .715 -4 2c-.887 1.284 -2.48 2.033 -4 2c-1.52 .033 -3 -1 -4 -2l-2 -2"}}]})(props);
+export function TbArrowAutofitDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 20h-6a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h8"}},{tag:"path",attr:{d:"M18 4v17"}},{tag:"path",attr:{d:"M15 18l3 3l3 -3"}}]})(props);
 }
-export function TbArrowWaveRightUp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 10h4v4"}},{tag:"path",attr:{d:"M3 12c.887 -1.284 2.48 -2.033 4 -2c1.52 -.033 3.113 .716 4 2s2.48 2.033 4 2c1.52 .033 3 -1 4 -2l2 -2"}}]})(props);
+export function TbArrowAutofitHeight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 20h-6a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h6"}},{tag:"path",attr:{d:"M18 14v7"}},{tag:"path",attr:{d:"M18 3v7"}},{tag:"path",attr:{d:"M15 18l3 3l3 -3"}},{tag:"path",attr:{d:"M15 6l3 -3l3 3"}}]})(props);
 }
-export function TbBattery4(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 7h11a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M7 10l0 4"}},{tag:"path",attr:{d:"M10 10l0 4"}},{tag:"path",attr:{d:"M13 10l0 4"}},{tag:"path",attr:{d:"M16 10l0 4"}}]})(props);
+export function TbArrowsDiagonalMinimize2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 10h-4v-4"}},{tag:"path",attr:{d:"M20 4l-6 6"}},{tag:"path",attr:{d:"M6 14h4v4"}},{tag:"path",attr:{d:"M10 14l-6 6"}}]})(props);
 }
-export function TbBatteryAutomotive(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 6m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M6 6v-2"}},{tag:"path",attr:{d:"M19 4l0 2"}},{tag:"path",attr:{d:"M6.5 13l3 0"}},{tag:"path",attr:{d:"M14.5 13l3 0"}},{tag:"path",attr:{d:"M16 11.5l0 3"}}]})(props);
+export function TbArrowsDiagonalMinimize(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 10h4v-4"}},{tag:"path",attr:{d:"M4 4l6 6"}},{tag:"path",attr:{d:"M18 14h-4v4"}},{tag:"path",attr:{d:"M14 14l6 6"}}]})(props);
 }
-export function TbBrain(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8"}},{tag:"path",attr:{d:"M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8"}},{tag:"path",attr:{d:"M17.5 16a3.5 3.5 0 0 0 0 -7h-.5"}},{tag:"path",attr:{d:"M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0"}},{tag:"path",attr:{d:"M6.5 16a3.5 3.5 0 0 1 0 -7h.5"}},{tag:"path",attr:{d:"M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10"}}]})(props);
+export function TbBatteryCharging(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16 7h1a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-2"}},{tag:"path",attr:{d:"M8 7h-2a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h1"}},{tag:"path",attr:{d:"M12 8l-2 4h3l-2 4"}}]})(props);
 }
-export function TbBrand4Chan(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z"}},{tag:"path",attr:{d:"M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z"}},{tag:"path",attr:{d:"M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z"}},{tag:"path",attr:{d:"M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z"}},{tag:"path",attr:{d:"M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z"}}]})(props);
+export function TbBatteryEco(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 9a2 2 0 0 1 2 -2h11a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-5.5"}},{tag:"path",attr:{d:"M3 16.143c0 -2.84 2.09 -5.143 4.667 -5.143h2.333v.857c0 2.84 -2.09 5.143 -4.667 5.143h-2.333v-.857z"}},{tag:"path",attr:{d:"M3 20v-3"}}]})(props);
 }
-export function TbBrandHbo(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M2 16v-8"}},{tag:"path",attr:{d:"M6 8v8"}},{tag:"path",attr:{d:"M2 12h4"}},{tag:"path",attr:{d:"M9 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2v8z"}},{tag:"path",attr:{d:"M19 8a4 4 0 1 1 0 8a4 4 0 0 1 0 -8z"}},{tag:"path",attr:{d:"M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}}]})(props);
+export function TbBrandAirbnb(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 10c-2 0 -3 1 -3 3c0 1.5 1.494 3.535 3 5.5c1 1 1.5 1.5 2.5 2s2.5 1 4.5 -.5s1.5 -3.5 .5 -6s-2.333 -5.5 -5 -9.5c-.834 -1 -1.5 -1.5 -2.503 -1.5c-1 0 -1.623 .45 -2.497 1.5c-2.667 4 -4 7 -5 9.5s-1.5 4.5 .5 6s3.5 1 4.5 .5s1.5 -1 2.5 -2c1.506 -1.965 3 -4 3 -5.5c0 -2 -1 -3 -3 -3z"}}]})(props);
 }
-export function TbBrandHeadlessui(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6.744 4.325l7.82 -1.267a4.456 4.456 0 0 1 5.111 3.686l1.267 7.82a4.456 4.456 0 0 1 -3.686 5.111l-7.82 1.267a4.456 4.456 0 0 1 -5.111 -3.686l-1.267 -7.82a4.456 4.456 0 0 1 3.686 -5.111z"}},{tag:"path",attr:{d:"M7.252 7.704l7.897 -1.28a1 1 0 0 1 1.147 .828l.36 2.223l-9.562 3.51l-.67 -4.134a1 1 0 0 1 .828 -1.147z"}}]})(props);
+export function TbBrandAirtable(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 10v8l7 -3v-2.6z"}},{tag:"path",attr:{d:"M3 6l9 3l9 -3l-9 -3z"}},{tag:"path",attr:{d:"M14 12.3v8.7l7 -3v-8z"}}]})(props);
 }
-export function TbBrandTwilio(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z"}},{tag:"path",attr:{d:"M9 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M15 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M9 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}}]})(props);
+export function TbBrandJuejin(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M2 12l10 7.422l10 -7.422"}},{tag:"path",attr:{d:"M7 9l5 4l5 -4"}},{tag:"path",attr:{d:"M11 6l1 .8l1 -.8l-1 -.8z"}}]})(props);
 }
-export function TbBrandTwitch(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z"}},{tag:"path",attr:{d:"M16 8l0 4"}},{tag:"path",attr:{d:"M12 8l0 4"}}]})(props);
+export function TbBrandKickstarter(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 9l2.975 -4.65c.615 -.9 1.405 -1.35 2.377 -1.35c.79 0 1.474 .286 2.054 .858c.576 .574 .866 1.256 .866 2.054c0 .588 -.153 1.109 -.46 1.559l-2.812 4.029l3.465 4.912c.356 .46 .535 1 .535 1.613a2.92 2.92 0 0 1 -.843 2.098c-.561 .584 -1.242 .877 -2.04 .877c-.876 0 -1.545 -.29 -2 -.87l-4.112 -5.697v3.067c0 .876 -.313 1.69 -.611 2.175c-.543 .883 -1.35 1.325 -2.389 1.325c-.944 0 -1.753 -.327 -2.271 -.974c-.486 -.6 -.729 -1.392 -.729 -2.38v-11.371c0 -.934 .247 -1.706 .74 -2.313c.512 -.641 1.347 -.962 2.26 -.962c.868 0 1.821 .321 2.4 .962c.323 .356 .515 .714 .6 1.08c.052 .224 0 .643 0 1.26v2.698z"}}]})(props);
 }
-export function TbCane(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 21l6.324 -11.69c.54 -.974 1.756 -4.104 -1.499 -5.762c-3.255 -1.657 -5.175 .863 -5.825 2.032"}}]})(props);
+export function TbBrandValorant(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14.5 14h4.5l2 -2v-6z"}},{tag:"path",attr:{d:"M9 19h5l-11 -13v6z"}}]})(props);
 }
-export function TbCannabis(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 20s0 -2 1 -3.5c-1.5 0 -2 -.5 -4 -1.5c0 0 1.839 -1.38 5 -1c-1.789 -.97 -3.279 -2.03 -5 -6c0 0 3.98 -.3 6.5 3.5c-2.284 -4.9 1.5 -9.5 1.5 -9.5c2.734 5.47 2.389 7.5 1.5 9.5c2.531 -3.77 6.5 -3.5 6.5 -3.5c-1.721 3.97 -3.211 5.03 -5 6c3.161 -.38 5 1 5 1c-2 1 -2.5 1.5 -4 1.5c1 1.5 1 3.5 1 3.5c-2 0 -4.438 -2.22 -5 -3c-.563 .78 -3 3 -5 3z"}},{tag:"path",attr:{d:"M12 22v-5"}}]})(props);
+export function TbBrandVercel(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 19h18l-9 -15z"}}]})(props);
 }
-export function TbCircle5Filled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10s-10 -4.477 -10 -10s4.477 -10 10 -10zm2 5h-4a1 1 0 0 0 -.993 .883l-.007 .117v4a1 1 0 0 0 .883 .993l.117 .007h3v2h-2l-.007 -.117a1 1 0 0 0 -1.993 .117a2 2 0 0 0 1.85 1.995l.15 .005h2a2 2 0 0 0 1.995 -1.85l.005 -.15v-2a2 2 0 0 0 -1.85 -1.995l-.15 -.005h-2v-2h3a1 1 0 0 0 .993 -.883l.007 -.117a1 1 0 0 0 -.883 -.993l-.117 -.007z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+export function TbCardboardsOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20.96 16.953c.026 -.147 .04 -.298 .04 -.453v-8.5a2 2 0 0 0 -2 -2h-9m-4 0h-1a2 2 0 0 0 -2 2v8.5a2.5 2.5 0 0 0 2.5 2.5h1.06a3 3 0 0 0 2.34 -1.13l1.54 -1.92a2 2 0 0 1 3.12 0l1.54 1.92a3 3 0 0 0 2.34 1.13h1.06c.155 0 .307 -.014 .454 -.041"}},{tag:"path",attr:{d:"M8 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M16.714 12.7a1 1 0 0 0 -1.417 -1.411l1.417 1.41z"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbCircle6Filled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10s-10 -4.477 -10 -10s4.477 -10 10 -10zm1 5h-2l-.15 .005a2 2 0 0 0 -1.844 1.838l-.006 .157v6l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h2l.15 -.005a2 2 0 0 0 1.844 -1.838l.006 -.157v-2l-.005 -.15a2 2 0 0 0 -1.838 -1.844l-.157 -.006h-2v-2h2l.007 .117a1 1 0 0 0 1.993 -.117a2 2 0 0 0 -1.85 -1.995l-.15 -.005zm0 6v2h-2v-2h2z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+export function TbCardboards(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 8v8.5a2.5 2.5 0 0 0 2.5 2.5h1.06a3 3 0 0 0 2.34 -1.13l1.54 -1.92a2 2 0 0 1 3.12 0l1.54 1.92a3 3 0 0 0 2.34 1.13h1.06a2.5 2.5 0 0 0 2.5 -2.5v-8.5a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2z"}},{tag:"path",attr:{d:"M8 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}}]})(props);
 }
-export function TbClockFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-5 2.66a1 1 0 0 0 -.993 .883l-.007 .117v5l.009 .131a1 1 0 0 0 .197 .477l.087 .1l3 3l.094 .082a1 1 0 0 0 1.226 0l.094 -.083l.083 -.094a1 1 0 0 0 0 -1.226l-.083 -.094l-2.707 -2.708v-4.585l-.007 -.117a1 1 0 0 0 -.993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
+export function TbCircleArrowLeftFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2a10 10 0 0 1 .324 19.995l-.324 .005l-.324 -.005a10 10 0 0 1 .324 -19.995zm.707 5.293a1 1 0 0 0 -1.414 0l-4 4a1.048 1.048 0 0 0 -.083 .094l-.064 .092l-.052 .098l-.044 .11l-.03 .112l-.017 .126l-.003 .075l.004 .09l.007 .058l.025 .118l.035 .105l.054 .113l.043 .07l.071 .095l.054 .058l4 4l.094 .083a1 1 0 0 0 1.32 -1.497l-2.292 -2.293h5.585l.117 -.007a1 1 0 0 0 -.117 -1.993h-5.586l2.293 -2.293l.083 -.094a1 1 0 0 0 -.083 -1.32z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
-export function TbClockHour1(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 7v5"}},{tag:"path",attr:{d:"M12 12l2 -3"}}]})(props);
+export function TbCircleArrowLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 21a9 9 0 1 0 0 -18a9 9 0 0 0 0 18"}},{tag:"path",attr:{d:"M8 12l4 4"}},{tag:"path",attr:{d:"M8 12h8"}},{tag:"path",attr:{d:"M12 8l-4 4"}}]})(props);
 }
-export function TbCreditCardOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M9 5h9a3 3 0 0 1 3 3v8a3 3 0 0 1 -.128 .87"}},{tag:"path",attr:{d:"M18.87 18.872a3 3 0 0 1 -.87 .128h-12a3 3 0 0 1 -3 -3v-8c0 -1.352 .894 -2.495 2.124 -2.87"}},{tag:"path",attr:{d:"M3 11l8 0"}},{tag:"path",attr:{d:"M15 11l6 0"}},{tag:"path",attr:{d:"M7 15l.01 0"}},{tag:"path",attr:{d:"M11 15l2 0"}}]})(props);
+export function TbClockHour9(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 12h-3.5"}},{tag:"path",attr:{d:"M12 7v5"}}]})(props);
 }
-export function TbCreditCard(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z"}},{tag:"path",attr:{d:"M3 10l18 0"}},{tag:"path",attr:{d:"M7 15l.01 0"}},{tag:"path",attr:{d:"M11 15l2 0"}}]})(props);
+export function TbClockOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 7v1"}},{tag:"path",attr:{d:"M20.042 16.045a9 9 0 0 0 -12.087 -12.087m-2.318 1.677a9 9 0 1 0 12.725 12.73"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbDeviceMobile(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M11 4l2 0"}},{tag:"path",attr:{d:"M12 17l0 .01"}}]})(props);
+export function TbCrystalBall(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6.73 17.018a8 8 0 1 1 10.54 0"}},{tag:"path",attr:{d:"M5 19a2 2 0 0 0 2 2h10a2 2 0 1 0 0 -4h-10a2 2 0 0 0 -2 2z"}},{tag:"path",attr:{d:"M11 7a3 3 0 0 0 -3 3"}}]})(props);
 }
-export function TbDeviceNintendoOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4.713 4.718a4 4 0 0 0 -1.713 3.282v8a4 4 0 0 0 4 4h3v-10m0 -4v-2h-2"}},{tag:"path",attr:{d:"M14 10v-6h3a4 4 0 0 1 4 4v8c0 .308 -.035 .608 -.1 .896m-1.62 2.39a3.982 3.982 0 0 1 -2.28 .714h-3v-6"}},{tag:"path",attr:{d:"M6.5 8.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+export function TbCsv(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1"}},{tag:"path",attr:{d:"M17 8l2 8l2 -8"}},{tag:"path",attr:{d:"M7 10a2 2 0 1 0 -4 0v4a2 2 0 1 0 4 0"}}]})(props);
 }
-export function TbExchangeOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M19 8v5c0 .594 -.104 1.164 -.294 1.692m-1.692 2.298a4.978 4.978 0 0 1 -3.014 1.01h-3l3 -3"}},{tag:"path",attr:{d:"M14 21l-3 -3"}},{tag:"path",attr:{d:"M5 16v-5c0 -1.632 .782 -3.082 1.992 -4m3.008 -1h3l-3 -3"}},{tag:"path",attr:{d:"M11.501 7.499l1.499 -1.499"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+export function TbDeviceTablet(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 3m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M12 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}}]})(props);
 }
-export function TbExchange(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M19 8v5a5 5 0 0 1 -5 5h-3l3 -3m0 6l-3 -3"}},{tag:"path",attr:{d:"M5 16v-5a5 5 0 0 1 5 -5h3l-3 -3m0 6l3 -3"}}]})(props);
+export function TbDeviceTvOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 7h8a2 2 0 0 1 2 2v8m-1.178 2.824c-.25 .113 -.529 .176 -.822 .176h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h2"}},{tag:"path",attr:{d:"M16 3l-4 4l-4 -4"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbFlipHorizontal(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 12l18 0"}},{tag:"path",attr:{d:"M7 16l10 0l-10 5l0 -5"}},{tag:"path",attr:{d:"M7 8l10 0l-10 -5l0 5"}}]})(props);
+export function TbExposure(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M4.6 19.4l14.8 -14.8"}},{tag:"path",attr:{d:"M7 9h4m-2 -2v4"}},{tag:"path",attr:{d:"M13 16l4 0"}}]})(props);
 }
-export function TbFlipVertical(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 3l0 18"}},{tag:"path",attr:{d:"M16 7l0 10l5 0l-5 -10"}},{tag:"path",attr:{d:"M8 7l0 10l-5 0l5 -10"}}]})(props);
+export function TbExternalLinkOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1"}},{tag:"path",attr:{d:"M10 14l2 -2m2.007 -2.007l6 -6"}},{tag:"path",attr:{d:"M15 4h5v5"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbHandTwoFingers(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5"}},{tag:"path",attr:{d:"M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"}},{tag:"path",attr:{d:"M14 10.5a1.5 1.5 0 0 1 3 0v1.5"}},{tag:"path",attr:{d:"M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5"}}]})(props);
+export function TbFolderFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9 3a1 1 0 0 1 .608 .206l.1 .087l2.706 2.707h6.586a3 3 0 0 1 2.995 2.824l.005 .176v8a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-11a3 3 0 0 1 2.824 -2.995l.176 -.005h4z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
-export function TbHanger2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 9l-7.971 4.428a2 2 0 0 0 -1.029 1.749v.823a2 2 0 0 0 2 2h1"}},{tag:"path",attr:{d:"M18 18h1a2 2 0 0 0 2 -2v-.823a2 2 0 0 0 -1.029 -1.749l-7.971 -4.428c-1.457 -.81 -1.993 -2.333 -2 -4a2 2 0 1 1 4 0"}},{tag:"path",attr:{d:"M6 16m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"}}]})(props);
+export function TbFolderMinus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M9 13l6 0"}}]})(props);
 }
-export function TbHourglass(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6.5 7h11"}},{tag:"path",attr:{d:"M6.5 17h11"}},{tag:"path",attr:{d:"M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"}}]})(props);
+export function TbHeartHandshake(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"}},{tag:"path",attr:{d:"M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25"}},{tag:"path",attr:{d:"M12.5 15.5l2 2"}},{tag:"path",attr:{d:"M15 13l2 2"}}]})(props);
 }
-export function TbHtml(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 16v-8l2 5l2 -5v8"}},{tag:"path",attr:{d:"M1 16v-8"}},{tag:"path",attr:{d:"M5 8v8"}},{tag:"path",attr:{d:"M1 12h4"}},{tag:"path",attr:{d:"M7 8h4"}},{tag:"path",attr:{d:"M9 8v8"}},{tag:"path",attr:{d:"M20 8v8h3"}}]})(props);
+export function TbHeartMinus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M13 19l-1 1l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 0 1 8 6"}},{tag:"path",attr:{d:"M14 16h6"}}]})(props);
 }
-export function TbLemon(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M17.536 3.393c3.905 3.906 3.905 10.237 0 14.143c-3.906 3.905 -10.237 3.905 -14.143 0l14.143 -14.143"}},{tag:"path",attr:{d:"M5.868 15.06a6.5 6.5 0 0 0 9.193 -9.192"}},{tag:"path",attr:{d:"M10.464 10.464l4.597 4.597"}},{tag:"path",attr:{d:"M10.464 10.464v6.364"}},{tag:"path",attr:{d:"M10.464 10.464h6.364"}}]})(props);
+export function TbInfinityOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M8.165 8.174a4 4 0 0 0 -5.166 3.826a4 4 0 0 0 6.829 2.828a10 10 0 0 0 2.172 -2.828m1.677 -2.347a10 10 0 0 1 .495 -.481a4 4 0 1 1 5.129 6.1m-3.521 .537a4 4 0 0 1 -1.608 -.981a10 10 0 0 1 -2.172 -2.828"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbLetterA(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 20v-12a4 4 0 0 1 4 -4h2a4 4 0 0 1 4 4v12"}},{tag:"path",attr:{d:"M7 13l10 0"}}]})(props);
+export function TbInfinity(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M9.828 9.172a4 4 0 1 0 0 5.656a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828"}}]})(props);
 }
-export function TbMathLower(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19 18l-14 -6l14 -6"}}]})(props);
+export function TbLetterM(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 20v-16l6 14l6 -14v16"}}]})(props);
 }
-export function TbMathMax(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M3 20c0 -8.75 4 -14 7 -14.5m4 0c3 .5 7 5.75 7 14.5"}}]})(props);
+export function TbLetterN(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 20v-16l10 16v-16"}}]})(props);
 }
-export function TbMountain(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 20h18l-6.921 -14.612a2.3 2.3 0 0 0 -4.158 0l-6.921 14.612z"}},{tag:"path",attr:{d:"M7.5 11l2 2.5l2.5 -2.5l2 3l2.5 -2"}}]})(props);
+export function TbMathYPlusY(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M2 9l3 5.063"}},{tag:"path",attr:{d:"M8 9l-4.8 9"}},{tag:"path",attr:{d:"M16 9l3 5.063"}},{tag:"path",attr:{d:"M22 9l-4.8 9"}},{tag:"path",attr:{d:"M10 12h4"}},{tag:"path",attr:{d:"M12 10v4"}}]})(props);
 }
-export function TbMouse2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3m0 4a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-4a4 4 0 0 1 -4 -4z"}},{tag:"path",attr:{d:"M12 3v7"}},{tag:"path",attr:{d:"M6 10h12"}}]})(props);
+export function TbMath(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M19 5h-7l-4 14l-3 -6h-2"}},{tag:"path",attr:{d:"M14 13l6 6"}},{tag:"path",attr:{d:"M14 19l6 -6"}}]})(props);
 }
-export function TbPhotoCheck(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 8h.01"}},{tag:"path",attr:{d:"M11 20h-4a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6"}},{tag:"path",attr:{d:"M4 15l4 -4c.928 -.893 2.072 -.893 3 0l4 4"}},{tag:"path",attr:{d:"M14 14l1 -1c.928 -.893 2.072 -.893 3 0"}},{tag:"path",attr:{d:"M15 19l2 2l4 -4"}}]})(props);
+export function TbNavigationFilled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11.092 2.581a1 1 0 0 1 1.754 -.116l.062 .116l8.005 17.365c.198 .566 .05 1.196 -.378 1.615a1.53 1.53 0 0 1 -1.459 .393l-7.077 -2.398l-6.899 2.338a1.535 1.535 0 0 1 -1.52 -.231l-.112 -.1c-.398 -.386 -.556 -.954 -.393 -1.556l.047 -.15l7.97 -17.276z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
-export function TbPhotoDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 8h.01"}},{tag:"path",attr:{d:"M12 20h-5a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v5"}},{tag:"path",attr:{d:"M4 15l4 -4c.928 -.893 2.072 -.893 3 0l4 4"}},{tag:"path",attr:{d:"M14 14l1 -1c.617 -.593 1.328 -.793 2.009 -.598"}},{tag:"path",attr:{d:"M19 16v6"}},{tag:"path",attr:{d:"M22 19l-3 3l-3 -3"}}]})(props);
+export function TbNavigationOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M16.28 12.28c-.95 -2.064 -2.377 -5.157 -4.28 -9.28c-.7 1.515 -1.223 2.652 -1.573 3.41m-1.27 2.75c-.882 1.913 -2.59 5.618 -5.127 11.115c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-.26 -.563"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbRadioOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 3l-4.986 2m-2.875 1.15l-1.51 .604a1 1 0 0 0 -.629 .928v11.323a1 1 0 0 0 1 1h14a1 1 0 0 0 .708 -.294m.292 -3.706v-8a1 1 0 0 0 -1 -1h-8m-4 0h-2.5"}},{tag:"path",attr:{d:"M4 12h8m4 0h4"}},{tag:"path",attr:{d:"M7 12v-2"}},{tag:"path",attr:{d:"M13 16v.01"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+export function TbPictureInPictureOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M14 14m0 1a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M7 9l4 4"}},{tag:"path",attr:{d:"M7 12v-3h3"}}]})(props);
 }
-export function TbRadio(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M14 3l-9.371 3.749a1 1 0 0 0 -.629 .928v11.323a1 1 0 0 0 1 1h14a1 1 0 0 0 1 -1v-11a1 1 0 0 0 -1 -1h-14.5"}},{tag:"path",attr:{d:"M4 12h16"}},{tag:"path",attr:{d:"M7 12v-2"}},{tag:"path",attr:{d:"M17 16v.01"}},{tag:"path",attr:{d:"M13 16v.01"}}]})(props);
+export function TbPictureInPictureOn(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M14 14m0 1a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M7 9l4 4"}},{tag:"path",attr:{d:"M8 13h3v-3"}}]})(props);
 }
-export function TbScooterElectric(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M8 17h5a6 6 0 0 1 5 -5v-5a2 2 0 0 0 -2 -2h-1"}},{tag:"path",attr:{d:"M10 4l-2 4h3l-2 4"}}]})(props);
+export function TbRazor(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 3h10v4h-10z"}},{tag:"path",attr:{d:"M12 7v4"}},{tag:"path",attr:{d:"M12 11a2 2 0 0 1 2 2v6a2 2 0 1 1 -4 0v-6a2 2 0 0 1 2 -2z"}}]})(props);
 }
-export function TbScooter(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M8 17h5a6 6 0 0 1 5 -5v-5a2 2 0 0 0 -2 -2h-1"}}]})(props);
+export function TbReceipt2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2"}},{tag:"path",attr:{d:"M14 8h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5m2 0v1.5m0 -9v1.5"}}]})(props);
 }
-export function TbSpaceOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 10v3a1 1 0 0 0 1 1h9m4 0h1a1 1 0 0 0 1 -1v-3"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+export function TbSection(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M20 20h.01"}},{tag:"path",attr:{d:"M4 20h.01"}},{tag:"path",attr:{d:"M8 20h.01"}},{tag:"path",attr:{d:"M12 20h.01"}},{tag:"path",attr:{d:"M16 20h.01"}},{tag:"path",attr:{d:"M20 4h.01"}},{tag:"path",attr:{d:"M4 4h.01"}},{tag:"path",attr:{d:"M8 4h.01"}},{tag:"path",attr:{d:"M12 4h.01"}},{tag:"path",attr:{d:"M16 4l0 .01"}},{tag:"path",attr:{d:"M4 8m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z"}}]})(props);
 }
-export function TbSpace(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 10v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1 -1v-3"}}]})(props);
+export function TbSeedingOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M11.412 7.407a6.025 6.025 0 0 0 -2.82 -2.82m-4.592 -.587h-1v2a6 6 0 0 0 6 6h3"}},{tag:"path",attr:{d:"M12 14a6 6 0 0 1 .255 -1.736m1.51 -2.514a5.981 5.981 0 0 1 4.235 -1.75h3v1c0 2.158 -1.14 4.05 -2.85 5.107m-3.15 .893h-3"}},{tag:"path",attr:{d:"M12 20v-8"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
 }
-export function TbSquareRoundedChevronsDownFilled(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 2c-.218 0 -.432 .002 -.642 .005l-.616 .017l-.299 .013l-.579 .034l-.553 .046c-4.785 .464 -6.732 2.411 -7.196 7.196l-.046 .553l-.034 .579c-.005 .098 -.01 .198 -.013 .299l-.017 .616l-.004 .318l-.001 .324c0 .218 .002 .432 .005 .642l.017 .616l.013 .299l.034 .579l.046 .553c.464 4.785 2.411 6.732 7.196 7.196l.553 .046l.579 .034c.098 .005 .198 .01 .299 .013l.616 .017l.642 .005l.642 -.005l.616 -.017l.299 -.013l.579 -.034l.553 -.046c4.785 -.464 6.732 -2.411 7.196 -7.196l.046 -.553l.034 -.579c.005 -.098 .01 -.198 .013 -.299l.017 -.616l.005 -.642l-.005 -.642l-.017 -.616l-.013 -.299l-.034 -.579l-.046 -.553c-.464 -4.785 -2.411 -6.732 -7.196 -7.196l-.553 -.046l-.579 -.034a28.058 28.058 0 0 0 -.299 -.013l-.616 -.017l-.318 -.004l-.324 -.001zm-3.707 6.293a1 1 0 0 1 1.32 -.083l.094 .083l2.293 2.292l2.293 -2.292a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 .083 1.32l-.083 .094l-3 3a1 1 0 0 1 -1.32 .083l-.094 -.083l-3 -3a1 1 0 0 1 0 -1.414zm0 4a1 1 0 0 1 1.32 -.083l.094 .083l2.293 2.292l2.293 -2.292a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 .083 1.32l-.083 .094l-3 3a1 1 0 0 1 -1.32 .083l-.094 -.083l-3 -3a1 1 0 0 1 0 -1.414z",fill:"currentColor",strokeWidth:"0"}}]})(props);
+export function TbSquare0Filled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-6 4a3 3 0 0 0 -2.995 2.824l-.005 .176v4l.005 .176a3 3 0 0 0 5.99 0l.005 -.176v-4l-.005 -.176a3 3 0 0 0 -2.995 -2.824zm0 2a1 1 0 0 1 .993 .883l.007 .117v4l-.007 .117a1 1 0 0 1 -1.986 0l-.007 -.117v-4l.007 -.117a1 1 0 0 1 .993 -.883z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
-export function TbSquareRoundedChevronsDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M15 9l-3 3l-3 -3"}},{tag:"path",attr:{d:"M15 13l-3 3l-3 -3"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}}]})(props);
+export function TbSquare1Filled(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-5.006 4.886c-.083 -.777 -1.008 -1.16 -1.617 -.67l-.084 .077l-2 2l-.083 .094a1 1 0 0 0 0 1.226l.083 .094l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l.293 -.293v5.586l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-8l-.006 -.114z",strokeWidth:"0",fill:"currentColor"}}]})(props);
 }
-export function TbTableOptions(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6"}},{tag:"path",attr:{d:"M4 10h16"}},{tag:"path",attr:{d:"M10 4v9"}},{tag:"path",attr:{d:"M5.281 18.5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M5.281 15v1.5"}},{tag:"path",attr:{d:"M5.281 20.5v1.5"}},{tag:"path",attr:{d:"M8.312 16.75l-1.299 .75"}},{tag:"path",attr:{d:"M3.55 19.5l-1.3 .75"}},{tag:"path",attr:{d:"M2.25 16.75l1.3 .75"}},{tag:"path",attr:{d:"M7.013 19.5l1.3 .75"}}]})(props);
+export function TbSquareRoundedLetterI(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 8v8"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}}]})(props);
 }
-export function TbTableShortcut(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6"}},{tag:"path",attr:{d:"M4 10h16"}},{tag:"path",attr:{d:"M10 4v8"}},{tag:"path",attr:{d:"M3 21l6 -6"}},{tag:"path",attr:{d:"M4 15h5v5"}}]})(props);
+export function TbSquareRoundedLetterJ(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M10 8h4v6a2 2 0 1 1 -4 0"}},{tag:"path",attr:{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}}]})(props);
 }
-export function TbTrendingUp2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 5l3 3l-3 3"}},{tag:"path",attr:{d:"M3 18h5l7 -10h6"}}]})(props);
+export function TbTelescope(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 21l6 -5l6 5"}},{tag:"path",attr:{d:"M12 13v8"}},{tag:"path",attr:{d:"M3.294 13.678l.166 .281c.52 .88 1.624 1.265 2.605 .91l14.242 -5.165a1.023 1.023 0 0 0 .565 -1.456l-2.62 -4.705a1.087 1.087 0 0 0 -1.447 -.42l-.056 .032l-12.694 7.618c-1.02 .613 -1.357 1.897 -.76 2.905z"}},{tag:"path",attr:{d:"M14 5l3 5.5"}}]})(props);
 }
-export function TbTrendingUp3(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M18 5l3 3l-3 3"}},{tag:"path",attr:{d:"M3 18h2.397a5 5 0 0 0 4.096 -2.133l4.014 -5.734a5 5 0 0 1 4.096 -2.133h3.397"}}]})(props);
+export function TbTemperatureCelsius(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M20 9a3 3 0 0 0 -3 -3h-1a3 3 0 0 0 -3 3v6a3 3 0 0 0 3 3h1a3 3 0 0 0 3 -3"}}]})(props);
 }
-export function TbWebhookOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4.876 13.61a4 4 0 1 0 6.124 3.39h6"}},{tag:"path",attr:{d:"M15.066 20.502a4 4 0 0 0 4.763 -.675m1.171 -2.827a4 4 0 0 0 -4 -4"}},{tag:"path",attr:{d:"M16 8a4 4 0 0 0 -6.824 -2.833m-1.176 2.833c0 1.506 .77 2.818 2 3.5l-3 5.5"}},{tag:"path",attr:{d:"M3 3l18 18"}}]})(props);
+export function TbTruck(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"}}]})(props);
 }
-export function TbWebhook(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M4.876 13.61a4 4 0 1 0 6.124 3.39h6"}},{tag:"path",attr:{d:"M15.066 20.502a4 4 0 1 0 1.934 -7.502c-.706 0 -1.424 .179 -2 .5l-3 -5.5"}},{tag:"path",attr:{d:"M16 8a4 4 0 1 0 -8 0c0 1.506 .77 2.818 2 3.5l-3 5.5"}}]})(props);
+export function TbTxt(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M3 8h4"}},{tag:"path",attr:{d:"M5 8v8"}},{tag:"path",attr:{d:"M17 8h4"}},{tag:"path",attr:{d:"M19 8v8"}},{tag:"path",attr:{d:"M10 8l4 8"}},{tag:"path",attr:{d:"M10 16l4 -8"}}]})(props);
+}
+export function TbWindsock(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M6 3v18"}},{tag:"path",attr:{d:"M6 11l12 -1v-4l-12 -1"}},{tag:"path",attr:{d:"M10 5.5v5"}},{tag:"path",attr:{d:"M14 6v4"}},{tag:"path",attr:{d:"M4 21h4"}}]})(props);
+}
+export function TbWiperWash(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}},{tag:"path",attr:{d:"M12 20m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M3 11l5.5 5.5a5 5 0 0 1 7 0l5.5 -5.5a12 12 0 0 0 -18 0"}},{tag:"path",attr:{d:"M12 20l0 -14"}},{tag:"path",attr:{d:"M4 6a4 4 0 0 1 .4 -1.8"}},{tag:"path",attr:{d:"M7 2.1a4 4 0 0 1 2 0"}},{tag:"path",attr:{d:"M12 6a4 4 0 0 0 -.4 -1.8"}},{tag:"path",attr:{d:"M12 6a4 4 0 0 1 .4 -1.8"}},{tag:"path",attr:{d:"M15 2.1a4 4 0 0 1 2 0"}},{tag:"path",attr:{d:"M20 6a4 4 0 0 0 -.4 -1.8"}}]})(props);
 }
