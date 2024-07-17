@@ -13,10 +13,10 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact":  "https://esm.sh/preact@10.15.1",
-    "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/tb":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.9/mod.ts",
-    "react-icons/tb/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.9/ico/",
+    "preact":  "https://esm.sh/preact@10.22.1",
+    "preact/": "https://esm.sh/preact@10.22.1/",
+    "react-icons/tb":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.10/mod.ts",
+    "react-icons/tb/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.10/ico/",
   }
 }
 ```
@@ -24,24 +24,24 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib tb
 
 ```ts
-import { Tb123 } from "https://deno.land/x/react_icons_tb@1.0.9/mod.ts"
+import { TbAccessibleFilled } from "https://deno.land/x/react_icons_tb@1.0.10/mod.ts"
 ```
 
 ## import_map import an icon from all icons
 
 ```ts
-import { Tb123 } from "react-icons/tb"
+import { TbAccessibleFilled } from "react-icons/tb"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { Tb123 } from "react-icons/tb/Tb123.ts"
+import { TbAccessibleFilled } from "react-icons/tb/TbAccessibleFilled.ts"
 ```
 
 or using default export
 
 ```ts
-import Tb123 from "react-icons/tb/Tb123.ts"
+import TbAccessibleFilled from "react-icons/tb/TbAccessibleFilled.ts"
 ```
 
