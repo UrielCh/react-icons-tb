@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function TbHeadset(props: IconBaseProps) {
+/**
+ * Headset icon from Tabler Icons
+ * @module
+ */
+export function TbHeadset(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14v-3a8 8 0 1 1 16 0v3"}},{tag:"path",attr:{d:"M18 19c0 1.657 -2.686 3 -6 3"},child:[]},{tag:"path",attr:{d:"M4 14a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2v-3z"},child:[]},{tag:"path",attr:{d:"M15 14a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2v-3z"},child:[]}]})(props);
 }
 export default TbHeadset;

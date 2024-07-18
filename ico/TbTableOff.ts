@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function TbTableOff(props: IconBaseProps) {
+/**
+ * TableOff icon from Tabler Icons
+ * @module
+ */
+export function TbTableOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 3h12a2 2 0 0 1 2 2v12m-.585 3.413a1.994 1.994 0 0 1 -1.415 .587h-14a2 2 0 0 1 -2 -2v-14c0 -.55 .223 -1.05 .583 -1.412"}},{tag:"path",attr:{d:"M3 10h7m4 0h7"},child:[]},{tag:"path",attr:{d:"M10 3v3m0 4v11"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
 }
 export default TbTableOff;

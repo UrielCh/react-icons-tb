@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function TbIceCreamOff(props: IconBaseProps) {
+/**
+ * IceCreamOff icon from Tabler Icons
+ * @module
+ */
+export function TbIceCreamOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 21.5v-4.5"}},{tag:"path",attr:{d:"M8 8v9h8v-1m0 -4v-5a4 4 0 0 0 -7.277 -2.294"},child:[]},{tag:"path",attr:{d:"M8 10.5l1.74 -.76m2.79 -1.222l3.47 -1.518"},child:[]},{tag:"path",attr:{d:"M8 14.5l4.488 -1.964"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
 }
 export default TbIceCreamOff;

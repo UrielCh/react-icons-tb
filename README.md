@@ -1,4 +1,6 @@
-# Tabler Icons icons for deno / Preact
+# Tabler Icons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/tb)](https://jsr.io/@preact-icons/tb)
 
 **License** [MIT](https://opensource.org/licenses/MIT)
 
@@ -13,10 +15,12 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact":  "https://esm.sh/preact@10.22.1",
-    "preact/": "https://esm.sh/preact@10.22.1/",
-    "react-icons/tb":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.10/mod.ts",
-    "react-icons/tb/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.10/ico/",
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
+    "preact": "npm:preact@10.22.1",
+    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+    "preact/hooks": "npm:preact@10.22.1/hooks",
+    "react-icons/tb": "jsr:@preact-icons/tb@^1.0.11/mod.ts",
+    "react-icons/tb/": "jsr:@preact-icons/tb@^1.0.11/ico/",
   }
 }
 ```
@@ -24,7 +28,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib tb
 
 ```ts
-import { TbAccessibleFilled } from "https://deno.land/x/react_icons_tb@1.0.10/mod.ts"
+import { TbAccessibleFilled } from "jsr:preact-icons/tb@1.0.11/mod.ts"
 ```
 
 ## import_map import an icon from all icons

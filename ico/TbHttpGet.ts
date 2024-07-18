@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function TbHttpGet(props: IconBaseProps) {
+/**
+ * HttpGet icon from Tabler Icons
+ * @module
+ */
+export function TbHttpGet(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 8h-2a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2v-4h-1"}},{tag:"path",attr:{d:"M14 8h-4v8h4"},child:[]},{tag:"path",attr:{d:"M10 12h2.5"},child:[]},{tag:"path",attr:{d:"M17 8h4"},child:[]},{tag:"path",attr:{d:"M19 8v8"},child:[]}]})(props);
 }
 export default TbHttpGet;

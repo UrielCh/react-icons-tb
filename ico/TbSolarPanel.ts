@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function TbSolarPanel(props: IconBaseProps) {
+/**
+ * SolarPanel icon from Tabler Icons
+ * @module
+ */
+export function TbSolarPanel(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.28 14h15.44a1 1 0 0 0 .97 -1.243l-1.5 -6a1 1 0 0 0 -.97 -.757h-12.44a1 1 0 0 0 -.97 .757l-1.5 6a1 1 0 0 0 .97 1.243z"}},{tag:"path",attr:{d:"M4 10h16"},child:[]},{tag:"path",attr:{d:"M10 6l-1 8"},child:[]},{tag:"path",attr:{d:"M14 6l1 8"},child:[]},{tag:"path",attr:{d:"M12 14v4"},child:[]},{tag:"path",attr:{d:"M7 18h10"},child:[]}]})(props);
 }
 export default TbSolarPanel;
