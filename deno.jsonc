@@ -4355,6 +4355,7 @@
     "./TbSignal2G": "./ico/TbSignal2G.ts",
     "./TbSignal3G": "./ico/TbSignal3G.ts",
     "./TbSignal4G": "./ico/TbSignal4G.ts",
+    "./TbSignal4gPlus": "./ico/TbSignal4gPlus.ts",
     "./TbSignal5G": "./ico/TbSignal5G.ts",
     "./TbSignal6G": "./ico/TbSignal6G.ts",
     "./TbSignalE": "./ico/TbSignalE.ts",
