@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import TbAccessibleFilled from "react-icons/tb/TbAccessibleFilled.ts"
+ * import TbAccessibleFilled from "react-icons/tb/TbAccessibleFilled"
  * ```
  * @module
  * 
