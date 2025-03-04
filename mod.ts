@@ -312,6 +312,12 @@ export function TbAdjustmentsShare(props: IconBaseProps): VNode<JSX.SVGAttribute
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 10a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}},{tag:"path",attr:{d:"M6 4v4"},child:[]},{tag:"path",attr:{d:"M6 12v8"},child:[]},{tag:"path",attr:{d:"M13.387 14.56a2 2 0 1 0 -.798 3.352"},child:[]},{tag:"path",attr:{d:"M12 4v10"},child:[]},{tag:"path",attr:{d:"M12 18v2"},child:[]},{tag:"path",attr:{d:"M16 7a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"},child:[]},{tag:"path",attr:{d:"M18 4v1"},child:[]},{tag:"path",attr:{d:"M16 22l5 -5"},child:[]},{tag:"path",attr:{d:"M21 21.5v-4.5h-4.5"},child:[]},{tag:"path",attr:{d:"M18 9v4"},child:[]}]})(props);
 }
 /**
+ * AdjustmentsSpark icon from Tabler Icons
+ */
+export function TbAdjustmentsSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 10a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}},{tag:"path",attr:{d:"M6 4v4"},child:[]},{tag:"path",attr:{d:"M6 12v8"},child:[]},{tag:"path",attr:{d:"M13.879 15.312a2 2 0 1 0 -2.26 2.652"},child:[]},{tag:"path",attr:{d:"M12 4v10"},child:[]},{tag:"path",attr:{d:"M16 7a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"},child:[]},{tag:"path",attr:{d:"M18 4v1"},child:[]},{tag:"path",attr:{d:"M18 9v2.5"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
  * AdjustmentsStar icon from Tabler Icons
  */
 export function TbAdjustmentsStar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -346,6 +352,12 @@ export function TbAffiliate(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbAffiliateFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18.5 3a2.5 2.5 0 1 1 -.912 4.828l-4.556 4.555a5.475 5.475 0 0 1 .936 3.714l2.624 .787a2.5 2.5 0 1 1 -.575 1.916l-2.623 -.788a5.5 5.5 0 0 1 -10.39 -2.29l-.004 -.222l.004 -.221a5.5 5.5 0 0 1 2.984 -4.673l-.788 -2.624a2.498 2.498 0 0 1 -2.194 -2.304l-.006 -.178l.005 -.164a2.5 2.5 0 1 1 4.111 2.071l.787 2.625a5.475 5.475 0 0 1 3.714 .936l4.555 -4.556a2.487 2.487 0 0 1 -.167 -.748l-.005 -.164l.005 -.164a2.5 2.5 0 0 1 2.495 -2.336z"}}]})(props);
+}
+/**
+ * Ai icon from Tabler Icons
+ */
+export function TbAi(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 16v-6a2 2 0 1 1 4 0v6"}},{tag:"path",attr:{d:"M8 13h4"},child:[]},{tag:"path",attr:{d:"M16 8v8"},child:[]}]})(props);
 }
 /**
  * AirBalloon icon from Tabler Icons
@@ -418,6 +430,12 @@ export function TbAlarmPlus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbAlarmPlusFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16 6.072a8 8 0 1 1 -11.995 7.213l-.005 -.285l.005 -.285a8 8 0 0 1 11.995 -6.643zm-4 3.928a1 1 0 0 0 -1 1v1h-1l-.117 .007a1 1 0 0 0 .117 1.993h1v1l.007 .117a1 1 0 0 0 1.993 -.117v-1h1l.117 -.007a1 1 0 0 0 -.117 -1.993h-1v-1l-.007 -.117a1 1 0 0 0 -.993 -.883z"}},{tag:"path",attr:{d:"M6.412 3.191a1 1 0 0 1 1.273 1.539l-.097 .08l-2.75 2a1 1 0 0 1 -1.273 -1.54l.097 -.08l2.75 -2z"},child:[]},{tag:"path",attr:{d:"M16.191 3.412a1 1 0 0 1 1.291 -.288l.106 .067l2.75 2a1 1 0 0 1 -1.07 1.685l-.106 -.067l-2.75 -2a1 1 0 0 1 -.22 -1.397z"},child:[]}]})(props);
+}
+/**
+ * AlarmSmoke icon from Tabler Icons
+ */
+export function TbAlarmSmoke(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 8l-.8 3a1.25 1.25 0 0 1 -1.2 1h-8a1.25 1.25 0 0 1 -1.2 -1l-.8 -3"}},{tag:"path",attr:{d:"M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z"},child:[]},{tag:"path",attr:{d:"M12 16c.643 .288 1.017 .756 1 1.25c.017 .494 -.357 .962 -1 1.25s-1.017 .756 -1 1.25c-.017 .494 .357 .962 1 1.25"},child:[]},{tag:"path",attr:{d:"M7 16c.643 .288 1.017 .756 1 1.25c.017 .494 -.357 .962 -1 1.25s-1.017 .756 -1 1.25c-.017 .494 .357 .962 1 1.25"},child:[]},{tag:"path",attr:{d:"M17 16c.643 .288 1.017 .756 1 1.25c.017 .494 -.357 .962 -1 1.25s-1.017 .756 -1 1.25c-.017 .494 .357 .962 1 1.25"},child:[]}]})(props);
 }
 /**
  * AlarmSnooze icon from Tabler Icons
@@ -768,16 +786,40 @@ export function TbAlignLeft(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 6l16 0"}},{tag:"path",attr:{d:"M4 12l10 0"},child:[]},{tag:"path",attr:{d:"M4 18l14 0"},child:[]}]})(props);
 }
 /**
+ * AlignLeft2 icon from Tabler Icons
+ */
+export function TbAlignLeft2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4v16"}},{tag:"path",attr:{d:"M8 6h12"},child:[]},{tag:"path",attr:{d:"M8 12h6"},child:[]},{tag:"path",attr:{d:"M8 18h10"},child:[]}]})(props);
+}
+/**
  * AlignRight icon from Tabler Icons
  */
 export function TbAlignRight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 6l16 0"}},{tag:"path",attr:{d:"M10 12l10 0"},child:[]},{tag:"path",attr:{d:"M6 18l14 0"},child:[]}]})(props);
 }
 /**
+ * AlignRight2 icon from Tabler Icons
+ */
+export function TbAlignRight2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 4v16"}},{tag:"path",attr:{d:"M4 6h12"},child:[]},{tag:"path",attr:{d:"M10 12h6"},child:[]},{tag:"path",attr:{d:"M6 18h10"},child:[]}]})(props);
+}
+/**
  * Alpha icon from Tabler Icons
  */
 export function TbAlpha(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18.1 6c-1.1 2.913 -1.9 4.913 -2.4 6c-1.879 4.088 -3.713 6 -6 6c-2.4 0 -4.8 -2.4 -4.8 -6s2.4 -6 4.8 -6c2.267 0 4.135 1.986 6 6c.512 1.102 1.312 3.102 2.4 6"}}]})(props);
+}
+/**
+ * AlphabetArabic icon from Tabler Icons
+ */
+export function TbAlphabetArabic(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 6v4"}},{tag:"path",attr:{d:"M13 14h8q -2.518 -3 -4 -3"},child:[]},{tag:"path",attr:{d:"M13 6v9.958c0 .963 0 1.444 -.293 1.743s-.764 .299 -1.707 .299h-1"},child:[]},{tag:"path",attr:{d:"M7 6v9.958c0 .963 0 1.444 -.293 1.743s-.764 .299 -1.707 .299h-1"},child:[]}]})(props);
+}
+/**
+ * AlphabetBangla icon from Tabler Icons
+ */
+export function TbAlphabetBangla(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 12c.904 -.027 3 2 3 7"}},{tag:"path",attr:{d:"M10 11c0 -.955 0 -2 .786 -2.677c1.262 -1.089 3.025 .55 3.2 2.06c.086 .741 -.215 3.109 -1.489 4.527c-.475 .53 -.904 .992 -1.711 1.074c-.75 .076 -1.364 -.122 -2.076 -.588c-1.138 -.743 -2.327 -1.997 -3.336 -3.73c-1.078 -1.849 -1.66 -3.113 -2.374 -5.666"},child:[]},{tag:"path",attr:{d:"M7.37 7.072c.769 -.836 5.246 -4.094 8.4 -.202c.382 .472 .573 .708 .9 1.63c.326 .921 .326 1.562 .326 2.844v7.656"},child:[]},{tag:"path",attr:{d:"M17 10c0 -1.989 1.5 -4 4 -4"},child:[]}]})(props);
 }
 /**
  * AlphabetCyrillic icon from Tabler Icons
@@ -792,10 +834,28 @@ export function TbAlphabetGreek(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 10v7"}},{tag:"path",attr:{d:"M5 10m0 2a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M14 20v-11a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2"},child:[]}]})(props);
 }
 /**
+ * AlphabetHebrew icon from Tabler Icons
+ */
+export function TbAlphabetHebrew(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 6c2.333 5.143 6.611 6.857 9.333 12"}},{tag:"path",attr:{d:"M13.667 14c2.505 -1.5 2.666 -4.141 2.666 -5.333c0 -1.778 -.443 -2.667 -.443 -2.667"},child:[]},{tag:"path",attr:{d:"M7.485 18s-.485 -.905 -.485 -2.714c0 -1.172 .164 -3.722 2.641 -5.27"},child:[]}]})(props);
+}
+/**
+ * AlphabetKorean icon from Tabler Icons
+ */
+export function TbAlphabetKorean(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 7h6c0 2.5 -1.593 8.474 -6 10"}},{tag:"path",attr:{d:"M16 5v14z"},child:[]},{tag:"path",attr:{d:"M16 12h2"},child:[]}]})(props);
+}
+/**
  * AlphabetLatin icon from Tabler Icons
  */
 export function TbAlphabetLatin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 10h2a2 2 0 0 1 2 2v5h-3a2 2 0 1 1 0 -4h3"}},{tag:"path",attr:{d:"M14 7v10"},child:[]},{tag:"path",attr:{d:"M14 10m0 2a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2z"},child:[]}]})(props);
+}
+/**
+ * AlphabetThai icon from Tabler Icons
+ */
+export function TbAlphabetThai(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 18v-3.444c0 -.49 .165 -.924 .494 -1.363c.326 -.449 1.009 -.76 1.506 -.934c.032 -.011 .035 -.079 .004 -.095c-.434 -.22 -1.294 -.52 -1.626 -1.032l-.014 -.021l-.083 -.125c-.281 -.42 -.281 -1.246 -.281 -1.246c0 -1.456 .849 -2.62 1.837 -3.199q .9 -.54 2.137 -.541q 1.077 0 1.995 .47c1.328 .647 2.031 2.202 2.031 3.976v7.554"}}]})(props);
 }
 /**
  * Alt icon from Tabler Icons
@@ -957,7 +1017,13 @@ export function TbAppWindowFilled(props: IconBaseProps): VNode<JSX.SVGAttributes
  * Apple icon from Tabler Icons
  */
 export function TbApple(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 14m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"}},{tag:"path",attr:{d:"M12 11v-6a2 2 0 0 1 2 -2h2v1a2 2 0 0 1 -2 2h-2"},child:[]},{tag:"path",attr:{d:"M10 10.5c1.333 .667 2.667 .667 4 0"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 11.319c0 3.102 .444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08 .988c.426 -.268 .97 -.268 1.397 0c1.923 1.26 3.728 .809 5.079 -.988c1.778 -2.66 2.222 -4.876 2.222 -7.977c0 -2.661 -1.99 -5.32 -4.444 -5.32c-1.267 0 -2.41 .693 -3.22 1.44a.5 .5 0 0 1 -.672 0c-.809 -.746 -1.953 -1.44 -3.22 -1.44c-2.454 0 -4.444 2.66 -4.444 5.319"}},{tag:"path",attr:{d:"M7 12c0 -1.47 .454 -2.34 1.5 -3"},child:[]},{tag:"path",attr:{d:"M12 7c0 -1.2 .867 -4 3 -4"},child:[]}]})(props);
+}
+/**
+ * AppleFilled icon from Tabler Icons
+ */
+export function TbAppleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M15 2a1 1 0 0 1 .117 1.993l-.117 .007c-.693 0 -1.33 .694 -1.691 1.552a5.1 5.1 0 0 1 1.982 -.544l.265 -.008c2.982 0 5.444 3.053 5.444 6.32c0 3.547 -.606 5.862 -2.423 8.578c-1.692 2.251 -4.092 2.753 -6.41 1.234a.31 .31 0 0 0 -.317 -.01c-2.335 1.528 -4.735 1.027 -6.46 -1.27c-1.783 -2.668 -2.39 -4.984 -2.39 -8.532l.004 -.222c.108 -3.181 2.526 -6.098 5.44 -6.098c.94 0 1.852 .291 2.688 .792c.419 -1.95 1.818 -3.792 3.868 -3.792m-7.034 6.154c-1.36 .858 -1.966 2.06 -1.966 3.846a1 1 0 0 0 2 0c0 -1.125 .28 -1.678 1.034 -2.154a1 1 0 1 0 -1.068 -1.692"}}]})(props);
 }
 /**
  * Apps icon from Tabler Icons
@@ -1404,6 +1470,18 @@ export function TbArrowDownCircle(props: IconBaseProps): VNode<JSX.SVGAttributes
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 7v14"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"},child:[]},{tag:"path",attr:{d:"M12 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4"},child:[]}]})(props);
 }
 /**
+ * ArrowDownCircleFilled icon from Tabler Icons
+ */
+export function TbArrowDownCircleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2a3 3 0 0 1 1 5.829v10.755l1.293 -1.291a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.112 .097l-.11 .071l-.114 .054l-.105 .035l-.149 .03l-.117 .006l-.075 -.003l-.126 -.017l-.111 -.03l-.111 -.044l-.098 -.052l-.096 -.067l-.09 -.08l-3 -3a1 1 0 0 1 1.414 -1.414l1.293 1.293v-10.757a3.001 3.001 0 0 1 1 -5.829"}}]})(props);
+}
+/**
+ * ArrowDownDashed icon from Tabler Icons
+ */
+export function TbArrowDownDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 5v.5m0 3v1.5m0 3v6"}},{tag:"path",attr:{d:"M18 13l-6 6"},child:[]},{tag:"path",attr:{d:"M6 13l6 6"},child:[]}]})(props);
+}
+/**
  * ArrowDownFromArc icon from Tabler Icons
  */
 export function TbArrowDownFromArc(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -1428,6 +1506,12 @@ export function TbArrowDownRhombus(props: IconBaseProps): VNode<JSX.SVGAttribute
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8v13"}},{tag:"path",attr:{d:"M15 18l-3 3l-3 -3"},child:[]},{tag:"path",attr:{d:"M14.5 5.5l-2.5 -2.5l-2.5 2.5l2.5 2.5z"},child:[]}]})(props);
 }
 /**
+ * ArrowDownRhombusFilled icon from Tabler Icons
+ */
+export function TbArrowDownRhombusFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.707 2.293l2.5 2.5a1 1 0 0 1 0 1.414l-2.207 2.207v10.17l1.293 -1.291a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.112 .097l-.11 .071l-.114 .054l-.105 .035l-.149 .03l-.117 .006l-.075 -.003l-.126 -.017l-.111 -.03l-.111 -.044l-.098 -.052l-.096 -.067l-.09 -.08l-3 -3a1 1 0 0 1 1.414 -1.414l1.293 1.293v-10.171l-2.207 -2.208a1 1 0 0 1 0 -1.414l2.5 -2.5a1 1 0 0 1 1.414 0"}}]})(props);
+}
+/**
  * ArrowDownRight icon from Tabler Icons
  */
 export function TbArrowDownRight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -1444,6 +1528,12 @@ export function TbArrowDownRightCircle(props: IconBaseProps): VNode<JSX.SVGAttri
  */
 export function TbArrowDownSquare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 7v14"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"},child:[]},{tag:"path",attr:{d:"M14 3v4h-4v-4z"},child:[]}]})(props);
+}
+/**
+ * ArrowDownSquareFilled icon from Tabler Icons
+ */
+export function TbArrowDownSquareFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M14 2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-1v10.584l1.293 -1.291a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.112 .097l-.11 .071l-.114 .054l-.105 .035l-.149 .03l-.117 .006l-.075 -.003l-.126 -.017l-.111 -.03l-.111 -.044l-.098 -.052l-.096 -.067l-.09 -.08l-3 -3a1 1 0 0 1 1.414 -1.414l1.293 1.293v-10.586h-1a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1z"}}]})(props);
 }
 /**
  * ArrowDownTail icon from Tabler Icons
@@ -1500,6 +1590,12 @@ export function TbArrowGuide(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 19h3a2 2 0 0 0 2 -2v-8a2 2 0 0 1 2 -2h7"},child:[]},{tag:"path",attr:{d:"M18 4l3 3l-3 3"},child:[]}]})(props);
 }
 /**
+ * ArrowGuideFilled icon from Tabler Icons
+ */
+export function TbArrowGuideFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18.707 3.293l3 3q .054 .053 .097 .112l.071 .11l.054 .114l.035 .105l.03 .148l.006 .118l-.003 .075l-.017 .126l-.03 .111l-.044 .111l-.052 .098l-.067 .096l-.08 .09l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-4.585a1 1 0 0 0 -1 1v8a3 3 0 0 1 -3 3h-2.171a3.001 3.001 0 0 1 -5.829 -1l.005 -.176a3 3 0 0 1 5.825 -.824h2.17a1 1 0 0 0 1 -1v-8a3 3 0 0 1 3 -3h4.585l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0"}}]})(props);
+}
+/**
  * ArrowIteration icon from Tabler Icons
  */
 export function TbArrowIteration(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -1524,6 +1620,18 @@ export function TbArrowLeftCircle(props: IconBaseProps): VNode<JSX.SVGAttributes
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 12h-14"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"},child:[]},{tag:"path",attr:{d:"M19 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]}]})(props);
 }
 /**
+ * ArrowLeftCircleFilled icon from Tabler Icons
+ */
+export function TbArrowLeftCircleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6.707 8.293a1 1 0 0 1 0 1.414l-1.292 1.293h10.756a3.001 3.001 0 1 1 0 2h-10.756l1.292 1.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.414 0l-3 -3a1 1 0 0 1 -.097 -.112l-.071 -.11l-.054 -.114l-.035 -.105l-.025 -.118l-.007 -.058l-.004 -.09l.003 -.075l.017 -.126l.03 -.111l.044 -.111l.052 -.098l.067 -.096l.08 -.09l3 -3a1 1 0 0 1 1.414 0"}}]})(props);
+}
+/**
+ * ArrowLeftDashed icon from Tabler Icons
+ */
+export function TbArrowLeftDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 12h6m3 0h1.5m3 0h.5"}},{tag:"path",attr:{d:"M5 12l6 6"},child:[]},{tag:"path",attr:{d:"M5 12l6 -6"},child:[]}]})(props);
+}
+/**
  * ArrowLeftFromArc icon from Tabler Icons
  */
 export function TbArrowLeftFromArc(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -1536,6 +1644,12 @@ export function TbArrowLeftRhombus(props: IconBaseProps): VNode<JSX.SVGAttribute
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-13"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"},child:[]},{tag:"path",attr:{d:"M18.5 9.5l2.5 2.5l-2.5 2.5l-2.5 -2.5z"},child:[]}]})(props);
 }
 /**
+ * ArrowLeftRhombusFilled icon from Tabler Icons
+ */
+export function TbArrowLeftRhombusFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6.707 8.293a1 1 0 0 1 0 1.414l-1.292 1.293h10.169l2.209 -2.207a1 1 0 0 1 1.414 0l2.5 2.5a1 1 0 0 1 0 1.414l-2.5 2.5a1 1 0 0 1 -1.414 0l-2.208 -2.207h-10.17l1.292 1.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.414 0l-3 -3a1 1 0 0 1 -.097 -.112l-.071 -.11l-.054 -.114l-.035 -.105l-.025 -.118l-.007 -.058l-.004 -.09l.003 -.075l.017 -.126l.03 -.111l.044 -.111l.052 -.098l.067 -.096l.08 -.09l3 -3a1 1 0 0 1 1.414 0"}}]})(props);
+}
+/**
  * ArrowLeftRight icon from Tabler Icons
  */
 export function TbArrowLeftRight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -1546,6 +1660,12 @@ export function TbArrowLeftRight(props: IconBaseProps): VNode<JSX.SVGAttributes>
  */
 export function TbArrowLeftSquare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 12h-14"}},{tag:"path",attr:{d:"M6 9l-3 3l3 3"},child:[]},{tag:"path",attr:{d:"M21 14h-4v-4h4z"},child:[]}]})(props);
+}
+/**
+ * ArrowLeftSquareFilled icon from Tabler Icons
+ */
+export function TbArrowLeftSquareFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6.707 8.293a1 1 0 0 1 0 1.414l-1.292 1.293h10.585v-1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-1h-10.585l1.292 1.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.414 0l-3 -3a1 1 0 0 1 -.097 -.112l-.071 -.11l-.054 -.114l-.035 -.105l-.025 -.118l-.007 -.058l-.004 -.09l.003 -.075l.017 -.126l.03 -.111l.044 -.111l.052 -.098l.067 -.096l.08 -.09l3 -3a1 1 0 0 1 1.414 0"}}]})(props);
 }
 /**
  * ArrowLeftTail icon from Tabler Icons
@@ -1626,10 +1746,22 @@ export function TbArrowMoveDown(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 11v10"}},{tag:"path",attr:{d:"M9 18l3 3l3 -3"},child:[]},{tag:"path",attr:{d:"M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]}]})(props);
 }
 /**
+ * ArrowMoveDownFilled icon from Tabler Icons
+ */
+export function TbArrowMoveDownFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 10a1 1 0 0 1 1 1v7.584l1.293 -1.291a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.112 .097l-.11 .071l-.114 .054l-.105 .035l-.149 .03l-.117 .006l-.075 -.003l-.126 -.017l-.111 -.03l-.111 -.044l-.098 -.052l-.096 -.067l-.09 -.08l-3 -3a1 1 0 0 1 1.414 -1.414l1.293 1.293v-7.586a1 1 0 0 1 1 -1m0 -8a3 3 0 1 1 -3 3l.005 -.176a3 3 0 0 1 2.995 -2.824"}}]})(props);
+}
+/**
  * ArrowMoveLeft icon from Tabler Icons
  */
 export function TbArrowMoveLeft(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 12h-10"}},{tag:"path",attr:{d:"M6 15l-3 -3l3 -3"},child:[]},{tag:"path",attr:{d:"M17 12a2 2 0 1 1 4 0a2 2 0 0 1 -4 0z"},child:[]}]})(props);
+}
+/**
+ * ArrowMoveLeftFilled icon from Tabler Icons
+ */
+export function TbArrowMoveLeftFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6.707 8.293a1 1 0 0 1 0 1.414l-1.292 1.293h7.585a1 1 0 0 1 0 2h-7.585l1.292 1.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.414 0l-3 -3a1 1 0 0 1 -.097 -.112l-.071 -.11l-.054 -.114l-.035 -.105l-.025 -.118l-.007 -.058l-.004 -.09l.003 -.075l.017 -.126l.03 -.111l.044 -.111l.052 -.098l.067 -.096l.08 -.09l3 -3a1 1 0 0 1 1.414 0m12.293 .707a3 3 0 1 1 0 6a3 3 0 0 1 0 -6"}}]})(props);
 }
 /**
  * ArrowMoveRight icon from Tabler Icons
@@ -1638,10 +1770,22 @@ export function TbArrowMoveRight(props: IconBaseProps): VNode<JSX.SVGAttributes>
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11 12h10"}},{tag:"path",attr:{d:"M18 9l3 3l-3 3"},child:[]},{tag:"path",attr:{d:"M7 12a2 2 0 1 1 -4 0a2 2 0 0 1 4 0z"},child:[]}]})(props);
 }
 /**
+ * ArrowMoveRightFilled icon from Tabler Icons
+ */
+export function TbArrowMoveRightFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18.707 8.293l3 3q .054 .053 .097 .112l.071 .11l.054 .114l.035 .105l.03 .148l.006 .118l-.003 .075l-.017 .126l-.03 .111l-.044 .111l-.052 .098l-.074 .104l-.073 .082l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-7.585a1 1 0 0 1 0 -2h7.585l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0m-13.707 .707a3 3 0 1 1 0 6a3 3 0 0 1 0 -6"}}]})(props);
+}
+/**
  * ArrowMoveUp icon from Tabler Icons
  */
 export function TbArrowMoveUp(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 13v-10"}},{tag:"path",attr:{d:"M9 6l3 -3l3 3"},child:[]},{tag:"path",attr:{d:"M12 17a2 2 0 1 1 0 4a2 2 0 0 1 0 -4z"},child:[]}]})(props);
+}
+/**
+ * ArrowMoveUpFilled icon from Tabler Icons
+ */
+export function TbArrowMoveUpFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.852 2.011l.058 -.007l.09 -.004l.075 .003l.126 .017l.111 .03l.111 .044l.098 .052l.104 .074l.082 .073l3 3a1 1 0 1 1 -1.414 1.414l-1.293 -1.292v7.585a1 1 0 0 1 -2 0v-7.585l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 0 -1.414l3 -3q .053 -.054 .112 -.097l.11 -.071l.114 -.054l.105 -.035z"}},{tag:"path",attr:{d:"M12 16a3 3 0 1 1 0 6a3 3 0 0 1 0 -6"},child:[]}]})(props);
 }
 /**
  * ArrowNarrowDown icon from Tabler Icons
@@ -1650,10 +1794,22 @@ export function TbArrowNarrowDown(props: IconBaseProps): VNode<JSX.SVGAttributes
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 5l0 14"}},{tag:"path",attr:{d:"M16 15l-4 4"},child:[]},{tag:"path",attr:{d:"M8 15l4 4"},child:[]}]})(props);
 }
 /**
+ * ArrowNarrowDownDashed icon from Tabler Icons
+ */
+export function TbArrowNarrowDownDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 5v.5m0 3v1.5m0 3v6"}},{tag:"path",attr:{d:"M16 15l-4 4"},child:[]},{tag:"path",attr:{d:"M8 15l4 4"},child:[]}]})(props);
+}
+/**
  * ArrowNarrowLeft icon from Tabler Icons
  */
 export function TbArrowNarrowLeft(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 12l14 0"}},{tag:"path",attr:{d:"M5 12l4 4"},child:[]},{tag:"path",attr:{d:"M5 12l4 -4"},child:[]}]})(props);
+}
+/**
+ * ArrowNarrowLeftDashed icon from Tabler Icons
+ */
+export function TbArrowNarrowLeftDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 12h6m3 0h1.5m3 0h.5"}},{tag:"path",attr:{d:"M5 12l4 4"},child:[]},{tag:"path",attr:{d:"M5 12l4 -4"},child:[]}]})(props);
 }
 /**
  * ArrowNarrowRight icon from Tabler Icons
@@ -1662,10 +1818,22 @@ export function TbArrowNarrowRight(props: IconBaseProps): VNode<JSX.SVGAttribute
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 12l14 0"}},{tag:"path",attr:{d:"M15 16l4 -4"},child:[]},{tag:"path",attr:{d:"M15 8l4 4"},child:[]}]})(props);
 }
 /**
+ * ArrowNarrowRightDashed icon from Tabler Icons
+ */
+export function TbArrowNarrowRightDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 12h.5m3 0h1.5m3 0h6"}},{tag:"path",attr:{d:"M15 16l4 -4"},child:[]},{tag:"path",attr:{d:"M15 8l4 4"},child:[]}]})(props);
+}
+/**
  * ArrowNarrowUp icon from Tabler Icons
  */
 export function TbArrowNarrowUp(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 5l0 14"}},{tag:"path",attr:{d:"M16 9l-4 -4"},child:[]},{tag:"path",attr:{d:"M8 9l4 -4"},child:[]}]})(props);
+}
+/**
+ * ArrowNarrowUpDashed icon from Tabler Icons
+ */
+export function TbArrowNarrowUpDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 5v6m0 3v1.5m0 3v.5"}},{tag:"path",attr:{d:"M16 9l-4 -4"},child:[]},{tag:"path",attr:{d:"M8 9l4 -4"},child:[]}]})(props);
 }
 /**
  * ArrowRampLeft icon from Tabler Icons
@@ -1722,6 +1890,18 @@ export function TbArrowRightCircle(props: IconBaseProps): VNode<JSX.SVGAttribute
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 15l3 -3l-3 -3"}},{tag:"path",attr:{d:"M5 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]},{tag:"path",attr:{d:"M7 12h14"},child:[]}]})(props);
 }
 /**
+ * ArrowRightCircleFilled icon from Tabler Icons
+ */
+export function TbArrowRightCircleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M5 15a3 3 0 0 1 -3 -3l.005 -.176a3 3 0 0 1 5.825 -.824h10.756l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0l3 3l.097 .112l.071 .11l.031 .062l.034 .081l.024 .076l.03 .148l.005 .118l-.004 .085l-.016 .116l-.03 .111l-.044 .111l-.052 .098l-.074 .104l-.073 .082l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-10.756a3 3 0 0 1 -2.829 2"}}]})(props);
+}
+/**
+ * ArrowRightDashed icon from Tabler Icons
+ */
+export function TbArrowRightDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 12h.5m3 0h1.5m3 0h6"}},{tag:"path",attr:{d:"M13 18l6 -6"},child:[]},{tag:"path",attr:{d:"M13 6l6 6"},child:[]}]})(props);
+}
+/**
  * ArrowRightFromArc icon from Tabler Icons
  */
 export function TbArrowRightFromArc(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -1734,10 +1914,22 @@ export function TbArrowRightRhombus(props: IconBaseProps): VNode<JSX.SVGAttribut
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 12h13"}},{tag:"path",attr:{d:"M18 9l3 3l-3 3"},child:[]},{tag:"path",attr:{d:"M5.5 9.5l-2.5 2.5l2.5 2.5l2.5 -2.5z"},child:[]}]})(props);
 }
 /**
+ * ArrowRightRhombusFilled icon from Tabler Icons
+ */
+export function TbArrowRightRhombusFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18.707 8.293l3 3l.097 .112l.071 .11l.031 .062l.034 .081l.024 .076l.03 .148l.006 .118l-.004 .085l-.016 .116l-.03 .111l-.044 .111l-.052 .098l-.074 .104l-.073 .082l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-10.171l-2.207 2.207a1 1 0 0 1 -1.414 0l-2.5 -2.5a1 1 0 0 1 0 -1.414l2.5 -2.5a1 1 0 0 1 1.414 0l2.208 2.207h10.17l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0"}}]})(props);
+}
+/**
  * ArrowRightSquare icon from Tabler Icons
  */
 export function TbArrowRightSquare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 12l14 0"}},{tag:"path",attr:{d:"M18 15l3 -3l-3 -3"},child:[]},{tag:"path",attr:{d:"M3 10h4v4h-4z"},child:[]}]})(props);
+}
+/**
+ * ArrowRightSquareFilled icon from Tabler Icons
+ */
+export function TbArrowRightSquareFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18.707 8.293l3 3q .054 .053 .097 .112l.071 .11l.054 .114l.035 .105l.03 .148l.006 .118l-.003 .075l-.017 .126l-.03 .111l-.044 .111l-.052 .098l-.074 .104l-.073 .082l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-10.585v1a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v1h10.585l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0"}}]})(props);
 }
 /**
  * ArrowRightTail icon from Tabler Icons
@@ -1836,6 +2028,18 @@ export function TbArrowUpCircle(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 17v-14"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"},child:[]},{tag:"path",attr:{d:"M12 17a2 2 0 1 0 0 4a2 2 0 0 0 0 -4"},child:[]}]})(props);
 }
 /**
+ * ArrowUpCircleFilled icon from Tabler Icons
+ */
+export function TbArrowUpCircleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.852 2.011l.058 -.007l.09 -.004l.075 .003l.126 .017l.111 .03l.111 .044l.098 .052l.104 .074l.082 .073l3 3a1 1 0 1 1 -1.414 1.414l-1.293 -1.292v10.756a3.001 3.001 0 1 1 -2 0v-10.756l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 0 -1.414l3 -3q .053 -.054 .112 -.097l.11 -.071l.114 -.054l.105 -.035z"}}]})(props);
+}
+/**
+ * ArrowUpDashed icon from Tabler Icons
+ */
+export function TbArrowUpDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 5v6m0 3v1.5m0 3v.5"}},{tag:"path",attr:{d:"M18 11l-6 -6"},child:[]},{tag:"path",attr:{d:"M6 11l6 -6"},child:[]}]})(props);
+}
+/**
  * ArrowUpFromArc icon from Tabler Icons
  */
 export function TbArrowUpFromArc(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -1860,6 +2064,12 @@ export function TbArrowUpRhombus(props: IconBaseProps): VNode<JSX.SVGAttributes>
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 16v-13"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"},child:[]},{tag:"path",attr:{d:"M14.5 18.5l-2.5 2.5l-2.5 -2.5l2.5 -2.5z"},child:[]}]})(props);
 }
 /**
+ * ArrowUpRhombusFilled icon from Tabler Icons
+ */
+export function TbArrowUpRhombusFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2l.081 .003l.12 .017l.111 .03l.111 .044l.098 .052l.104 .074l.082 .073l3 3a1 1 0 1 1 -1.414 1.414l-1.293 -1.292v10.17l2.207 2.208a1 1 0 0 1 0 1.414l-2.5 2.5a1 1 0 0 1 -1.414 0l-2.5 -2.5a1 1 0 0 1 0 -1.414l2.207 -2.209v-10.169l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 0 -1.414l3 -3l.112 -.097l.11 -.071l.062 -.031l.081 -.034l.076 -.024l.118 -.025l.058 -.007z"}}]})(props);
+}
+/**
  * ArrowUpRight icon from Tabler Icons
  */
 export function TbArrowUpRight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -1876,6 +2086,12 @@ export function TbArrowUpRightCircle(props: IconBaseProps): VNode<JSX.SVGAttribu
  */
 export function TbArrowUpSquare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 17l0 -14"}},{tag:"path",attr:{d:"M15 6l-3 -3l-3 3"},child:[]},{tag:"path",attr:{d:"M10 21v-4h4v4z"},child:[]}]})(props);
+}
+/**
+ * ArrowUpSquareFilled icon from Tabler Icons
+ */
+export function TbArrowUpSquareFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.852 2.011l.058 -.007l.09 -.004l.075 .003l.126 .017l.111 .03l.111 .044l.098 .052l.104 .074l.082 .073l3 3a1 1 0 1 1 -1.414 1.414l-1.293 -1.292v10.585h1a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h1v-10.585l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 0 -1.414l3 -3q .053 -.054 .112 -.097l.11 -.071l.114 -.054l.105 -.035z"}}]})(props);
 }
 /**
  * ArrowUpTail icon from Tabler Icons
@@ -2136,6 +2352,12 @@ export function TbArrowsTransferUp(props: IconBaseProps): VNode<JSX.SVGAttribute
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 21v-6"}},{tag:"path",attr:{d:"M20 6l-3 -3l-3 3"},child:[]},{tag:"path",attr:{d:"M17 3v18"},child:[]},{tag:"path",attr:{d:"M10 18l-3 3l-3 -3"},child:[]},{tag:"path",attr:{d:"M7 3v2"},child:[]},{tag:"path",attr:{d:"M7 9v2"},child:[]}]})(props);
 }
 /**
+ * ArrowsTransferUpDown icon from Tabler Icons
+ */
+export function TbArrowsTransferUpDown(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 21v-6"}},{tag:"path",attr:{d:"M20 6l-3 -3l-3 3"},child:[]},{tag:"path",attr:{d:"M10 18l-3 3l-3 -3"},child:[]},{tag:"path",attr:{d:"M7 3v2"},child:[]},{tag:"path",attr:{d:"M7 9v2"},child:[]},{tag:"path",attr:{d:"M17 3v6"},child:[]},{tag:"path",attr:{d:"M17 21v-2"},child:[]},{tag:"path",attr:{d:"M17 15v-2"},child:[]}]})(props);
+}
+/**
  * ArrowsUp icon from Tabler Icons
  */
 export function TbArrowsUp(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -2223,7 +2445,7 @@ export function TbAspectRatioOff(props: IconBaseProps): VNode<JSX.SVGAttributes>
  * Assembly icon from Tabler Icons
  */
 export function TbAssembly(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.875 6.27a2.225 2.225 0 0 1 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z"}},{tag:"path",attr:{d:"M15.5 9.422c.312 .18 .503 .515 .5 .876v3.277c0 .364 -.197 .7 -.515 .877l-3 1.922a1 1 0 0 1 -.97 0l-3 -1.922a1 1 0 0 1 -.515 -.876v-3.278c0 -.364 .197 -.7 .514 -.877l3 -1.79c.311 -.174 .69 -.174 1 0l3 1.79h-.014z"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.27 2.27 0 0 1 -2.184 0l-6.75 -4.27a2.23 2.23 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98z"}},{tag:"path",attr:{d:"M15.5 9.422c.312 .18 .503 .515 .5 .876v3.277c0 .364 -.197 .7 -.515 .877l-3 1.922a1 1 0 0 1 -.97 0l-3 -1.922a1 1 0 0 1 -.515 -.876v-3.278c0 -.364 .197 -.7 .514 -.877l3 -1.79c.311 -.174 .69 -.174 1 0l3 1.79h-.014z"},child:[]}]})(props);
 }
 /**
  * AssemblyFilled icon from Tabler Icons
@@ -2235,7 +2457,7 @@ export function TbAssemblyFilled(props: IconBaseProps): VNode<JSX.SVGAttributes>
  * AssemblyOff icon from Tabler Icons
  */
 export function TbAssemblyOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8.703 4.685l2.326 -1.385a2.056 2.056 0 0 1 2 0l6 3.573h-.029a2 2 0 0 1 1 1.747v6.536c0 .248 -.046 .49 -.132 .715m-2.156 1.837l-4.741 3.029a2 2 0 0 1 -1.942 0l-6 -3.833a2 2 0 0 1 -1.029 -1.747v-6.537a2 2 0 0 1 1.029 -1.748l1.157 -.689"}},{tag:"path",attr:{d:"M11.593 7.591c.295 -.133 .637 -.12 .921 .04l3 1.79h-.014c.312 .181 .503 .516 .5 .877v1.702m-1.152 2.86l-2.363 1.514a1 1 0 0 1 -.97 0l-3 -1.922a1 1 0 0 1 -.515 -.876v-3.278c0 -.364 .197 -.7 .514 -.877l.568 -.339"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18.376 18.377l-5.284 3.343a2.27 2.27 0 0 1 -2.184 0l-6.75 -4.27a2.23 2.23 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l1.328 -.783m2.514 -1.487l2.908 -1.71a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .417 -.118 .817 -.33 1.16"}},{tag:"path",attr:{d:"M14.855 14.855l-2.37 1.519a1 1 0 0 1 -.97 0l-3 -1.922a1 1 0 0 1 -.515 -.876v-3.278c0 -.364 .197 -.7 .514 -.877l.563 -.336m2.437 -1.454a1.03 1.03 0 0 1 1 0l3 1.79h-.014c.312 .181 .503 .516 .5 .877v1.702"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
 }
 /**
  * Asset icon from Tabler Icons
@@ -2326,6 +2548,18 @@ export function TbAuth2Fa(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbAutomaticGearbox(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 17v4h1a2 2 0 1 0 0 -4h-1z"}},{tag:"path",attr:{d:"M17 11h1.5a1.5 1.5 0 0 0 0 -3h-1.5v5"},child:[]},{tag:"path",attr:{d:"M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]},{tag:"path",attr:{d:"M5 7v3a1 1 0 0 0 1 1h3v7a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M9 11h4"},child:[]}]})(props);
+}
+/**
+ * AutomaticGearboxFilled icon from Tabler Icons
+ */
+export function TbAutomaticGearboxFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 16a3 3 0 0 1 0 6h-1a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1zm0 4l.117 -.007a1 1 0 0 0 -.117 -1.993zm.5 -13a2.5 2.5 0 1 1 0 5h-.5v1a1 1 0 0 1 -.883 .993l-.117 .007a1 1 0 0 1 -1 -1v-5a1 1 0 0 1 1 -1zm-.5 3h.5a.5 .5 0 1 0 0 -1h-.5zm-5 0a1 1 0 0 1 0 2h-3v6h3a1 1 0 0 1 0 2h-3a2 2 0 0 1 -2 -2v-6h-2a2 2 0 0 1 -1.995 -1.85l-.005 -.15v-2.17a3 3 0 0 1 -2 -2.83l.005 -.176a3 3 0 1 1 3.996 3.005l-.001 2.171z"}}]})(props);
+}
+/**
+ * Automation icon from Tabler Icons
+ */
+export function TbAutomation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 20.693c-.905 .628 -2.36 .292 -2.675 -1.01a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.492 .362 1.716 2.219 .674 3.03"}},{tag:"path",attr:{d:"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"},child:[]},{tag:"path",attr:{d:"M17 22l5 -3l-5 -3z"},child:[]}]})(props);
 }
 /**
  * Avocado icon from Tabler Icons
@@ -2436,6 +2670,12 @@ export function TbBadge(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 17v-13l-5 3l-5 -3v13l5 3z"}}]})(props);
 }
 /**
+ * Badge2K icon from Tabler Icons
+ */
+export function TbBadge2K(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M14 9v6"},child:[]},{tag:"path",attr:{d:"M17 9l-2 3l2 3"},child:[]},{tag:"path",attr:{d:"M15 12h-1"},child:[]},{tag:"path",attr:{d:"M7 9h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h2"},child:[]}]})(props);
+}
+/**
  * Badge3D icon from Tabler Icons
  */
 export function TbBadge3D(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -2446,6 +2686,12 @@ export function TbBadge3D(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBadge3DFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19 4a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3zm-10.5 4h-1.5a1 1 0 1 0 0 2h1.5a.5 .5 0 0 1 .09 .992l-.09 .008h-.5c-1.287 0 -1.332 1.864 -.133 1.993l.133 .007h.5a.5 .5 0 1 1 0 1h-1.5a1 1 0 0 0 0 2h1.5a2.5 2.5 0 0 0 2.5 -2.5l-.005 -.164a2.5 2.5 0 0 0 -.477 -1.312l-.019 -.024l.019 -.024a2.5 2.5 0 0 0 -2.018 -3.976m6.5 0h-1a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h1a3 3 0 0 0 3 -3v-2a3 3 0 0 0 -3 -3m0 2a1 1 0 0 1 1 1v2a1 1 0 0 1 -.883 .993l-.117 .007z"}}]})(props);
+}
+/**
+ * Badge3K icon from Tabler Icons
+ */
+export function TbBadge3K(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M14 9v6"},child:[]},{tag:"path",attr:{d:"M17 9l-2 3l2 3"},child:[]},{tag:"path",attr:{d:"M15 12h-1"},child:[]},{tag:"path",attr:{d:"M7 9.5a.5 .5 0 0 1 .5 -.5h1a1.5 1.5 0 0 1 0 3h-.5h.5a1.5 1.5 0 0 1 0 3h-1a.5 .5 0 0 1 -.5 -.5"},child:[]}]})(props);
 }
 /**
  * Badge4K icon from Tabler Icons
@@ -2460,10 +2706,16 @@ export function TbBadge4KFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19 4a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3zm-9 4a1 1 0 0 0 -1 1v2h-1v-2a1 1 0 1 0 -2 0v2a2 2 0 0 0 2 2h1v2a1 1 0 0 0 2 0v-6a1 1 0 0 0 -1 -1m7.555 .168a1 1 0 0 0 -1.387 .277l-1.168 1.751v-1.196a1 1 0 0 0 -.883 -.993l-.117 -.007a1 1 0 0 0 -1 1v6a1 1 0 0 0 2 0v-1.196l1.168 1.75a1 1 0 0 0 1.286 .337l.1 -.059l.094 -.07a1 1 0 0 0 .184 -1.317l-1.63 -2.445l1.63 -2.445a1 1 0 0 0 -.277 -1.387"}}]})(props);
 }
 /**
+ * Badge5K icon from Tabler Icons
+ */
+export function TbBadge5K(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M14 9v6"},child:[]},{tag:"path",attr:{d:"M17 9l-2 3l2 3"},child:[]},{tag:"path",attr:{d:"M15 12h-1"},child:[]},{tag:"path",attr:{d:"M7 15h2a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1h-2v-3h3"},child:[]}]})(props);
+}
+/**
  * Badge8K icon from Tabler Icons
  */
 export function TbBadge8K(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M14 9v6"},child:[]},{tag:"path",attr:{d:"M17 9l-2 3l2 3"},child:[]},{tag:"path",attr:{d:"M15 12h-1"},child:[]},{tag:"path",attr:{d:"M8.5 12h-.5a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h1a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M14 9v6"},child:[]},{tag:"path",attr:{d:"M17 9l-2 3l2 3"},child:[]},{tag:"path",attr:{d:"M15 12h-1"},child:[]},{tag:"path",attr:{d:"M8.5 12h-.5a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h1a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1zh-.5a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1"},child:[]}]})(props);
 }
 /**
  * Badge8KFilled icon from Tabler Icons
@@ -3039,7 +3291,13 @@ export function TbBattery4Filled(props: IconBaseProps): VNode<JSX.SVGAttributes>
  * BatteryAutomotive icon from Tabler Icons
  */
 export function TbBatteryAutomotive(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 6m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M6 6v-2"},child:[]},{tag:"path",attr:{d:"M19 4l0 2"},child:[]},{tag:"path",attr:{d:"M6.5 13l3 0"},child:[]},{tag:"path",attr:{d:"M14.5 13l3 0"},child:[]},{tag:"path",attr:{d:"M16 11.5l0 3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M6 5v-2"},child:[]},{tag:"path",attr:{d:"M18 3v2"},child:[]},{tag:"path",attr:{d:"M6.5 12h3"},child:[]},{tag:"path",attr:{d:"M14.5 12h3"},child:[]},{tag:"path",attr:{d:"M16 10.5v3"},child:[]}]})(props);
+}
+/**
+ * BatteryAutomotiveFilled icon from Tabler Icons
+ */
+export function TbBatteryAutomotiveFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 2a1 1 0 0 1 1 1v1a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3v-1a1 1 0 1 1 2 0v1h10v-1a1 1 0 0 1 1 -1m-2 7.5a1 1 0 0 0 -1 1v.5h-.5a1 1 0 0 0 0 2h.5v.5a1 1 0 0 0 2 0v-.5h.5a1 1 0 0 0 0 -2h-.5v-.5a1 1 0 0 0 -1 -1m-6.5 1.5h-3a1 1 0 0 0 0 2h3a1 1 0 0 0 0 -2"}}]})(props);
 }
 /**
  * BatteryCharging icon from Tabler Icons
@@ -3060,6 +3318,12 @@ export function TbBatteryEco(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 9a2 2 0 0 1 2 -2h11a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-5.5"}},{tag:"path",attr:{d:"M3 16.143c0 -2.84 2.09 -5.143 4.667 -5.143h2.333v.857c0 2.84 -2.09 5.143 -4.667 5.143h-2.333v-.857z"},child:[]},{tag:"path",attr:{d:"M3 20v-3"},child:[]}]})(props);
 }
 /**
+ * BatteryExclamation icon from Tabler Icons
+ */
+export function TbBatteryExclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 17h8c1.105 0 2 -.895 2 -2v-.5c0 -.276 .224 -.5 .5 -.5s.5 -.224 .5 -.5v-3c0 -.276 -.224 -.5 -.5 -.5s-.5 -.224 -.5 -.5v-.5c0 -1.105 -.895 -2 -2 -2h-11c-1.105 0 -2 .895 -2 2v3"}},{tag:"path",attr:{d:"M5 16v3"},child:[]},{tag:"path",attr:{d:"M5 22v.01"},child:[]}]})(props);
+}
+/**
  * BatteryFilled icon from Tabler Icons
  */
 export function TbBatteryFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -3070,6 +3334,102 @@ export function TbBatteryFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> 
  */
 export function TbBatteryOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M11 7h6a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5m-2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2h1"},child:[]}]})(props);
+}
+/**
+ * BatterySpark icon from Tabler Icons
+ */
+export function TbBatterySpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 17h-6a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2h11a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v1"}},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
+ * BatteryVertical icon from Tabler Icons
+ */
+export function TbBatteryVertical(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 18v-11a2 2 0 0 1 2 -2h.5a.5 .5 0 0 0 .5 -.5a.5 .5 0 0 1 .5 -.5h3a.5 .5 0 0 1 .5 .5a.5 .5 0 0 0 .5 .5h.5a2 2 0 0 1 2 2v11a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2"}}]})(props);
+}
+/**
+ * BatteryVertical1 icon from Tabler Icons
+ */
+export function TbBatteryVertical1(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 18v-11a2 2 0 0 1 2 -2h.5a.5 .5 0 0 0 .5 -.5a.5 .5 0 0 1 .5 -.5h3a.5 .5 0 0 1 .5 .5a.5 .5 0 0 0 .5 .5h.5a2 2 0 0 1 2 2v11a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2"}},{tag:"path",attr:{d:"M10 17h4"},child:[]}]})(props);
+}
+/**
+ * BatteryVertical1Filled icon from Tabler Icons
+ */
+export function TbBatteryVertical1Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M13.5 3a1.5 1.5 0 0 1 1.395 .948l.018 .052h.087a3 3 0 0 1 2.995 2.824l.005 .176v11a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-11a3 3 0 0 1 3 -3h.086l.019 -.052a1.5 1.5 0 0 1 1.25 -.941l.145 -.007zm.5 13h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
+ * BatteryVertical2 icon from Tabler Icons
+ */
+export function TbBatteryVertical2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 18v-11a2 2 0 0 1 2 -2h.5a.5 .5 0 0 0 .5 -.5a.5 .5 0 0 1 .5 -.5h3a.5 .5 0 0 1 .5 .5a.5 .5 0 0 0 .5 .5h.5a2 2 0 0 1 2 2v11a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2"}},{tag:"path",attr:{d:"M10 17h4"},child:[]},{tag:"path",attr:{d:"M10 14h4"},child:[]}]})(props);
+}
+/**
+ * BatteryVertical2Filled icon from Tabler Icons
+ */
+export function TbBatteryVertical2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M13.5 3a1.5 1.5 0 0 1 1.395 .948l.018 .052h.087a3 3 0 0 1 2.995 2.824l.005 .176v11a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-11a3 3 0 0 1 3 -3h.086l.019 -.052a1.5 1.5 0 0 1 1.25 -.941l.145 -.007zm.5 13h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2m0 -3h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
+ * BatteryVertical3 icon from Tabler Icons
+ */
+export function TbBatteryVertical3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 18v-11a2 2 0 0 1 2 -2h.5a.5 .5 0 0 0 .5 -.5a.5 .5 0 0 1 .5 -.5h3a.5 .5 0 0 1 .5 .5a.5 .5 0 0 0 .5 .5h.5a2 2 0 0 1 2 2v11a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2"}},{tag:"path",attr:{d:"M10 17h4"},child:[]},{tag:"path",attr:{d:"M10 14h4"},child:[]},{tag:"path",attr:{d:"M10 11h4"},child:[]}]})(props);
+}
+/**
+ * BatteryVertical3Filled icon from Tabler Icons
+ */
+export function TbBatteryVertical3Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M13.5 3a1.5 1.5 0 0 1 1.395 .948l.018 .052h.087a3 3 0 0 1 2.995 2.824l.005 .176v11a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-11a3 3 0 0 1 3 -3h.086l.019 -.052a1.5 1.5 0 0 1 1.25 -.941l.145 -.007zm.5 13h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2m0 -3h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2m0 -3h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
+ * BatteryVertical4 icon from Tabler Icons
+ */
+export function TbBatteryVertical4(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 18v-11a2 2 0 0 1 2 -2h.5a.5 .5 0 0 0 .5 -.5a.5 .5 0 0 1 .5 -.5h3a.5 .5 0 0 1 .5 .5a.5 .5 0 0 0 .5 .5h.5a2 2 0 0 1 2 2v11a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2"}},{tag:"path",attr:{d:"M10 17h4"},child:[]},{tag:"path",attr:{d:"M10 14h4"},child:[]},{tag:"path",attr:{d:"M10 11h4"},child:[]},{tag:"path",attr:{d:"M10 8h4"},child:[]}]})(props);
+}
+/**
+ * BatteryVertical4Filled icon from Tabler Icons
+ */
+export function TbBatteryVertical4Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M13.5 3a1.5 1.5 0 0 1 1.395 .948l.018 .052h.087a3 3 0 0 1 2.995 2.824l.005 .176v11a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-11a3 3 0 0 1 3 -3h.086l.019 -.052a1.5 1.5 0 0 1 1.25 -.941l.145 -.007zm.5 13h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2m0 -3h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2m0 -3h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2m0 -3h-4a1 1 0 1 0 0 2h4a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
+ * BatteryVerticalCharging icon from Tabler Icons
+ */
+export function TbBatteryVerticalCharging(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 18v-11a2 2 0 0 1 2 -2h.5a.5 .5 0 0 0 .5 -.5a.5 .5 0 0 1 .5 -.5h3a.5 .5 0 0 1 .5 .5a.5 .5 0 0 0 .5 .5h.5a2 2 0 0 1 2 2v11a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2"}},{tag:"path",attr:{d:"M12.667 8l-2.667 4h4l-2.667 4"},child:[]}]})(props);
+}
+/**
+ * BatteryVerticalCharging2 icon from Tabler Icons
+ */
+export function TbBatteryVerticalCharging2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 18v-11c0 -1.105 .895 -2 2 -2h.5c.276 0 .5 -.224 .5 -.5s.224 -.5 .5 -.5h3c.276 0 .5 .224 .5 .5s.224 .5 .5 .5h.5c1.105 0 2 .895 2 2v1m-10 10c0 1.105 .895 2 2 2h1"}},{tag:"path",attr:{d:"M12 14h6v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M15 21v-3"},child:[]},{tag:"path",attr:{d:"M13 14v-2.5"},child:[]},{tag:"path",attr:{d:"M17 14v-2.5"},child:[]}]})(props);
+}
+/**
+ * BatteryVerticalEco icon from Tabler Icons
+ */
+export function TbBatteryVerticalEco(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 18v-11c0 -1.105 .895 -2 2 -2h.5c.276 0 .5 -.224 .5 -.5s.224 -.5 .5 -.5h3c.276 0 .5 .224 .5 .5s.224 .5 .5 .5h.5c1.105 0 2 .895 2 2v1m-8 12c-1.105 0 -2 -.895 -2 -2"}},{tag:"path",attr:{d:"M13 17.143c0 -2.84 2.09 -5.143 4.667 -5.143h2.333v.857c0 2.84 -2.09 5.143 -4.667 5.143h-2.333z"},child:[]},{tag:"path",attr:{d:"M13 21v-3"},child:[]}]})(props);
+}
+/**
+ * BatteryVerticalExclamation icon from Tabler Icons
+ */
+export function TbBatteryVerticalExclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 12v-5c0 -1.105 -.895 -2 -2 -2h-.5c-.276 0 -.5 -.224 -.5 -.5s-.224 -.5 -.5 -.5h-3c-.276 0 -.5 .224 -.5 .5s-.224 .5 -.5 .5h-.5c-1.105 0 -2 .895 -2 2v11c0 1.105 .895 2 2 2h6"}},{tag:"path",attr:{d:"M19 16v3"},child:[]},{tag:"path",attr:{d:"M19 22v.01"},child:[]}]})(props);
+}
+/**
+ * BatteryVerticalFilled icon from Tabler Icons
+ */
+export function TbBatteryVerticalFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M13.5 3a1.5 1.5 0 0 1 1.395 .948l.018 .052h.087a3 3 0 0 1 2.995 2.824l.005 .176v11a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-11a3 3 0 0 1 3 -3h.086l.019 -.052a1.5 1.5 0 0 1 1.25 -.941l.145 -.007z"}}]})(props);
+}
+/**
+ * BatteryVerticalOff icon from Tabler Icons
+ */
+export function TbBatteryVerticalOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M17 13v-6a2 2 0 0 0 -2 -2h-.5a.5 .5 0 0 1 -.5 -.5a.5 .5 0 0 0 -.5 -.5h-3a.5 .5 0 0 0 -.5 .5a.5 .5 0 0 1 -.5 .5h-.5m-2 2v11a2 2 0 0 0 2 2h6a2 2 0 0 0 2 -2v-1"},child:[]}]})(props);
 }
 /**
  * Beach icon from Tabler Icons
@@ -3342,6 +3702,12 @@ export function TbBike(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M19 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"},child:[]},{tag:"path",attr:{d:"M12 19l0 -4l-3 -3l5 -4l2 3l3 0"},child:[]},{tag:"path",attr:{d:"M17 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]}]})(props);
 }
 /**
+ * BikeFilled icon from Tabler Icons
+ */
+export function TbBikeFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M5 14a4 4 0 1 1 -4 4l.005 -.2a4 4 0 0 1 3.995 -3.8"}},{tag:"path",attr:{d:"M19 14a4 4 0 1 1 -4 4l.005 -.2a4 4 0 0 1 3.995 -3.8"},child:[]},{tag:"path",attr:{d:"M14.832 7.445l1.703 2.555h2.465a1 1 0 0 1 .993 .883l.007 .117a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -.832 -.445l-1.396 -2.093l-3.275 2.62l2.21 2.21a1 1 0 0 1 .284 .577l.009 .131v4a1 1 0 0 1 -2 0v-3.585l-2.707 -2.708a1 1 0 0 1 -.01 -1.403l.092 -.085l5 -4a1 1 0 0 1 1.457 .226"},child:[]},{tag:"path",attr:{d:"M17 3a2 2 0 1 1 -2 2l.005 -.15a2 2 0 0 1 1.995 -1.85"},child:[]}]})(props);
+}
+/**
  * BikeOff icon from Tabler Icons
  */
 export function TbBikeOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -3370,6 +3736,30 @@ export function TbBinaryTree(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBinaryTree2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{tag:"path",attr:{d:"M7 14a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"},child:[]},{tag:"path",attr:{d:"M21 14a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"},child:[]},{tag:"path",attr:{d:"M14 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"},child:[]},{tag:"path",attr:{d:"M12 8v8"},child:[]},{tag:"path",attr:{d:"M6.316 12.496l4.368 -4.992"},child:[]},{tag:"path",attr:{d:"M17.684 12.496l-4.366 -4.99"},child:[]}]})(props);
+}
+/**
+ * BinaryTree2Filled icon from Tabler Icons
+ */
+export function TbBinaryTree2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 3a3 3 0 0 1 2.616 4.47l3.274 3.742a3 3 0 1 1 -1.505 1.318l-3.275 -3.743l-.11 .042v6.342a3.001 3.001 0 1 1 -2 0v-6.342l-.111 -.041l-3.274 3.742a3 3 0 1 1 -1.505 -1.318l3.273 -3.742a3 3 0 0 1 2.617 -4.47"}}]})(props);
+}
+/**
+ * BinaryTreeFilled icon from Tabler Icons
+ */
+export function TbBinaryTreeFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M14 1a3 3 0 0 1 2.348 4.868l2 3.203q .317 -.071 .652 -.071a3 3 0 1 1 -2.347 1.132l-2 -3.203a3 3 0 0 1 -1.304 0l-2.001 3.203c.408 .513 .652 1.162 .652 1.868s-.244 1.356 -.653 1.868l2.002 3.203q .315 -.071 .651 -.071a3 3 0 1 1 -2.347 1.132l-2.003 -3.203a3 3 0 0 1 -1.302 0l-2.002 3.203a3 3 0 1 1 -1.696 -1.06l2.002 -3.204a3 3 0 0 1 2.998 -4.798l2.002 -3.202a3 3 0 0 1 2.348 -4.868"}}]})(props);
+}
+/**
+ * Binoculars icon from Tabler Icons
+ */
+export function TbBinoculars(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M17 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"},child:[]},{tag:"path",attr:{d:"M16.346 9.17l-.729 -1.261c-.16 -.248 -1.056 -.203 -1.117 .091l-.177 1.38"},child:[]},{tag:"path",attr:{d:"M19.761 14.813l-2.84 -5.133c-.189 -.31 -.592 -.68 -1.421 -.68c-.828 0 -1.5 .448 -1.5 1v6"},child:[]},{tag:"path",attr:{d:"M7.654 9.17l.729 -1.261c.16 -.249 1.056 -.203 1.117 .091l.177 1.38"},child:[]},{tag:"path",attr:{d:"M4.239 14.813l2.84 -5.133c.189 -.31 .592 -.68 1.421 -.68c.828 0 1.5 .448 1.5 1v6"},child:[]},{tag:"rect",attr:{"width":"4","height":"2",x:"10",y:"12"},child:[]}]})(props);
+}
+/**
+ * BinocularsFilled icon from Tabler Icons
+ */
+export function TbBinocularsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8.887 6.748c-.163 0 -.337 .016 -.506 .057c-.172 .041 -.582 .165 -.838 .562l-.014 .02l-.607 1.05c-.307 .205 -.534 .46 -.693 .717l-.014 .02l-2.572 4.65a4.009 4.009 0 0 0 -.274 .494l-.006 .01a3.99 3.99 0 0 0 -.363 1.672a4 4 0 0 0 8 0v-1h2v1a4 4 0 1 0 7.635 -1.67l-.004 -.012a4.008 4.008 0 0 0 -.274 -.494l-2.572 -4.65l-.014 -.02a2.337 2.337 0 0 0 -.693 -.716l-.607 -1.051l-.014 -.02c-.256 -.397 -.667 -.52 -.838 -.562a2.225 2.225 0 0 0 -.664 -.051a2.06 2.06 0 0 0 -.68 .156c-.184 .081 -.638 .327 -.754 .889l-.007 .037l-.14 1.1c-.22 .283 -.374 .64 -.374 1.064v1h-2v-1c0 -.424 -.154 -.781 -.373 -1.064l-.14 -1.1l-.008 -.037c-.116 -.562 -.57 -.808 -.754 -.889a2.06 2.06 0 0 0 -.68 -.156a2.374 2.374 0 0 0 -.158 -.006zm-1.887 7.252a2 2 0 1 1 -1.838 1.209l.19 -.342c.36 -.523 .964 -.867 1.648 -.867zm10 0c.684 0 1.288 .344 1.648 .867l.19 .342a2 2 0 1 1 -1.838 -1.209z"}}]})(props);
 }
 /**
  * Biohazard icon from Tabler Icons
@@ -3438,6 +3828,12 @@ export function TbBlender(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 10h-3a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h10.802a1 1 0 0 1 .984 1.179l-1.786 9.821"}},{tag:"path",attr:{d:"M8 4l2 11"},child:[]},{tag:"path",attr:{d:"M11 15h4a3 3 0 0 1 3 3v2a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-2a3 3 0 0 1 3 -3z"},child:[]},{tag:"path",attr:{d:"M12 4v-1h2v1"},child:[]},{tag:"path",attr:{d:"M13 18v.01"},child:[]}]})(props);
 }
 /**
+ * BlenderFilled icon from Tabler Icons
+ */
+export function TbBlenderFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M15 14c.899 0 1.728 .296 2.396 .797l-.12 -.086q .101 .069 .196 .144l-.076 -.058q .07 .053 .14 .109l-.064 -.05q .072 .055 .14 .115l-.077 -.065a4 4 0 0 1 .565 .566l-.065 -.078q .061 .072 .12 .147l-.055 -.07q .057 .071 .111 .144l-.056 -.074q .066 .084 .127 .172l-.07 -.098q .058 .078 .112 .16l-.042 -.062q .054 .078 .104 .157l-.062 -.096q .06 .09 .117 .185l-.055 -.089l.09 .15l-.035 -.061a4 4 0 0 1 .338 .727l-.055 -.15q .039 .1 .073 .201l-.018 -.051q .033 .093 .06 .188l-.042 -.137q .033 .1 .061 .204l-.019 -.067q .027 .091 .05 .184l-.03 -.117q .03 .114 .055 .23l-.025 -.113q .026 .107 .045 .215l-.02 -.101q .021 .1 .037 .201l-.017 -.1q .018 .095 .03 .19l-.013 -.09a4 4 0 0 1 .026 .196l.017 .205l.006 .226v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-2q 0 -.273 .036 -.537l-.013 .105a4 4 0 0 1 .026 -.194l-.013 .09a4 4 0 0 1 .03 -.191l-.017 .1q .015 -.1 .037 -.2l-.02 .1q .02 -.108 .046 -.215l-.026 .114q .024 -.117 .056 -.23l-.03 .116a4 4 0 0 1 .049 -.184l-.02 .067q .03 -.104 .062 -.204l-.042 .137q .027 -.096 .06 -.188l-.018 .051a4 4 0 0 1 .32 -.717l-.064 .117q .048 -.09 .1 -.178l-.035 .06l.09 -.15l-.055 .09q .055 -.094 .117 -.185l-.062 .096q .05 -.08 .104 -.157l-.042 .061q .054 -.08 .113 -.16l-.071 .1q .06 -.09 .127 -.173l-.056 .074q .054 -.073 .111 -.143l-.055 .069a4 4 0 0 1 .542 -.57l-.072 .064q .073 -.066 .15 -.129l-.078 .065a4 4 0 0 1 .14 -.116l-.062 .051q .068 -.056 .139 -.11l-.076 .06q .096 -.076 .195 -.145l-.12 .086q .07 -.053 .142 -.101l-.022 .015q .072 -.05 .145 -.096a4 4 0 0 1 2.132 -.615zm-2 3a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m1 -15a1 1 0 0 1 1 .999l1.802 .001a2 2 0 0 1 1.968 2.358l-1.49 8.191a5 5 0 0 0 -2.28 -.549h-4c-.822 0 -1.597 .198 -2.28 .55l-.464 -2.551l-2.256 .001a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2l5 -.001l.007 -.116a1 1 0 0 1 .993 -.883zm-6.835 2.999l-1.165 .001v4l1.893 -.001z"}}]})(props);
+}
+/**
  * Blob icon from Tabler Icons
  */
 export function TbBlob(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -3447,13 +3843,19 @@ export function TbBlob(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * BlobFilled icon from Tabler Icons
  */
 export function TbBlobFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 3c2.78 0 5.349 1.556 7.243 4.083c1.727 2.305 2.757 5.257 2.757 8.015c0 1.47 -.293 2.717 -.903 3.745c-.602 1.014 -1.479 1.758 -2.582 2.256c-1.593 .719 -3.333 .901 -6.515 .901s-4.922 -.182 -6.515 -.9c-1.103 -.499 -1.98 -1.243 -2.582 -2.257c-.61 -1.028 -.903 -2.274 -.903 -3.745c0 -2.758 1.03 -5.71 2.757 -8.015c1.894 -2.527 4.463 -4.083 7.243 -4.083"}}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 3c2.779 0 5.349 1.556 7.243 4.082c1.728 2.306 2.757 5.259 2.757 8.016c0 1.47 -.293 2.718 -.903 3.745c-.603 1.014 -1.479 1.758 -2.582 2.257c-1.593 .718 -3.335 .9 -6.515 .9c-3.175 0 -4.92 -.183 -6.514 -.9c-1.012 -.457 -1.833 -1.12 -2.426 -2.01l-.157 -.247c-.61 -1.028 -.903 -2.274 -.903 -3.745c0 -2.757 1.03 -5.71 2.757 -8.016c1.893 -2.526 4.463 -4.082 7.243 -4.082"}}]})(props);
 }
 /**
  * Blockquote icon from Tabler Icons
  */
 export function TbBlockquote(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 15h15"}},{tag:"path",attr:{d:"M21 19h-15"},child:[]},{tag:"path",attr:{d:"M15 11h6"},child:[]},{tag:"path",attr:{d:"M21 7h-6"},child:[]},{tag:"path",attr:{d:"M9 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2"},child:[]},{tag:"path",attr:{d:"M3 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2"},child:[]}]})(props);
+}
+/**
+ * Blocks icon from Tabler Icons
+ */
+export function TbBlocks(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 4a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M3 14h12a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v12"},child:[]}]})(props);
 }
 /**
  * Bluetooth icon from Tabler Icons
@@ -3522,6 +3924,12 @@ export function TbBolt(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11"}}]})(props);
 }
 /**
+ * BoltFilled icon from Tabler Icons
+ */
+export function TbBoltFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M13 2l.018 .001l.016 .001l.083 .005l.011 .002h.011l.038 .009l.052 .008l.016 .006l.011 .001l.029 .011l.052 .014l.019 .009l.015 .004l.028 .014l.04 .017l.021 .012l.022 .01l.023 .015l.031 .017l.034 .024l.018 .011l.013 .012l.024 .017l.038 .034l.022 .017l.008 .01l.014 .012l.036 .041l.026 .027l.006 .009c.12 .147 .196 .322 .218 .513l.001 .012l.002 .041l.004 .064v6h5a1 1 0 0 1 .868 1.497l-.06 .091l-8 11c-.568 .783 -1.808 .38 -1.808 -.588v-6h-5a1 1 0 0 1 -.868 -1.497l.06 -.091l8 -11l.01 -.013l.018 -.024l.033 -.038l.018 -.022l.009 -.008l.013 -.014l.04 -.036l.028 -.026l.008 -.006a1 1 0 0 1 .402 -.199l.011 -.001l.027 -.005l.074 -.013l.011 -.001l.041 -.002z"}}]})(props);
+}
+/**
  * BoltOff icon from Tabler Icons
  */
 export function TbBoltOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -3562,6 +3970,12 @@ export function TbBoneOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBong(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 3v8.416c.134 .059 .265 .123 .393 .193l3.607 -3.609l2 2l-3.608 3.608a5 5 0 1 1 -6.392 -2.192v-8.416h4z"}},{tag:"path",attr:{d:"M8 3h6"},child:[]},{tag:"path",attr:{d:"M6.1 17h9.8"},child:[]}]})(props);
+}
+/**
+ * BongFilled icon from Tabler Icons
+ */
+export function TbBongFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M14 2a1 1 0 0 1 0 2v5.587l2.293 -2.294a1 1 0 0 1 1.32 -.083l.094 .083l2 2a1 1 0 0 1 0 1.414l-3.116 3.115l.086 .233c.311 .907 .396 1.865 .263 2.794l-.062 .36l-.012 .052a6 6 0 0 1 -1.121 2.41l-.16 .199a6 6 0 0 1 -10.396 -2.378l-.068 -.288l-.009 -.046a6 6 0 0 1 2.833 -6.324l.055 -.031v-6.803a1 1 0 1 1 0 -2zm-2 2h-2v7.416a1 1 0 0 1 -.483 .856l-.117 .06a4 4 0 0 0 -2.4 3.668h8a4 4 0 0 0 -.486 -1.914a1 1 0 0 1 .17 -1.185l2.902 -2.901l-.586 -.586l-2.9 2.902a1 1 0 0 1 -1.067 .226l-.12 -.056a4 4 0 0 0 -.316 -.155a1 1 0 0 1 -.597 -.915z"}}]})(props);
 }
 /**
  * BongOff icon from Tabler Icons
@@ -3924,6 +4338,12 @@ export function TbBowlSpoonFilled(props: IconBaseProps): VNode<JSX.SVGAttributes
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M20 10a2 2 0 0 1 2 2v.5c0 1.694 -2.247 5.49 -3.983 6.983l-.017 .013v.504a2 2 0 0 1 -1.85 1.995l-.15 .005h-8a2 2 0 0 1 -2 -2v-.496l-.065 -.053c-1.76 -1.496 -3.794 -4.965 -3.928 -6.77l-.007 -.181v-.5a2 2 0 0 1 2 -2z"}},{tag:"path",attr:{d:"M8 2c1.71 0 3.237 .787 3.785 2h8.215a1 1 0 0 1 0 2l-8.216 .001c-.548 1.213 -2.074 1.999 -3.784 1.999c-2.144 0 -4 -1.237 -4 -3s1.856 -3 4 -3"},child:[]}]})(props);
 }
 /**
+ * Bowling icon from Tabler Icons
+ */
+export function TbBowling(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 11v.01"}},{tag:"path",attr:{d:"M11 10v.01"},child:[]},{tag:"path",attr:{d:"M10 14v.01"},child:[]},{tag:"path",attr:{d:"M11.059 6.07a8 8 0 1 0 .32 15.81"},child:[]},{tag:"path",attr:{d:"M15.969 9h4"},child:[]},{tag:"path",attr:{d:"M14.969 5c0 1.5 1 2 1 4c0 2.5 -2 4.5 -2 7c0 2.6 1.9 6 1.9 6h4.1s2 -3.4 2 -6c0 -2.5 -2 -4.5 -2 -7c0 -2 1 -2.5 1 -4a3 3 0 1 0 -6 0"},child:[]}]})(props);
+}
+/**
  * Box icon from Tabler Icons
  */
 export function TbBox(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -4122,6 +4542,12 @@ export function TbBoxMultiple9(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M14 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]},{tag:"path",attr:{d:"M12 12a2 2 0 1 0 4 0v-4"},child:[]},{tag:"path",attr:{d:"M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2"},child:[]}]})(props);
 }
 /**
+ * BoxMultipleFilled icon from Tabler Icons
+ */
+export function TbBoxMultipleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6 5.667a3.667 3.667 0 0 1 3.667 -3.667h8.666a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667z"}},{tag:"path",attr:{d:"M2 9c0 -1.094 .533 -1.828 1.514 -2.374a1 1 0 1 1 .972 1.748c-.398 .221 -.486 .342 -.486 .626v10c0 .548 .452 1 1 1h9.998c.32 0 .618 -.154 .805 -.407l.065 -.1a1 1 0 1 1 1.738 .99a3 3 0 0 1 -2.606 1.517h-10c-1.652 0 -3 -1.348 -3 -3z"},child:[]}]})(props);
+}
+/**
  * BoxOff icon from Tabler Icons
  */
 export function TbBoxOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -4218,6 +4644,42 @@ export function TbBrandAdobe(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12.893 4.514l7.977 14a.993 .993 0 0 1 -.394 1.365a1.04 1.04 0 0 1 -.5 .127h-3.476l-4.5 -8l-2.5 4h1.5l2 4h-8.977c-.565 0 -1.023 -.45 -1.023 -1c0 -.171 .045 -.34 .13 -.49l7.977 -13.993a1.034 1.034 0 0 1 1.786 0z"}}]})(props);
 }
 /**
+ * BrandAdobeAfterEffect icon from Tabler Icons
+ */
+export function TbBrandAdobeAfterEffect(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12c0 -4.243 0 -6.364 1.318 -7.682s3.44 -1.318 7.682 -1.318s6.364 0 7.682 1.318s1.318 3.44 1.318 7.682s0 6.364 -1.318 7.682s-3.44 1.318 -7.682 1.318s-6.364 0 -7.682 -1.318s-1.318 -3.44 -1.318 -7.682"}},{tag:"path",attr:{d:"M12 15.79l-.82 -2.653m-4.864 2.652l.82 -2.652m0 0l.686 -2.218c.559 -1.806 .838 -2.708 1.336 -2.708s.777 .902 1.335 2.708l.686 2.218m-4.043 0h4.043"},child:[]},{tag:"path",attr:{d:"M13.895 12.824v1.07a1.895 1.895 0 0 0 3.54 .942m-3.54 -2.012v-.824a1.895 1.895 0 1 1 3.79 0v.824z"},child:[]}]})(props);
+}
+/**
+ * BrandAdobeIllustrator icon from Tabler Icons
+ */
+export function TbBrandAdobeIllustrator(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12c0 -4.243 0 -6.364 1.318 -7.682s3.44 -1.318 7.682 -1.318s6.364 0 7.682 1.318s1.318 3.44 1.318 7.682s0 6.364 -1.318 7.682s-3.44 1.318 -7.682 1.318s-6.364 0 -7.682 -1.318s-1.318 -3.44 -1.318 -7.682"}},{tag:"path",attr:{d:"M12.947 15.79l-.82 -2.653m-4.864 2.652l.82 -2.652m0 0l.687 -2.218c.558 -1.806 .838 -2.708 1.335 -2.708c.498 0 .777 .902 1.336 2.708l.686 2.218m-4.043 0h4.043"},child:[]},{tag:"path",attr:{d:"M15.789 15.789v-4.736"},child:[]},{tag:"path",attr:{d:"M15.789 8.684v-.473"},child:[]}]})(props);
+}
+/**
+ * BrandAdobeIndesign icon from Tabler Icons
+ */
+export function TbBrandAdobeIndesign(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12c0 -4.243 0 -6.364 1.318 -7.682s3.44 -1.318 7.682 -1.318s6.364 0 7.682 1.318s1.318 3.44 1.318 7.682s0 6.364 -1.318 7.682s-3.44 1.318 -7.682 1.318s-6.364 0 -7.682 -1.318s-1.318 -3.44 -1.318 -7.682"}},{tag:"path",attr:{d:"M14.842 11.053v3.79c0 1.044 -.49 .946 -1.42 .946a2.368 2.368 0 0 1 0 -4.736zm0 0v-2.843"},child:[]},{tag:"path",attr:{d:"M8.211 8.211v7.578"},child:[]}]})(props);
+}
+/**
+ * BrandAdobePhotoshop icon from Tabler Icons
+ */
+export function TbBrandAdobePhotoshop(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12c0 -4.243 0 -6.364 1.318 -7.682s3.44 -1.318 7.682 -1.318s6.364 0 7.682 1.318s1.318 3.44 1.318 7.682s0 6.364 -1.318 7.682s-3.44 1.318 -7.682 1.318s-6.364 0 -7.682 -1.318s-1.318 -3.44 -1.318 -7.682"}},{tag:"path",attr:{d:"M6.79 15.79v-3.79m0 0v-2.724c0 -.11 0 -.165 .004 -.211c.044 -.45 .4 -.806 .85 -.85c.046 -.004 .101 -.004 .211 -.004h1.303a1.895 1.895 0 1 1 0 3.789z"},child:[]},{tag:"path",attr:{d:"M17.178 11.263c-.164 -.659 -.935 -1.158 -1.862 -1.158c-1.047 0 -1.895 .637 -1.895 1.421c0 .785 .848 1.421 1.895 1.421c1.046 0 1.895 .637 1.895 1.421c0 .785 -.849 1.421 -1.895 1.421c-.93 0 -1.704 -.502 -1.864 -1.165"},child:[]}]})(props);
+}
+/**
+ * BrandAdobePremier icon from Tabler Icons
+ */
+export function TbBrandAdobePremier(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12c0 -4.243 0 -6.364 1.318 -7.682s3.44 -1.318 7.682 -1.318s6.364 0 7.682 1.318s1.318 3.44 1.318 7.682s0 6.364 -1.318 7.682s-3.44 1.318 -7.682 1.318s-6.364 0 -7.682 -1.318s-1.318 -3.44 -1.318 -7.682"}},{tag:"path",attr:{d:"M7.263 15.79v-3.79m0 0v-3.248c0 -.335 .222 -.541 .542 -.541h1.353a1.895 1.895 0 1 1 0 3.789z"},child:[]},{tag:"path",attr:{d:"M13.895 10.579v1.895m0 0v3.315m0 -3.315c.531 -.709 1.026 -1.592 1.894 -1.832q .22 -.062 .474 -.063"},child:[]}]})(props);
+}
+/**
+ * BrandAdobeXd icon from Tabler Icons
+ */
+export function TbBrandAdobeXd(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12c0 -4.243 0 -6.364 1.318 -7.682s3.44 -1.318 7.682 -1.318s6.364 0 7.682 1.318s1.318 3.44 1.318 7.682s0 6.364 -1.318 7.682s-3.44 1.318 -7.682 1.318s-6.364 0 -7.682 -1.318s-1.318 -3.44 -1.318 -7.682"}},{tag:"path",attr:{d:"M6.316 8.21l5.684 7.58m-5.684 0l5.684 -7.58"},child:[]},{tag:"path",attr:{d:"M17.684 11.053v3.79c0 1.044 -.49 .946 -1.42 .946a2.368 2.368 0 0 1 0 -4.736zm0 0v-2.843"},child:[]}]})(props);
+}
+/**
  * BrandAdonisJs icon from Tabler Icons
  */
 export function TbBrandAdonisJs(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -4266,6 +4728,12 @@ export function TbBrandAmd(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 16v-7c0 -.566 -.434 -1 -1 -1h-7l-5 -5h17c.566 0 1 .434 1 1v17l-5 -5z"}},{tag:"path",attr:{d:"M11.293 20.707l4.707 -4.707h-7a1 1 0 0 1 -1 -1v-7l-4.707 4.707a1 1 0 0 0 -.293 .707v6.586a1 1 0 0 0 1 1h6.586a1 1 0 0 0 .707 -.293z"},child:[]}]})(props);
 }
 /**
+ * BrandAmie icon from Tabler Icons
+ */
+export function TbBrandAmie(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 8.5c0 1.33 .472 2.55 1.257 3.5a5.5 5.5 0 0 0 7.743 7.743a5.5 5.5 0 0 0 7.743 -7.743a5.5 5.5 0 0 0 -7.743 -7.743a5.5 5.5 0 0 0 -9 4.243"}},{tag:"path",attr:{d:"M10 9.5c0 -.828 .895 -1.5 2 -1.5s2 .672 2 1.5v5c0 .828 -.895 1.5 -2 1.5s-2 -.672 -2 -1.5z"},child:[]}]})(props);
+}
+/**
  * BrandAmigo icon from Tabler Icons
  */
 export function TbBrandAmigo(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -4288,6 +4756,12 @@ export function TbBrandAndroid(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBrandAngular(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5.428 17.245l6.076 3.471a1 1 0 0 0 .992 0l6.076 -3.471a1 1 0 0 0 .495 -.734l1.323 -9.704a1 1 0 0 0 -.658 -1.078l-7.4 -2.612a1 1 0 0 0 -.665 0l-7.399 2.613a1 1 0 0 0 -.658 1.078l1.323 9.704a1 1 0 0 0 .495 .734z"}},{tag:"path",attr:{d:"M9 15l3 -8l3 8"},child:[]},{tag:"path",attr:{d:"M10 13h4"},child:[]}]})(props);
+}
+/**
+ * BrandAngularFilled icon from Tabler Icons
+ */
+export function TbBrandAngularFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.665 2.174l7.4 2.612a2 2 0 0 1 1.316 2.156l-1.323 9.703a2 2 0 0 1 -.99 1.468l-6.076 3.471a2 2 0 0 1 -1.984 0l-6.076 -3.47a2 2 0 0 1 -.96 -1.3l-.03 -.167l-1.322 -9.704a2 2 0 0 1 1.316 -2.156l7.4 -2.613a2 2 0 0 1 1.33 0m.271 4.475c-.324 -.865 -1.548 -.865 -1.872 0l-3 8a1 1 0 0 0 .585 1.287l.111 .035a1 1 0 0 0 1.176 -.62l.506 -1.351h3.113l.508 1.352a1 1 0 0 0 1.176 .62l.111 -.035a1 1 0 0 0 .585 -1.287zm-.937 3.199l.807 2.151h-1.614z"}}]})(props);
 }
 /**
  * BrandAnsible icon from Tabler Icons
@@ -4324,6 +4798,12 @@ export function TbBrandAppleArcade(props: IconBaseProps): VNode<JSX.SVGAttribute
  */
 export function TbBrandAppleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M15.079 5.999l.239 .012c1.43 .097 3.434 1.013 4.508 2.586a1 1 0 0 1 -.344 1.44c-.05 .028 -.372 .158 -.497 .217a4.15 4.15 0 0 0 -.722 .431c-.614 .461 -.948 1.009 -.942 1.694c.01 .885 .339 1.454 .907 1.846c.208 .143 .436 .253 .666 .33c.126 .043 .426 .116 .444 .122a1 1 0 0 1 .662 .942c0 2.621 -3.04 6.381 -5.286 6.381c-.79 0 -1.272 -.091 -1.983 -.315l-.098 -.031c-.463 -.146 -.702 -.192 -1.133 -.192c-.52 0 -.863 .06 -1.518 .237l-.197 .053c-.575 .153 -.964 .226 -1.5 .248c-2.749 0 -5.285 -5.093 -5.285 -9.072c0 -3.87 1.786 -6.92 5.286 -6.92c.297 0 .598 .045 .909 .128c.403 .107 .774 .26 1.296 .508c.787 .374 .948 .44 1.009 .44h.016c.03 -.003 .128 -.047 1.056 -.457c1.061 -.467 1.864 -.685 2.746 -.616l-.24 -.012z"}},{tag:"path",attr:{d:"M14 1a1 1 0 0 1 1 1a3 3 0 0 1 -3 3a1 1 0 0 1 -1 -1a3 3 0 0 1 3 -3z"},child:[]}]})(props);
+}
+/**
+ * BrandAppleNews icon from Tabler Icons
+ */
+export function TbBrandAppleNews(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14l6 6h-6z"}},{tag:"path",attr:{d:"M20 10l-6 -6h6z"},child:[]},{tag:"path",attr:{d:"M4 4v4l12 12h4v-4l-12 -12z"},child:[]}]})(props);
 }
 /**
  * BrandApplePodcast icon from Tabler Icons
@@ -4410,6 +4890,12 @@ export function TbBrandBeats(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12.5 12.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0"},child:[]},{tag:"path",attr:{d:"M9 12v-8"},child:[]}]})(props);
 }
 /**
+ * BrandBebo icon from Tabler Icons
+ */
+export function TbBrandBebo(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 17.5a3.5 3.5 0 0 0 3.5 -3.5c0 -1.838 -1.159 -3.002 -3.005 -3.372c-.746 -.15 -1.37 -.745 -1.37 -1.506c0 -1.142 .934 -2.095 2.058 -1.894c3.61 .645 5.817 3.058 5.817 6.772a7 7 0 1 1 -14 0v-9.25a1.75 1.75 0 1 1 3.5 0v9.25a3.5 3.5 0 0 0 3.5 3.5"}}]})(props);
+}
+/**
  * BrandBehance icon from Tabler Icons
  */
 export function TbBrandBehance(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -4438,6 +4924,12 @@ export function TbBrandBing(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBrandBitbucket(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3.648 4a.64 .64 0 0 0 -.64 .744l3.14 14.528c.07 .417 .43 .724 .852 .728h10a.644 .644 0 0 0 .642 -.539l3.35 -14.71a.641 .641 0 0 0 -.64 -.744l-16.704 -.007z"}},{tag:"path",attr:{d:"M14 15h-4l-1 -6h6z"},child:[]}]})(props);
+}
+/**
+ * BrandBitbucketFilled icon from Tabler Icons
+ */
+export function TbBrandBitbucketFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M3.661 3l16.68 .007c.484 -.005 .946 .203 1.262 .57c.316 .368 .454 .856 .364 1.396l-3.338 14.651a1.64 1.64 0 0 1 -1.629 1.376h-10.01c-.906 -.009 -1.678 -.668 -1.82 -1.517l-3.148 -14.576a1.64 1.64 0 0 1 1.639 -1.907m11.339 5h-6a1 1 0 0 0 -.986 1.164l1 6a1 1 0 0 0 .986 .836h4a1 1 0 0 0 .986 -.836l1 -6a1 1 0 0 0 -.986 -1.164"}}]})(props);
 }
 /**
  * BrandBlackberry icon from Tabler Icons
@@ -5112,6 +5604,12 @@ export function TbBrandGumroad(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z"}},{tag:"path",attr:{d:"M13.5 13h2.5v3"},child:[]},{tag:"path",attr:{d:"M15.024 9.382a4 4 0 1 0 -3.024 6.618c1.862 0 2.554 -1.278 3 -3"},child:[]}]})(props);
 }
 /**
+ * BrandHackerrank icon from Tabler Icons
+ */
+export function TbBrandHackerrank(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.484 5.667c-1.146 -.904 -3.35 -2.394 -6.497 -3.429c-.484 -.159 -.725 -.238 -1.04 -.238c-.314 0 -.556 .08 -1.04 .238c-3.147 1.035 -5.35 2.525 -6.496 3.43c-.402 .317 -.604 .476 -.797 .816c-.194 .341 -.233 .62 -.309 1.178a33 33 0 0 0 -.305 4.338c0 1.742 .165 3.317 .305 4.338c.076 .558 .115 .837 .309 1.178c.193 .34 .395 .5 .797 .817c1.146 .904 3.35 2.394 6.497 3.429c.483 .159 .725 .238 1.04 .238c.314 0 .555 -.08 1.04 -.238c3.146 -1.035 5.35 -2.525 6.496 -3.43c.402 -.317 .603 -.476 .797 -.816c.194 -.341 .232 -.62 .309 -1.178c.14 -1.021 .305 -2.596 .305 -4.338s-.165 -3.317 -.305 -4.338c-.077 -.558 -.115 -.837 -.309 -1.178s-.395 -.5 -.797 -.817"}},{tag:"path",attr:{d:"M9 8v7"},child:[]},{tag:"path",attr:{d:"M9 12h6"},child:[]},{tag:"path",attr:{d:"M16 16h-2l1 1z"},child:[]},{tag:"path",attr:{d:"M8 8h2l-1 -1z"},child:[]},{tag:"path",attr:{d:"M15 9v7"},child:[]}]})(props);
+}
+/**
  * BrandHbo icon from Tabler Icons
  */
 export function TbBrandHbo(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -5151,7 +5649,13 @@ export function TbBrandInertia(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * BrandInstagram icon from Tabler Icons
  */
 export function TbBrandInstagram(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"}},{tag:"path",attr:{d:"M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"},child:[]},{tag:"path",attr:{d:"M16.5 7.5l0 .01"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"}},{tag:"path",attr:{d:"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"},child:[]},{tag:"path",attr:{d:"M16.5 7.5v.01"},child:[]}]})(props);
+}
+/**
+ * BrandInstagramFilled icon from Tabler Icons
+ */
+export function TbBrandInstagramFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-8a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-4 5a4 4 0 0 0 -3.995 3.8l-.005 .2a4 4 0 1 0 4 -4m4.5 -1.5a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1"}}]})(props);
 }
 /**
  * BrandIntercom icon from Tabler Icons
@@ -5194,6 +5698,12 @@ export function TbBrandKbin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBrandKick(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4h5v4h3v-2h2v-2h6v4h-2v2h-2v4h2v2h2v4h-6v-2h-2v-2h-3v4h-5z"}}]})(props);
+}
+/**
+ * BrandKickFilled icon from Tabler Icons
+ */
+export function TbBrandKickFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M9 3a1 1 0 0 1 1 1v3h1v-1a1 1 0 0 1 .883 -.993l.117 -.007h1v-1a1 1 0 0 1 .883 -.993l.117 -.007h6a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-1v1a1 1 0 0 1 -.883 .993l-.117 .007h-1v2h1a1 1 0 0 1 .993 .883l.007 .117v1h1a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-1h-1a1 1 0 0 1 -.993 -.883l-.007 -.117v-1h-1v3a1 1 0 0 1 -.883 .993l-.117 .007h-5a1 1 0 0 1 -1 -1v-16a1 1 0 0 1 1 -1z"}}]})(props);
 }
 /**
  * BrandKickstarter icon from Tabler Icons
@@ -5241,7 +5751,13 @@ export function TbBrandLine(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * BrandLinkedin icon from Tabler Icons
  */
 export function TbBrandLinkedin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M8 11l0 5"},child:[]},{tag:"path",attr:{d:"M8 8l0 .01"},child:[]},{tag:"path",attr:{d:"M12 16l0 -5"},child:[]},{tag:"path",attr:{d:"M16 16v-3a2 2 0 0 0 -4 0"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 11v5"}},{tag:"path",attr:{d:"M8 8v.01"},child:[]},{tag:"path",attr:{d:"M12 16v-5"},child:[]},{tag:"path",attr:{d:"M16 16v-3a2 2 0 1 0 -4 0"},child:[]},{tag:"path",attr:{d:"M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"},child:[]}]})(props);
+}
+/**
+ * BrandLinkedinFilled icon from Tabler Icons
+ */
+export function TbBrandLinkedinFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h-10a5 5 0 0 1 -5 -5v-10a5 5 0 0 1 5 -5zm-9 8a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m6 0a3 3 0 0 0 -1.168 .236l-.125 .057a1 1 0 0 0 -1.707 .707v5a1 1 0 0 0 2 0v-3a1 1 0 0 1 2 0v3a1 1 0 0 0 2 0v-3a3 3 0 0 0 -3 -3m-6 -3a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1"}}]})(props);
 }
 /**
  * BrandLinktree icon from Tabler Icons
@@ -5328,10 +5844,22 @@ export function TbBrandMessenger(props: IconBaseProps): VNode<JSX.SVGAttributes>
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1"}},{tag:"path",attr:{d:"M8 13l3 -2l2 2l3 -2"},child:[]}]})(props);
 }
 /**
+ * BrandMessengerFilled icon from Tabler Icons
+ */
+export function TbBrandMessengerFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18.894 5.446c3.667 3.127 4.168 8.238 1.152 11.897c-2.842 3.447 -7.965 4.583 -12.231 2.805l-.233 -.101l-4.374 .931l-.033 .005l-.042 .008l-.031 .002l-.01 .003h-.018l-.052 .004l-.024 -.001l-.02 .001l-.033 -.003h-.035l-.022 -.004l-.022 -.002l-.035 -.007l-.034 -.005l-.016 -.004l-.024 -.005l-.049 -.016l-.024 -.005l-.011 -.005l-.022 -.007l-.045 -.02l-.03 -.012l-.011 -.006l-.014 -.006l-.031 -.018l-.045 -.024l-.016 -.011l-.037 -.026l-.04 -.027l-.015 -.013l-.043 -.04l-.025 -.02l-.062 -.07l-.013 -.013l-.011 -.014l-.027 -.04l-.026 -.035a1 1 0 0 1 -.054 -.095l-.006 -.013l-.019 -.045l-.02 -.042l-.004 -.016l-.004 -.01l-.011 -.04l-.013 -.04l-.002 -.014l-.005 -.019l-.005 -.033l-.008 -.042l-.002 -.031l-.003 -.026l-.004 -.054l.001 -.036l.001 -.023l.002 -.053l.004 -.025v-.019l.008 -.036l.005 -.033l.004 -.017l.005 -.023l.018 -.06l.003 -.013l1.15 -3.45l-.022 -.037c-2.21 -3.747 -1.209 -8.392 2.411 -11.118l.23 -.168c3.898 -2.766 9.469 -2.54 13.073 .535m-2.062 5a1 1 0 0 0 -1.387 -.278l-2.318 1.544l-1.42 -1.42a1 1 0 0 0 -1.262 -.124l-3 2a1 1 0 0 0 -.277 1.387l.07 .093a1 1 0 0 0 1.317 .184l2.317 -1.545l1.42 1.42a1 1 0 0 0 1.263 .125l3 -2a1 1 0 0 0 .277 -1.387"}}]})(props);
+}
+/**
  * BrandMeta icon from Tabler Icons
  */
 export function TbBrandMeta(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 10.174c1.766 -2.784 3.315 -4.174 4.648 -4.174c2 0 3.263 2.213 4 5.217c.704 2.869 .5 6.783 -2 6.783c-1.114 0 -2.648 -1.565 -4.148 -3.652a27.627 27.627 0 0 1 -2.5 -4.174z"}},{tag:"path",attr:{d:"M12 10.174c-1.766 -2.784 -3.315 -4.174 -4.648 -4.174c-2 0 -3.263 2.213 -4 5.217c-.704 2.869 -.5 6.783 2 6.783c1.114 0 2.648 -1.565 4.148 -3.652c1 -1.391 1.833 -2.783 2.5 -4.174z"},child:[]}]})(props);
+}
+/**
+ * BrandMetabrainz icon from Tabler Icons
+ */
+export function TbBrandMetabrainz(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 7v10l7 4v-18z"}},{tag:"path",attr:{d:"M21 7v10l-7 4v-18z"},child:[]}]})(props);
 }
 /**
  * BrandMinecraft icon from Tabler Icons
@@ -5496,6 +6024,12 @@ export function TbBrandOpenSource(props: IconBaseProps): VNode<JSX.SVGAttributes
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 0 1 3.618 17.243l-2.193 -5.602a3 3 0 1 0 -2.849 0l-2.193 5.603a9 9 0 0 1 3.617 -17.244z"}}]})(props);
 }
 /**
+ * BrandOpenSourceFilled icon from Tabler Icons
+ */
+export function TbBrandOpenSourceFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.283 2.004a10 10 0 0 1 3.736 19.155a1 1 0 0 1 -1.332 -.551l-2.193 -5.602a1 1 0 0 1 .456 -1.245a2 2 0 1 0 -1.9 0a1 1 0 0 1 .457 1.244l-2.193 5.603a1 1 0 0 1 -1.332 .552a10 10 0 0 1 4.018 -19.16z"}}]})(props);
+}
+/**
  * BrandOpenai icon from Tabler Icons
  */
 export function TbBrandOpenai(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -5512,6 +6046,12 @@ export function TbBrandOpenvpn(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBrandOpera(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 12m-3 0a3 5 0 1 0 6 0a3 5 0 1 0 -6 0"},child:[]}]})(props);
+}
+/**
+ * BrandOperaFilled icon from Tabler Icons
+ */
+export function TbBrandOperaFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-5 2.66c-2.285 0 -3.915 2.619 -3.997 5.752l-.003 .248c0 3.242 1.655 6 4 6s4 -2.758 4 -6s-1.655 -6 -4 -6"}}]})(props);
 }
 /**
  * BrandPagekit icon from Tabler Icons
@@ -5584,6 +6124,12 @@ export function TbBrandPicsart(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBrandPinterest(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 20l4 -9"}},{tag:"path",attr:{d:"M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"},child:[]},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * BrandPinterestFilled icon from Tabler Icons
+ */
+export function TbBrandPinterestFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 0 1 -8.512 18.023l2.364 -5.315a3.5 3.5 0 0 0 2.398 .952c2.708 0 4.75 -2.089 4.75 -5a6 6 0 1 0 -11.64 2.041a1 1 0 1 0 1.88 -.682a4 4 0 1 1 7.76 -1.36c0 1.818 -1.156 3.001 -2.75 3.001c-.609 0 -1.153 -.361 -1.478 -1.022l1.142 -2.572a1 1 0 0 0 -1.828 -.812l-4.392 9.882a10 10 0 0 1 -4.694 -8.476l.005 -.324a10 10 0 0 1 14.995 -8.336"}}]})(props);
 }
 /**
  * BrandPlanetscale icon from Tabler Icons
@@ -5766,6 +6312,12 @@ export function TbBrandSketch(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3.262 10.878l8 8.789c.4 .44 1.091 .44 1.491 0l8 -8.79c.313 -.344 .349 -.859 .087 -1.243l-3.537 -5.194a1 1 0 0 0 -.823 -.436h-8.926a1 1 0 0 0 -.823 .436l-3.54 5.192c-.263 .385 -.227 .901 .087 1.246z"}}]})(props);
 }
 /**
+ * BrandSketchFilled icon from Tabler Icons
+ */
+export function TbBrandSketchFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M7.554 3.004h8.929a2 2 0 0 1 1.647 .873l3.536 5.193a2.006 2.006 0 0 1 -.173 2.48l-8 8.79a2.007 2.007 0 0 1 -2.97 0l-8 -8.789a1 1 0 0 1 -.13 -.175l-.012 -.026l-.051 -.072a2.01 2.01 0 0 1 -.056 -2.063l.09 -.146l3.541 -5.193c.372 -.544 .987 -.87 1.649 -.872"}}]})(props);
+}
+/**
  * BrandSkype icon from Tabler Icons
  */
 export function TbBrandSkype(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -5782,6 +6334,12 @@ export function TbBrandSlack(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBrandSnapchat(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16.882 7.842a4.882 4.882 0 0 0 -9.764 0c0 4.273 -.213 6.409 -4.118 8.118c2 .882 2 .882 3 3c3 0 4 2 6 2s3 -2 6 -2c1 -2.118 1 -2.118 3 -3c-3.906 -1.709 -4.118 -3.845 -4.118 -8.118zm-13.882 8.119c4 -2.118 4 -4.118 1 -7.118m17 7.118c-4 -2.118 -4 -4.118 -1 -7.118"}}]})(props);
+}
+/**
+ * BrandSnapchatFilled icon from Tabler Icons
+ */
+export function TbBrandSnapchatFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 1.96a5.88 5.88 0 0 1 5.882 5.882c0 .618 .008 1.174 .03 1.678l.008 .21l.084 -.115q .46 -.627 1.102 -1.29l.187 -.19a1 1 0 0 1 1.414 1.415c-2.637 2.637 -2.51 3.795 .76 5.527l.048 .025a.98 .98 0 0 1 .46 .636l.004 .022l.003 .013l.006 .043l.006 .032v.009l.003 .025l.001 .051l.002 .026l-.001 .009v.025l-.003 .042l-.002 .034l-.002 .015l-.002 .02l-.004 .016l-.01 .06l-.007 .026l-.006 .02l-.016 .06l-.013 .029l-.005 .013l-.024 .062a1 1 0 0 1 -.197 .28l-.03 .025l-.016 .014l-.043 .039l-.013 .007l-.018 .015l-.051 .033l-.02 .014l-.008 .003l-.014 .01a1 1 0 0 1 -.098 .049l-.013 .003l-.146 .066c-.576 .255 -.81 .365 -1.008 .474l-.053 .03c-.27 .155 -.398 .277 -.558 .525c-.156 .245 -.293 .516 -.715 1.41a1 1 0 0 1 -.904 .573c-1.067 0 -1.798 .25 -2.879 .868l-.426 .246c-.176 .102 -.311 .178 -.447 .25c-.794 .423 -1.464 .636 -2.248 .636s-1.454 -.213 -2.248 -.636a15 15 0 0 1 -.447 -.25l-.426 -.246c-1.081 -.618 -1.812 -.868 -2.879 -.868a1 1 0 0 1 -.904 -.573c-.422 -.894 -.559 -1.165 -.715 -1.41a1.4 1.4 0 0 0 -.558 -.525c-.228 -.13 -.47 -.243 -1.227 -.577l.02 .007l-.013 -.003a1 1 0 0 1 -.098 -.05l-.014 -.009l-.028 -.017l-.051 -.033l-.018 -.015l-.013 -.007l-.043 -.039l-.012 -.01l-.004 -.004l-.03 -.025a1 1 0 0 1 -.197 -.28l-.024 -.062l-.005 -.013l-.013 -.028l-.016 -.061l-.005 -.012l-.008 -.035l-.01 -.059l-.004 -.016l-.002 -.02l-.002 -.015l-.002 -.035l-.004 -.041l.001 -.025l-.001 -.01l.002 -.025l.001 -.05l.003 -.026v-.01l.006 -.03l.006 -.044l.004 -.014l.002 -.021a.98 .98 0 0 1 .461 -.636l.048 -.025l.204 -.11c3.003 -1.635 3.132 -2.785 .72 -5.25l-.164 -.167a1 1 0 0 1 1.414 -1.414q .764 .763 1.289 1.479l.083 .115l.01 -.21q .025 -.628 .028 -1.374l.001 -.304a5.88 5.88 0 0 1 5.882 -5.882"}}]})(props);
 }
 /**
  * BrandSnapseed icon from Tabler Icons
@@ -5856,6 +6414,12 @@ export function TbBrandSteam(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z"}},{tag:"circle",attr:{"cx":"16.5","cy":"9.5","r":"1",fill:"currentColor"},child:[]}]})(props);
 }
 /**
+ * BrandSteamFilled icon from Tabler Icons
+ */
+export function TbBrandSteamFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16.5 4a5.5 5.5 0 1 1 -.309 10.992l-.078 -.007l-3.646 2.524l-.011 .094c-.267 1.775 -1.707 3.18 -3.571 3.38l-.209 .017h-.176a4 4 0 0 1 -3.756 -2.623l-.016 -.048l-2.122 -.91a1 1 0 0 1 -.599 -.8l-.007 -.119v-3.5a1 1 0 0 1 1.447 -.894l2.964 1.481l.174 -.1a4 4 0 0 1 2.15 -.482l.166 .014l2.126 -2.977l-.01 -.098a5.5 5.5 0 0 1 1.092 -3.758l.169 -.212a5.5 5.5 0 0 1 4.222 -1.974m0 3.5a2 2 0 1 0 0 4a2 2 0 0 0 0 -4"}}]})(props);
+}
+/**
  * BrandStocktwits icon from Tabler Icons
  */
 export function TbBrandStocktwits(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -5890,6 +6454,12 @@ export function TbBrandStrava(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbBrandStripe(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11.453 8.056c0 -.623 .518 -.979 1.442 -.979c1.69 0 3.41 .343 4.605 .923l.5 -4c-.948 -.449 -2.82 -1 -5.5 -1c-1.895 0 -3.373 .087 -4.5 1c-1.172 .956 -2 2.33 -2 4c0 3.03 1.958 4.906 5 6c1.961 .69 3 .743 3 1.5c0 .735 -.851 1.5 -2 1.5c-1.423 0 -3.963 -.609 -5.5 -1.5l-.5 4c1.321 .734 3.474 1.5 6 1.5c2 0 3.957 -.468 5.084 -1.36c1.263 -.979 1.916 -2.268 1.916 -4.14c0 -3.096 -1.915 -4.547 -5 -5.637c-1.646 -.605 -2.544 -1.07 -2.544 -1.807z"}}]})(props);
+}
+/**
+ * BrandStripeFilled icon from Tabler Icons
+ */
+export function TbBrandStripeFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.5 2c2.45 0 4.543 .44 5.928 1.096a1 1 0 0 1 .564 1.028l-.5 4a1 1 0 0 1 -1.429 .776c-1.047 -.509 -2.618 -.823 -4.168 -.823q -.206 .001 -.332 .026l.028 .024l.07 .047c.314 .207 .832 .437 1.672 .746c3.824 1.351 5.667 3.24 5.667 6.58c0 2.13 -.758 3.732 -2.295 4.924c-1.293 1.023 -3.422 1.576 -5.705 1.576c-2.4 0 -4.72 -.644 -6.486 -1.626a1 1 0 0 1 -.506 -.998l.5 -4a1 1 0 0 1 1.494 -.741c1.292 .75 3.64 1.365 4.998 1.365c.39 0 .704 -.147 .87 -.295l.035 -.035l-.09 -.035c-.167 -.06 -1.583 -.493 -2.153 -.694c-3.626 -1.304 -5.662 -3.609 -5.662 -6.941c0 -1.887 .882 -3.563 2.37 -4.777c1.22 -.987 2.517 -1.223 5.13 -1.223"}}]})(props);
 }
 /**
  * BrandSublimeText icon from Tabler Icons
@@ -5949,7 +6519,13 @@ export function TbBrandSymfony(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * BrandTabler icon from Tabler Icons
  */
 export function TbBrandTabler(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 9l3 3l-3 3"}},{tag:"path",attr:{d:"M13 15l3 0"},child:[]},{tag:"path",attr:{d:"M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 9l3 3l-3 3"}},{tag:"path",attr:{d:"M13 15h3"},child:[]},{tag:"path",attr:{d:"M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"},child:[]}]})(props);
+}
+/**
+ * BrandTablerFilled icon from Tabler Icons
+ */
+export function TbBrandTablerFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h-10a5 5 0 0 1 -5 -5v-10a5 5 0 0 1 5 -5zm-1 12h-3a1 1 0 0 0 0 2h3a1 1 0 0 0 0 -2m-7.293 -5.707a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l2.292 2.293l-2.292 2.293a1 1 0 0 0 1.414 1.414l3 -3a1 1 0 0 0 0 -1.414z"}}]})(props);
 }
 /**
  * BrandTailwind icon from Tabler Icons
@@ -5986,6 +6562,12 @@ export function TbBrandTelegram(props: IconBaseProps): VNode<JSX.SVGAttributes> 
  */
 export function TbBrandTerraform(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 15.5l-11.476 -6.216a1 1 0 0 1 -.524 -.88v-4.054a1.35 1.35 0 0 1 2.03 -1.166l9.97 5.816v10.65a1.35 1.35 0 0 1 -2.03 1.166l-3.474 -2.027a1 1 0 0 1 -.496 -.863v-11.926"}},{tag:"path",attr:{d:"M15 15.5l5.504 -3.21a1 1 0 0 0 .496 -.864v-3.576a1.35 1.35 0 0 0 -2.03 -1.166l-3.97 2.316"},child:[]}]})(props);
+}
+/**
+ * BrandTesla icon from Tabler Icons
+ */
+export function TbBrandTesla(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 21l3 -11c2.359 0 3 0 3 1c0 0 1.18 -1.745 2 -3c-3.077 -1.464 -6 -1 -6 -1l-2 2l-2 -2s-2.923 -.464 -6 1c.82 1.255 2 3 2 3c0 -1 .744 -1 3 -1z"}},{tag:"path",attr:{d:"M20 5c-5.114 -2 -10.886 -2 -16 0"},child:[]}]})(props);
 }
 /**
  * BrandTether icon from Tabler Icons
@@ -6036,6 +6618,12 @@ export function TbBrandTinder(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18.918 8.174c2.56 4.982 .501 11.656 -5.38 12.626c-7.702 1.687 -12.84 -7.716 -7.054 -13.229c.309 -.305 1.161 -1.095 1.516 -1.349c0 .528 .27 3.475 1 3.167c3 0 4 -4.222 3.587 -7.389c2.7 1.411 4.987 3.376 6.331 6.174z"}}]})(props);
 }
 /**
+ * BrandTinderFilled icon from Tabler Icons
+ */
+export function TbBrandTinderFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.595 2.13a1 1 0 0 1 1.455 -1.016c3.11 1.625 5.41 3.797 6.77 6.627l-.013 -.024l.01 .019l.115 .232c2.751 5.7 .088 12.587 -5.913 13.76l-.267 .049c-8.719 1.91 -14.455 -8.74 -7.97 -14.918c.466 -.46 1.28 -1.196 1.636 -1.45a1 1 0 0 1 1.582 .813c0 .311 .086 1.117 .205 1.694q .046 .215 .093 .383l.017 .058l.1 -.02c1.562 -.396 2.522 -3.021 2.21 -5.955z"}}]})(props);
+}
+/**
  * BrandTopbuzz icon from Tabler Icons
  */
 export function TbBrandTopbuzz(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -6070,6 +6658,12 @@ export function TbBrandTripadvisor(props: IconBaseProps): VNode<JSX.SVGAttribute
  */
 export function TbBrandTumblr(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 21h4v-4h-4v-6h4v-4h-4v-4h-4v1a3 3 0 0 1 -3 3h-1v4h4v6a4 4 0 0 0 4 4"}}]})(props);
+}
+/**
+ * BrandTumblrFilled icon from Tabler Icons
+ */
+export function TbBrandTumblrFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M14 2a1 1 0 0 1 1 1v3h3a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -1 1h-3v4h3a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -1 1h-4a5 5 0 0 1 -5 -5v-5h-3a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 1 -1h1a2 2 0 0 0 2 -2v-1a1 1 0 0 1 1 -1z"}}]})(props);
 }
 /**
  * BrandTwilio icon from Tabler Icons
@@ -6144,10 +6738,22 @@ export function TbBrandVercel(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 19h18l-9 -15z"}}]})(props);
 }
 /**
+ * BrandVercelFilled icon from Tabler Icons
+ */
+export function TbBrandVercelFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.143 3.486a1 1 0 0 1 1.714 0l9 15a1 1 0 0 1 -.857 1.514h-18a1 1 0 0 1 -.857 -1.514z"}}]})(props);
+}
+/**
  * BrandVimeo icon from Tabler Icons
  */
 export function TbBrandVimeo(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 8.5l1 1s1.5 -1.102 2 -.5c.509 .609 1.863 7.65 2.5 9c.556 1.184 1.978 2.89 4 1.5c2 -1.5 7.5 -5.5 8.5 -11.5c.444 -2.661 -1 -4 -2.5 -4c-2 0 -4.047 1.202 -4.5 4c2.05 -1.254 2.551 1 1.5 3c-1.052 2 -2 3 -2.5 3c-.49 0 -.924 -1.165 -1.5 -3.5c-.59 -2.42 -.5 -6.5 -3 -6.5s-5.5 4.5 -5.5 4.5z"}}]})(props);
+}
+/**
+ * BrandVimeoFilled icon from Tabler Icons
+ */
+export function TbBrandVimeoFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18.5 3c2.38 0 3.985 2.174 3.486 5.164c-.535 3.21 -2.25 6.074 -4.808 8.675c-1.277 1.298 -2.211 2.061 -4.112 3.485c-2.323 1.597 -4.408 .365 -5.47 -1.897c-.292 -.618 -.586 -1.724 -1.248 -4.477l-.03 -.126c-.483 -2.01 -.819 -3.319 -.982 -3.878l-.016 -.052l-.031 .013l-.13 .06l-.137 .07a4 4 0 0 0 -.43 .269a1 1 0 0 1 -1.3 -.099l-1 -1a1 1 0 0 1 -.124 -1.262a20 20 0 0 1 1.918 -2.382c.98 -1.037 1.955 -1.816 2.928 -2.233c.5 -.214 .996 -.33 1.486 -.33c2.237 0 3.02 1.588 3.567 4.963c.03 .183 .057 .359 .112 .709c.123 .784 .197 1.198 .292 1.588c.292 1.185 .528 1.984 .735 2.483l-.016 -.039l.096 -.107c.354 -.411 .757 -1.014 1.172 -1.771l.157 -.291c.391 -.745 .505 -1.528 .363 -1.9c-.028 -.073 .007 -.065 -.456 .218a1 1 0 0 1 -1.51 -1.013c.496 -3.053 2.745 -4.84 5.488 -4.84"}}]})(props);
 }
 /**
  * BrandVinted icon from Tabler Icons
@@ -6246,10 +6852,22 @@ export function TbBrandWeibo(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 14.127c0 3.073 -3.502 5.873 -8 5.873c-4.126 0 -8 -2.224 -8 -5.565c0 -1.78 .984 -3.737 2.7 -5.567c2.362 -2.51 5.193 -3.687 6.551 -2.238c.415 .44 .752 1.39 .749 2.062c2 -1.615 4.308 .387 3.5 2.693c1.26 .557 2.5 .538 2.5 2.742z"}},{tag:"path",attr:{d:"M15 4h1a5 5 0 0 1 5 5v1"},child:[]}]})(props);
 }
 /**
+ * BrandWeiboFilled icon from Tabler Icons
+ */
+export function TbBrandWeiboFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M4.972 8.183c2.81 -2.987 6.162 -4.207 8.006 -2.24c.298 .316 .554 .773 .736 1.266l.127 -.031c2.064 -.469 4 1.287 3.817 3.544l-.005 .036l.15 .057c1.46 .574 2.14 1.355 2.193 3.081l.004 .231c0 3.776 -4.107 6.873 -9 6.873c-4.854 0 -9 -2.72 -9 -6.565c0 -2.04 1.068 -4.222 2.972 -6.252"}},{tag:"path",attr:{d:"M16 3a6 6 0 0 1 6 6v1a1 1 0 0 1 -2 0v-1a4 4 0 0 0 -4 -4h-1a1 1 0 0 1 0 -2z"},child:[]}]})(props);
+}
+/**
  * BrandWhatsapp icon from Tabler Icons
  */
 export function TbBrandWhatsapp(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"}},{tag:"path",attr:{d:"M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"},child:[]}]})(props);
+}
+/**
+ * BrandWhatsappFilled icon from Tabler Icons
+ */
+export function TbBrandWhatsappFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18.497 4.409a10 10 0 0 1 -10.36 16.828l-.223 -.098l-4.759 .849l-.11 .011a1 1 0 0 1 -.11 0l-.102 -.013l-.108 -.024l-.105 -.037l-.099 -.047l-.093 -.058l-.014 -.011l-.012 -.007l-.086 -.073l-.077 -.08l-.067 -.088l-.056 -.094l-.034 -.07l-.04 -.108l-.028 -.128l-.012 -.102a1 1 0 0 1 0 -.125l.012 -.1l.024 -.11l.045 -.122l1.433 -3.304l-.009 -.014a10 10 0 0 1 1.549 -12.454l.215 -.203a10 10 0 0 1 13.226 -.217m-8.997 3.09a1.5 1.5 0 0 0 -1.5 1.5v1a6 6 0 0 0 6 6h1a1.5 1.5 0 0 0 0 -3h-1l-.144 .007a1.5 1.5 0 0 0 -1.128 .697l-.042 .074l-.022 -.007a4.01 4.01 0 0 1 -2.435 -2.435l-.008 -.023l.075 -.041a1.5 1.5 0 0 0 .704 -1.272v-1a1.5 1.5 0 0 0 -1.5 -1.5"}}]})(props);
 }
 /**
  * BrandWikipedia icon from Tabler Icons
@@ -6262,6 +6880,12 @@ export function TbBrandWikipedia(props: IconBaseProps): VNode<JSX.SVGAttributes>
  */
 export function TbBrandWindows(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17.8 20l-12 -1.5c-1 -.1 -1.8 -.9 -1.8 -1.9v-9.2c0 -1 .8 -1.8 1.8 -1.9l12 -1.5c1.2 -.1 2.2 .8 2.2 1.9v12.1c0 1.2 -1.1 2.1 -2.2 1.9z"}},{tag:"path",attr:{d:"M12 5l0 14"},child:[]},{tag:"path",attr:{d:"M4 12l16 0"},child:[]}]})(props);
+}
+/**
+ * BrandWindowsFilled icon from Tabler Icons
+ */
+export function TbBrandWindowsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M21 13v5c0 1.57 -1.248 2.832 -2.715 2.923l-.113 .003l-.042 .018a1 1 0 0 1 -.336 .056l-.118 -.008l-4.676 -.585v-7.407zm-10 0v7.157l-5.3 -.662c-1.514 -.151 -2.7 -1.383 -2.7 -2.895v-3.6zm0 -9.158v7.158h-8v-3.6c0 -1.454 1.096 -2.648 2.505 -2.87zm10 2.058v5.1h-8v-7.409l4.717 -.589c1.759 -.145 3.283 1.189 3.283 2.898"}}]})(props);
 }
 /**
  * BrandWindy icon from Tabler Icons
@@ -6543,13 +7167,25 @@ export function TbBroadcastOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * Browser icon from Tabler Icons
  */
 export function TbBrowser(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M4 8l16 0"},child:[]},{tag:"path",attr:{d:"M8 4l0 4"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8h16"}},{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M8 4v4"},child:[]}]})(props);
 }
 /**
  * BrowserCheck icon from Tabler Icons
  */
 export function TbBrowserCheck(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M4 8h16"},child:[]},{tag:"path",attr:{d:"M8 4v4"},child:[]},{tag:"path",attr:{d:"M9.5 14.5l1.5 1.5l3 -3"},child:[]}]})(props);
+}
+/**
+ * BrowserMaximize icon from Tabler Icons
+ */
+export function TbBrowserMaximize(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8h8"}},{tag:"path",attr:{d:"M20 11.5v6.5a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h6.5"},child:[]},{tag:"path",attr:{d:"M8 4v4"},child:[]},{tag:"path",attr:{d:"M16 8l5 -5"},child:[]},{tag:"path",attr:{d:"M21 7.5v-4.5h-4.5"},child:[]}]})(props);
+}
+/**
+ * BrowserMinus icon from Tabler Icons
+ */
+export function TbBrowserMinus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8h16"}},{tag:"path",attr:{d:"M12 20h-6a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v9"},child:[]},{tag:"path",attr:{d:"M8 4v4"},child:[]},{tag:"path",attr:{d:"M16 19h6"},child:[]}]})(props);
 }
 /**
  * BrowserOff icon from Tabler Icons
@@ -6561,7 +7197,13 @@ export function TbBrowserOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * BrowserPlus icon from Tabler Icons
  */
 export function TbBrowserPlus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M4 8h16"},child:[]},{tag:"path",attr:{d:"M8 4v4"},child:[]},{tag:"path",attr:{d:"M10 14h4"},child:[]},{tag:"path",attr:{d:"M12 12v4"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8h16"}},{tag:"path",attr:{d:"M12 20h-6a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v6"},child:[]},{tag:"path",attr:{d:"M8 4v4"},child:[]},{tag:"path",attr:{d:"M16 19h6"},child:[]},{tag:"path",attr:{d:"M19 16v6"},child:[]}]})(props);
+}
+/**
+ * BrowserShare icon from Tabler Icons
+ */
+export function TbBrowserShare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8h16"}},{tag:"path",attr:{d:"M12.5 20h-6.5a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v7"},child:[]},{tag:"path",attr:{d:"M8 4v4"},child:[]},{tag:"path",attr:{d:"M16 22l5 -5"},child:[]},{tag:"path",attr:{d:"M21 21.5v-4.5h-4.5"},child:[]}]})(props);
 }
 /**
  * BrowserX icon from Tabler Icons
@@ -6606,10 +7248,28 @@ export function TbBubblePlus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12.4 19a4.2 4.2 0 0 1 -1.57 -.298l-3.83 2.298v-3.134a2.668 2.668 0 0 1 -1.795 -3.773a4.8 4.8 0 0 1 2.908 -8.933a5.335 5.335 0 0 1 9.194 1.078a5.333 5.333 0 0 1 4.45 6.89"}},{tag:"path",attr:{d:"M16 19h6"},child:[]},{tag:"path",attr:{d:"M19 16v6"},child:[]}]})(props);
 }
 /**
+ * BubbleTea icon from Tabler Icons
+ */
+export function TbBubbleTea(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17.95 9l-1.478 8.69c-.25 1.463 -.374 2.195 -.936 2.631c-1.2 .931 -6.039 .88 -7.172 0c-.562 -.436 -.687 -1.168 -.936 -2.632l-1.478 -8.689"}},{tag:"path",attr:{d:"M6 9l.514 -1.286a5.908 5.908 0 0 1 10.972 0l.514 1.286"},child:[]},{tag:"path",attr:{d:"M5 9h14"},child:[]},{tag:"path",attr:{d:"M12 9l4 -7"},child:[]},{tag:"path",attr:{d:"M10.01 14h.01"},child:[]},{tag:"path",attr:{d:"M11.02 18h.01"},child:[]},{tag:"path",attr:{d:"M13.02 16h.01"},child:[]}]})(props);
+}
+/**
+ * BubbleTea2 icon from Tabler Icons
+ */
+export function TbBubbleTea2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17.95 9l-1.478 8.69c-.25 1.463 -.374 2.195 -.936 2.631c-1.2 .931 -6.039 .88 -7.172 0c-.562 -.436 -.687 -1.168 -.936 -2.632l-1.478 -8.689"}},{tag:"path",attr:{d:"M6 9l.514 -1.286a5.908 5.908 0 0 1 10.972 0l.514 1.286"},child:[]},{tag:"path",attr:{d:"M5 9h14"},child:[]},{tag:"path",attr:{d:"M12 9l4 -7"},child:[]},{tag:"path",attr:{d:"M7 14c.593 .642 1.484 1.017 2.5 1c1.016 .017 1.907 -.358 2.5 -1s1.484 -1.017 2.5 -1c1.016 -.017 1.907 .358 2.5 1"},child:[]}]})(props);
+}
+/**
  * BubbleText icon from Tabler Icons
  */
 export function TbBubbleText(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10h10"}},{tag:"path",attr:{d:"M9 14h5"},child:[]},{tag:"path",attr:{d:"M12.4 3a5.34 5.34 0 0 1 4.906 3.239a5.333 5.333 0 0 1 -1.195 10.6a4.26 4.26 0 0 1 -5.28 1.863l-3.831 2.298v-3.134a2.668 2.668 0 0 1 -1.795 -3.773a4.8 4.8 0 0 1 2.908 -8.933a5.33 5.33 0 0 1 4.287 -2.16"},child:[]}]})(props);
+}
+/**
+ * BubbleTextFilled icon from Tabler Icons
+ */
+export function TbBubbleTextFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.4 2l.253 .005a6.34 6.34 0 0 1 5.235 3.166l.089 .163l.178 .039a6.33 6.33 0 0 1 4.254 3.406l.105 .228a6.334 6.334 0 0 1 -5.74 8.865l-.144 -.002l-.037 .052a5.26 5.26 0 0 1 -5.458 1.926l-.186 -.051l-3.435 2.06a1 1 0 0 1 -1.508 -.743l-.006 -.114v-2.435l-.055 -.026a3.67 3.67 0 0 1 -1.554 -1.498l-.102 -.199a3.67 3.67 0 0 1 -.312 -2.14l.038 -.21l-.116 -.092a5.8 5.8 0 0 1 -1.887 -6.025l.071 -.238a5.8 5.8 0 0 1 5.42 -4.004h.157l.15 -.165a6.33 6.33 0 0 1 4.33 -1.963zm1.6 11h-5a1 1 0 0 0 0 2h5a1 1 0 0 0 0 -2m3 -4h-10a1 1 0 1 0 0 2h10a1 1 0 0 0 0 -2"}}]})(props);
 }
 /**
  * BubbleX icon from Tabler Icons
@@ -6660,6 +7320,12 @@ export function TbBuilding(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21l18 0"}},{tag:"path",attr:{d:"M9 8l1 0"},child:[]},{tag:"path",attr:{d:"M9 12l1 0"},child:[]},{tag:"path",attr:{d:"M9 16l1 0"},child:[]},{tag:"path",attr:{d:"M14 8l1 0"},child:[]},{tag:"path",attr:{d:"M14 12l1 0"},child:[]},{tag:"path",attr:{d:"M14 16l1 0"},child:[]},{tag:"path",attr:{d:"M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16"},child:[]}]})(props);
 }
 /**
+ * BuildingAirport icon from Tabler Icons
+ */
+export function TbBuildingAirport(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3.59 7h8.82a1 1 0 0 1 .902 1.433l-1.44 3a1 1 0 0 1 -.901 .567h-5.942a1 1 0 0 1 -.901 -.567l-1.44 -3a1 1 0 0 1 .901 -1.433"}},{tag:"path",attr:{d:"M6 7l-.78 -2.342a.5 .5 0 0 1 .473 -.658h4.612a.5 .5 0 0 1 .475 .658l-.78 2.342"},child:[]},{tag:"path",attr:{d:"M8 2v2"},child:[]},{tag:"path",attr:{d:"M6 12v9h4v-9"},child:[]},{tag:"path",attr:{d:"M3 21h18"},child:[]},{tag:"path",attr:{d:"M22 5h-6l-1 -1"},child:[]},{tag:"path",attr:{d:"M18 3l2 2l-2 2"},child:[]},{tag:"path",attr:{d:"M10 17h7a2 2 0 0 1 2 2v2"},child:[]}]})(props);
+}
+/**
  * BuildingArch icon from Tabler Icons
  */
 export function TbBuildingArch(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -6696,6 +7362,12 @@ export function TbBuildingBroadcastTowerFilled(props: IconBaseProps): VNode<JSX.
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 10a2 2 0 0 1 1.497 3.327l2.452 7.357a1 1 0 1 1 -1.898 .632l-.44 -1.316h-3.224l-.438 1.317a1 1 0 0 1 -1.152 .663l-.113 -.03a1 1 0 0 1 -.633 -1.265l2.452 -7.357a2 2 0 0 1 -.503 -1.328l.005 -.15a2 2 0 0 1 1.995 -1.85"}},{tag:"path",attr:{d:"M18.093 4.078a10 10 0 0 1 3.137 11.776a1 1 0 0 1 -1.846 -.77a8 8 0 1 0 -14.769 0a1 1 0 0 1 -1.846 .77a10 10 0 0 1 15.324 -11.776"},child:[]},{tag:"path",attr:{d:"M15.657 7.243a6 6 0 0 1 1.882 7.066a1 1 0 1 1 -1.846 -.77a4 4 0 1 0 -7.384 0a1 1 0 1 1 -1.846 .77a6 6 0 0 1 9.194 -7.066"},child:[]}]})(props);
 }
 /**
+ * BuildingBurjAlArab icon from Tabler Icons
+ */
+export function TbBuildingBurjAlArab(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21h18"}},{tag:"path",attr:{d:"M7 21v-18"},child:[]},{tag:"path",attr:{d:"M7 4c5.675 .908 10 5.613 10 11.28a11 11 0 0 1 -1.605 5.72"},child:[]},{tag:"path",attr:{d:"M5 9h12"},child:[]},{tag:"path",attr:{d:"M7 13h4"},child:[]},{tag:"path",attr:{d:"M7 17h4"},child:[]}]})(props);
+}
+/**
  * BuildingCarousel icon from Tabler Icons
  */
 export function TbBuildingCarousel(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -6718,6 +7390,12 @@ export function TbBuildingChurch(props: IconBaseProps): VNode<JSX.SVGAttributes>
  */
 export function TbBuildingCircus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 11h16"}},{tag:"path",attr:{d:"M12 6.5c0 1 -5 4.5 -8 4.5"},child:[]},{tag:"path",attr:{d:"M12 6.5c0 1 5 4.5 8 4.5"},child:[]},{tag:"path",attr:{d:"M6 11c-.333 5.333 -1 8.667 -2 10h4c1 0 4 -4 4 -9v-1"},child:[]},{tag:"path",attr:{d:"M18 11c.333 5.333 1 8.667 2 10h-4c-1 0 -4 -4 -4 -9v-1"},child:[]},{tag:"path",attr:{d:"M12 7v-4l2 1h-2"},child:[]}]})(props);
+}
+/**
+ * BuildingCog icon from Tabler Icons
+ */
+export function TbBuildingCog(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21h9"}},{tag:"path",attr:{d:"M9 8h1"},child:[]},{tag:"path",attr:{d:"M9 12h1"},child:[]},{tag:"path",attr:{d:"M9 16h1"},child:[]},{tag:"path",attr:{d:"M14 8h1"},child:[]},{tag:"path",attr:{d:"M14 12h1"},child:[]},{tag:"path",attr:{d:"M5 21v-16c0 -.53 .211 -1.039 .586 -1.414c.375 -.375 .884 -.586 1.414 -.586h10c.53 0 1.039 .211 1.414 .586c.375 .375 .586 .884 .586 1.414v7"},child:[]},{tag:"path",attr:{d:"M16 18c0 .53 .211 1.039 .586 1.414c.375 .375 .884 .586 1.414 .586c.53 0 1.039 -.211 1.414 -.586c.375 -.375 .586 -.884 .586 -1.414c0 -.53 -.211 -1.039 -.586 -1.414c-.375 -.375 -.884 -.586 -1.414 -.586c-.53 0 -1.039 .211 -1.414 .586c-.375 .375 -.586 .884 -.586 1.414z"},child:[]},{tag:"path",attr:{d:"M18 14.5v1.5"},child:[]},{tag:"path",attr:{d:"M18 20v1.5"},child:[]},{tag:"path",attr:{d:"M21.032 16.25l-1.299 .75"},child:[]},{tag:"path",attr:{d:"M16.27 19l-1.3 .75"},child:[]},{tag:"path",attr:{d:"M14.97 16.25l1.3 .75"},child:[]},{tag:"path",attr:{d:"M19.733 19l1.3 .75"},child:[]}]})(props);
 }
 /**
  * BuildingCommunity icon from Tabler Icons
@@ -6768,6 +7446,12 @@ export function TbBuildingLighthouse(props: IconBaseProps): VNode<JSX.SVGAttribu
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3l2 3l2 15h-8l2 -15z"}},{tag:"path",attr:{d:"M8 9l8 0"},child:[]},{tag:"path",attr:{d:"M3 11l2 -2l-2 -2"},child:[]},{tag:"path",attr:{d:"M21 11l-2 -2l2 -2"},child:[]}]})(props);
 }
 /**
+ * BuildingMinus icon from Tabler Icons
+ */
+export function TbBuildingMinus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21h9"}},{tag:"path",attr:{d:"M9 8h1"},child:[]},{tag:"path",attr:{d:"M9 12h1"},child:[]},{tag:"path",attr:{d:"M9 16h1"},child:[]},{tag:"path",attr:{d:"M14 8h1"},child:[]},{tag:"path",attr:{d:"M14 12h1"},child:[]},{tag:"path",attr:{d:"M5 21v-16c0 -.53 .211 -1.039 .586 -1.414c.375 -.375 .884 -.586 1.414 -.586h10c.53 0 1.039 .211 1.414 .586c.375 .375 .586 .884 .586 1.414v7"},child:[]},{tag:"path",attr:{d:"M16 19h6"},child:[]}]})(props);
+}
+/**
  * BuildingMonument icon from Tabler Icons
  */
 export function TbBuildingMonument(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -6780,10 +7464,22 @@ export function TbBuildingMosque(props: IconBaseProps): VNode<JSX.SVGAttributes>
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21h7v-2a2 2 0 1 1 4 0v2h7"}},{tag:"path",attr:{d:"M4 21v-10"},child:[]},{tag:"path",attr:{d:"M20 21v-10"},child:[]},{tag:"path",attr:{d:"M4 16h3v-3h10v3h3"},child:[]},{tag:"path",attr:{d:"M17 13a5 5 0 0 0 -10 0"},child:[]},{tag:"path",attr:{d:"M21 10.5c0 -.329 -.077 -.653 -.224 -.947l-.776 -1.553l-.776 1.553a2.118 2.118 0 0 0 -.224 .947a.5 .5 0 0 0 .5 .5h1a.5 .5 0 0 0 .5 -.5z"},child:[]},{tag:"path",attr:{d:"M5 10.5c0 -.329 -.077 -.653 -.224 -.947l-.776 -1.553l-.776 1.553a2.118 2.118 0 0 0 -.224 .947a.5 .5 0 0 0 .5 .5h1a.5 .5 0 0 0 .5 -.5z"},child:[]},{tag:"path",attr:{d:"M12 2a2 2 0 1 0 2 2"},child:[]},{tag:"path",attr:{d:"M12 6v2"},child:[]}]})(props);
 }
 /**
+ * BuildingOff icon from Tabler Icons
+ */
+export function TbBuildingOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21h18"}},{tag:"path",attr:{d:"M9 12h1"},child:[]},{tag:"path",attr:{d:"M9 16h1"},child:[]},{tag:"path",attr:{d:"M14 8h1"},child:[]},{tag:"path",attr:{d:"M14 16h1"},child:[]},{tag:"path",attr:{d:"M5 21v-16"},child:[]},{tag:"path",attr:{d:"M7 3h10c1 0 2 1 2 2v10"},child:[]},{tag:"path",attr:{d:"M19 19v2"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
  * BuildingPavilion icon from Tabler Icons
  */
 export function TbBuildingPavilion(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21h7v-3a2 2 0 0 1 4 0v3h7"}},{tag:"path",attr:{d:"M6 21l0 -9"},child:[]},{tag:"path",attr:{d:"M18 21l0 -9"},child:[]},{tag:"path",attr:{d:"M6 12h12a3 3 0 0 0 3 -3a9 8 0 0 1 -9 -6a9 8 0 0 1 -9 6a3 3 0 0 0 3 3"},child:[]}]})(props);
+}
+/**
+ * BuildingPlus icon from Tabler Icons
+ */
+export function TbBuildingPlus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21h9"}},{tag:"path",attr:{d:"M9 8h1"},child:[]},{tag:"path",attr:{d:"M9 12h1"},child:[]},{tag:"path",attr:{d:"M9 16h1"},child:[]},{tag:"path",attr:{d:"M14 8h1"},child:[]},{tag:"path",attr:{d:"M14 12h1"},child:[]},{tag:"path",attr:{d:"M5 21v-16c0 -.53 .211 -1.039 .586 -1.414c.375 -.375 .884 -.586 1.414 -.586h10c.53 0 1.039 .211 1.414 .586c.375 .375 .586 .884 .586 1.414v7"},child:[]},{tag:"path",attr:{d:"M16 19h6"},child:[]},{tag:"path",attr:{d:"M19 16v6"},child:[]}]})(props);
 }
 /**
  * BuildingSkyscraper icon from Tabler Icons
@@ -6820,6 +7516,12 @@ export function TbBuildingWarehouse(props: IconBaseProps): VNode<JSX.SVGAttribut
  */
 export function TbBuildingWindTurbine(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M10 11v-2.573c0 -.18 .013 -.358 .04 -.536l.716 -4.828c.064 -.597 .597 -1.063 1.244 -1.063s1.18 .466 1.244 1.063l.716 4.828c.027 .178 .04 .357 .04 .536v2.573"},child:[]},{tag:"path",attr:{d:"M13.01 9.28l2.235 1.276c.156 .09 .305 .19 .446 .3l3.836 2.911c.487 .352 .624 1.04 .3 1.596c-.325 .556 -1 .782 -1.548 .541l-4.555 -1.68a3.624 3.624 0 0 1 -.486 -.231l-2.235 -1.277"},child:[]},{tag:"path",attr:{d:"M13 12.716l-2.236 1.277a3.624 3.624 0 0 1 -.485 .23l-4.555 1.681c-.551 .241 -1.223 .015 -1.548 -.54c-.324 -.557 -.187 -1.245 .3 -1.597l3.836 -2.91a3.41 3.41 0 0 1 .446 -.3l2.235 -1.277"},child:[]},{tag:"path",attr:{d:"M7 21h10"},child:[]},{tag:"path",attr:{d:"M10 21l1 -7"},child:[]},{tag:"path",attr:{d:"M13 14l1 7"},child:[]}]})(props);
+}
+/**
+ * Buildings icon from Tabler Icons
+ */
+export function TbBuildings(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 21v-15c0 -1 1 -2 2 -2h5c1 0 2 1 2 2v15"}},{tag:"path",attr:{d:"M16 8h2c1 0 2 1 2 2v11"},child:[]},{tag:"path",attr:{d:"M3 21h18"},child:[]},{tag:"path",attr:{d:"M10 12v0"},child:[]},{tag:"path",attr:{d:"M10 16v0"},child:[]},{tag:"path",attr:{d:"M10 8v0"},child:[]},{tag:"path",attr:{d:"M7 12v0"},child:[]},{tag:"path",attr:{d:"M7 16v0"},child:[]},{tag:"path",attr:{d:"M7 8v0"},child:[]},{tag:"path",attr:{d:"M17 12v0"},child:[]},{tag:"path",attr:{d:"M17 16v0"},child:[]}]})(props);
 }
 /**
  * Bulb icon from Tabler Icons
@@ -6882,6 +7584,12 @@ export function TbButterfly(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 18.176a3 3 0 1 1 -4.953 -2.449l-.025 .023a4.502 4.502 0 0 1 1.483 -8.75c1.414 0 2.675 .652 3.5 1.671a4.5 4.5 0 1 1 4.983 7.079a3 3 0 1 1 -4.983 2.25z"}},{tag:"path",attr:{d:"M12 19v-10"},child:[]},{tag:"path",attr:{d:"M9 3l3 2l3 -2"},child:[]}]})(props);
 }
 /**
+ * ButterflyFilled icon from Tabler Icons
+ */
+export function TbButterflyFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17.117 6.244l.228 .076a5.5 5.5 0 0 1 1.24 9.738l-.063 .039l.02 .034a4 4 0 0 1 .101 3.533l-.093 .19a4 4 0 0 1 -5.55 1.608v-14.857a5.5 5.5 0 0 1 4.118 -.36"}},{tag:"path",attr:{d:"M8.505 6c.885 0 1.736 .21 2.495 .597v14.87a4 4 0 0 1 -1.012 .41l-.196 .045a4 4 0 0 1 -4.424 -5.587l.118 -.238l-.035 -.023a5.5 5.5 0 0 1 -2.397 -5.258l.034 -.233a5.5 5.5 0 0 1 5.417 -4.583"},child:[]},{tag:"path",attr:{d:"M14.445 2.168a1 1 0 0 1 1.11 1.664l-3 2a1 1 0 0 1 -1.11 0l-3 -2a1 1 0 0 1 1.11 -1.664l2.444 1.63z"},child:[]}]})(props);
+}
+/**
  * Cactus icon from Tabler Icons
  */
 export function TbCactus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -6910,6 +7618,12 @@ export function TbCake(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbCakeOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 17v-5a3 3 0 0 0 -3 -3h-5m-4 0h-3a3 3 0 0 0 -3 3v8h17"}},{tag:"path",attr:{d:"M3 14.803c.312 .135 .654 .204 1 .197a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1m4 0a2.4 2.4 0 0 0 2 1c.35 .007 .692 -.062 1 -.197"},child:[]},{tag:"path",attr:{d:"M10.172 6.188c.07 -.158 .163 -.31 .278 -.451l1.55 -1.737l1.465 1.638a2 2 0 0 1 -.65 3.19"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * CakeRoll icon from Tabler Icons
+ */
+export function TbCakeRoll(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 15c-4.97 0 -9 -2.462 -9 -5.5s4.03 -5.5 9 -5.5s9 2.462 9 5.5s-4.03 5.5 -9 5.5"}},{tag:"path",attr:{d:"M12 6.97c3 0 4 1.036 4 1.979c0 2.805 -8 2.969 -8 -.99c0 -2.11 1.5 -3.959 4 -3.959"},child:[]},{tag:"path",attr:{d:"M21 9.333v5.334c0 2.945 -4.03 5.333 -9 5.333s-9 -2.388 -9 -5.333v-5.334"},child:[]}]})(props);
 }
 /**
  * Calculator icon from Tabler Icons
@@ -7002,6 +7716,12 @@ export function TbCalendarEvent(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M16 3l0 4"},child:[]},{tag:"path",attr:{d:"M8 3l0 4"},child:[]},{tag:"path",attr:{d:"M4 11l16 0"},child:[]},{tag:"path",attr:{d:"M8 15h2v2h-2z"},child:[]}]})(props);
 }
 /**
+ * CalendarEventFilled icon from Tabler Icons
+ */
+export function TbCalendarEventFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16 2a1 1 0 0 1 .993 .883l.007 .117v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 1.993 -.117l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z"}},{tag:"path",attr:{d:"M8 14h2v2h-2z"},child:[]}]})(props);
+}
+/**
  * CalendarExclamation icon from Tabler Icons
  */
 export function TbCalendarExclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7030,6 +7750,12 @@ export function TbCalendarMinus(props: IconBaseProps): VNode<JSX.SVGAttributes> 
  */
 export function TbCalendarMonth(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"}},{tag:"path",attr:{d:"M16 3v4"},child:[]},{tag:"path",attr:{d:"M8 3v4"},child:[]},{tag:"path",attr:{d:"M4 11h16"},child:[]},{tag:"path",attr:{d:"M7 14h.013"},child:[]},{tag:"path",attr:{d:"M10.01 14h.005"},child:[]},{tag:"path",attr:{d:"M13.01 14h.005"},child:[]},{tag:"path",attr:{d:"M16.015 14h.005"},child:[]},{tag:"path",attr:{d:"M13.015 17h.005"},child:[]},{tag:"path",attr:{d:"M7.01 17h.005"},child:[]},{tag:"path",attr:{d:"M10.01 17h.005"},child:[]}]})(props);
+}
+/**
+ * CalendarMonthFilled icon from Tabler Icons
+ */
+export function TbCalendarMonthFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16 2c.183 0 .355 .05 .502 .135l.033 .02c.28 .177 .465 .49 .465 .845v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 .514 -.874l.093 -.046l.066 -.025l.1 -.029l.107 -.019l.12 -.007q .083 0 .161 .013l.122 .029l.04 .012l.06 .023c.328 .135 .568 .44 .61 .806l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z"}},{tag:"path",attr:{d:"M9.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1"},child:[]},{tag:"path",attr:{d:"M13.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1"},child:[]},{tag:"path",attr:{d:"M17.02 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1"},child:[]},{tag:"path",attr:{d:"M12.02 15a1 1 0 0 1 0 2a1.001 1.001 0 1 1 -.005 -2z"},child:[]},{tag:"path",attr:{d:"M9.015 16a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1"},child:[]}]})(props);
 }
 /**
  * CalendarOff icon from Tabler Icons
@@ -7128,6 +7854,12 @@ export function TbCalendarWeek(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"}},{tag:"path",attr:{d:"M16 3v4"},child:[]},{tag:"path",attr:{d:"M8 3v4"},child:[]},{tag:"path",attr:{d:"M4 11h16"},child:[]},{tag:"path",attr:{d:"M8 14v4"},child:[]},{tag:"path",attr:{d:"M12 14v4"},child:[]},{tag:"path",attr:{d:"M16 14v4"},child:[]}]})(props);
 }
 /**
+ * CalendarWeekFilled icon from Tabler Icons
+ */
+export function TbCalendarWeekFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8 12a1 1 0 0 1 1 1v4a1 1 0 0 1 -2 0v-4a1 1 0 0 1 1 -1"}},{tag:"path",attr:{d:"M12 12a1 1 0 0 1 1 1v4a1 1 0 0 1 -2 0v-4a1 1 0 0 1 1 -1"},child:[]},{tag:"path",attr:{d:"M16 12a1 1 0 0 1 1 1v4a1 1 0 0 1 -2 0v-4a1 1 0 0 1 1 -1"},child:[]},{tag:"path",attr:{d:"M16 2a1 1 0 0 1 .993 .883l.007 .117v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 1.993 -.117l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z"},child:[]}]})(props);
+}
+/**
  * CalendarX icon from Tabler Icons
  */
 export function TbCalendarX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7138,6 +7870,18 @@ export function TbCalendarX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbCamera(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 7h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M9 13a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"},child:[]}]})(props);
+}
+/**
+ * CameraAi icon from Tabler Icons
+ */
+export function TbCameraAi(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 20h-5a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v2"}},{tag:"path",attr:{d:"M14.362 11.15a3 3 0 1 0 -4.144 4.263"},child:[]},{tag:"path",attr:{d:"M14 21v-4a2 2 0 1 1 4 0v4"},child:[]},{tag:"path",attr:{d:"M14 19h4"},child:[]},{tag:"path",attr:{d:"M21 15v6"},child:[]}]})(props);
+}
+/**
+ * CameraBitcoin icon from Tabler Icons
+ */
+export function TbCameraBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 20h-7a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v1"}},{tag:"path",attr:{d:"M14.477 11.307a3 3 0 1 0 -2.477 4.693"},child:[]},{tag:"path",attr:{d:"M17 21v-6"},child:[]},{tag:"path",attr:{d:"M19 15v-1.5"},child:[]},{tag:"path",attr:{d:"M19 22.5v-1.5"},child:[]},{tag:"path",attr:{d:"M17 18h3"},child:[]},{tag:"path",attr:{d:"M19 18h.5a1.5 1.5 0 0 1 0 3h-3.5"},child:[]},{tag:"path",attr:{d:"M19 18h.5a1.5 1.5 0 0 0 0 -3h-3.5"},child:[]}]})(props);
 }
 /**
  * CameraBolt icon from Tabler Icons
@@ -7206,6 +7950,12 @@ export function TbCameraMinus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 20h-7a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v6"}},{tag:"path",attr:{d:"M16 19h6"},child:[]},{tag:"path",attr:{d:"M9 13a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"},child:[]}]})(props);
 }
 /**
+ * CameraMoon icon from Tabler Icons
+ */
+export function TbCameraMoon(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11.5 20h-6.5a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v3.5"}},{tag:"path",attr:{d:"M14.815 11.96a3.001 3.001 0 1 0 -3.398 3.983"},child:[]},{tag:"path",attr:{d:"M18.62 22c-2 0 -3.62 -1.58 -3.62 -3.53c0 -1.727 1.273 -3.165 2.954 -3.47a3.4 3.4 0 0 0 -.24 1.264c0 1.95 1.621 3.53 3.62 3.53q .342 0 .666 -.06c-.521 1.326 -1.838 2.266 -3.38 2.266"},child:[]}]})(props);
+}
+/**
  * CameraOff icon from Tabler Icons
  */
 export function TbCameraOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7260,6 +8010,12 @@ export function TbCameraShare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12.5 20h-7.5a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M14.98 13.347a3 3 0 1 0 -2.39 2.595"},child:[]},{tag:"path",attr:{d:"M16 22l5 -5"},child:[]},{tag:"path",attr:{d:"M21 21.5v-4.5h-4.5"},child:[]}]})(props);
 }
 /**
+ * CameraSpark icon from Tabler Icons
+ */
+export function TbCameraSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11.5 20h-6.5a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v3"}},{tag:"path",attr:{d:"M9 13a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
  * CameraStar icon from Tabler Icons
  */
 export function TbCameraStar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7296,16 +8052,22 @@ export function TbCampfireFilled(props: IconBaseProps): VNode<JSX.SVGAttributes>
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19.757 16.03a1 1 0 0 1 .597 1.905l-.111 .035l-16 4a1 1 0 0 1 -.597 -1.905l.111 -.035l16 -4z"}},{tag:"path",attr:{d:"M3.03 16.757a1 1 0 0 1 1.098 -.749l.115 .022l16 4a1 1 0 0 1 -.37 1.962l-.116 -.022l-16 -4a1 1 0 0 1 -.727 -1.213z"},child:[]},{tag:"path",attr:{d:"M13.553 2.106c-4.174 2.086 -6.553 5.358 -6.553 8.894a5 5 0 0 0 10 0c0 -1.047 -.188 -1.808 -.606 -2.705l-.169 -.345l-.33 -.647c-.621 -1.24 -.895 -2.338 -.895 -4.303a1 1 0 0 0 -1.447 -.894z"},child:[]}]})(props);
 }
 /**
+ * Cancel icon from Tabler Icons
+ */
+export function TbCancel(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M18.364 5.636l-12.728 12.728"},child:[]}]})(props);
+}
+/**
  * Candle icon from Tabler Icons
  */
 export function TbCandle(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 21h6v-9a1 1 0 0 0 -1 -1h-4a1 1 0 0 0 -1 1v9z"}},{tag:"path",attr:{d:"M12 3l1.465 1.638a2 2 0 1 1 -3.015 .099l1.55 -1.737z"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 21h6v-10a1 1 0 0 0 -1 -1h-4a1 1 0 0 0 -1 1z"}},{tag:"path",attr:{d:"M12 2l1.465 1.638a2 2 0 1 1 -3.015 .099z"},child:[]}]})(props);
 }
 /**
  * CandleFilled icon from Tabler Icons
  */
 export function TbCandleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M14 10h-4a2 2 0 0 0 -2 2v9a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-9a2 2 0 0 0 -2 -2z"}},{tag:"path",attr:{d:"M11.254 2.334l-1.55 1.737c-1.042 1.277 -.898 3.097 .296 4.166a3 3 0 0 0 4.196 -4.28l-1.452 -1.624a1 1 0 0 0 -1.491 .001z"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M14 9a2 2 0 0 1 2 2v10a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-10a2 2 0 0 1 2 -2z"}},{tag:"path",attr:{d:"M11.254 1.334a1 1 0 0 1 1.491 0l1.452 1.623a3 3 0 0 1 -4.196 4.28c-1.195 -1.07 -1.339 -2.889 -.297 -4.166z"},child:[]}]})(props);
 }
 /**
  * Candy icon from Tabler Icons
@@ -7330,6 +8092,30 @@ export function TbCane(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbCannabis(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 20s0 -2 1 -3.5c-1.5 0 -2 -.5 -4 -1.5c0 0 1.839 -1.38 5 -1c-1.789 -.97 -3.279 -2.03 -5 -6c0 0 3.98 -.3 6.5 3.5c-2.284 -4.9 1.5 -9.5 1.5 -9.5c2.734 5.47 2.389 7.5 1.5 9.5c2.531 -3.77 6.5 -3.5 6.5 -3.5c-1.721 3.97 -3.211 5.03 -5 6c3.161 -.38 5 1 5 1c-2 1 -2.5 1.5 -4 1.5c1 1.5 1 3.5 1 3.5c-2 0 -4.438 -2.22 -5 -3c-.563 .78 -3 3 -5 3z"}},{tag:"path",attr:{d:"M12 22v-5"},child:[]}]})(props);
+}
+/**
+ * CannabisFilled icon from Tabler Icons
+ */
+export function TbCannabisFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.894 1.553c1.472 2.945 2.17 5.028 2.244 6.812l.001 .091l.032 -.022a8.7 8.7 0 0 1 2.73 -1.191l.352 -.079a8 8 0 0 1 1.562 -.169l.253 .007a1 1 0 0 1 .85 1.396c-.949 2.187 -1.818 3.595 -2.902 4.664l-.061 .058l.25 .055q .45 .108 .869 .259l.276 .104c.586 .235 1.006 .479 1.25 .662a1 1 0 0 1 -.042 1.63l-.199 .112l-1.133 .587c-.567 .289 -1.166 .584 -1.404 .67q -.123 .045 -.244 .083l-.074 .019l.016 .042c.327 .912 .456 1.789 .477 2.462l.003 .195a1 1 0 0 1 -1 1c-1.257 0 -2.77 -.729 -4.001 -1.647l.001 2.647a1 1 0 0 1 -2 0v-2.647c-1.16 .866 -2.57 1.563 -3.781 1.64l-.219 .007a1 1 0 0 1 -1 -1c0 -.624 .098 -1.464 .379 -2.358l.116 -.341l-.073 -.02l-.244 -.081c-.343 -.125 -1.442 -.686 -2.106 -1.032l-.52 -.274a1 1 0 0 1 -.152 -1.694c.244 -.183 .664 -.427 1.25 -.662a8 8 0 0 1 1.145 -.363l.249 -.055l-.06 -.058c-1.024 -1.01 -1.856 -2.322 -2.744 -4.307l-.157 -.357a1 1 0 0 1 .724 -1.38l.149 -.017l.058 -.003a7.5 7.5 0 0 1 1.744 .159a8.6 8.6 0 0 1 2.727 1.045l.27 .169v-.037c-.028 -1.594 .375 -3.18 1.095 -4.704l.139 -.285c.455 -.908 .914 -1.586 1.238 -1.98a1 1 0 0 1 1.666 .189"}}]})(props);
+}
+/**
+ * CapProjecting icon from Tabler Icons
+ */
+export function TbCapProjecting(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 6h-13a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h13"}},{tag:"path",attr:{d:"M13 12a2 2 0 1 1 -4 0a2 2 0 0 1 4 0"},child:[]},{tag:"path",attr:{d:"M13 12h7"},child:[]}]})(props);
+}
+/**
+ * CapRounded icon from Tabler Icons
+ */
+export function TbCapRounded(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 6h-9a6 6 0 1 0 0 12h9"}},{tag:"path",attr:{d:"M13 12a2 2 0 1 1 -4 0a2 2 0 0 1 4 0"},child:[]},{tag:"path",attr:{d:"M13 12h7"},child:[]}]})(props);
+}
+/**
+ * CapStraight icon from Tabler Icons
+ */
+export function TbCapStraight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 12a2 2 0 1 1 -4 0a2 2 0 0 1 4 0"}},{tag:"path",attr:{d:"M8 12h12"},child:[]},{tag:"path",attr:{d:"M20 6h-12a2 2 0 0 0 -2 2v2"},child:[]},{tag:"path",attr:{d:"M6 14v2a2 2 0 0 0 2 2h12"},child:[]}]})(props);
 }
 /**
  * Capsule icon from Tabler Icons
@@ -7386,6 +8172,12 @@ export function TbCar4Wd(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 3m0 2a2 2 0 0 1 2 -2h0a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h0a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M5 15m0 2a2 2 0 0 1 2 -2h0a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h0a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M15 3m0 2a2 2 0 0 1 2 -2h0a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h0a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M15 15m0 2a2 2 0 0 1 2 -2h0a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h0a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M9 18h6"},child:[]},{tag:"path",attr:{d:"M9 6h6"},child:[]},{tag:"path",attr:{d:"M12 6.5v-.5v12"},child:[]}]})(props);
 }
 /**
+ * Car4WdFilled icon from Tabler Icons
+ */
+export function TbCar4WdFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v2a3 3 0 0 1 -6 0h-1v10h1a3 3 0 0 1 6 0v2a3 3 0 0 1 -6 0h-4a3 3 0 0 1 -6 0v-2a3 3 0 0 1 6 0h1v-10h-1a3 3 0 1 1 -6 0v-2a3 3 0 1 1 6 0h4a3 3 0 0 1 3 -3"}}]})(props);
+}
+/**
  * CarCrane icon from Tabler Icons
  */
 export function TbCarCrane(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7428,6 +8220,18 @@ export function TbCarFanAuto(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12v-9l4.912 1.914a1.7 1.7 0 0 1 .428 2.925z"}},{tag:"path",attr:{d:"M14.044 14.624l-2.044 -2.624h4"},child:[]},{tag:"path",attr:{d:"M12 12h-9l1.914 -4.912a1.7 1.7 0 0 1 2.925 -.428z"},child:[]},{tag:"path",attr:{d:"M12 12v9l-4.912 -1.914a1.7 1.7 0 0 1 -.428 -2.925z"},child:[]},{tag:"path",attr:{d:"M17 21v-4a2 2 0 1 1 4 0v4"},child:[]},{tag:"path",attr:{d:"M17 19h4"},child:[]}]})(props);
 }
 /**
+ * CarFanFilled icon from Tabler Icons
+ */
+export function TbCarFanFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.363 2.068l4.912 1.914a2.7 2.7 0 0 1 .68 4.646l-3.045 2.371l6.09 .001a1 1 0 0 1 .932 1.363l-1.914 4.912a2.7 2.7 0 0 1 -4.646 .68l-2.372 -3.047v6.092a1 1 0 0 1 -1.363 .932l-4.912 -1.914a2.7 2.7 0 0 1 -.68 -4.646l3.045 -2.372h-6.09a1 1 0 0 1 -.932 -1.363l1.914 -4.912a2.7 2.7 0 0 1 4.646 -.68l2.371 3.044l.001 -6.089a1 1 0 0 1 1.363 -.932"}}]})(props);
+}
+/**
+ * CarFilled icon from Tabler Icons
+ */
+export function TbCarFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 14a3 3 0 0 1 2.685 4.34l-.067 .126l-.1 .165l-.141 .2l-.116 .141l-.116 .126a3 3 0 0 1 -.388 .334l-.149 .1l-.089 .055q -.052 .032 -.107 .06l-.17 .085l-.175 .073l-.104 .037l-.17 .052l-.172 .042l-.183 .032l-.075 .01q -.09 .011 -.18 .016l-.183 .006l-.183 -.006l-.18 -.016l-.192 -.03l-.17 -.036l-.18 -.051l-.058 -.019a3 3 0 0 1 -.174 -.065l-.161 -.072l-.168 -.087l-.053 -.03q -.122 -.072 -.237 -.156l-.16 -.124l-.15 -.134l-.129 -.129l-.066 -.073l-.1 -.12l-.12 -.165l-.074 -.113l-.063 -.108l-.067 -.126a3 3 0 0 1 -.315 -1.34a3 3 0 0 1 3 -3m-10 0a3 3 0 0 1 2.685 4.34l-.067 .126l-.1 .165l-.141 .2l-.116 .141l-.116 .126a3 3 0 0 1 -.388 .334l-.149 .1l-.089 .055q -.052 .032 -.107 .06l-.17 .085l-.175 .073l-.104 .037l-.17 .052l-.172 .042l-.183 .032l-.075 .01q -.09 .011 -.18 .016l-.183 .006l-.183 -.006l-.18 -.016l-.192 -.03l-.17 -.036l-.18 -.051l-.058 -.019a3 3 0 0 1 -.174 -.065l-.161 -.072l-.168 -.087l-.053 -.03q -.122 -.072 -.237 -.156l-.16 -.124l-.15 -.134l-.129 -.129l-.066 -.073l-.1 -.12l-.12 -.165l-.074 -.113l-.063 -.108l-.067 -.126a3 3 0 0 1 -.315 -1.34a3 3 0 0 1 3 -3m7 -9a1 1 0 0 1 .694 .28l.087 .095l3.699 4.625h.52a3 3 0 0 1 2.995 2.824l.005 .176v4a1 1 0 0 1 -1 1h-.126q .125 -.48 .126 -1a4 4 0 1 0 -7.874 1h-2.252q .124 -.48 .126 -1a4 4 0 1 0 -7.874 1h-.126a1 1 0 0 1 -1 -1v-6l.007 -.117l.008 -.056l.017 -.078l.012 -.036l.014 -.05l2.014 -5.034a1 1 0 0 1 .928 -.629zm-7 11a1 1 0 1 0 0 2a1 1 0 0 0 0 -2m10 0a1 1 0 1 0 0 2a1 1 0 0 0 0 -2m-3.48 -9h-.52v3h2.92z"}}]})(props);
+}
+/**
  * CarGarage icon from Tabler Icons
  */
 export function TbCarGarage(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7446,6 +8250,12 @@ export function TbCarSuv(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 17a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}},{tag:"path",attr:{d:"M16 17a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"},child:[]},{tag:"path",attr:{d:"M5 9l2 -4h7.438a2 2 0 0 1 1.94 1.515l.622 2.485h3a2 2 0 0 1 2 2v3"},child:[]},{tag:"path",attr:{d:"M10 9v-4"},child:[]},{tag:"path",attr:{d:"M2 7v4"},child:[]},{tag:"path",attr:{d:"M22.001 14.001a4.992 4.992 0 0 0 -4.001 -2.001a4.992 4.992 0 0 0 -4 2h-3a4.998 4.998 0 0 0 -8.003 .003"},child:[]},{tag:"path",attr:{d:"M5 12v-3h13"},child:[]}]})(props);
 }
 /**
+ * CarSuvFilled icon from Tabler Icons
+ */
+export function TbCarSuvFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M7 14a3 3 0 1 1 -3 3l.005 -.176a3 3 0 0 1 2.995 -2.824m11 0a3 3 0 1 1 -3 3l.005 -.176a3 3 0 0 1 2.995 -2.824m-11 2a1 1 0 1 0 0 2a1 1 0 0 0 0 -2m11 0a1 1 0 1 0 0 2a1 1 0 0 0 0 -2m-3.562 -12a3 3 0 0 1 2.91 2.272l.433 1.728h2.219a3 3 0 0 1 2.995 2.824l.005 .176v3.02l-.01 .117a1 1 0 0 1 -.286 .575l-.107 .091l-.07 .049l-.076 .042l-.106 .046l-.017 .005l-.047 .016l-.108 .025l-.118 .013l-.08 .002l-.122 -.012l-.148 -.033l-.063 -.022a1 1 0 0 1 -.362 -.24l-.08 -.094a4 4 0 0 0 -3.2 -1.6a4 4 0 0 0 -3.2 1.6a1 1 0 0 1 -.8 .4h-3a1 1 0 0 1 -.8 -.4a3.998 3.998 0 0 0 -6.402 .002a1 1 0 1 1 -1.602 -1.198c.493 -.66 1.11 -1.2 1.804 -1.602v-2.792a1 1 0 0 1 .06 -.35l.042 -.1l2.004 -4.007a1 1 0 0 1 .894 -.553zm-12.438 2a1 1 0 0 1 1 1v4a1 1 0 0 1 -2 0v-4a1 1 0 0 1 1 -1m12.438 0h-3.438v2h4.718l-.31 -1.243a1 1 0 0 0 -.97 -.757m-5.438 0h-1.382l-1.001 2h2.383z"}}]})(props);
+}
+/**
  * CarTurbine icon from Tabler Icons
  */
 export function TbCarTurbine(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7458,6 +8268,12 @@ export function TbCarambola(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17.286 21.09q -1.69 .001 -5.288 -2.615q -3.596 2.617 -5.288 2.616q -2.726 0 -.495 -6.8q -9.389 -6.775 2.135 -6.775h.076q 1.785 -5.516 3.574 -5.516q 1.785 0 3.574 5.516h.076q 11.525 0 2.133 6.774q 2.23 6.802 -.497 6.8"}}]})(props);
 }
 /**
+ * CarambolaFilled icon from Tabler Icons
+ */
+export function TbCarambolaFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17.108 22.085c-1.266 -.068 -2.924 -.859 -5.071 -2.355l-.04 -.027l-.037 .027c-2.147 1.497 -3.804 2.288 -5.072 2.356l-.178 .005c-2.747 0 -3.097 -2.64 -1.718 -7.244l.054 -.178l-.1 -.075c-6.056 -4.638 -5.046 -7.848 2.554 -8.066l.202 -.005l.115 -.326c1.184 -3.33 2.426 -5.085 4.027 -5.192l.156 -.005c1.674 0 2.957 1.76 4.182 5.197l.114 .326l.204 .005c7.6 .218 8.61 3.428 2.553 8.065l-.102 .075l.055 .178c1.35 4.512 1.04 7.137 -1.556 7.24l-.163 .003z"}}]})(props);
+}
+/**
  * Caravan icon from Tabler Icons
  */
 export function TbCaravan(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7468,6 +8284,12 @@ export function TbCaravan(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbCardboards(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 8v8.5a2.5 2.5 0 0 0 2.5 2.5h1.06a3 3 0 0 0 2.34 -1.13l1.54 -1.92a2 2 0 0 1 3.12 0l1.54 1.92a3 3 0 0 0 2.34 1.13h1.06a2.5 2.5 0 0 0 2.5 -2.5v-8.5a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2z"}},{tag:"path",attr:{d:"M8 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]},{tag:"path",attr:{d:"M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]}]})(props);
+}
+/**
+ * CardboardsFilled icon from Tabler Icons
+ */
+export function TbCardboardsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19 5a3 3 0 0 1 3 3v8.5a3.5 3.5 0 0 1 -3.5 3.5h-1.062a4 4 0 0 1 -3.118 -1.504l-1.54 -1.92a1 1 0 0 0 -1.56 0l-1.538 1.917a4 4 0 0 1 -3.122 1.507h-1.06a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3 3 0 0 1 3 -3zm-11 5a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2m8 0a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2"}}]})(props);
 }
 /**
  * CardboardsOff icon from Tabler Icons
@@ -7626,6 +8448,12 @@ export function TbCashOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 9h6a2 2 0 0 1 2 2v6m-2 2h-10a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M12.582 12.59a2 2 0 0 0 2.83 2.826"},child:[]},{tag:"path",attr:{d:"M17 9v-2a2 2 0 0 0 -2 -2h-6m-4 0a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
 }
 /**
+ * CashRegister icon from Tabler Icons
+ */
+export function TbCashRegister(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 15h-2.5c-.398 0 -.779 .158 -1.061 .439c-.281 .281 -.439 .663 -.439 1.061c0 .398 .158 .779 .439 1.061c.281 .281 .663 .439 1.061 .439h1c.398 0 .779 .158 1.061 .439c.281 .281 .439 .663 .439 1.061c0 .398 -.158 .779 -.439 1.061c-.281 .281 -.663 .439 -1.061 .439h-2.5"}},{tag:"path",attr:{d:"M19 21v1m0 -8v1"},child:[]},{tag:"path",attr:{d:"M13 21h-7c-.53 0 -1.039 -.211 -1.414 -.586c-.375 -.375 -.586 -.884 -.586 -1.414v-10c0 -.53 .211 -1.039 .586 -1.414c.375 -.375 .884 -.586 1.414 -.586h2m12 3.12v-1.12c0 -.53 -.211 -1.039 -.586 -1.414c-.375 -.375 -.884 -.586 -1.414 -.586h-2"},child:[]},{tag:"path",attr:{d:"M16 10v-6c0 -.53 -.211 -1.039 -.586 -1.414c-.375 -.375 -.884 -.586 -1.414 -.586h-4c-.53 0 -1.039 .211 -1.414 .586c-.375 .375 -.586 .884 -.586 1.414v6m8 0h-8m8 0h1m-9 0h-1"},child:[]},{tag:"path",attr:{d:"M8 14v.01"},child:[]},{tag:"path",attr:{d:"M8 17v.01"},child:[]},{tag:"path",attr:{d:"M12 13.99v.01"},child:[]},{tag:"path",attr:{d:"M12 17v.01"},child:[]}]})(props);
+}
+/**
  * Cast icon from Tabler Icons
  */
 export function TbCast(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7776,6 +8604,12 @@ export function TbChargingPile(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 7l-1 1"}},{tag:"path",attr:{d:"M14 11h1a2 2 0 0 1 2 2v3a1.5 1.5 0 0 0 3 0v-7l-3 -3"},child:[]},{tag:"path",attr:{d:"M4 20v-14a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v14"},child:[]},{tag:"path",attr:{d:"M9 11.5l-1.5 2.5h3l-1.5 2.5"},child:[]},{tag:"path",attr:{d:"M3 20l12 0"},child:[]},{tag:"path",attr:{d:"M4 8l10 0"},child:[]}]})(props);
 }
 /**
+ * ChargingPileFilled icon from Tabler Icons
+ */
+export function TbChargingPileFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 3a3 3 0 0 1 3 3v4a3 3 0 0 1 3 3v3a.5 .5 0 1 0 1 0v-6.585l-1 -1l-.293 .292a1 1 0 0 1 -1.414 -1.414l.292 -.293l-.292 -.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1 .293 .707v7a2.5 2.5 0 1 1 -5 0v-3a1 1 0 0 0 -1 -1v7a1 1 0 0 1 0 2h-12a1 1 0 0 1 0 -2v-13a3 3 0 0 1 3 -3zm-2.486 7.643a1 1 0 0 0 -1.371 .343l-1.5 2.5l-.054 .1a1 1 0 0 0 .911 1.414h1.233l-.59 .986a1 1 0 0 0 1.714 1.028l1.5 -2.5l.054 -.1a1 1 0 0 0 -.911 -1.414h-1.235l.592 -.986a1 1 0 0 0 -.343 -1.371m2.486 -5.643h-6a1 1 0 0 0 -1 1v1h8v-1a1 1 0 0 0 -1 -1"}}]})(props);
+}
+/**
  * ChartArcs icon from Tabler Icons
  */
 export function TbChartArcs(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -7827,13 +8661,19 @@ export function TbChartArrowsVertical(props: IconBaseProps): VNode<JSX.SVGAttrib
  * ChartBar icon from Tabler Icons
  */
 export function TbChartBar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M9 8m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"},child:[]},{tag:"path",attr:{d:"M15 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"},child:[]},{tag:"path",attr:{d:"M4 20l14 0"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 13a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M15 9a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"},child:[]},{tag:"path",attr:{d:"M9 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"},child:[]},{tag:"path",attr:{d:"M4 20h14"},child:[]}]})(props);
 }
 /**
  * ChartBarOff icon from Tabler Icons
  */
 export function TbChartBarOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M12 8h2a1 1 0 0 1 1 1v2m0 4v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-10"},child:[]},{tag:"path",attr:{d:"M15 11v-6a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v12m-1 3h-4a1 1 0 0 1 -1 -1v-4"},child:[]},{tag:"path",attr:{d:"M4 20h14"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * ChartBarPopular icon from Tabler Icons
+ */
+export function TbChartBarPopular(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 13a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M9 9a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"},child:[]},{tag:"path",attr:{d:"M15 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"},child:[]},{tag:"path",attr:{d:"M4 20h14"},child:[]}]})(props);
 }
 /**
  * ChartBubble icon from Tabler Icons
@@ -7864,6 +8704,24 @@ export function TbChartCandleFilled(props: IconBaseProps): VNode<JSX.SVGAttribut
  */
 export function TbChartCircles(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9.5 9.5m-5.5 0a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0"}},{tag:"path",attr:{d:"M14.5 14.5m-5.5 0a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0"},child:[]}]})(props);
+}
+/**
+ * ChartCohort icon from Tabler Icons
+ */
+export function TbChartCohort(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 9h18v-6h-18v18h6v-18"}},{tag:"path",attr:{d:"M3 15h12v-12"},child:[]}]})(props);
+}
+/**
+ * ChartColumn icon from Tabler Icons
+ */
+export function TbChartColumn(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 20h3"}},{tag:"path",attr:{d:"M17 20h3"},child:[]},{tag:"path",attr:{d:"M10.5 20h3"},child:[]},{tag:"path",attr:{d:"M4 16h3"},child:[]},{tag:"path",attr:{d:"M17 16h3"},child:[]},{tag:"path",attr:{d:"M10.5 16h3"},child:[]},{tag:"path",attr:{d:"M4 12h3"},child:[]},{tag:"path",attr:{d:"M17 12h3"},child:[]},{tag:"path",attr:{d:"M10.5 12h3"},child:[]},{tag:"path",attr:{d:"M4 8h3"},child:[]},{tag:"path",attr:{d:"M17 8h3"},child:[]},{tag:"path",attr:{d:"M4 4h3"},child:[]}]})(props);
+}
+/**
+ * ChartCovariate icon from Tabler Icons
+ */
+export function TbChartCovariate(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 11h.009"}},{tag:"path",attr:{d:"M14 15h.009"},child:[]},{tag:"path",attr:{d:"M12 6h.009"},child:[]},{tag:"path",attr:{d:"M8 10h.009"},child:[]},{tag:"path",attr:{d:"M3 21l17 -17"},child:[]},{tag:"path",attr:{d:"M3 3v18h18"},child:[]}]})(props);
 }
 /**
  * ChartDonut icon from Tabler Icons
@@ -7918,6 +8776,12 @@ export function TbChartDots3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbChartDotsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M3 2a1 1 0 0 1 1 1v17h17a1 1 0 0 1 .993 .883l.007 .117a1 1 0 0 1 -1 1h-18a1 1 0 0 1 -1 -1v-18a1 1 0 0 1 1 -1z"}},{tag:"path",attr:{d:"M19 4a3 3 0 1 1 -.651 5.93l-2.002 3.202a3 3 0 1 1 -4.927 .337l-1.378 -1.655a3 3 0 1 1 1.538 -1.282l1.378 1.654a2.994 2.994 0 0 1 1.693 -.115l2.002 -3.203a3 3 0 0 1 2.347 -4.868z"},child:[]}]})(props);
+}
+/**
+ * ChartFunnel icon from Tabler Icons
+ */
+export function TbChartFunnel(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.387 3h15.226a1 1 0 0 1 .948 1.316l-5.105 15.316a2 2 0 0 1 -1.898 1.368h-3.116a2 2 0 0 1 -1.898 -1.368l-5.104 -15.316a1 1 0 0 1 .947 -1.316"}},{tag:"path",attr:{d:"M5 9h14"},child:[]},{tag:"path",attr:{d:"M7 15h10"},child:[]}]})(props);
 }
 /**
  * ChartGridDots icon from Tabler Icons
@@ -8304,6 +9168,12 @@ export function TbChristmasTree(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3l4 4l-2 1l4 4l-3 1l4 4h-14l4 -4l-3 -1l4 -4l-2 -1z"}},{tag:"path",attr:{d:"M14 17v3a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-3"},child:[]}]})(props);
 }
 /**
+ * ChristmasTreeFilled icon from Tabler Icons
+ */
+export function TbChristmasTreeFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M15 19v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2v-1zm-10 -1c-.89 0 -1.337 -1.077 -.707 -1.707l2.855 -2.857l-1.464 -.487a1 1 0 0 1 -.472 -1.565l.08 -.091l3.019 -3.02l-.758 -.379a1 1 0 0 1 -.343 -1.507l.083 -.094l4 -4a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 -.26 1.601l-.759 .379l3.02 3.02a1 1 0 0 1 -.279 1.61l-.113 .046l-1.465 .487l2.856 2.857c.603 .602 .22 1.614 -.593 1.701l-.114 .006z"}}]})(props);
+}
+/**
  * ChristmasTreeOff icon from Tabler Icons
  */
 export function TbChristmasTreeOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -8508,6 +9378,162 @@ export function TbCircleDashedCheck(props: IconBaseProps): VNode<JSX.SVGAttribut
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"}},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]},{tag:"path",attr:{d:"M9 12l2 2l4 -4"},child:[]}]})(props);
 }
 /**
+ * CircleDashedLetterA icon from Tabler Icons
+ */
+export function TbCircleDashedLetterA(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-6a2 2 0 1 1 4 0v6"}},{tag:"path",attr:{d:"M10 13h4"},child:[]},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterB icon from Tabler Icons
+ */
+export function TbCircleDashedLetterB(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2z"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterC icon from Tabler Icons
+ */
+export function TbCircleDashedLetterC(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10a2 2 0 1 0 -4 0v4a2 2 0 1 0 4 0"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterD icon from Tabler Icons
+ */
+export function TbCircleDashedLetterD(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterE icon from Tabler Icons
+ */
+export function TbCircleDashedLetterE(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h-4v8h4"}},{tag:"path",attr:{d:"M10 12h2.5"},child:[]},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterF icon from Tabler Icons
+ */
+export function TbCircleDashedLetterF(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12h3"}},{tag:"path",attr:{d:"M14 8h-4v8"},child:[]},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterG icon from Tabler Icons
+ */
+export function TbCircleDashedLetterG(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h-2a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2v-4h-1"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterH icon from Tabler Icons
+ */
+export function TbCircleDashedLetterH(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-8m4 0v8"}},{tag:"path",attr:{d:"M10 12h4"},child:[]},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterI icon from Tabler Icons
+ */
+export function TbCircleDashedLetterI(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8v8"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterJ icon from Tabler Icons
+ */
+export function TbCircleDashedLetterJ(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8h4v6a2 2 0 1 1 -4 0"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterK icon from Tabler Icons
+ */
+export function TbCircleDashedLetterK(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8v8"}},{tag:"path",attr:{d:"M14 8l-2.5 4l2.5 4"},child:[]},{tag:"path",attr:{d:"M10 12h1.5"},child:[]},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterL icon from Tabler Icons
+ */
+export function TbCircleDashedLetterL(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8v8h4"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterM icon from Tabler Icons
+ */
+export function TbCircleDashedLetterM(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 16v-8l3 5l3 -5v8"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterN icon from Tabler Icons
+ */
+export function TbCircleDashedLetterN(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-8l4 8v-8"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterO icon from Tabler Icons
+ */
+export function TbCircleDashedLetterO(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterP icon from Tabler Icons
+ */
+export function TbCircleDashedLetterP(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12h2a2 2 0 1 0 0 -4h-2v8"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterQ icon from Tabler Icons
+ */
+export function TbCircleDashedLetterQ(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M13 15l1 1"},child:[]},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterR icon from Tabler Icons
+ */
+export function TbCircleDashedLetterR(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterS icon from Tabler Icons
+ */
+export function TbCircleDashedLetterS(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterT icon from Tabler Icons
+ */
+export function TbCircleDashedLetterT(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8h4"}},{tag:"path",attr:{d:"M12 8v8"},child:[]},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterU icon from Tabler Icons
+ */
+export function TbCircleDashedLetterU(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8v6a2 2 0 1 0 4 0v-6"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterV icon from Tabler Icons
+ */
+export function TbCircleDashedLetterV(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8l2 8l2 -8"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterW icon from Tabler Icons
+ */
+export function TbCircleDashedLetterW(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 8l1 8l2 -5l2 5l1 -8"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterX icon from Tabler Icons
+ */
+export function TbCircleDashedLetterX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8l4 8"}},{tag:"path",attr:{d:"M10 16l4 -8"},child:[]},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterY icon from Tabler Icons
+ */
+export function TbCircleDashedLetterY(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8l2 5l2 -5"}},{tag:"path",attr:{d:"M12 16v-3"},child:[]},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
+ * CircleDashedLetterZ icon from Tabler Icons
+ */
+export function TbCircleDashedLetterZ(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8h4l-4 8h4"}},{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"},child:[]},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]}]})(props);
+}
+/**
  * CircleDashedMinus icon from Tabler Icons
  */
 export function TbCircleDashedMinus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -8608,6 +9634,162 @@ export function TbCircleDotFilled(props: IconBaseProps): VNode<JSX.SVGAttributes
  */
 export function TbCircleDotted(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7.5 4.21l0 .01"}},{tag:"path",attr:{d:"M4.21 7.5l0 .01"},child:[]},{tag:"path",attr:{d:"M3 12l0 .01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5l0 .01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79l0 .01"},child:[]},{tag:"path",attr:{d:"M12 21l0 .01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79l0 .01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5l0 .01"},child:[]},{tag:"path",attr:{d:"M21 12l0 .01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5l0 .01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21l0 .01"},child:[]},{tag:"path",attr:{d:"M12 3l0 .01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterA icon from Tabler Icons
+ */
+export function TbCircleDottedLetterA(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-6a2 2 0 1 1 4 0v6"}},{tag:"path",attr:{d:"M10 13h4"},child:[]},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterB icon from Tabler Icons
+ */
+export function TbCircleDottedLetterB(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2z"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterC icon from Tabler Icons
+ */
+export function TbCircleDottedLetterC(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10a2 2 0 1 0 -4 0v4a2 2 0 1 0 4 0"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterD icon from Tabler Icons
+ */
+export function TbCircleDottedLetterD(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterE icon from Tabler Icons
+ */
+export function TbCircleDottedLetterE(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h-4v8h4"}},{tag:"path",attr:{d:"M10 12h2.5"},child:[]},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterF icon from Tabler Icons
+ */
+export function TbCircleDottedLetterF(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12h3"}},{tag:"path",attr:{d:"M14 8h-4v8"},child:[]},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterG icon from Tabler Icons
+ */
+export function TbCircleDottedLetterG(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h-2a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2v-4h-1"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterH icon from Tabler Icons
+ */
+export function TbCircleDottedLetterH(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-8m4 0v8"}},{tag:"path",attr:{d:"M10 12h4"},child:[]},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterI icon from Tabler Icons
+ */
+export function TbCircleDottedLetterI(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8v8"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterJ icon from Tabler Icons
+ */
+export function TbCircleDottedLetterJ(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8h4v6a2 2 0 1 1 -4 0"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterK icon from Tabler Icons
+ */
+export function TbCircleDottedLetterK(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8v8"}},{tag:"path",attr:{d:"M14 8l-2.5 4l2.5 4"},child:[]},{tag:"path",attr:{d:"M10 12h1.5"},child:[]},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterL icon from Tabler Icons
+ */
+export function TbCircleDottedLetterL(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8v8h4"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterM icon from Tabler Icons
+ */
+export function TbCircleDottedLetterM(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 16v-8l3 5l3 -5v8"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterN icon from Tabler Icons
+ */
+export function TbCircleDottedLetterN(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-8l4 8v-8"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterO icon from Tabler Icons
+ */
+export function TbCircleDottedLetterO(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterP icon from Tabler Icons
+ */
+export function TbCircleDottedLetterP(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12h2a2 2 0 1 0 0 -4h-2v8"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterQ icon from Tabler Icons
+ */
+export function TbCircleDottedLetterQ(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M13 15l1 1"},child:[]},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterR icon from Tabler Icons
+ */
+export function TbCircleDottedLetterR(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterS icon from Tabler Icons
+ */
+export function TbCircleDottedLetterS(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterT icon from Tabler Icons
+ */
+export function TbCircleDottedLetterT(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8h4"}},{tag:"path",attr:{d:"M12 8v8"},child:[]},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterU icon from Tabler Icons
+ */
+export function TbCircleDottedLetterU(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8v6a2 2 0 1 0 4 0v-6"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterV icon from Tabler Icons
+ */
+export function TbCircleDottedLetterV(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8l2 8l2 -8"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterW icon from Tabler Icons
+ */
+export function TbCircleDottedLetterW(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 8l1 8l2 -5l2 5l1 -8"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterX icon from Tabler Icons
+ */
+export function TbCircleDottedLetterX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8l4 8"}},{tag:"path",attr:{d:"M10 16l4 -8"},child:[]},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterY icon from Tabler Icons
+ */
+export function TbCircleDottedLetterY(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8l2 5l2 -5"}},{tag:"path",attr:{d:"M12 16v-3"},child:[]},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
+}
+/**
+ * CircleDottedLetterZ icon from Tabler Icons
+ */
+export function TbCircleDottedLetterZ(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8h4l-4 8h4"}},{tag:"path",attr:{d:"M7.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M4.21 7.5v.01"},child:[]},{tag:"path",attr:{d:"M3 12v.01"},child:[]},{tag:"path",attr:{d:"M4.21 16.5v.01"},child:[]},{tag:"path",attr:{d:"M7.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M12 21v.01"},child:[]},{tag:"path",attr:{d:"M16.5 19.79v.01"},child:[]},{tag:"path",attr:{d:"M19.79 16.5v.01"},child:[]},{tag:"path",attr:{d:"M21 12v.01"},child:[]},{tag:"path",attr:{d:"M19.79 7.5v.01"},child:[]},{tag:"path",attr:{d:"M16.5 4.21v.01"},child:[]},{tag:"path",attr:{d:"M12 3v.01"},child:[]}]})(props);
 }
 /**
  * CircleFilled icon from Tabler Icons
@@ -9102,6 +10284,12 @@ export function TbCirclePercentage(props: IconBaseProps): VNode<JSX.SVGAttribute
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"}},{tag:"path",attr:{d:"M9 15.075l6 -6"},child:[]},{tag:"path",attr:{d:"M9 9.105v.015"},child:[]},{tag:"path",attr:{d:"M15 15.12v.015"},child:[]}]})(props);
 }
 /**
+ * CirclePercentageFilled icon from Tabler Icons
+ */
+export function TbCirclePercentageFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10a10 10 0 0 1 -20 0l.004 -.28c.148 -5.393 4.566 -9.72 9.996 -9.72m3 12.12a1 1 0 0 0 -1 1v.015a1 1 0 0 0 2 0v-.015a1 1 0 0 0 -1 -1m.707 -5.752a1 1 0 0 0 -1.414 0l-6 6a1 1 0 0 0 1.414 1.414l6 -6a1 1 0 0 0 0 -1.414m-6.707 -.263a1 1 0 0 0 -1 1v.015a1 1 0 1 0 2 0v-.015a1 1 0 0 0 -1 -1"}}]})(props);
+}
+/**
  * CirclePlus icon from Tabler Icons
  */
 export function TbCirclePlus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -9114,10 +10302,22 @@ export function TbCirclePlus2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20.985 12.522a9 9 0 1 0 -8.475 8.464"}},{tag:"path",attr:{d:"M16 19h6"},child:[]},{tag:"path",attr:{d:"M19 16v6"},child:[]}]})(props);
 }
 /**
+ * CirclePlusFilled icon from Tabler Icons
+ */
+export function TbCirclePlusFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z"}}]})(props);
+}
+/**
  * CircleRectangle icon from Tabler Icons
  */
 export function TbCircleRectangle(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M7 10h10v4h-10z"},child:[]}]})(props);
+}
+/**
+ * CircleRectangleFilled icon from Tabler Icons
+ */
+export function TbCircleRectangleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m0 5.66h-10a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h10a1 1 0 0 0 1 -1v-4a1 1 0 0 0 -1 -1"}}]})(props);
 }
 /**
  * CircleRectangleOff icon from Tabler Icons
@@ -9300,6 +10500,12 @@ export function TbClick(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12l3 0"}},{tag:"path",attr:{d:"M12 3l0 3"},child:[]},{tag:"path",attr:{d:"M7.8 7.8l-2.2 -2.2"},child:[]},{tag:"path",attr:{d:"M16.2 7.8l2.2 -2.2"},child:[]},{tag:"path",attr:{d:"M7.8 16.2l-2.2 2.2"},child:[]},{tag:"path",attr:{d:"M12 12l9 3l-4 2l-2 4l-3 -9"},child:[]}]})(props);
 }
 /**
+ * CliffJumping icon from Tabler Icons
+ */
+export function TbCliffJumping(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M10.5 18l2.5 2l2 -2"},child:[]},{tag:"path",attr:{d:"M18 21l3 -3l-4 -2l-1 -5"},child:[]},{tag:"path",attr:{d:"M10.5 7.5l2 3l3.5 .5l3 -2l.5 -3"},child:[]},{tag:"path",attr:{d:"M4 21v-1l2 -3l.5 -2.5l1.5 -2.5l-1 -5l1 -3l-1 -1l-2 .5l-2 -.5"},child:[]}]})(props);
+}
+/**
  * Clipboard icon from Tabler Icons
  */
 export function TbClipboard(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -9348,6 +10554,12 @@ export function TbClipboardPlus(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"}},{tag:"path",attr:{d:"M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M10 14h4"},child:[]},{tag:"path",attr:{d:"M12 12v4"},child:[]}]})(props);
 }
 /**
+ * ClipboardSearch icon from Tabler Icons
+ */
+export function TbClipboardSearch(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h4.5m7.5 -10v-4a2 2 0 0 0 -2 -2h-2"}},{tag:"path",attr:{d:"M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2"},child:[]},{tag:"path",attr:{d:"M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"},child:[]},{tag:"path",attr:{d:"M20.2 20.2l1.8 1.8"},child:[]}]})(props);
+}
+/**
  * ClipboardSmile icon from Tabler Icons
  */
 export function TbClipboardSmile(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -9394,6 +10606,12 @@ export function TbClock2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbClock24(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12a9 9 0 0 0 5.998 8.485m12.002 -8.485a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 7v5"},child:[]},{tag:"path",attr:{d:"M12 15h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h2"},child:[]},{tag:"path",attr:{d:"M18 15v2a1 1 0 0 0 1 1h1"},child:[]},{tag:"path",attr:{d:"M21 15v6"},child:[]}]})(props);
+}
+/**
+ * ClockBitcoin icon from Tabler Icons
+ */
+export function TbClockBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M20.866 10.45a9 9 0 1 0 -7.815 10.488"},child:[]},{tag:"path",attr:{d:"M12 7v5l1.5 1.5"},child:[]}]})(props);
 }
 /**
  * ClockBolt icon from Tabler Icons
@@ -9714,6 +10932,12 @@ export function TbCloud(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6.657 18c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878"}}]})(props);
 }
 /**
+ * CloudBitcoin icon from Tabler Icons
+ */
+export function TbCloudBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M13.5 18.004h-6.843c-2.572 -.004 -4.657 -2.011 -4.657 -4.487s2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.28 1.023 1.957 2.51 1.873 4.027"},child:[]}]})(props);
+}
+/**
  * CloudBolt icon from Tabler Icons
  */
 export function TbCloudBolt(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -9918,6 +11142,12 @@ export function TbClover2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11 11l-3.397 -3.44a2.104 2.104 0 0 1 0 -2.95a2.04 2.04 0 0 1 2.912 0l.485 .39l.485 -.39a2.04 2.04 0 0 1 2.912 0a2.104 2.104 0 0 1 0 2.95l-3.397 3.44z"}},{tag:"path",attr:{d:"M11 11l-3.397 3.44a2.104 2.104 0 0 0 0 2.95a2.04 2.04 0 0 0 2.912 0l.485 -.39l.485 .39a2.04 2.04 0 0 0 2.912 0a2.104 2.104 0 0 0 0 -2.95l-3.397 -3.44z"},child:[]},{tag:"path",attr:{d:"M14.44 7.603a2.104 2.104 0 0 1 2.95 0a2.04 2.04 0 0 1 0 2.912l-.39 .485l.39 .485a2.04 2.04 0 0 1 0 2.912a2.104 2.104 0 0 1 -2.95 0"},child:[]},{tag:"path",attr:{d:"M7.56 7.603a2.104 2.104 0 0 0 -2.95 0a2.04 2.04 0 0 0 0 2.912l.39 .485l-.39 .485a2.04 2.04 0 0 0 0 2.912a2.104 2.104 0 0 0 2.95 0"},child:[]},{tag:"path",attr:{d:"M15 15l6 6"},child:[]}]})(props);
 }
 /**
+ * CloverFilled icon from Tabler Icons
+ */
+export function TbCloverFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.712 13.297l3.398 3.442a3.104 3.104 0 0 1 0 4.351a3.04 3.04 0 0 1 -4.036 .27l-.075 -.062l-.073 .062a3.04 3.04 0 0 1 -1.664 .634l-.203 .007a3.04 3.04 0 0 1 -2.17 -.91a3.104 3.104 0 0 1 .002 -4.354l3.397 -3.44a1 1 0 0 1 1.424 0m8.378 -5.407a3.04 3.04 0 0 1 .27 4.037l-.062 .073l.062 .075a3.04 3.04 0 0 1 .634 1.664l.007 .203a3.04 3.04 0 0 1 -.91 2.17a3.104 3.104 0 0 1 -4.354 -.002l-3.44 -3.397a1 1 0 0 1 0 -1.424l3.443 -3.399a3.104 3.104 0 0 1 4.351 0m-13.827 .002l3.44 3.397a1 1 0 0 1 0 1.424l-3.444 3.397a3.104 3.104 0 0 1 -4.351 0a3.04 3.04 0 0 1 -.27 -4.036l.062 -.075l-.062 -.073a3.04 3.04 0 0 1 -.634 -1.664l-.007 -.203c0 -.816 .328 -1.598 .91 -2.17a3.104 3.104 0 0 1 4.354 .002m6.678 -5.891a3.04 3.04 0 0 1 2.17 .91a3.104 3.104 0 0 1 -.002 4.354l-3.397 3.44a1 1 0 0 1 -1.424 0l-3.397 -3.444a3.104 3.104 0 0 1 0 -4.351a3.04 3.04 0 0 1 4.036 -.27l.073 .062l.075 -.062a3.04 3.04 0 0 1 1.664 -.634z"}}]})(props);
+}
+/**
  * Clubs icon from Tabler Icons
  */
 export function TbClubs(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -9954,6 +11184,18 @@ export function TbCodeCircle2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8.5 13.5l-1.5 -1.5l1.5 -1.5"}},{tag:"path",attr:{d:"M15.5 10.5l1.5 1.5l-1.5 1.5"},child:[]},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"},child:[]},{tag:"path",attr:{d:"M13 9.5l-2 5.5"},child:[]}]})(props);
 }
 /**
+ * CodeCircle2Filled icon from Tabler Icons
+ */
+export function TbCodeCircle2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-3.658 5.22a1 1 0 0 0 -1.282 .598l-2 5.5a1 1 0 0 0 1.88 .684l2 -5.5a1 1 0 0 0 -.598 -1.282m-4.135 1.233a1 1 0 0 0 -1.414 0l-1.5 1.5a1 1 0 0 0 0 1.414l1.5 1.5a1 1 0 0 0 1.414 0l.083 -.094a1 1 0 0 0 -.083 -1.32l-.792 -.793l.792 -.793a1 1 0 0 0 0 -1.414m7 0a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l.792 .793l-.792 .793a1 1 0 0 0 1.414 1.414l1.5 -1.5a1 1 0 0 0 0 -1.414z"}}]})(props);
+}
+/**
+ * CodeCircleFilled icon from Tabler Icons
+ */
+export function TbCodeCircleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-6.293 5.953a1 1 0 0 0 -1.414 0l-2 2a1 1 0 0 0 0 1.414l2 2a1 1 0 0 0 1.414 0l.083 -.094a1 1 0 0 0 -.083 -1.32l-1.292 -1.293l1.292 -1.293a1 1 0 0 0 0 -1.414m4 0a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l1.292 1.293l-1.292 1.293a1 1 0 0 0 1.414 1.414l2 -2a1 1 0 0 0 0 -1.414z"}}]})(props);
+}
+/**
  * CodeDots icon from Tabler Icons
  */
 export function TbCodeDots(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -9976,6 +11218,24 @@ export function TbCodeOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbCodePlus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 12h6"}},{tag:"path",attr:{d:"M12 9v6"},child:[]},{tag:"path",attr:{d:"M6 19a2 2 0 0 1 -2 -2v-4l-1 -1l1 -1v-4a2 2 0 0 1 2 -2"},child:[]},{tag:"path",attr:{d:"M18 19a2 2 0 0 0 2 -2v-4l1 -1l-1 -1v-4a2 2 0 0 0 -2 -2"},child:[]}]})(props);
+}
+/**
+ * CodeVariable icon from Tabler Icons
+ */
+export function TbCodeVariable(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}}]})(props);
+}
+/**
+ * CodeVariableMinus icon from Tabler Icons
+ */
+export function TbCodeVariableMinus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12.5 16h-6.5a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M16 18h6"},child:[]}]})(props);
+}
+/**
+ * CodeVariablePlus icon from Tabler Icons
+ */
+export function TbCodeVariablePlus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 16h-7a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v1"}},{tag:"path",attr:{d:"M16 18h6"},child:[]},{tag:"path",attr:{d:"M19 15v6"},child:[]}]})(props);
 }
 /**
  * Coffee icon from Tabler Icons
@@ -10296,6 +11556,12 @@ export function TbConfucius(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 19l3 2v-18"}},{tag:"path",attr:{d:"M4 10l8 -2"},child:[]},{tag:"path",attr:{d:"M4 18l8 -10"},child:[]},{tag:"path",attr:{d:"M20 18l-8 -8l8 -4"},child:[]}]})(props);
 }
 /**
+ * CongruentTo icon from Tabler Icons
+ */
+export function TbCongruentTo(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 13h14"}},{tag:"path",attr:{d:"M5 17h14"},child:[]},{tag:"path",attr:{d:"M5 7.686c2.333 -2.624 4.667 -1.856 7 .064s4.667 2.688 7 .064"},child:[]}]})(props);
+}
+/**
  * Container icon from Tabler Icons
  */
 export function TbContainer(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -10306,6 +11572,12 @@ export function TbContainer(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbContainerOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 4v.01"}},{tag:"path",attr:{d:"M20 20v.01"},child:[]},{tag:"path",attr:{d:"M20 16v.01"},child:[]},{tag:"path",attr:{d:"M20 12v.01"},child:[]},{tag:"path",attr:{d:"M20 8v.01"},child:[]},{tag:"path",attr:{d:"M8.297 4.289a1 1 0 0 1 .703 -.289h6a1 1 0 0 1 1 1v7m0 4v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-11"},child:[]},{tag:"path",attr:{d:"M4 4v.01"},child:[]},{tag:"path",attr:{d:"M4 20v.01"},child:[]},{tag:"path",attr:{d:"M4 16v.01"},child:[]},{tag:"path",attr:{d:"M4 12v.01"},child:[]},{tag:"path",attr:{d:"M4 8v.01"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * Contract icon from Tabler Icons
+ */
+export function TbContract(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 21h-2a3 3 0 0 1 -3 -3v-1h5.5"}},{tag:"path",attr:{d:"M17 8.5v-3.5a2 2 0 1 1 2 2h-2"},child:[]},{tag:"path",attr:{d:"M19 3h-11a3 3 0 0 0 -3 3v11"},child:[]},{tag:"path",attr:{d:"M9 7h4"},child:[]},{tag:"path",attr:{d:"M9 11h4"},child:[]},{tag:"path",attr:{d:"M18.42 12.61a2.1 2.1 0 0 1 2.97 2.97l-6.39 6.42h-3v-3z"},child:[]}]})(props);
 }
 /**
  * Contrast icon from Tabler Icons
@@ -10866,6 +12138,12 @@ export function TbCubeSend(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12.5l-5 -3l5 -3l5 3v5.5l-5 3z"}},{tag:"path",attr:{d:"M11 9.5v5.5l5 3"},child:[]},{tag:"path",attr:{d:"M16 12.545l5 -3.03"},child:[]},{tag:"path",attr:{d:"M7 9h-5"},child:[]},{tag:"path",attr:{d:"M7 12h-3"},child:[]},{tag:"path",attr:{d:"M7 15h-1"},child:[]}]})(props);
 }
 /**
+ * CubeSpark icon from Tabler Icons
+ */
+export function TbCubeSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 12v-4.01a1.98 1.98 0 0 0 -1 -1.717l-7 -4.008a2.02 2.02 0 0 0 -2 0l-7 4.008c-.619 .355 -1 1.01 -1 1.718v8.018c0 .709 .381 1.363 1 1.717l7 4.008c.62 .354 1.38 .354 2 0"}},{tag:"path",attr:{d:"M12 22v-10"},child:[]},{tag:"path",attr:{d:"M12 12l8.73 -5.04"},child:[]},{tag:"path",attr:{d:"M3.27 6.96l8.73 5.04"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
  * CubeUnfolded icon from Tabler Icons
  */
 export function TbCubeUnfolded(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -11352,6 +12630,12 @@ export function TbDashboard(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M13.45 11.55l2.05 -2.05"},child:[]},{tag:"path",attr:{d:"M6.4 20a9 9 0 1 1 11.2 0z"},child:[]}]})(props);
 }
 /**
+ * DashboardFilled icon from Tabler Icons
+ */
+export function TbDashboardFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2.954a10 10 0 0 1 6.222 17.829a1 1 0 0 1 -.622 .217h-11.2a1 1 0 0 1 -.622 -.217a10 10 0 0 1 6.222 -17.829m4.207 5.839a1 1 0 0 0 -1.414 0l-2.276 2.274a2.003 2.003 0 0 0 -2.514 1.815l-.003 .118a2 2 0 1 0 3.933 -.517l2.274 -2.276a1 1 0 0 0 0 -1.414"}}]})(props);
+}
+/**
  * DashboardOff icon from Tabler Icons
  */
 export function TbDashboardOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -11562,6 +12846,12 @@ export function TbDeviceCctv(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"},child:[]},{tag:"path",attr:{d:"M19 7v7a7 7 0 0 1 -14 0v-7"},child:[]},{tag:"path",attr:{d:"M12 14l.01 0"},child:[]}]})(props);
 }
 /**
+ * DeviceCctvFilled icon from Tabler Icons
+ */
+export function TbDeviceCctvFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M20 8v6a8 8 0 1 1 -16 0v-6zm-8 2a4 4 0 0 0 -3.996 3.826l-.004 .174a4 4 0 1 0 4 -4m.01 3a1 1 0 0 1 .117 1.993l-.127 .007a1 1 0 0 1 -.117 -1.993zm-10.01 -8v-1a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2"}}]})(props);
+}
+/**
  * DeviceCctvOff icon from Tabler Icons
  */
 export function TbDeviceCctvOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -11638,6 +12928,12 @@ export function TbDeviceDesktopDown(props: IconBaseProps): VNode<JSX.SVGAttribut
  */
 export function TbDeviceDesktopExclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 16h-11a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v7"}},{tag:"path",attr:{d:"M7 20h8"},child:[]},{tag:"path",attr:{d:"M9 16v4"},child:[]},{tag:"path",attr:{d:"M15 16v4"},child:[]},{tag:"path",attr:{d:"M19 16v3"},child:[]},{tag:"path",attr:{d:"M19 22v.01"},child:[]}]})(props);
+}
+/**
+ * DeviceDesktopFilled icon from Tabler Icons
+ */
+export function TbDeviceDesktopFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M7 21a1 1 0 0 1 0 -2h1v-2h-4a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-4v2h1a1 1 0 0 1 0 2zm7 -4h-4v2h4z"}}]})(props);
 }
 /**
  * DeviceDesktopHeart icon from Tabler Icons
@@ -11733,7 +13029,13 @@ export function TbDeviceGamepad2(props: IconBaseProps): VNode<JSX.SVGAttributes>
  * DeviceGamepad3 icon from Tabler Icons
  */
 export function TbDeviceGamepad3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12l-3 -3h-2a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h2l3 -3z"}},{tag:"path",attr:{d:"M14 12l3 -3h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2l-3 -3z"},child:[]},{tag:"path",attr:{d:"M12 14l-3 3v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1 -1v-2l-3 -3z"},child:[]},{tag:"path",attr:{d:"M12 10l-3 -3v-2a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v2l-3 3z"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 12l-3 -3h-2a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h2z"}},{tag:"path",attr:{d:"M15 12l3 -3h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2z"},child:[]},{tag:"path",attr:{d:"M12 15l-3 3v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1 -1v-2z"},child:[]},{tag:"path",attr:{d:"M12 9l-3 -3v-2a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v2z"},child:[]}]})(props);
+}
+/**
+ * DeviceGamepad3Filled icon from Tabler Icons
+ */
+export function TbDeviceGamepad3Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.707 14.293l3 3a1 1 0 0 1 .293 .707v2a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2v-2a1 1 0 0 1 .293 -.707l3 -3a1 1 0 0 1 1.414 0m-6.707 -6.293a1 1 0 0 1 .707 .293l3 3a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.707 .293h-2a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2zm14 0a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-2a1 1 0 0 1 -.707 -.293l-3 -3a1 1 0 0 1 0 -1.414l3 -3a1 1 0 0 1 .707 -.293zm-6 -6a2 2 0 0 1 2 2v2a1 1 0 0 1 -.293 .707l-3 3a1 1 0 0 1 -1.414 0l-3 -3a1 1 0 0 1 -.293 -.707v-2a2 2 0 0 1 2 -2z"}}]})(props);
 }
 /**
  * DeviceHeartMonitor icon from Tabler Icons
@@ -11800,6 +13102,12 @@ export function TbDeviceImacDown(props: IconBaseProps): VNode<JSX.SVGAttributes>
  */
 export function TbDeviceImacExclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 17h-11a1 1 0 0 1 -1 -1v-12a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v8.5"}},{tag:"path",attr:{d:"M3 13h13"},child:[]},{tag:"path",attr:{d:"M8 21h7"},child:[]},{tag:"path",attr:{d:"M10 17l-.5 4"},child:[]},{tag:"path",attr:{d:"M14 17l.5 4"},child:[]},{tag:"path",attr:{d:"M19 16v3"},child:[]},{tag:"path",attr:{d:"M19 22v.01"},child:[]}]})(props);
+}
+/**
+ * DeviceImacFilled icon from Tabler Icons
+ */
+export function TbDeviceImacFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8 22a1 1 0 0 1 0 -2h.616l.25 -2h-4.866a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-4.867l.25 2h.617a1 1 0 0 1 0 2zm5.116 -4h-2.233l-.25 2h2.733z"}}]})(props);
 }
 /**
  * DeviceImacHeart icon from Tabler Icons
@@ -11877,7 +13185,7 @@ export function TbDeviceImacX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * DeviceIpad icon from Tabler Icons
  */
 export function TbDeviceIpad(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 2a3 3 0 0 1 2.995 2.824l.005 .176v14a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-3 15h-6l-.117 .007a1 1 0 0 0 0 1.986l.117 .007h6l.117 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z"}}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 3a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2z"}},{tag:"path",attr:{d:"M9 18h6"},child:[]}]})(props);
 }
 /**
  * DeviceIpadBolt icon from Tabler Icons
@@ -11926,6 +13234,12 @@ export function TbDeviceIpadDown(props: IconBaseProps): VNode<JSX.SVGAttributes>
  */
 export function TbDeviceIpadExclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 21h-9a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v7"}},{tag:"path",attr:{d:"M9 18h6"},child:[]},{tag:"path",attr:{d:"M19 16v3"},child:[]},{tag:"path",attr:{d:"M19 22v.01"},child:[]}]})(props);
+}
+/**
+ * DeviceIpadFilled icon from Tabler Icons
+ */
+export function TbDeviceIpadFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm-3 16h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2"}}]})(props);
 }
 /**
  * DeviceIpadHeart icon from Tabler Icons
@@ -12324,6 +13638,12 @@ export function TbDeviceRemote(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M7 3m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M12 3v2"},child:[]},{tag:"path",attr:{d:"M10 15v.01"},child:[]},{tag:"path",attr:{d:"M10 18v.01"},child:[]},{tag:"path",attr:{d:"M14 18v.01"},child:[]},{tag:"path",attr:{d:"M14 15v.01"},child:[]}]})(props);
 }
 /**
+ * DeviceRemoteFilled icon from Tabler Icons
+ */
+export function TbDeviceRemoteFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M15 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3h2v1a1 1 0 0 0 .883 .993l.117 .007a1 1 0 0 0 1 -1v-1zm-5 15a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883m4 0a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883m-4 -3a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883m4 0a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883m-2 -7a3 3 0 0 0 -2.995 2.824l-.005 .176a3 3 0 1 0 3 -3"}}]})(props);
+}
+/**
  * DeviceSdCard icon from Tabler Icons
  */
 export function TbDeviceSdCard(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -12358,6 +13678,12 @@ export function TbDeviceSim3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbDeviceSpeaker(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M12 14m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"},child:[]},{tag:"path",attr:{d:"M12 7l0 .01"},child:[]}]})(props);
+}
+/**
+ * DeviceSpeakerFilled icon from Tabler Icons
+ */
+export function TbDeviceSpeakerFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm-5 9a4 4 0 0 0 -3.995 3.8l-.005 .2a4 4 0 1 0 4 -4m0 -5a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1"}}]})(props);
 }
 /**
  * DeviceSpeakerOff icon from Tabler Icons
@@ -12504,6 +13830,12 @@ export function TbDeviceTv(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M16 3l-4 4l-4 -4"},child:[]}]})(props);
 }
 /**
+ * DeviceTvFilled icon from Tabler Icons
+ */
+export function TbDeviceTvFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8.707 2.293l3.293 3.292l3.293 -3.292a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-2.293 2.293h4.586a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3h4.585l-2.292 -2.293a1 1 0 0 1 1.414 -1.414"}}]})(props);
+}
+/**
  * DeviceTvOff icon from Tabler Icons
  */
 export function TbDeviceTvOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -12516,16 +13848,46 @@ export function TbDeviceTvOld(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M16 3l-4 4l-4 -4"},child:[]},{tag:"path",attr:{d:"M15 7v13"},child:[]},{tag:"path",attr:{d:"M18 15v.01"},child:[]},{tag:"path",attr:{d:"M18 12v.01"},child:[]}]})(props);
 }
 /**
+ * DeviceTvOldFilled icon from Tabler Icons
+ */
+export function TbDeviceTvOldFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8.707 2.293l3.293 3.292l3.293 -3.292a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-2.293 2.293h4.586a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3h4.585l-2.292 -2.293a1 1 0 0 1 1.414 -1.414m10.293 5.707h-2a1 1 0 0 0 -1 1v9a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-9a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M18 14a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1"},child:[]},{tag:"path",attr:{d:"M18 11a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1"},child:[]}]})(props);
+}
+/**
+ * DeviceUnknown icon from Tabler Icons
+ */
+export function TbDeviceUnknown(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M12 16v.01"},child:[]},{tag:"path",attr:{d:"M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483"},child:[]}]})(props);
+}
+/**
+ * DeviceUnknownFilled icon from Tabler Icons
+ */
+export function TbDeviceUnknownFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm-5 13a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1m1.368 -6.673a2.98 2.98 0 0 0 -3.631 .728a1 1 0 0 0 1.526 1.292a.98 .98 0 0 1 1.195 -.239a1 1 0 0 1 -.455 1.892a1 1 0 0 0 -.006 2a3 3 0 0 0 1.371 -5.673"}}]})(props);
+}
+/**
  * DeviceUsb icon from Tabler Icons
  */
 export function TbDeviceUsb(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h8v9a3 3 0 0 1 -3 3h-2a3 3 0 0 1 -3 -3v-9z"}},{tag:"path",attr:{d:"M10 8v-4h4v4"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 8h10v8a5 5 0 0 1 -10 0z"}},{tag:"path",attr:{d:"M9 8v-5h6v5"},child:[]}]})(props);
+}
+/**
+ * DeviceUsbFilled icon from Tabler Icons
+ */
+export function TbDeviceUsbFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M15 2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 1 1v8a6 6 0 1 1 -12 0v-8a1 1 0 0 1 1 -1h1v-4a1 1 0 0 1 1 -1zm-1 2h-4v3h4z"}}]})(props);
 }
 /**
  * DeviceVisionPro icon from Tabler Icons
  */
 export function TbDeviceVisionPro(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 7c1.143 0 2.235 .035 3.275 .104c1.017 .068 1.95 .207 2.798 .42c.813 .203 1.52 .505 2.119 .909a3.903 3.903 0 0 1 1.328 1.531c.326 .657 .48 1.48 .48 2.466c0 1.006 -.189 1.91 -.574 2.707c-.375 .779 -.886 1.396 -1.537 1.848a3.696 3.696 0 0 1 -2.16 .66c-.509 0 -.97 -.068 -1.382 -.21a5.84 5.84 0 0 1 -1.17 -.548a18.45 18.45 0 0 1 -1.045 -.695a9.104 9.104 0 0 0 -1.001 -.63a2.376 2.376 0 0 0 -1.13 -.301c-.373 0 -.75 .097 -1.132 .3c-.316 .17 -.65 .38 -1 .63c-.322 .23 -.67 .462 -1.047 .695a5.78 5.78 0 0 1 -1.168 .548c-.413 .142 -.872 .21 -1.378 .21a3.706 3.706 0 0 1 -2.165 -.659c-.651 -.452 -1.162 -1.07 -1.537 -1.848c-.385 -.798 -.574 -1.7 -.574 -2.709c-.004 -.98 .15 -1.802 .477 -2.46a3.897 3.897 0 0 1 1.33 -1.531c.6 -.403 1.307 -.704 2.12 -.907a16.088 16.088 0 0 1 2.8 -.423c1.04 -.071 2.13 -.107 3.273 -.107z"}}]})(props);
+}
+/**
+ * DeviceVisionProFilled icon from Tabler Icons
+ */
+export function TbDeviceVisionProFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 6q 1.74 0 3.342 .106q 1.619 .107 2.973 .448q 1.388 .345 2.436 1.05a4.9 4.9 0 0 1 1.665 1.916c.397 .801 .584 1.769 .584 2.91c0 1.156 -.222 2.208 -.673 3.14c-.45 .934 -1.073 1.685 -1.868 2.236a4.7 4.7 0 0 1 -2.73 .839q -.932 .001 -1.703 -.263a7 7 0 0 1 -1.374 -.644a20 20 0 0 1 -1.107 -.736a8 8 0 0 0 -.901 -.567a1.4 1.4 0 0 0 -.643 -.174c-.209 0 -.426 .057 -.658 .18q -.42 .226 -.893 .564a20 20 0 0 1 -1.105 .733a6.8 6.8 0 0 1 -1.366 .642a5.2 5.2 0 0 1 -1.688 .264a4.7 4.7 0 0 1 -2.75 -.838c-.794 -.55 -1.418 -1.302 -1.868 -2.234q -.675 -1.407 -.673 -3.14c-.005 -1.135 .182 -2.105 .577 -2.9a4.9 4.9 0 0 1 1.673 -1.926c.699 -.47 1.511 -.816 2.442 -1.049a17 17 0 0 1 2.968 -.447q 1.599 -.11 3.34 -.11"}}]})(props);
 }
 /**
  * DeviceWatch icon from Tabler Icons
@@ -12580,6 +13942,12 @@ export function TbDeviceWatchDown(props: IconBaseProps): VNode<JSX.SVGAttributes
  */
 export function TbDeviceWatchExclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 18h-6a3 3 0 0 1 -3 -3v-6a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v3"}},{tag:"path",attr:{d:"M9 18v3h6v-3"},child:[]},{tag:"path",attr:{d:"M9 6v-3h6v3"},child:[]},{tag:"path",attr:{d:"M19 16v3"},child:[]},{tag:"path",attr:{d:"M19 22v.01"},child:[]}]})(props);
+}
+/**
+ * DeviceWatchFilled icon from Tabler Icons
+ */
+export function TbDeviceWatchFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M15 2a1 1 0 0 1 1 1v2.126c1.726 .445 3 2.01 3 3.874v6a4 4 0 0 1 -3 3.874v2.126a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-2.126a4 4 0 0 1 -3 -3.874v-6a4 4 0 0 1 3 -3.874v-2.126a1 1 0 0 1 1 -1zm-1 17h-4v1h4zm0 -15h-4v1h4z"}}]})(props);
 }
 /**
  * DeviceWatchHeart icon from Tabler Icons
@@ -12876,6 +14244,12 @@ export function TbDiamondsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes>
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2.005c-.777 0 -1.508 .367 -1.971 .99l-5.362 6.895c-.89 1.136 -.89 3.083 0 4.227l5.375 6.911a2.457 2.457 0 0 0 3.93 -.017l5.361 -6.894c.89 -1.136 .89 -3.083 0 -4.227l-5.375 -6.911a2.446 2.446 0 0 0 -1.958 -.974z"}}]})(props);
 }
 /**
+ * Diaper icon from Tabler Icons
+ */
+export function TbDiaper(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 8.323c0 -.579 0 -.868 .044 -1.11a2.7 2.7 0 0 1 2.17 -2.169c.239 -.044 .529 -.044 1.109 -.044h11.353c.579 0 .868 0 1.11 .044a2.7 2.7 0 0 1 2.169 2.17c.044 .24 .044 .53 .044 1.11v2.676a9 9 0 0 1 -18 0z"}},{tag:"path",attr:{d:"M17 9h4"},child:[]},{tag:"path",attr:{d:"M3 9h4"},child:[]},{tag:"path",attr:{d:"M14.25 19.7v-1.4a6.3 6.3 0 0 1 6.3 -6.3"},child:[]},{tag:"path",attr:{d:"M9.75 19.7v-1.4a6.3 6.3 0 0 0 -6.3 -6.3"},child:[]}]})(props);
+}
+/**
  * Dice icon from Tabler Icons
  */
 export function TbDice(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -12978,6 +14352,12 @@ export function TbDirectionArrows(props: IconBaseProps): VNode<JSX.SVGAttributes
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"}},{tag:"path",attr:{d:"M8 11l-1 1l1 1"},child:[]},{tag:"path",attr:{d:"M11 8l1 -1l1 1"},child:[]},{tag:"path",attr:{d:"M16 11l1 1l-1 1"},child:[]},{tag:"path",attr:{d:"M11 16l1 1l1 -1"},child:[]}]})(props);
 }
 /**
+ * DirectionArrowsFilled icon from Tabler Icons
+ */
+export function TbDirectionArrowsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10a10 10 0 0 1 -20 0l.004 -.28c.148 -5.393 4.566 -9.72 9.996 -9.72m-.293 13.293a1 1 0 0 0 -1.414 1.414l1 1a1 1 0 0 0 1.414 0l1 -1a1 1 0 0 0 0 -1.414l-.094 -.083a1 1 0 0 0 -1.32 .083l-.293 .292zm-3 -5a1 1 0 0 0 -1.414 0l-1 1a1 1 0 0 0 0 1.414l1 1a1 1 0 0 0 1.414 0l.083 -.094a1 1 0 0 0 -.083 -1.32l-.292 -.293l.292 -.293a1 1 0 0 0 0 -1.414m8 0a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l.292 .292l-.292 .294a1 1 0 0 0 1.414 1.414l1 -1a1 1 0 0 0 0 -1.414zm-4 -4a1 1 0 0 0 -1.414 0l-1 1a1 1 0 0 0 0 1.414l.094 .083a1 1 0 0 0 1.32 -.083l.293 -.292l.293 .292a1 1 0 0 0 1.414 -1.414z"}}]})(props);
+}
+/**
  * DirectionHorizontal icon from Tabler Icons
  */
 export function TbDirectionHorizontal(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -13006,6 +14386,12 @@ export function TbDirectionSignOff(props: IconBaseProps): VNode<JSX.SVGAttribute
  */
 export function TbDirections(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 21v-4"}},{tag:"path",attr:{d:"M12 13v-4"},child:[]},{tag:"path",attr:{d:"M12 5v-2"},child:[]},{tag:"path",attr:{d:"M10 21h4"},child:[]},{tag:"path",attr:{d:"M8 5v4h11l2 -2l-2 -2z"},child:[]},{tag:"path",attr:{d:"M14 13v4h-8l-2 -2l2 -2z"},child:[]}]})(props);
+}
+/**
+ * DirectionsFilled icon from Tabler Icons
+ */
+export function TbDirectionsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M10 22a1 1 0 0 1 0 -2h1v-2.001l-5 .001a1 1 0 0 1 -.707 -.293l-2 -2a1 1 0 0 1 0 -1.414l2 -2a1 1 0 0 1 .707 -.293l5 -.001v-1.999h-3a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h3v-1a1 1 0 0 1 2 0v1h6a1 1 0 0 1 .707 .293l2 2a1 1 0 0 1 0 1.414l-2 2a1 1 0 0 1 -.707 .293h-6v1.999l1 .001a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1l-1 -.001v2.001h1a1 1 0 0 1 0 2z"}}]})(props);
 }
 /**
  * DirectionsOff icon from Tabler Icons
@@ -13038,6 +14424,12 @@ export function TbDisc(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]},{tag:"path",attr:{d:"M7 12a5 5 0 0 1 5 -5"},child:[]},{tag:"path",attr:{d:"M12 17a5 5 0 0 0 5 -5"},child:[]}]})(props);
 }
 /**
+ * DiscFilled icon from Tabler Icons
+ */
+export function TbDiscFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m0 7.66a1 1 0 0 0 -1 1a4 4 0 0 1 -4 4a1 1 0 0 0 0 2a6 6 0 0 0 6 -6a1 1 0 0 0 -1 -1m-5 -1a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2m0 -4a6 6 0 0 0 -6 6a1 1 0 0 0 2 0a4 4 0 0 1 4 -4a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
  * DiscGolf icon from Tabler Icons
  */
 export function TbDiscGolf(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -13054,6 +14446,12 @@ export function TbDiscOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbDiscount(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 15l6 -6"}},{tag:"circle",attr:{"cx":"9.5","cy":"9.5","r":".5",fill:"currentColor"},child:[]},{tag:"circle",attr:{"cx":"14.5","cy":"14.5","r":".5",fill:"currentColor"},child:[]},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * DiscountFilled icon from Tabler Icons
+ */
+export function TbDiscountFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-2.5 9.66a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0 -3m1.207 -4.707a1 1 0 0 0 -1.414 0l-6 6a1 1 0 0 0 1.414 1.414l6 -6a1 1 0 0 0 0 -1.414m-6.207 -.293a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0 -3"}}]})(props);
 }
 /**
  * DiscountOff icon from Tabler Icons
@@ -13362,6 +14760,12 @@ export function TbDroplets(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.072 20.3a2.999 2.999 0 0 0 3.856 0a3.002 3.002 0 0 0 .67 -3.798l-2.095 -3.227a.6 .6 0 0 0 -1.005 0l-2.098 3.227a3.003 3.003 0 0 0 .671 3.798z"}},{tag:"path",attr:{d:"M16.072 20.3a2.999 2.999 0 0 0 3.856 0a3.002 3.002 0 0 0 .67 -3.798l-2.095 -3.227a.6 .6 0 0 0 -1.005 0l-2.098 3.227a3.003 3.003 0 0 0 .671 3.798z"},child:[]},{tag:"path",attr:{d:"M10.072 10.3a2.999 2.999 0 0 0 3.856 0a3.002 3.002 0 0 0 .67 -3.798l-2.095 -3.227a.6 .6 0 0 0 -1.005 0l-2.098 3.227a3.003 3.003 0 0 0 .671 3.798z"},child:[]}]})(props);
 }
 /**
+ * DropletsFilled icon from Tabler Icons
+ */
+export function TbDropletsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6 12.003c.541 0 1.045 .273 1.342 .727l2.122 3.273a3.999 3.999 0 0 1 -6.035 5.063c-1.487 -1.248 -1.864 -3.382 -.867 -5.11l2.098 -3.226a1.6 1.6 0 0 1 1.34 -.727"}},{tag:"path",attr:{d:"M18 12.003c.541 0 1.045 .273 1.342 .727l2.122 3.273a3.999 3.999 0 0 1 -6.035 5.063c-1.487 -1.248 -1.864 -3.382 -.867 -5.11l2.098 -3.227a1.6 1.6 0 0 1 1.34 -.726"},child:[]},{tag:"path",attr:{d:"M12 2.003c.541 0 1.045 .273 1.342 .727l2.122 3.273a3.999 3.999 0 0 1 -6.035 5.063c-1.487 -1.248 -1.864 -3.382 -.867 -5.11l2.098 -3.226a1.6 1.6 0 0 1 1.34 -.727"},child:[]}]})(props);
+}
+/**
  * DualScreen icon from Tabler Icons
  */
 export function TbDualScreen(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -13470,6 +14874,12 @@ export function TbEggCracked(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 14.083c0 4.154 -2.966 6.74 -7 6.917c-4.2 0 -7 -2.763 -7 -6.917c0 -5.538 3.5 -11.09 7 -11.083c3.5 .007 7 5.545 7 11.083z"}},{tag:"path",attr:{d:"M12 3l-1.5 5l3.5 2.5l-2 3.5"},child:[]}]})(props);
 }
 /**
+ * EggCrackedFilled icon from Tabler Icons
+ */
+export function TbEggCrackedFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.236 2.066l-1.694 5.647l-.029 .123a1 1 0 0 0 .406 .978l2.764 1.974l-1.551 2.716a1 1 0 1 0 1.736 .992l2 -3.5l.052 -.105a1 1 0 0 0 -.339 -1.205l-2.918 -2.085l1.623 -5.41c3.641 1.074 6.714 6.497 6.714 11.892c0 4.59 -3.273 7.71 -8 7.917c-4.75 0 -8 -3.21 -8 -7.917c0 -5.654 3.372 -11.344 7.236 -12.017"}}]})(props);
+}
+/**
  * EggFilled icon from Tabler Icons
  */
 export function TbEggFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -13498,6 +14908,12 @@ export function TbEggs(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbElevator(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 4m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M10 10l2 -2l2 2"},child:[]},{tag:"path",attr:{d:"M10 14l2 2l2 -2"},child:[]}]})(props);
+}
+/**
+ * ElevatorFilled icon from Tabler Icons
+ */
+export function TbElevatorFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 3a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2zm-7.293 10.293a1 1 0 1 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l2 -2a1 1 0 0 0 0 -1.414l-.094 -.083a1 1 0 0 0 -1.32 .083l-1.294 1.292zm2 -6a1 1 0 0 0 -1.414 0l-2 2a1 1 0 0 0 0 1.414l.094 .083a1 1 0 0 0 1.32 -.083l1.293 -1.292l1.293 1.292a1 1 0 0 0 1.414 -1.414z"}}]})(props);
 }
 /**
  * ElevatorOff icon from Tabler Icons
@@ -13620,6 +15036,12 @@ export function TbExclamationCircle(props: IconBaseProps): VNode<JSX.SVGAttribut
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 9v4"},child:[]},{tag:"path",attr:{d:"M12 16v.01"},child:[]}]})(props);
 }
 /**
+ * ExclamationCircleFilled icon from Tabler Icons
+ */
+export function TbExclamationCircleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-5 11.66a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1m0 -7a1 1 0 0 0 -1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0 -1 -1"}}]})(props);
+}
+/**
  * ExclamationMark icon from Tabler Icons
  */
 export function TbExclamationMark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -13647,7 +15069,7 @@ export function TbExplicitOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * Exposure icon from Tabler Icons
  */
 export function TbExposure(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M4.6 19.4l14.8 -14.8"},child:[]},{tag:"path",attr:{d:"M7 9h4m-2 -2v4"},child:[]},{tag:"path",attr:{d:"M13 16l4 0"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3.6 20.4l16.8 -16.8"}},{tag:"path",attr:{d:"M6 8h4m-2 -2v4"},child:[]},{tag:"path",attr:{d:"M14 16h4"},child:[]},{tag:"path",attr:{d:"M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"},child:[]}]})(props);
 }
 /**
  * Exposure0 icon from Tabler Icons
@@ -13671,7 +15093,7 @@ export function TbExposureMinus2(props: IconBaseProps): VNode<JSX.SVGAttributes>
  * ExposureOff icon from Tabler Icons
  */
 export function TbExposureOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.6 19.4l7.4 -7.4m2 -2l5.4 -5.4"}},{tag:"path",attr:{d:"M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a2 2 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405"},child:[]},{tag:"path",attr:{d:"M7 9h2v2"},child:[]},{tag:"path",attr:{d:"M13 16h3"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3.6 20.4l8.371 -8.371m2.04 -2.04l6.389 -6.389"}},{tag:"path",attr:{d:"M6 8h2m0 0v2"},child:[]},{tag:"path",attr:{d:"M14 16h2"},child:[]},{tag:"path",attr:{d:"M7 3h12a2 2 0 0 1 2 2v12m-.5 3.5c-.362 .36 -.95 .5 -1.5 .5h-14a2 2 0 0 1 -2 -2v-14c0 -.541 .215 -1.033 .565 -1.393"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
 }
 /**
  * ExposurePlus1 icon from Tabler Icons
@@ -13702,6 +15124,12 @@ export function TbExternalLinkOff(props: IconBaseProps): VNode<JSX.SVGAttributes
  */
 export function TbEye(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}},{tag:"path",attr:{d:"M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"},child:[]}]})(props);
+}
+/**
+ * EyeBitcoin icon from Tabler Icons
+ */
+export function TbEyeBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}},{tag:"path",attr:{d:"M13.193 17.924q -.585 .075 -1.193 .076q -5.4 0 -9 -6q 3.6 -6 9 -6q 4.508 0 7.761 4.181"},child:[]},{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"},child:[]}]})(props);
 }
 /**
  * EyeBolt icon from Tabler Icons
@@ -13836,6 +15264,12 @@ export function TbEyeShare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}},{tag:"path",attr:{d:"M12.597 17.981a9.467 9.467 0 0 1 -.597 .019c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.205 .342 -.415 .67 -.63 .983"},child:[]},{tag:"path",attr:{d:"M16 22l5 -5"},child:[]},{tag:"path",attr:{d:"M21 21.5v-4.5h-4.5"},child:[]}]})(props);
 }
 /**
+ * EyeSpark icon from Tabler Icons
+ */
+export function TbEyeSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}},{tag:"path",attr:{d:"M11.669 17.994q -5.18 -.18 -8.669 -5.994q 3.6 -6 9 -6t 9 6"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
  * EyeStar icon from Tabler Icons
  */
 export function TbEyeStar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -13870,6 +15304,12 @@ export function TbEyeglass(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbEyeglass2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 4h-2l-3 10v2.5"}},{tag:"path",attr:{d:"M16 4h2l3 10v2.5"},child:[]},{tag:"path",attr:{d:"M10 16l4 0"},child:[]},{tag:"path",attr:{d:"M17.5 16.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0"},child:[]},{tag:"path",attr:{d:"M6.5 16.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0"},child:[]}]})(props);
+}
+/**
+ * EyeglassFilled icon from Tabler Icons
+ */
+export function TbEyeglassFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6.5 21a4.5 4.5 0 0 1 -4.5 -4.5v-2.518l.004 -.071l.014 -.103l.018 -.076l3.006 -10.02a1 1 0 0 1 .958 -.712h2a1 1 0 1 1 0 2h-1.257l-2.4 8h5.657a1 1 0 0 1 1 1v1h2v-1a1 1 0 0 1 1 -1h5.656l-2.4 -8h-1.256a1 1 0 0 1 -.993 -.883l-.007 -.117a1 1 0 0 1 1 -1h2a1 1 0 0 1 .958 .713l3.01 10.036l.022 .112l.008 .08l.002 2.559a4.5 4.5 0 0 1 -8.972 .5h-2.056a4.5 4.5 0 0 1 -4.472 4"}}]})(props);
 }
 /**
  * EyeglassOff icon from Tabler Icons
@@ -13914,10 +15354,22 @@ export function TbFavicon(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 5m0 3a3 3 0 0 1 3 -3h14a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3z"}},{tag:"path",attr:{d:"M6 10v4"},child:[]},{tag:"path",attr:{d:"M11 10a2 2 0 1 0 0 4"},child:[]},{tag:"path",attr:{d:"M16 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]}]})(props);
 }
 /**
+ * FaviconFilled icon from Tabler Icons
+ */
+export function TbFaviconFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19 4a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-14a4 4 0 0 1 -4 -4v-8a4 4 0 0 1 4 -4zm-13 5a1 1 0 0 0 -1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0 -1 -1m5 0a3 3 0 0 0 0 6a1 1 0 0 0 .117 -1.993l-.117 -.007a1 1 0 0 1 -.117 -1.993l.117 -.007a1 1 0 0 0 0 -2m5 0a3 3 0 0 0 -2.995 2.824l-.005 .176a3 3 0 1 0 3 -3"}},{tag:"path",attr:{d:"M16 11a1 1 0 1 0 0 2a1 1 0 0 0 0 -2"},child:[]}]})(props);
+}
+/**
  * Feather icon from Tabler Icons
  */
 export function TbFeather(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4"}},{tag:"path",attr:{d:"M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4"},child:[]}]})(props);
+}
+/**
+ * FeatherFilled icon from Tabler Icons
+ */
+export function TbFeatherFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8 9.585v6.415h6.414l-2.707 2.707a1 1 0 0 1 -.112 .097l-.11 .071l-.114 .054l-.105 .035l-.149 .03l-.117 .006h-4.586l-1.707 1.707a1 1 0 1 1 -1.414 -1.414l1.707 -1.709v-4.584l.003 -.075l.017 -.126l.03 -.111l.044 -.111l.052 -.098l.067 -.096l.08 -.09z"}},{tag:"path",attr:{d:"M19.414 11l-3 3h-4.914l2.914 -3z"},child:[]},{tag:"path",attr:{d:"M13 4.586v4.998l-3 3v-4.999z"},child:[]},{tag:"path",attr:{d:"M16.482 3a4.515 4.515 0 0 1 4.518 4.514a4.7 4.7 0 0 1 -.239 1.487l-5.761 -.001v-5.76c.469 -.158 .968 -.24 1.482 -.24"},child:[]}]})(props);
 }
 /**
  * FeatherOff icon from Tabler Icons
@@ -13938,6 +15390,12 @@ export function TbFenceOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12h-8v4h12m4 0v-4h-4"}},{tag:"path",attr:{d:"M6 16v4h4v-4"},child:[]},{tag:"path",attr:{d:"M10 12v-2m0 -4l-2 -2m-2 2v6"},child:[]},{tag:"path",attr:{d:"M14 16v4h4v-2"},child:[]},{tag:"path",attr:{d:"M18 12v-6l-2 -2l-2 2v4"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
 }
 /**
+ * Ferry icon from Tabler Icons
+ */
+export function TbFerry(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 18h15.293c1.02 0 1.972 -.503 2.536 -1.34l2.171 -3.66h-18.479z"}},{tag:"path",attr:{d:"M14 8l-1 -2"},child:[]},{tag:"path",attr:{d:"M6.107 12.675l1.384 -4.675h8l2.675 4.598"},child:[]}]})(props);
+}
+/**
  * FidgetSpinner icon from Tabler Icons
  */
 export function TbFidgetSpinner(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -13954,6 +15412,12 @@ export function TbFile(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbFile3D(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"},child:[]},{tag:"path",attr:{d:"M12 13.5l4 -1.5"},child:[]},{tag:"path",attr:{d:"M8 11.846l4 1.654v4.5l4 -1.846v-4.308l-4 -1.846z"},child:[]},{tag:"path",attr:{d:"M8 12v4.2l4 1.8"},child:[]}]})(props);
+}
+/**
+ * FileAi icon from Tabler Icons
+ */
+export function TbFileAi(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M10 21h-3a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v4"},child:[]},{tag:"path",attr:{d:"M14 21v-4a2 2 0 1 1 4 0v4"},child:[]},{tag:"path",attr:{d:"M14 19h4"},child:[]},{tag:"path",attr:{d:"M21 15v6"},child:[]}]})(props);
 }
 /**
  * FileAlert icon from Tabler Icons
@@ -13984,6 +15448,12 @@ export function TbFileArrowRight(props: IconBaseProps): VNode<JSX.SVGAttributes>
  */
 export function TbFileBarcode(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"},child:[]},{tag:"path",attr:{d:"M8 13h1v3h-1z"},child:[]},{tag:"path",attr:{d:"M12 13v3"},child:[]},{tag:"path",attr:{d:"M15 13h1v3h-1z"},child:[]}]})(props);
+}
+/**
+ * FileBitcoin icon from Tabler Icons
+ */
+export function TbFileBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M12 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v2"},child:[]},{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"},child:[]}]})(props);
 }
 /**
  * FileBroken icon from Tabler Icons
@@ -14086,6 +15556,12 @@ export function TbFileDownload(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbFileEuro(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"},child:[]},{tag:"path",attr:{d:"M12 14h-3"},child:[]},{tag:"path",attr:{d:"M14 11.172a3 3 0 1 0 0 5.656"},child:[]}]})(props);
+}
+/**
+ * FileExcel icon from Tabler Icons
+ */
+export function TbFileExcel(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2"},child:[]},{tag:"path",attr:{d:"M10 12l4 5"},child:[]},{tag:"path",attr:{d:"M10 17l4 -5"},child:[]}]})(props);
 }
 /**
  * FileExport icon from Tabler Icons
@@ -14268,6 +15744,12 @@ export function TbFileSmile(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2zm-7 -7h.01m3.99 0h.01"},child:[]},{tag:"path",attr:{d:"M10 17a3.5 3.5 0 0 0 4 0"},child:[]}]})(props);
 }
 /**
+ * FileSpark icon from Tabler Icons
+ */
+export function TbFileSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"}},{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"},child:[]},{tag:"path",attr:{d:"M12 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v3.5"},child:[]}]})(props);
+}
+/**
  * FileSpreadsheet icon from Tabler Icons
  */
 export function TbFileSpreadsheet(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -14302,6 +15784,12 @@ export function TbFileText(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbFileTextAi(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M10 21h-3a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v3.5"},child:[]},{tag:"path",attr:{d:"M9 9h1"},child:[]},{tag:"path",attr:{d:"M9 13h2.5"},child:[]},{tag:"path",attr:{d:"M9 17h1"},child:[]},{tag:"path",attr:{d:"M14 21v-4a2 2 0 1 1 4 0v4"},child:[]},{tag:"path",attr:{d:"M14 19h4"},child:[]},{tag:"path",attr:{d:"M21 15v6"},child:[]}]})(props);
+}
+/**
+ * FileTextSpark icon from Tabler Icons
+ */
+export function TbFileTextSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M12 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v3.5"},child:[]},{tag:"path",attr:{d:"M9 9h1"},child:[]},{tag:"path",attr:{d:"M9 13h6"},child:[]},{tag:"path",attr:{d:"M9 17h3"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
 }
 /**
  * FileTime icon from Tabler Icons
@@ -14470,6 +15958,12 @@ export function TbFileUpload(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbFileVector(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M9.5 16.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"},child:[]},{tag:"path",attr:{d:"M14.5 12.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"},child:[]},{tag:"path",attr:{d:"M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"},child:[]},{tag:"path",attr:{d:"M9.5 15a2.5 2.5 0 0 1 2.5 -2.5h1"},child:[]}]})(props);
+}
+/**
+ * FileWord icon from Tabler Icons
+ */
+export function TbFileWord(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 3v4a1 1 0 0 0 1 1h4"}},{tag:"path",attr:{d:"M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2"},child:[]},{tag:"path",attr:{d:"M9 12l1.333 5l1.667 -4l1.667 4l1.333 -5"},child:[]}]})(props);
 }
 /**
  * FileX icon from Tabler Icons
@@ -14652,6 +16146,12 @@ export function TbFilters(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0"}},{tag:"path",attr:{d:"M8 11a5 5 0 1 0 3.998 1.997"},child:[]},{tag:"path",attr:{d:"M12.002 19.003a5 5 0 1 0 3.998 -8.003"},child:[]}]})(props);
 }
 /**
+ * FiltersFilled icon from Tabler Icons
+ */
+export function TbFiltersFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19.396 11.056a6 6 0 0 1 -5.647 10.506q .206 -.21 .396 -.44a8 8 0 0 0 1.789 -6.155a8.02 8.02 0 0 0 3.462 -3.911"}},{tag:"path",attr:{d:"M4.609 11.051a7.99 7.99 0 0 0 9.386 4.698a6 6 0 1 1 -9.534 -4.594z"},child:[]},{tag:"path",attr:{d:"M12 2a6 6 0 1 1 -6 6l.004 -.225a6 6 0 0 1 5.996 -5.775"},child:[]}]})(props);
+}
+/**
  * Fingerprint icon from Tabler Icons
  */
 export function TbFingerprint(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -14778,6 +16278,12 @@ export function TbFlag3Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19 4c.852 0 1.297 .986 .783 1.623l-.076 .084l-3.792 3.793l3.792 3.793c.603 .602 .22 1.614 -.593 1.701l-.114 .006h-13v6a1 1 0 0 1 -.883 .993l-.117 .007a1 1 0 0 1 -.993 -.883l-.007 -.117v-16a1 1 0 0 1 .883 -.993l.117 -.007h14z"}}]})(props);
 }
 /**
+ * FlagBitcoin icon from Tabler Icons
+ */
+export function TbFlagBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M13.222 14.882a5 5 0 0 1 -1.222 -.882a5 5 0 0 0 -7 0v-9a5 5 0 0 1 7 0a5 5 0 0 0 7 0v5"},child:[]},{tag:"path",attr:{d:"M5 21v-7"},child:[]}]})(props);
+}
+/**
  * FlagBolt icon from Tabler Icons
  */
 export function TbFlagBolt(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -14892,6 +16398,12 @@ export function TbFlagShare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13.13 14.833a5.002 5.002 0 0 1 -1.13 -.833a5 5 0 0 0 -7 0v-9a5 5 0 0 1 7 0a5 5 0 0 0 7 0v8"}},{tag:"path",attr:{d:"M5 21v-7"},child:[]},{tag:"path",attr:{d:"M16 22l5 -5"},child:[]},{tag:"path",attr:{d:"M21 21.5v-4.5h-4.5"},child:[]}]})(props);
 }
 /**
+ * FlagSpark icon from Tabler Icons
+ */
+export function TbFlagSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14.165 15.249a5 5 0 0 1 -2.165 -1.249a5 5 0 0 0 -7 0v-9a5 5 0 0 1 7 0a5 5 0 0 0 7 0v6.5"}},{tag:"path",attr:{d:"M5 21v-7"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
  * FlagStar icon from Tabler Icons
  */
 export function TbFlagStar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -14913,7 +16425,13 @@ export function TbFlagX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * Flame icon from Tabler Icons
  */
 export function TbFlame(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12c2 -2.96 0 -7 -1 -8c0 3.038 -1.773 4.741 -3 6c-1.226 1.26 -2 3.24 -2 5a6 6 0 1 0 12 0c0 -1.532 -1.056 -3.94 -2 -5c-1.786 3 -2.791 3 -4 2z"}}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 10.941c2.333 -3.308 .167 -7.823 -1 -8.941c0 3.395 -2.235 5.299 -3.667 6.706c-1.43 1.408 -2.333 3.621 -2.333 5.588c0 3.704 3.134 6.706 7 6.706s7 -3.002 7 -6.706c0 -1.712 -1.232 -4.403 -2.333 -5.588c-2.084 3.353 -3.257 3.353 -4.667 2.235"}}]})(props);
+}
+/**
+ * FlameFilled icon from Tabler Icons
+ */
+export function TbFlameFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M10 2c0 -.88 1.056 -1.331 1.692 -.722c1.958 1.876 3.096 5.995 1.75 9.12l-.08 .174l.012 .003c.625 .133 1.203 -.43 2.303 -2.173l.14 -.224a1 1 0 0 1 1.582 -.153c1.334 1.435 2.601 4.377 2.601 6.27c0 4.265 -3.591 7.705 -8 7.705s-8 -3.44 -8 -7.706c0 -2.252 1.022 -4.716 2.632 -6.301l.605 -.589c.241 -.236 .434 -.43 .618 -.624c1.43 -1.512 2.145 -2.924 2.145 -4.78"}}]})(props);
 }
 /**
  * FlameOff icon from Tabler Icons
@@ -14926,6 +16444,12 @@ export function TbFlameOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbFlare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3l3 6l6 3l-6 3l-3 6l-3 -6l-6 -3l6 -3z"}}]})(props);
+}
+/**
+ * FlareFilled icon from Tabler Icons
+ */
+export function TbFlareFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.106 2.553a1 1 0 0 1 1.788 0l2.851 5.701l5.702 2.852a1 1 0 0 1 .11 1.725l-.11 .063l-5.702 2.851l-2.85 5.702a1 1 0 0 1 -1.726 .11l-.063 -.11l-2.852 -5.702l-5.701 -2.85a1 1 0 0 1 -.11 -1.726l.11 -.063l5.701 -2.852z"}}]})(props);
 }
 /**
  * Flask icon from Tabler Icons
@@ -15010,6 +16534,12 @@ export function TbFloatRight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbFlower(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M12 2a3 3 0 0 1 3 3c0 .562 -.259 1.442 -.776 2.64l-.724 1.36l1.76 -1.893c.499 -.6 .922 -1 1.27 -1.205a2.968 2.968 0 0 1 4.07 1.099a3.011 3.011 0 0 1 -1.09 4.098c-.374 .217 -.99 .396 -1.846 .535l-2.664 .366l2.4 .326c1 .145 1.698 .337 2.11 .576a3.011 3.011 0 0 1 1.09 4.098a2.968 2.968 0 0 1 -4.07 1.098c-.348 -.202 -.771 -.604 -1.27 -1.205l-1.76 -1.893l.724 1.36c.516 1.199 .776 2.079 .776 2.64a3 3 0 0 1 -6 0c0 -.562 .259 -1.442 .776 -2.64l.724 -1.36l-1.76 1.893c-.499 .601 -.922 1 -1.27 1.205a2.968 2.968 0 0 1 -4.07 -1.098a3.011 3.011 0 0 1 1.09 -4.098c.374 -.218 .99 -.396 1.846 -.536l2.664 -.366l-2.4 -.325c-1 -.145 -1.698 -.337 -2.11 -.576a3.011 3.011 0 0 1 -1.09 -4.099a2.968 2.968 0 0 1 4.07 -1.099c.348 .203 .771 .604 1.27 1.205l1.76 1.894c-1 -2.292 -1.5 -3.625 -1.5 -4a3 3 0 0 1 3 -3z"},child:[]}]})(props);
+}
+/**
+ * FlowerFilled icon from Tabler Icons
+ */
+export function TbFlowerFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 1a4 4 0 0 1 4 4l-.002 .055l.03 -.018a3.97 3.97 0 0 1 2.79 -.455l.237 .056a3.97 3.97 0 0 1 2.412 1.865a4.01 4.01 0 0 1 -1.455 5.461l-.068 .036l.071 .039a4.01 4.01 0 0 1 1.555 5.27l-.101 .186a3.97 3.97 0 0 1 -5.441 1.468l-.03 -.02l.002 .057a4 4 0 0 1 -3.8 3.995l-.2 .005a4 4 0 0 1 -4 -4l.001 -.056l-.029 .019a3.97 3.97 0 0 1 -2.79 .456l-.236 -.056a3.97 3.97 0 0 1 -2.413 -1.865a4.01 4.01 0 0 1 1.453 -5.46l.07 -.038l-.071 -.038a4.01 4.01 0 0 1 -1.555 -5.27l.1 -.187a3.97 3.97 0 0 1 5.444 -1.468l.026 .018v-.055a4 4 0 0 1 3.8 -3.995zm0 8a3 3 0 1 0 0 6a3 3 0 0 0 0 -6"}}]})(props);
 }
 /**
  * FlowerOff icon from Tabler Icons
@@ -15213,7 +16743,13 @@ export function TbFolderX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * Folders icon from Tabler Icons
  */
 export function TbFolders(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 4h3l2 2h5a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h2"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 3h3l2 2h5a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M17 16v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h2"},child:[]}]})(props);
+}
+/**
+ * FoldersFilled icon from Tabler Icons
+ */
+export function TbFoldersFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2a1 1 0 0 1 .707 .293l1.708 1.707h4.585a3 3 0 0 1 2.995 2.824l.005 .176v7a3 3 0 0 1 -3 3h-1v1a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3h1v-1a3 3 0 0 1 3 -3zm-6 6h-1a1 1 0 0 0 -1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1 -1v-1h-7a3 3 0 0 1 -3 -3z"}}]})(props);
 }
 /**
  * FoldersOff icon from Tabler Icons
@@ -15382,6 +16918,12 @@ export function TbGalaxy(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbGardenCart(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0"}},{tag:"path",attr:{d:"M6 8v11a1 1 0 0 0 1.806 .591l3.694 -5.091v.055"},child:[]},{tag:"path",attr:{d:"M6 8h15l-3.5 7l-7.1 -.747a4 4 0 0 1 -3.296 -2.493l-2.853 -7.13a1 1 0 0 0 -.928 -.63h-1.323"},child:[]}]})(props);
+}
+/**
+ * GardenCartFilled icon from Tabler Icons
+ */
+export function TbGardenCartFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M3.324 3a2 2 0 0 1 1.855 1.258l1.097 2.742h14.724a1 1 0 0 1 .94 1.341l-.046 .106l-2.934 5.871a3.5 3.5 0 1 1 -4.96 3.182l.005 -.192a3.5 3.5 0 0 1 .499 -1.618l-2.446 -.258l-3.446 4.75a2 2 0 0 1 -2.08 .762l-.154 -.044a2 2 0 0 1 -1.378 -1.9v-9.804l-1.679 -4.196h-1.321a1 1 0 0 1 -.993 -.883l-.007 -.117a1 1 0 0 1 1 -1zm14.176 13a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0 -3m-10.5 -2.498l-.002 5.498l2.783 -3.833a5 5 0 0 1 -2.614 -1.474z"}}]})(props);
 }
 /**
  * GardenCartOff icon from Tabler Icons
@@ -15564,6 +17106,12 @@ export function TbGhost3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 11a7 7 0 0 1 14 0v7a1.78 1.78 0 0 1 -3.1 1.4a1.65 1.65 0 0 0 -2.6 0a1.65 1.65 0 0 1 -2.6 0a1.65 1.65 0 0 0 -2.6 0a1.78 1.78 0 0 1 -3.1 -1.4v-7"}},{tag:"path",attr:{d:"M10 10h.01"},child:[]},{tag:"path",attr:{d:"M14 10h.01"},child:[]}]})(props);
 }
 /**
+ * Ghost3Filled icon from Tabler Icons
+ */
+export function TbGhost3Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 3a8 8 0 0 1 8 8v6.954l.009 .103a2.78 2.78 0 0 1 -1.468 2.618l-.163 .08c-1.111 .502 -2.42 .22 -3.266 -.74a.65 .65 0 0 0 -1.024 0a2.65 2.65 0 0 1 -4.176 0a.65 .65 0 0 0 -.512 -.249c-.2 0 -.389 .092 -.55 .296a2.78 2.78 0 0 1 -4.859 -2.005l.01 -.104l.007 -.077l-.008 .074v-6.95l.004 -.25a8 8 0 0 1 7.747 -7.746zm-1.99 6h-.01a1 1 0 1 0 0 2h.01a1 1 0 0 0 0 -2m4 0h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
  * GhostFilled icon from Tabler Icons
  */
 export function TbGhostFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -15696,6 +17244,12 @@ export function TbGlassCocktail(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 21h8"}},{tag:"path",attr:{d:"M12 15v6"},child:[]},{tag:"path",attr:{d:"M12 5m-7 0a7 2 0 1 0 14 0a7 2 0 1 0 -14 0"},child:[]},{tag:"path",attr:{d:"M5 5v.388c0 .432 .126 .853 .362 1.206l5 7.509c.633 .951 1.88 1.183 2.785 .517c.191 -.141 .358 -.316 .491 -.517l5 -7.509c.236 -.353 .362 -.774 .362 -1.206v-.388"},child:[]}]})(props);
 }
 /**
+ * GlassFilled icon from Tabler Icons
+ */
+export function TbGlassFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2c3.205 0 5.894 1.05 5.997 2.89l.99 5.946l.013 .164c0 3.226 -2.56 5.564 -6 5.945v3.055h3a1 1 0 0 1 0 2h-8a1 1 0 0 1 0 -2h3v-3.055c-3.44 -.38 -6 -2.719 -6 -5.945l.014 -.164l.991 -5.955l.001 -.038c.146 -1.81 2.817 -2.843 5.994 -2.843m0 2c-1.224 0 -2.359 .192 -3.164 .514c-.594 .238 -.836 .467 -.836 .486c0 .02 .242 .248 .836 .486c.804 .322 1.94 .514 3.164 .514s2.359 -.192 3.164 -.514c.594 -.238 .836 -.467 .836 -.486l-.02 -.026c-.07 -.07 -.321 -.262 -.816 -.46c-.804 -.322 -1.94 -.514 -3.164 -.514"}}]})(props);
+}
+/**
  * GlassFull icon from Tabler Icons
  */
 export function TbGlassFull(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -15748,6 +17302,12 @@ export function TbGoGame(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbGolf(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 18v-15l7 4l-7 4"}},{tag:"path",attr:{d:"M9 17.67c-.62 .36 -1 .82 -1 1.33c0 1.1 1.8 2 4 2s4 -.9 4 -2c0 -.5 -.38 -.97 -1 -1.33"},child:[]}]})(props);
+}
+/**
+ * GolfFilled icon from Tabler Icons
+ */
+export function TbGolfFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11 3a1 1 0 0 1 1.496 -.868l7 4a1 1 0 0 1 0 1.736l-6.496 3.712v6.42a1 1 0 0 1 -.883 .993l-.117 .007a1 1 0 0 1 -1 -1z"}},{tag:"path",attr:{d:"M14.135 17.168a1 1 0 0 1 1.367 -.363c.916 .532 1.498 1.291 1.498 2.195c0 1.84 -2.319 3 -5 3s-5 -1.16 -5 -3c0 -.911 .577 -1.66 1.498 -2.195a1 1 0 1 1 1.004 1.73c-.365 .212 -.502 .39 -.502 .465c0 .086 .179 .296 .622 .518c.6 .3 1.456 .482 2.378 .482s1.777 -.182 2.378 -.482c.443 -.222 .622 -.432 .622 -.518c0 -.07 -.142 -.256 -.502 -.465a1 1 0 0 1 -.363 -1.367"},child:[]}]})(props);
 }
 /**
  * GolfOff icon from Tabler Icons
@@ -15838,6 +17398,12 @@ export function TbGridGoldenratio(props: IconBaseProps): VNode<JSX.SVGAttributes
  */
 export function TbGridPattern(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M10 8v8"},child:[]},{tag:"path",attr:{d:"M14 8v8"},child:[]},{tag:"path",attr:{d:"M8 10h8"},child:[]},{tag:"path",attr:{d:"M8 14h8"},child:[]}]})(props);
+}
+/**
+ * GridPatternFilled icon from Tabler Icons
+ */
+export function TbGridPatternFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 3a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3zm-4 4a1 1 0 0 0 -1 1v1h-2v-1a1 1 0 0 0 -.883 -.993l-.117 -.007a1 1 0 0 0 -1 1v1h-1a1 1 0 0 0 -.993 .883l-.007 .117a1 1 0 0 0 1 1h1v2h-1a1 1 0 0 0 -.993 .883l-.007 .117a1 1 0 0 0 1 1h1v1a1 1 0 0 0 .883 .993l.117 .007a1 1 0 0 0 1 -1v-1h2v1a1 1 0 0 0 .883 .993l.117 .007a1 1 0 0 0 1 -1v-1h1a1 1 0 0 0 .993 -.883l.007 -.117a1 1 0 0 0 -1 -1h-1v-2h1a1 1 0 0 0 .993 -.883l.007 -.117a1 1 0 0 0 -1 -1h-1v-1a1 1 0 0 0 -.883 -.993zm-1 4v2h-2v-2z"}}]})(props);
 }
 /**
  * GridScan icon from Tabler Icons
@@ -15966,10 +17532,28 @@ export function TbHandFinger(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5"}},{tag:"path",attr:{d:"M11 11.5v-2a1.5 1.5 0 1 1 3 0v2.5"},child:[]},{tag:"path",attr:{d:"M14 10.5a1.5 1.5 0 0 1 3 0v1.5"},child:[]},{tag:"path",attr:{d:"M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"},child:[]}]})(props);
 }
 /**
+ * HandFingerDown icon from Tabler Icons
+ */
+export function TbHandFingerDown(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 12v8.5a1.5 1.5 0 0 0 3 0v-7.5"}},{tag:"path",attr:{d:"M11 13.5v2a1.5 1.5 0 0 0 3 0v-2.5"},child:[]},{tag:"path",attr:{d:"M14 14.5a1.5 1.5 0 0 0 3 0v-1.5"},child:[]},{tag:"path",attr:{d:"M17 13.5a1.5 1.5 0 0 0 3 0v-4.5a6 6 0 0 0 -6 -6h-2h.208a6 6 0 0 0 -5.012 2.7l-.196 .3q -.468 .718 -3.286 5.728a1.5 1.5 0 0 0 .536 2.022c.734 .44 1.674 .325 2.28 -.28l1.47 -1.47"},child:[]}]})(props);
+}
+/**
+ * HandFingerLeft icon from Tabler Icons
+ */
+export function TbHandFingerLeft(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8h-8.5a1.5 1.5 0 0 0 0 3h7.5"}},{tag:"path",attr:{d:"M10.5 11h-2a1.5 1.5 0 1 0 0 3h2.5"},child:[]},{tag:"path",attr:{d:"M9.5 14a1.5 1.5 0 0 0 0 3h1.5"},child:[]},{tag:"path",attr:{d:"M10.5 17a1.5 1.5 0 0 0 0 3h4.5a6 6 0 0 0 6 -6v-2v.208a6 6 0 0 0 -2.7 -5.012l-.3 -.196q -.718 -.468 -5.728 -3.286a1.5 1.5 0 0 0 -2.022 .536a1.87 1.87 0 0 0 .28 2.28l1.47 1.47"},child:[]}]})(props);
+}
+/**
  * HandFingerOff icon from Tabler Icons
  */
 export function TbHandFingerOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 13v-5"}},{tag:"path",attr:{d:"M8.06 4.077a1.5 1.5 0 0 1 2.94 .423v2.5m0 4v1"},child:[]},{tag:"path",attr:{d:"M12.063 8.065a1.5 1.5 0 0 1 1.937 1.435v.5"},child:[]},{tag:"path",attr:{d:"M14.06 10.082a1.5 1.5 0 0 1 2.94 .418v1.5"},child:[]},{tag:"path",attr:{d:"M17 11.5a1.5 1.5 0 0 1 3 0v4.5m-.88 3.129a6 6 0 0 1 -5.12 2.871h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * HandFingerRight icon from Tabler Icons
+ */
+export function TbHandFingerRight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8h8.5a1.5 1.5 0 0 1 0 3h-7.5"}},{tag:"path",attr:{d:"M13.5 11h2a1.5 1.5 0 0 1 0 3h-2.5"},child:[]},{tag:"path",attr:{d:"M14.5 14a1.5 1.5 0 0 1 0 3h-1.5"},child:[]},{tag:"path",attr:{d:"M13.5 17a1.5 1.5 0 1 1 0 3h-4.5a6 6 0 0 1 -6 -6v-2v.208a6 6 0 0 1 2.7 -5.012l.3 -.196q .718 -.468 5.728 -3.286a1.5 1.5 0 0 1 2.022 .536c.44 .734 .325 1.674 -.28 2.28l-1.47 1.47"},child:[]}]})(props);
 }
 /**
  * HandGrab icon from Tabler Icons
@@ -16048,6 +17632,12 @@ export function TbHanger(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbHanger2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 9l-7.971 4.428a2 2 0 0 0 -1.029 1.749v.823a2 2 0 0 0 2 2h1"}},{tag:"path",attr:{d:"M18 18h1a2 2 0 0 0 2 -2v-.823a2 2 0 0 0 -1.029 -1.749l-7.971 -4.428c-1.457 -.81 -1.993 -2.333 -2 -4a2 2 0 1 1 4 0"},child:[]},{tag:"path",attr:{d:"M6 16m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"},child:[]}]})(props);
+}
+/**
+ * Hanger2Filled icon from Tabler Icons
+ */
+export function TbHanger2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2a3 3 0 0 1 3 3a1 1 0 0 1 -1.993 .117l-.007 -.117a1 1 0 0 0 -2 -.004c.006 1.516 .495 2.579 1.486 3.13l7.97 4.428a3 3 0 0 1 1.544 2.623v.823a3 3 0 0 1 -2.824 2.995l-.176 .005a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3a3 3 0 0 1 -3 -3v-.823a3 3 0 0 1 1.543 -2.623l6.695 -3.72c-.832 -.976 -1.232 -2.296 -1.238 -3.834a3 3 0 0 1 3 -3m0 8.144l-7.486 4.158a1 1 0 0 0 -.514 .875v.823a1 1 0 0 0 1 1h.17a3 3 0 0 1 2.83 -2h8c1.306 0 2.418 .835 2.83 2h.17a1 1 0 0 0 1 -1v-.823a1 1 0 0 0 -.515 -.875z"}}]})(props);
 }
 /**
  * HangerOff icon from Tabler Icons
@@ -16132,6 +17722,12 @@ export function TbHealthRecognition(props: IconBaseProps): VNode<JSX.SVGAttribut
  */
 export function TbHeart(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"}}]})(props);
+}
+/**
+ * HeartBitcoin icon from Tabler Icons
+ */
+export function TbHeartBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M13 19l-1 1l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 0 1 8.785 4.444"},child:[]}]})(props);
 }
 /**
  * HeartBolt icon from Tabler Icons
@@ -16260,6 +17856,12 @@ export function TbHeartShare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.5 12.572l-.468 .464m-6.077 6.019l-.955 .945l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"}},{tag:"path",attr:{d:"M16 22l5 -5"},child:[]},{tag:"path",attr:{d:"M21 21.5v-4.5h-4.5"},child:[]}]})(props);
 }
 /**
+ * HeartSpark icon from Tabler Icons
+ */
+export function TbHeartSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11.537 19.542l-7.037 -6.97a5 5 0 1 1 7.5 -6.566a5 5 0 0 1 8.212 5.693"}},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
  * HeartStar icon from Tabler Icons
  */
 export function TbHeartStar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -16306,6 +17908,12 @@ export function TbHelicopter(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbHelicopterLanding(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M9 8l0 8"},child:[]},{tag:"path",attr:{d:"M9 12l6 0"},child:[]},{tag:"path",attr:{d:"M15 8l0 8"},child:[]}]})(props);
+}
+/**
+ * HelicopterLandingFilled icon from Tabler Icons
+ */
+export function TbHelicopterLandingFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm-4 5a1 1 0 0 0 -1 1v3h-4v-3a1 1 0 0 0 -.883 -.993l-.117 -.007a1 1 0 0 0 -1 1v8a1 1 0 0 0 2 0v-3h4v3a1 1 0 0 0 .883 .993l.117 .007a1 1 0 0 0 1 -1v-8a1 1 0 0 0 -1 -1"}}]})(props);
 }
 /**
  * Helmet icon from Tabler Icons
@@ -17034,6 +18642,12 @@ export function TbHome2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 12l-2 0l9 -9l9 9l-2 0"}},{tag:"path",attr:{d:"M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"},child:[]},{tag:"path",attr:{d:"M10 12h4v4h-4z"},child:[]}]})(props);
 }
 /**
+ * HomeBitcoin icon from Tabler Icons
+ */
+export function TbHomeBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M19.5 10.5l-7.5 -7.5l-9 9h2v7a2 2 0 0 0 2 2h6"},child:[]},{tag:"path",attr:{d:"M9 21v-6a2 2 0 0 1 2 -2h2c.387 0 .748 .11 1.054 .3"},child:[]},{tag:"path",attr:{d:"M21 15h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"},child:[]}]})(props);
+}
+/**
  * HomeBolt icon from Tabler Icons
  */
 export function TbHomeBolt(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -17184,6 +18798,12 @@ export function TbHomeSignal(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 22v-2"}},{tag:"path",attr:{d:"M18 22v-4"},child:[]},{tag:"path",attr:{d:"M21 22v-6"},child:[]},{tag:"path",attr:{d:"M19 12.494v-.494h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4"},child:[]},{tag:"path",attr:{d:"M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v.5"},child:[]}]})(props);
 }
 /**
+ * HomeSpark icon from Tabler Icons
+ */
+export function TbHomeSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 12h-2l9 -9l9 9h-2"}},{tag:"path",attr:{d:"M5 12v7a2 2 0 0 0 2 2h5"},child:[]},{tag:"path",attr:{d:"M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
  * HomeStar icon from Tabler Icons
  */
 export function TbHomeStar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -17236,6 +18856,12 @@ export function TbHospital(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbHospitalCircle(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-8"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]},{tag:"path",attr:{d:"M14 16v-8"},child:[]},{tag:"path",attr:{d:"M10 12h4"},child:[]}]})(props);
+}
+/**
+ * HospitalCircleFilled icon from Tabler Icons
+ */
+export function TbHospitalCircleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10a10 10 0 0 1 -20 0l.004 -.28c.148 -5.393 4.566 -9.72 9.996 -9.72m2 5a1 1 0 0 0 -1 1v2.999h-2v-2.999a1 1 0 0 0 -.883 -.993l-.117 -.007a1 1 0 0 0 -1 1v8a1 1 0 0 0 2 0v-3.001h2v3.001a1 1 0 0 0 .883 .993l.117 .007a1 1 0 0 0 1 -1v-8a1 1 0 0 0 -1 -1"}}]})(props);
 }
 /**
  * HotelService icon from Tabler Icons
@@ -17388,6 +19014,12 @@ export function TbIcons(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6.5 6.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0"}},{tag:"path",attr:{d:"M2.5 21h8l-4 -7z"},child:[]},{tag:"path",attr:{d:"M14 3l7 7"},child:[]},{tag:"path",attr:{d:"M14 10l7 -7"},child:[]},{tag:"path",attr:{d:"M14 14h7v7h-7z"},child:[]}]})(props);
 }
 /**
+ * IconsFilled icon from Tabler Icons
+ */
+export function TbIconsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M4.25 2.603a4.5 4.5 0 1 1 -2.25 3.897l.006 -.229a4.5 4.5 0 0 1 2.244 -3.668"}},{tag:"path",attr:{d:"M5.632 13.504a1 1 0 0 1 1.736 0l4 7a1 1 0 0 1 -.868 1.496h-8a1 1 0 0 1 -.868 -1.496z"},child:[]},{tag:"path",attr:{d:"M13.293 2.293a1 1 0 0 1 1.414 0l7 7a1 1 0 1 1 -1.414 1.414l-7 -7a1 1 0 0 1 0 -1.414"},child:[]},{tag:"path",attr:{d:"M20.293 2.293a1 1 0 0 1 1.414 1.414l-7 7a1 1 0 0 1 -1.414 -1.414z"},child:[]},{tag:"path",attr:{d:"M21 13a1 1 0 0 1 1 1v7a1 1 0 0 1 -1 1h-7a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1z"},child:[]}]})(props);
+}
+/**
  * IconsOff icon from Tabler Icons
  */
 export function TbIconsOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -17422,6 +19054,12 @@ export function TbIdBadgeOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbIdOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 4h10a3 3 0 0 1 3 3v10m-1.437 2.561c-.455 .279 -.99 .439 -1.563 .439h-12a3 3 0 0 1 -3 -3v-10c0 -1.083 .573 -2.031 1.433 -2.559"}},{tag:"path",attr:{d:"M8.175 8.178a2 2 0 1 0 2.646 2.65"},child:[]},{tag:"path",attr:{d:"M15 8h2"},child:[]},{tag:"path",attr:{d:"M16 12h1"},child:[]},{tag:"path",attr:{d:"M7 16h9"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * Ikosaedr icon from Tabler Icons
+ */
+export function TbIkosaedr(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 8.007v7.986a2 2 0 0 1 -1.006 1.735l-7 4.007a2 2 0 0 1 -1.988 0l-7 -4.007a2 2 0 0 1 -1.006 -1.735v-7.986a2 2 0 0 1 1.006 -1.735l7 -4.007a2 2 0 0 1 1.988 0l7 4.007a2 2 0 0 1 1.006 1.735"}},{tag:"path",attr:{d:"M3.29 6.97l4.21 2.03"},child:[]},{tag:"path",attr:{d:"M20.71 6.97l-4.21 2.03"},child:[]},{tag:"path",attr:{d:"M20.7 17h-17.4"},child:[]},{tag:"path",attr:{d:"M11.76 2.03l-4.26 6.97l-4.3 7.84"},child:[]},{tag:"path",attr:{d:"M12.24 2.03q 2.797 4.44 4.26 6.97t 4.3 7.84"},child:[]},{tag:"path",attr:{d:"M12 17l-4.5 -8h9z"},child:[]},{tag:"path",attr:{d:"M12 17v5"},child:[]}]})(props);
 }
 /**
  * ImageInPicture icon from Tabler Icons
@@ -17658,6 +19296,12 @@ export function TbInputSearch(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 11v-2a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h5"}},{tag:"path",attr:{d:"M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"},child:[]},{tag:"path",attr:{d:"M20.2 20.2l1.8 1.8"},child:[]}]})(props);
 }
 /**
+ * InputSpark icon from Tabler Icons
+ */
+export function TbInputSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"}},{tag:"path",attr:{d:"M20 11.5v-2.5a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h7"},child:[]}]})(props);
+}
+/**
  * InputX icon from Tabler Icons
  */
 export function TbInputX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -17682,16 +19326,34 @@ export function TbIroning1(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 6h7.459a3 3 0 0 1 2.959 2.507l.577 3.464l.81 4.865a1 1 0 0 1 -.985 1.164h-16.82a7 7 0 0 1 7 -7h9.8"}},{tag:"path",attr:{d:"M12 15h.01"},child:[]}]})(props);
 }
 /**
+ * Ironing1Filled icon from Tabler Icons
+ */
+export function TbIroning1Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16.459 5a4 4 0 0 1 3.945 3.343l1.387 8.329a2 2 0 0 1 -1.971 2.328h-16.82a1 1 0 0 1 -1 -1a8 8 0 0 1 8 -8h8.652l-.22 -1.329a2 2 0 0 0 -1.811 -1.665l-.162 -.006h-7.459a1 1 0 1 1 0 -2zm-4.449 9h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
  * Ironing2 icon from Tabler Icons
  */
 export function TbIroning2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 15h.01"}},{tag:"path",attr:{d:"M9 6h7.459a3 3 0 0 1 2.959 2.507l.577 3.464l.81 4.865a1 1 0 0 1 -.985 1.164h-16.82a7 7 0 0 1 7 -7h9.8"},child:[]},{tag:"path",attr:{d:"M14 15h.01"},child:[]}]})(props);
 }
 /**
+ * Ironing2Filled icon from Tabler Icons
+ */
+export function TbIroning2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16.459 5a4 4 0 0 1 3.945 3.343l1.387 8.329a2 2 0 0 1 -1.971 2.328h-16.82a1 1 0 0 1 -1 -1a8 8 0 0 1 8 -8h8.652l-.22 -1.329a2 2 0 0 0 -1.811 -1.665l-.162 -.006h-7.459a1 1 0 1 1 0 -2zm-6.449 9h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m4 0h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
  * Ironing3 icon from Tabler Icons
  */
 export function TbIroning3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 15h.01"}},{tag:"path",attr:{d:"M9 6h7.459a3 3 0 0 1 2.959 2.507l.577 3.464l.81 4.865a1 1 0 0 1 -.985 1.164h-16.82a7 7 0 0 1 7 -7h9.8"},child:[]},{tag:"path",attr:{d:"M9 15h.01"},child:[]},{tag:"path",attr:{d:"M15 15h.01"},child:[]}]})(props);
+}
+/**
+ * Ironing3Filled icon from Tabler Icons
+ */
+export function TbIroning3Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16.459 5a4 4 0 0 1 3.945 3.343l1.387 8.329a2 2 0 0 1 -1.971 2.328h-16.82a1 1 0 0 1 -1 -1a8 8 0 0 1 8 -8h8.652l-.22 -1.329a2 2 0 0 0 -1.811 -1.665l-.162 -.006h-7.459a1 1 0 1 1 0 -2zm-4.449 9h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-3 0h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m6 0h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2"}}]})(props);
 }
 /**
  * IroningFilled icon from Tabler Icons
@@ -17710,6 +19372,12 @@ export function TbIroningOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbIroningSteam(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 19v2"}},{tag:"path",attr:{d:"M9 4h7.459a3 3 0 0 1 2.959 2.507l.577 3.464l.81 4.865a1 1 0 0 1 -.985 1.164h-16.82a7 7 0 0 1 7 -7h9.8"},child:[]},{tag:"path",attr:{d:"M8 19l-1 2"},child:[]},{tag:"path",attr:{d:"M16 19l1 2"},child:[]}]})(props);
+}
+/**
+ * IroningSteamFilled icon from Tabler Icons
+ */
+export function TbIroningSteamFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 18a1 1 0 0 1 1 1v2a1 1 0 0 1 -2 0v-2a1 1 0 0 1 1 -1"}},{tag:"path",attr:{d:"M16.459 3a4 4 0 0 1 3.945 3.343l.577 3.464l.81 4.865a2 2 0 0 1 -1.971 2.328h-16.82a1 1 0 0 1 -1 -1a8 8 0 0 1 8 -8h8.652l-.22 -1.329a2 2 0 0 0 -1.811 -1.665l-.162 -.006h-7.459a1 1 0 1 1 0 -2z"},child:[]},{tag:"path",attr:{d:"M7.106 18.553a1 1 0 0 1 1.788 .894l-1 2a1 1 0 0 1 -1.788 -.894z"},child:[]},{tag:"path",attr:{d:"M15.553 18.106a1 1 0 0 1 1.341 .447l1 2a1 1 0 0 1 -1.788 .894l-1 -2a1 1 0 0 1 .447 -1.341"},child:[]}]})(props);
 }
 /**
  * IroningSteamOff icon from Tabler Icons
@@ -17772,6 +19440,30 @@ export function TbJewishStarFilled(props: IconBaseProps): VNode<JSX.SVGAttribute
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8.433 6h-5.433l-.114 .006a1 1 0 0 0 -.743 1.508l2.69 4.486l-2.69 4.486l-.054 .1a1 1 0 0 0 .911 1.414h5.434l2.709 4.514l.074 .108a1 1 0 0 0 1.64 -.108l2.708 -4.514h5.435l.114 -.006a1 1 0 0 0 .743 -1.508l-2.691 -4.486l2.691 -4.486l.054 -.1a1 1 0 0 0 -.911 -1.414h-5.434l-2.709 -4.514a1 1 0 0 0 -1.714 0l-2.71 4.514z"}}]})(props);
 }
 /**
+ * JoinBevel icon from Tabler Icons
+ */
+export function TbJoinBevel(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 4h3a2 2 0 0 1 2 2v6a1 1 0 0 0 1 1h6a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-6.586a1 1 0 0 1 -.707 -.293l-6.414 -6.414a1 1 0 0 1 -.293 -.707v-6.586a2 2 0 0 1 2 -2"}}]})(props);
+}
+/**
+ * JoinRound icon from Tabler Icons
+ */
+export function TbJoinRound(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 4h3a2 2 0 0 1 2 2v6a1 1 0 0 0 1 1h6a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-6a8 8 0 0 1 -8 -8v-6a2 2 0 0 1 2 -2"}}]})(props);
+}
+/**
+ * JoinStraight icon from Tabler Icons
+ */
+export function TbJoinStraight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 4h3a2 2 0 0 1 2 2v6a1 1 0 0 0 1 1h6a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2"}}]})(props);
+}
+/**
+ * Joker icon from Tabler Icons
+ */
+export function TbJoker(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 16m0 1.5a1.5 1.5 0 0 1 1.5 -1.5h11a1.5 1.5 0 0 1 1.5 1.5v0a1.5 1.5 0 0 1 -1.5 1.5h-11a1.5 1.5 0 0 1 -1.5 -1.5z"}},{tag:"path",attr:{d:"M12 16q -2.5 -8 -6 -8q -2.5 0 -3 2c2.953 .31 3.308 3.33 4 6"},child:[]},{tag:"path",attr:{d:"M12 16q 2.5 -8 6 -8q 2.5 0 3 2c-2.953 .31 -3.308 3.33 -4 6"},child:[]},{tag:"path",attr:{d:"M9 9.5q 2 -3.5 3 -3.5t 3 3.5"},child:[]}]})(props);
+}
+/**
  * Jpg icon from Tabler Icons
  */
 export function TbJpg(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -17830,6 +19522,12 @@ export function TbKeyOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbKeyboard(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M6 10l0 .01"},child:[]},{tag:"path",attr:{d:"M10 10l0 .01"},child:[]},{tag:"path",attr:{d:"M14 10l0 .01"},child:[]},{tag:"path",attr:{d:"M18 10l0 .01"},child:[]},{tag:"path",attr:{d:"M6 14l0 .01"},child:[]},{tag:"path",attr:{d:"M18 14l0 .01"},child:[]},{tag:"path",attr:{d:"M10 14l4 .01"},child:[]}]})(props);
+}
+/**
+ * KeyboardFilled icon from Tabler Icons
+ */
+export function TbKeyboardFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M20 5a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-16a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3zm-14 8a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1m12 0a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1m-7.998 0a1 1 0 0 0 -.004 2l4 .01a1 1 0 0 0 .005 -2zm-4.002 -4a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1m4 0a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1m4 0a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1m4 0a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1"}}]})(props);
 }
 /**
  * KeyboardHide icon from Tabler Icons
@@ -17908,6 +19606,36 @@ export function TbKeyframes(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbKeyframesFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8 4a2.599 2.599 0 0 0 -2 .957l-4.355 5.24a2.847 2.847 0 0 0 -.007 3.598l4.368 5.256c.499 .6 1.224 .949 1.994 .949a2.599 2.599 0 0 0 2 -.957l4.355 -5.24a2.847 2.847 0 0 0 .007 -3.598l-4.368 -5.256a2.593 2.593 0 0 0 -1.994 -.949z"}},{tag:"path",attr:{d:"M16.382 4.214a1 1 0 0 1 1.32 .074l.084 .094l4.576 5.823c.808 .993 .848 2.396 .13 3.419l-.12 .158l-4.586 5.836a1 1 0 0 1 -1.644 -1.132l.072 -.104l4.596 -5.85a.845 .845 0 0 0 .06 -.978l-.07 -.1l-4.586 -5.836a1 1 0 0 1 .168 -1.404z"},child:[]},{tag:"path",attr:{d:"M12.382 4.214a1 1 0 0 1 1.32 .074l.084 .094l4.576 5.823c.808 .993 .848 2.396 .13 3.419l-.12 .158l-4.586 5.836a1 1 0 0 1 -1.644 -1.132l.072 -.104l4.596 -5.85a.845 .845 0 0 0 .06 -.978l-.07 -.1l-4.586 -5.836a1 1 0 0 1 .168 -1.404z"},child:[]}]})(props);
+}
+/**
+ * Label icon from Tabler Icons
+ */
+export function TbLabel(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16.52 7h-10.52a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h10.52a1 1 0 0 0 .78 -.375l3.7 -4.625l-3.7 -4.625a1 1 0 0 0 -.78 -.375"}}]})(props);
+}
+/**
+ * LabelFilled icon from Tabler Icons
+ */
+export function TbLabelFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16.52 6a2 2 0 0 1 1.561 .75l3.7 4.625a1 1 0 0 1 0 1.25l-3.7 4.624a2 2 0 0 1 -1.561 .751h-10.52a3 3 0 0 1 -3 -3v-6a3 3 0 0 1 3 -3z"}}]})(props);
+}
+/**
+ * LabelImportant icon from Tabler Icons
+ */
+export function TbLabelImportant(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16.52 7h-12.52l4 5l-4 5h12.52a1 1 0 0 0 .78 -.375l3.7 -4.625l-3.7 -4.625a1 1 0 0 0 -.78 -.375"}}]})(props);
+}
+/**
+ * LabelImportantFilled icon from Tabler Icons
+ */
+export function TbLabelImportantFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16.52 6a2 2 0 0 1 1.561 .75l3.7 4.625a1 1 0 0 1 0 1.25l-3.7 4.624a2 2 0 0 1 -1.561 .751h-12.52a1 1 0 0 1 -.78 -1.625l3.5 -4.375l-3.5 -4.375a1 1 0 0 1 .668 -1.62l.112 -.005z"}}]})(props);
+}
+/**
+ * LabelOff icon from Tabler Icons
+ */
+export function TbLabelOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 7h-1a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h10.52a1 1 0 0 0 .394 -.081m1.86 -2.137l2.226 -2.782l-3.7 -4.625a1 1 0 0 0 -.78 -.375h-5.52"}},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
 }
 /**
  * Ladder icon from Tabler Icons
@@ -17998,6 +19726,42 @@ export function TbLassoOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbLassoPolygon(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.028 13.252l-1.028 -3.252l2 -7l7 5l8 -3l1 9l-9 3l-5.144 -1.255"}},{tag:"path",attr:{d:"M5 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]},{tag:"path",attr:{d:"M5 17c0 1.42 .316 2.805 1 4"},child:[]}]})(props);
+}
+/**
+ * LassoPolygonFilled icon from Tabler Icons
+ */
+export function TbLassoPolygonFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M5.581 2.186l6.566 4.69l7.502 -2.812a1 1 0 0 1 1.326 .714l.019 .112l1 9a1 1 0 0 1 -.678 1.059l-9 3a1 1 0 0 1 -.553 .023l-4.434 -1.082a3 3 0 0 1 -1.287 .923c.095 .986 .374 1.9 .826 2.69a1 1 0 0 1 -1.736 .993c-.624 -1.09 -.99 -2.335 -1.098 -3.656a3 3 0 0 1 -2.034 -2.84l.005 -.176a3 3 0 0 1 .86 -1.932l-.818 -2.59a1 1 0 0 1 -.009 -.577l2 -7a1 1 0 0 1 1.543 -.539m-.009 2.451l-1.528 5.348l.642 2.031q .155 -.016 .314 -.016a3 3 0 0 1 3 2.995l3.957 .965l7.96 -2.654l-.769 -6.919l-6.797 2.55a1 1 0 0 1 -.827 -.058l-.105 -.065z"}}]})(props);
+}
+/**
+ * LaurelWreath icon from Tabler Icons
+ */
+export function TbLaurelWreath(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6.436 8a8.6 8.6 0 0 0 -.436 2.727c0 4.017 2.686 7.273 6 7.273s6 -3.256 6 -7.273a8.6 8.6 0 0 0 -.436 -2.727"}},{tag:"path",attr:{d:"M14.5 21s-.682 -3 -2.5 -3s-2.5 3 -2.5 3"},child:[]},{tag:"path",attr:{d:"M18.52 5.23c.292 1.666 -1.02 2.77 -1.02 2.77s-1.603 -.563 -1.895 -2.23c-.292 -1.666 1.02 -2.77 1.02 -2.77s1.603 .563 1.895 2.23"},child:[]},{tag:"path",attr:{d:"M21.094 12.14c-1.281 1.266 -3.016 .76 -3.016 .76s-.454 -1.772 .828 -3.04c1.28 -1.266 3.016 -.76 3.016 -.76s.454 1.772 -.828 3.04"},child:[]},{tag:"path",attr:{d:"M17.734 18.826c-1.5 -.575 -1.734 -2.19 -1.734 -2.19s1.267 -1.038 2.767 -.462c1.5 .575 1.733 2.19 1.733 2.19s-1.267 1.038 -2.767 .462"},child:[]},{tag:"path",attr:{d:"M6.267 18.826c1.5 -.575 1.733 -2.19 1.733 -2.19s-1.267 -1.038 -2.767 -.462c-1.5 .575 -1.733 2.19 -1.733 2.19s1.267 1.038 2.767 .462"},child:[]},{tag:"path",attr:{d:"M2.906 12.14c1.281 1.266 3.016 .76 3.016 .76s.454 -1.772 -.828 -3.04c-1.281 -1.265 -3.016 -.76 -3.016 -.76s-.454 1.772 .828 3.04"},child:[]},{tag:"path",attr:{d:"M5.48 5.23c-.292 1.666 1.02 2.77 1.02 2.77s1.603 -.563 1.895 -2.23c.292 -1.666 -1.02 -2.77 -1.02 -2.77s-1.603 .563 -1.895 2.23"},child:[]}]})(props);
+}
+/**
+ * LaurelWreath1 icon from Tabler Icons
+ */
+export function TbLaurelWreath1(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6.436 8a8.6 8.6 0 0 0 -.436 2.727c0 4.017 2.686 7.273 6 7.273s6 -3.256 6 -7.273a8.6 8.6 0 0 0 -.436 -2.727"}},{tag:"path",attr:{d:"M14.5 21s-.682 -3 -2.5 -3s-2.5 3 -2.5 3"},child:[]},{tag:"path",attr:{d:"M18.52 5.23c.292 1.666 -1.02 2.77 -1.02 2.77s-1.603 -.563 -1.895 -2.23c-.292 -1.666 1.02 -2.77 1.02 -2.77s1.603 .563 1.895 2.23"},child:[]},{tag:"path",attr:{d:"M21.094 12.14c-1.281 1.266 -3.016 .76 -3.016 .76s-.454 -1.772 .828 -3.04c1.28 -1.266 3.016 -.76 3.016 -.76s.454 1.772 -.828 3.04"},child:[]},{tag:"path",attr:{d:"M17.734 18.826c-1.5 -.575 -1.734 -2.19 -1.734 -2.19s1.267 -1.038 2.767 -.462c1.5 .575 1.733 2.19 1.733 2.19s-1.267 1.038 -2.767 .462"},child:[]},{tag:"path",attr:{d:"M6.267 18.826c1.5 -.575 1.733 -2.19 1.733 -2.19s-1.267 -1.038 -2.767 -.462c-1.5 .575 -1.733 2.19 -1.733 2.19s1.267 1.038 2.767 .462"},child:[]},{tag:"path",attr:{d:"M2.906 12.14c1.281 1.266 3.016 .76 3.016 .76s.454 -1.772 -.828 -3.04c-1.281 -1.265 -3.016 -.76 -3.016 -.76s-.454 1.772 .828 3.04"},child:[]},{tag:"path",attr:{d:"M5.48 5.23c-.292 1.666 1.02 2.77 1.02 2.77s1.603 -.563 1.895 -2.23c.292 -1.666 -1.02 -2.77 -1.02 -2.77s-1.603 .563 -1.895 2.23"},child:[]},{tag:"path",attr:{d:"M11 9l1 -1v6"},child:[]}]})(props);
+}
+/**
+ * LaurelWreath2 icon from Tabler Icons
+ */
+export function TbLaurelWreath2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6.436 8a8.6 8.6 0 0 0 -.436 2.727c0 4.017 2.686 7.273 6 7.273s6 -3.256 6 -7.273a8.6 8.6 0 0 0 -.436 -2.727"}},{tag:"path",attr:{d:"M14.5 21s-.682 -3 -2.5 -3s-2.5 3 -2.5 3"},child:[]},{tag:"path",attr:{d:"M18.52 5.23c.292 1.666 -1.02 2.77 -1.02 2.77s-1.603 -.563 -1.895 -2.23c-.292 -1.666 1.02 -2.77 1.02 -2.77s1.603 .563 1.895 2.23"},child:[]},{tag:"path",attr:{d:"M21.094 12.14c-1.281 1.266 -3.016 .76 -3.016 .76s-.454 -1.772 .828 -3.04c1.28 -1.266 3.016 -.76 3.016 -.76s.454 1.772 -.828 3.04"},child:[]},{tag:"path",attr:{d:"M17.734 18.826c-1.5 -.575 -1.734 -2.19 -1.734 -2.19s1.267 -1.038 2.767 -.462c1.5 .575 1.733 2.19 1.733 2.19s-1.267 1.038 -2.767 .462"},child:[]},{tag:"path",attr:{d:"M6.267 18.826c1.5 -.575 1.733 -2.19 1.733 -2.19s-1.267 -1.038 -2.767 -.462c-1.5 .575 -1.733 2.19 -1.733 2.19s1.267 1.038 2.767 .462"},child:[]},{tag:"path",attr:{d:"M2.906 12.14c1.281 1.266 3.016 .76 3.016 .76s.454 -1.772 -.828 -3.04c-1.281 -1.265 -3.016 -.76 -3.016 -.76s-.454 1.772 .828 3.04"},child:[]},{tag:"path",attr:{d:"M5.48 5.23c-.292 1.666 1.02 2.77 1.02 2.77s1.603 -.563 1.895 -2.23c.292 -1.666 -1.02 -2.77 -1.02 -2.77s-1.603 .563 -1.895 2.23"},child:[]},{tag:"path",attr:{d:"M10.6 8h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h2"},child:[]}]})(props);
+}
+/**
+ * LaurelWreath3 icon from Tabler Icons
+ */
+export function TbLaurelWreath3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6.436 8a8.6 8.6 0 0 0 -.436 2.727c0 4.017 2.686 7.273 6 7.273s6 -3.256 6 -7.273a8.6 8.6 0 0 0 -.436 -2.727"}},{tag:"path",attr:{d:"M14.5 21s-.682 -3 -2.5 -3s-2.5 3 -2.5 3"},child:[]},{tag:"path",attr:{d:"M18.52 5.23c.292 1.666 -1.02 2.77 -1.02 2.77s-1.603 -.563 -1.895 -2.23c-.292 -1.666 1.02 -2.77 1.02 -2.77s1.603 .563 1.895 2.23"},child:[]},{tag:"path",attr:{d:"M21.094 12.14c-1.281 1.266 -3.016 .76 -3.016 .76s-.454 -1.772 .828 -3.04c1.28 -1.266 3.016 -.76 3.016 -.76s.454 1.772 -.828 3.04"},child:[]},{tag:"path",attr:{d:"M17.734 18.826c-1.5 -.575 -1.734 -2.19 -1.734 -2.19s1.267 -1.038 2.767 -.462c1.5 .575 1.733 2.19 1.733 2.19s-1.267 1.038 -2.767 .462"},child:[]},{tag:"path",attr:{d:"M6.267 18.826c1.5 -.575 1.733 -2.19 1.733 -2.19s-1.267 -1.038 -2.767 -.462c-1.5 .575 -1.733 2.19 -1.733 2.19s1.267 1.038 2.767 .462"},child:[]},{tag:"path",attr:{d:"M2.906 12.14c1.281 1.266 3.016 .76 3.016 .76s.454 -1.772 -.828 -3.04c-1.281 -1.265 -3.016 -.76 -3.016 -.76s-.454 1.772 .828 3.04"},child:[]},{tag:"path",attr:{d:"M5.48 5.23c-.292 1.666 1.02 2.77 1.02 2.77s1.603 -.563 1.895 -2.23c.292 -1.666 -1.02 -2.77 -1.02 -2.77s-1.603 .563 -1.895 2.23"},child:[]},{tag:"path",attr:{d:"M10.5 8h1.5a1.5 1.5 0 0 1 0 3h-1h1a1.5 1.5 0 0 1 0 3h-1.5"},child:[]}]})(props);
+}
+/**
+ * LaurelWreathFilled icon from Tabler Icons
+ */
+export function TbLaurelWreathFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16.956 2.057c.355 .124 .829 .375 1.303 .796a3.77 3.77 0 0 1 1.246 2.204c.173 .989 -.047 1.894 -.519 2.683l-.123 .194q -.097 .147 -.196 .272q .066 .234 .117 .471q .26 -.178 .545 -.307c.851 -.389 1.727 -.442 2.527 -.306q .226 .04 .346 .076a1 1 0 0 1 .689 .712l.029 .13q .015 .08 .03 .18a4.45 4.45 0 0 1 -.324 2.496a3.94 3.94 0 0 1 -1.71 1.85l-.242 .12a4.23 4.23 0 0 1 -2.234 .349a9 9 0 0 1 -.443 1.023c.37 .016 .748 .093 1.128 .24c.732 .28 1.299 .758 1.711 1.367a3.95 3.95 0 0 1 .654 1.613a1 1 0 0 1 -.356 .917a3.8 3.8 0 0 1 -.716 .443c-.933 .455 -1.978 .588 -3.043 .179l-.032 -.015l-.205 -.086a3.6 3.6 0 0 1 -1.33 -1.069l-.143 -.197a4 4 0 0 1 -.26 -.433a6 6 0 0 1 -.927 .511q .18 .262 .337 .56a7.4 7.4 0 0 1 .66 1.747a1 1 0 0 1 -1.95 .444l-.028 -.11a6 6 0 0 0 -.449 -1.143c-.342 -.645 -.71 -.968 -1.048 -.968s-.706 .323 -1.048 .969a5.6 5.6 0 0 0 -.367 .874l-.082 .269l-.028 .11a1 1 0 0 1 -1.95 -.444a7.3 7.3 0 0 1 .66 -1.747q .158 -.298 .337 -.561a6.4 6.4 0 0 1 -.93 -.508a4 4 0 0 1 -.256 .43c-.366 .541 -.855 .98 -1.473 1.267l-.238 .1c-.994 .382 -1.97 .292 -2.855 -.091l-.188 -.087a3.8 3.8 0 0 1 -.716 -.443a1 1 0 0 1 -.356 -.917a3.95 3.95 0 0 1 .654 -1.613a3.6 3.6 0 0 1 1.71 -1.368c.38 -.146 .758 -.223 1.13 -.24a9 9 0 0 1 -.445 -1.023a4.23 4.23 0 0 1 -2.233 -.348a4 4 0 0 1 -.916 -.587l-.207 -.191a4 4 0 0 1 -.724 -.977l-.105 -.216a4.45 4.45 0 0 1 -.265 -2.806a1 1 0 0 1 .69 -.712q .119 -.036 .345 -.076c.801 -.135 1.678 -.082 2.53 .308q .283 .129 .545 .304q .048 -.235 .112 -.47a5 5 0 0 1 -.194 -.272c-.556 -.832 -.83 -1.806 -.642 -2.877l.05 -.242a3.75 3.75 0 0 1 1.027 -1.803l.169 -.159a4 4 0 0 1 1.303 -.796a1 1 0 0 1 .975 .178c.2 .168 .462 .446 .719 .83c.556 .833 .83 1.807 .642 2.878a3.77 3.77 0 0 1 -1.246 2.204c-.303 .27 -.607 .47 -.879 .61a7.5 7.5 0 0 0 -.255 1.971c0 3.502 2.285 6.272 5 6.272s5 -2.77 5 -6.276a7.6 7.6 0 0 0 -.253 -1.967a4.3 4.3 0 0 1 -.881 -.61a3.77 3.77 0 0 1 -1.246 -2.204c-.188 -1.07 .086 -2.045 .642 -2.877c.257 -.385 .52 -.663 .72 -.831a1 1 0 0 1 .974 -.178"}}]})(props);
 }
 /**
  * LayersDifference icon from Tabler Icons
@@ -18456,6 +20220,12 @@ export function TbLeaf(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 21c.5 -4.5 2.5 -8 7 -10"}},{tag:"path",attr:{d:"M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"},child:[]}]})(props);
 }
 /**
+ * Leaf2 icon from Tabler Icons
+ */
+export function TbLeaf2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 21c.5 -4.5 2.5 -8 7 -10"}},{tag:"path",attr:{d:"M7.5 15q -3.5 0 -4.5 -6a8.4 8.4 0 0 1 3.438 .402a12 12 0 0 1 -.052 -.793c0 -3.606 3.204 -5.609 3.204 -5.609s2.003 1.252 2.842 3.557q 2.568 -1.557 6.568 -1.557q .396 3.775 -1.557 6.568c2.305 .839 3.557 2.842 3.557 2.842s-3 2.59 -7 2.59c0 1 0 1 .5 3q -6 0 -7 -5"},child:[]}]})(props);
+}
+/**
  * LeafOff icon from Tabler Icons
  */
 export function TbLeafOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -18490,6 +20260,12 @@ export function TbLemon(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbLemon2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 4a2 2 0 0 1 1.185 3.611c1.55 2.94 .873 6.917 -1.892 9.682c-2.765 2.765 -6.743 3.442 -9.682 1.892a2 2 0 1 1 -2.796 -2.796c-1.55 -2.94 -.873 -6.917 1.892 -9.682c2.765 -2.765 6.743 -3.442 9.682 -1.892a2 2 0 0 1 1.611 -.815z"}}]})(props);
+}
+/**
+ * Lemon2Filled icon from Tabler Icons
+ */
+export function TbLemon2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 3a3 3 0 0 1 2.443 4.742l-.06 .076l.037 .087c1.269 3.187 .428 7.084 -2.203 9.872l-.217 .223c-2.8 2.8 -6.823 3.723 -10.095 2.42l-.087 -.036l-.133 .098a3 3 0 0 1 -2.11 .488l-.205 -.036a3 3 0 0 1 -1.852 -4.62l.098 -.134l-.036 -.085c-1.269 -3.187 -.428 -7.084 2.203 -9.872l.217 -.223c2.8 -2.8 6.823 -3.723 10.095 -2.42l.085 .037l.124 -.091a3 3 0 0 1 1.493 -.52z"}}]})(props);
 }
 /**
  * LetterA icon from Tabler Icons
@@ -18876,6 +20652,12 @@ export function TbLifebuoy(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"}},{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"},child:[]},{tag:"path",attr:{d:"M15 15l3.35 3.35"},child:[]},{tag:"path",attr:{d:"M9 15l-3.35 3.35"},child:[]},{tag:"path",attr:{d:"M5.65 5.65l3.35 3.35"},child:[]},{tag:"path",attr:{d:"M18.35 5.65l-3.35 3.35"},child:[]}]})(props);
 }
 /**
+ * LifebuoyFilled icon from Tabler Icons
+ */
+export function TbLifebuoyFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M14.757 16.172l3.571 3.571a10.004 10.004 0 0 1 -12.656 0l3.57 -3.571a5 5 0 0 0 2.758 .828c1.02 0 1.967 -.305 2.757 -.828m-10.5 -10.5l3.571 3.57a5 5 0 0 0 -.828 2.758c0 1.02 .305 1.967 .828 2.757l-3.57 3.572a10 10 0 0 1 -2.258 -6.329l.005 -.324a10 10 0 0 1 2.252 -6.005m17.743 6.329c0 2.343 -.82 4.57 -2.257 6.328l-3.571 -3.57a5 5 0 0 0 .828 -2.758c0 -1.02 -.305 -1.967 -.828 -2.757l3.571 -3.57a10 10 0 0 1 2.257 6.327m-5 -8.66q .707 .41 1.33 .918l-3.573 3.57a5 5 0 0 0 -2.757 -.828c-1.02 0 -1.967 .305 -2.757 .828l-3.573 -3.57a10 10 0 0 1 11.33 -.918"}}]})(props);
+}
+/**
  * LifebuoyOff icon from Tabler Icons
  */
 export function TbLifebuoyOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -18990,6 +20772,12 @@ export function TbLivePhoto(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0"},child:[]},{tag:"path",attr:{d:"M15.9 20.11l0 .01"},child:[]},{tag:"path",attr:{d:"M19.04 17.61l0 .01"},child:[]},{tag:"path",attr:{d:"M20.77 14l0 .01"},child:[]},{tag:"path",attr:{d:"M20.77 10l0 .01"},child:[]},{tag:"path",attr:{d:"M19.04 6.39l0 .01"},child:[]},{tag:"path",attr:{d:"M15.9 3.89l0 .01"},child:[]},{tag:"path",attr:{d:"M12 3l0 .01"},child:[]},{tag:"path",attr:{d:"M8.1 3.89l0 .01"},child:[]},{tag:"path",attr:{d:"M4.96 6.39l0 .01"},child:[]},{tag:"path",attr:{d:"M3.23 10l0 .01"},child:[]},{tag:"path",attr:{d:"M3.23 14l0 .01"},child:[]},{tag:"path",attr:{d:"M4.96 17.61l0 .01"},child:[]},{tag:"path",attr:{d:"M8.1 20.11l0 .01"},child:[]},{tag:"path",attr:{d:"M12 21l0 .01"},child:[]}]})(props);
 }
 /**
+ * LivePhotoFilled icon from Tabler Icons
+ */
+export function TbLivePhotoFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 6a6 6 0 1 1 -6 6l.004 -.225a6 6 0 0 1 5.996 -5.775m0 4a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2m3.9 9.11a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1m3.14 -2.5a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1m1.73 -3.61a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1m0 -4a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1m-1.73 -3.61a1 1 0 0 1 1 1a1 1 0 1 1 -2 .01c0 -.562 .448 -1.01 1 -1.01m-3.14 -2.5a1 1 0 0 1 1 1a1 1 0 1 1 -2 .01c0 -.562 .448 -1.01 1 -1.01m-3.9 -.89a1 1 0 0 1 1 1a1 1 0 1 1 -2 .01c0 -.562 .448 -1.01 1 -1.01m-3.9 .89a1 1 0 0 1 1 1a1 1 0 1 1 -2 .01c0 -.562 .448 -1.01 1 -1.01m-3.14 2.5a1 1 0 0 1 1 1a1 1 0 1 1 -2 .01c0 -.562 .448 -1.01 1 -1.01m-1.73 3.61a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1m0 4a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1m1.73 3.61a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1m3.14 2.5a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1m3.9 .89a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1"}}]})(props);
+}
+/**
  * LivePhotoOff icon from Tabler Icons
  */
 export function TbLivePhotoOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -19000,6 +20788,12 @@ export function TbLivePhotoOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbLiveView(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8v-2a2 2 0 0 1 2 -2h2"}},{tag:"path",attr:{d:"M4 16v2a2 2 0 0 0 2 2h2"},child:[]},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v2"},child:[]},{tag:"path",attr:{d:"M16 20h2a2 2 0 0 0 2 -2v-2"},child:[]},{tag:"path",attr:{d:"M12 11l0 .01"},child:[]},{tag:"path",attr:{d:"M12 18l-3.5 -5a4 4 0 1 1 7 0l-3.5 5"},child:[]}]})(props);
+}
+/**
+ * LiveViewFilled icon from Tabler Icons
+ */
+export function TbLiveViewFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8 3a1 1 0 1 1 0 2h-2a1 1 0 0 0 -1 1v2a1 1 0 1 1 -2 0v-2a3 3 0 0 1 3 -3z"}},{tag:"path",attr:{d:"M4 15a1 1 0 0 1 1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 1 0 2h-2a3 3 0 0 1 -3 -3v-2a1 1 0 0 1 1 -1"},child:[]},{tag:"path",attr:{d:"M18 3a3 3 0 0 1 3 3v2a1 1 0 0 1 -2 0v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 0 -2z"},child:[]},{tag:"path",attr:{d:"M20 15a1 1 0 0 1 1 1v2a3 3 0 0 1 -3 3h-2a1 1 0 0 1 0 -2h2a1 1 0 0 0 1 -1v-2a1 1 0 0 1 1 -1"},child:[]},{tag:"path",attr:{d:"M15.19 7.214a5 5 0 0 1 1.185 6.27l-.056 .09l-3.484 4.976a1 1 0 0 1 -.077 .103l-.017 .019l-.057 .056l-.012 .013l-.019 .017a1 1 0 0 1 -.096 .073l-.053 .03l-.038 .024l-.011 .005a1 1 0 0 1 -.223 .083l-.045 .008l-.066 .012a1 1 0 0 1 -.242 0l-.061 -.011l-.05 -.01a1 1 0 0 1 -.234 -.087l-.047 -.028l-.044 -.026l-.011 -.008l-.032 -.025l-.053 -.04l-.01 -.01l-.009 -.007l-.034 -.035l-.035 -.034l-.007 -.01l-.01 -.009l-.037 -.05l-.024 -.03l-3.5 -5l-.056 -.089a5 5 0 0 1 7.566 -6.27m-3.191 2.786a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1"},child:[]}]})(props);
 }
 /**
  * LoadBalancer icon from Tabler Icons
@@ -19194,6 +20988,12 @@ export function TbLockAccessOff(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8v-2c0 -.554 .225 -1.055 .588 -1.417"}},{tag:"path",attr:{d:"M4 16v2a2 2 0 0 0 2 2h2"},child:[]},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v2"},child:[]},{tag:"path",attr:{d:"M16 20h2c.55 0 1.05 -.222 1.41 -.582"},child:[]},{tag:"path",attr:{d:"M15 11a1 1 0 0 1 1 1m-.29 3.704a1 1 0 0 1 -.71 .296h-6a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h2"},child:[]},{tag:"path",attr:{d:"M10 11v-1m1.182 -2.826a2 2 0 0 1 2.818 1.826v1"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
 }
 /**
+ * LockBitcoin icon from Tabler Icons
+ */
+export function TbLockBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M13 21h-6a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2h10"},child:[]},{tag:"path",attr:{d:"M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"},child:[]},{tag:"path",attr:{d:"M8 11v-4a4 4 0 1 1 8 0v4"},child:[]}]})(props);
+}
+/**
  * LockBolt icon from Tabler Icons
  */
 export function TbLockBolt(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -19282,6 +21082,12 @@ export function TbLockOpen2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbLockOpenOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 11h2a2 2 0 0 1 2 2v2m0 4a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2h4"}},{tag:"path",attr:{d:"M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]},{tag:"path",attr:{d:"M8 11v-3m.347 -3.631a4 4 0 0 1 7.653 1.631"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * LockPassword icon from Tabler Icons
+ */
+export function TbLockPassword(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M8 11v-4a4 4 0 1 1 8 0v4"},child:[]},{tag:"path",attr:{d:"M15 16h.01"},child:[]},{tag:"path",attr:{d:"M12.01 16h.01"},child:[]},{tag:"path",attr:{d:"M9.02 16h.01"},child:[]}]})(props);
 }
 /**
  * LockPause icon from Tabler Icons
@@ -19530,6 +21336,12 @@ export function TbMailAi(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 19h-5a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M3 7l8 5.345m4 -1.345l6 -4"},child:[]},{tag:"path",attr:{d:"M14 21v-4a2 2 0 1 1 4 0v4"},child:[]},{tag:"path",attr:{d:"M14 19h4"},child:[]},{tag:"path",attr:{d:"M21 15v6"},child:[]}]})(props);
 }
 /**
+ * MailBitcoin icon from Tabler Icons
+ */
+export function TbMailBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M13.5 19h-8.5a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4"},child:[]},{tag:"path",attr:{d:"M3 7l9 6l9 -6"},child:[]}]})(props);
+}
+/**
  * MailBolt icon from Tabler Icons
  */
 export function TbMailBolt(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -19660,6 +21472,12 @@ export function TbMailSearch(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMailShare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 19h-8a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v6"}},{tag:"path",attr:{d:"M3 7l9 6l9 -6"},child:[]},{tag:"path",attr:{d:"M16 22l5 -5"},child:[]},{tag:"path",attr:{d:"M21 21.5v-4.5h-4.5"},child:[]}]})(props);
+}
+/**
+ * MailSpark icon from Tabler Icons
+ */
+export function TbMailSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"}},{tag:"path",attr:{d:"M11.5 19h-6.5a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v5"},child:[]},{tag:"path",attr:{d:"M3 7l9 6l9 -6"},child:[]}]})(props);
 }
 /**
  * MailStar icon from Tabler Icons
@@ -20118,6 +21936,18 @@ export function TbMathAvg(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21l18 -18"}},{tag:"path",attr:{d:"M12 12m-8 0a8 8 0 1 0 16 0a8 8 0 1 0 -16 0"},child:[]}]})(props);
 }
 /**
+ * MathCos icon from Tabler Icons
+ */
+export function TbMathCos(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10a2 2 0 1 0 -4 0v4a2 2 0 1 0 4 0"}},{tag:"path",attr:{d:"M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2"},child:[]},{tag:"path",attr:{d:"M17 15c.345 .6 1.258 1 2 1a2 2 0 1 0 0 -4a2 2 0 1 1 0 -4c.746 0 1.656 .394 2 1"},child:[]}]})(props);
+}
+/**
+ * MathCtg icon from Tabler Icons
+ */
+export function TbMathCtg(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 8h4"}},{tag:"path",attr:{d:"M21 8h-2a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2v-4h-1"},child:[]},{tag:"path",attr:{d:"M12 8v8"},child:[]},{tag:"path",attr:{d:"M7 10a2 2 0 1 0 -4 0v4a2 2 0 1 0 4 0"},child:[]}]})(props);
+}
+/**
  * MathEqualGreater icon from Tabler Icons
  */
 export function TbMathEqualGreater(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -20220,10 +22050,28 @@ export function TbMathPiDivide2(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 15h3a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M5 12h14"},child:[]},{tag:"path",attr:{d:"M10 9v-6"},child:[]},{tag:"path",attr:{d:"M14 3v6"},child:[]},{tag:"path",attr:{d:"M15 3h-6"},child:[]}]})(props);
 }
 /**
+ * MathSec icon from Tabler Icons
+ */
+export function TbMathSec(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 15c.345 .6 1.258 1 2 1a2 2 0 1 0 0 -4a2 2 0 1 1 0 -4c.746 0 1.656 .394 2 1"}},{tag:"path",attr:{d:"M21 10a2 2 0 1 0 -4 0v4a2 2 0 1 0 4 0"},child:[]},{tag:"path",attr:{d:"M14 8h-4v8h4"},child:[]},{tag:"path",attr:{d:"M10 12h2.5"},child:[]}]})(props);
+}
+/**
+ * MathSin icon from Tabler Icons
+ */
+export function TbMathSin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 15c.345 .6 1.258 1 2 1a2 2 0 1 0 0 -4a2 2 0 1 1 0 -4c.746 0 1.656 .394 2 1"}},{tag:"path",attr:{d:"M12 8v8"},child:[]},{tag:"path",attr:{d:"M16 16v-8l4 8v-8"},child:[]}]})(props);
+}
+/**
  * MathSymbols icon from Tabler Icons
  */
 export function TbMathSymbols(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12l18 0"}},{tag:"path",attr:{d:"M12 3l0 18"},child:[]},{tag:"path",attr:{d:"M16.5 4.5l3 3"},child:[]},{tag:"path",attr:{d:"M19.5 4.5l-3 3"},child:[]},{tag:"path",attr:{d:"M6 4l0 4"},child:[]},{tag:"path",attr:{d:"M4 6l4 0"},child:[]},{tag:"path",attr:{d:"M18 16l.01 0"},child:[]},{tag:"path",attr:{d:"M18 20l.01 0"},child:[]},{tag:"path",attr:{d:"M4 18l4 0"},child:[]}]})(props);
+}
+/**
+ * MathTg icon from Tabler Icons
+ */
+export function TbMathTg(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 8h4"}},{tag:"path",attr:{d:"M9 8v8"},child:[]},{tag:"path",attr:{d:"M18 8h-2a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2v-4h-1"},child:[]}]})(props);
 }
 /**
  * MathXDivide2 icon from Tabler Icons
@@ -20242,6 +22090,12 @@ export function TbMathXDivideY(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMathXDivideY2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21l18 -18"}},{tag:"path",attr:{d:"M15 14l3 4.5"},child:[]},{tag:"path",attr:{d:"M21 14l-4.5 7"},child:[]},{tag:"path",attr:{d:"M3 4l6 6"},child:[]},{tag:"path",attr:{d:"M3 10l6 -6"},child:[]}]})(props);
+}
+/**
+ * MathXFloorDivideY icon from Tabler Icons
+ */
+export function TbMathXFloorDivideY(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M1.5 19l18 -18"}},{tag:"path",attr:{d:"M4.5 22l18 -18"},child:[]},{tag:"path",attr:{d:"M18 15l3 4"},child:[]},{tag:"path",attr:{d:"M23 15l-4.5 8"},child:[]},{tag:"path",attr:{d:"M1 1l6 6"},child:[]},{tag:"path",attr:{d:"M1 7l6 -6"},child:[]}]})(props);
 }
 /**
  * MathXMinusX icon from Tabler Icons
@@ -20284,6 +22138,12 @@ export function TbMathYMinusY(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMathYPlusY(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 9l3 5.063"}},{tag:"path",attr:{d:"M8 9l-4.8 9"},child:[]},{tag:"path",attr:{d:"M16 9l3 5.063"},child:[]},{tag:"path",attr:{d:"M22 9l-4.8 9"},child:[]},{tag:"path",attr:{d:"M10 12h4"},child:[]},{tag:"path",attr:{d:"M12 10v4"},child:[]}]})(props);
+}
+/**
+ * Matrix icon from Tabler Icons
+ */
+export function TbMatrix(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 16h.013"}},{tag:"path",attr:{d:"M12.01 16h.005"},child:[]},{tag:"path",attr:{d:"M16.015 16h.005"},child:[]},{tag:"path",attr:{d:"M16.015 12h.005"},child:[]},{tag:"path",attr:{d:"M8.01 12h.005"},child:[]},{tag:"path",attr:{d:"M12.01 12h.005"},child:[]},{tag:"path",attr:{d:"M16.02 8h.005"},child:[]},{tag:"path",attr:{d:"M8.015 8h.005"},child:[]},{tag:"path",attr:{d:"M12.015 8h.005"},child:[]},{tag:"path",attr:{d:"M7 4h-1a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h1"},child:[]},{tag:"path",attr:{d:"M17 4h1a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-1"},child:[]}]})(props);
 }
 /**
  * Maximize icon from Tabler Icons
@@ -20358,10 +22218,22 @@ export function TbMeeple(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 20h-5a1 1 0 0 1 -1 -1c0 -2 3.378 -4.907 4 -6c-1 0 -4 -.5 -4 -2c0 -2 4 -3.5 6 -4c0 -1.5 .5 -4 3 -4s3 2.5 3 4c2 .5 6 2 6 4c0 1.5 -3 2 -4 2c.622 1.093 4 4 4 6a1 1 0 0 1 -1 1h-5c-1 0 -2 -4 -3 -4s-2 4 -3 4z"}}]})(props);
 }
 /**
+ * MeepleFilled icon from Tabler Icons
+ */
+export function TbMeepleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2c2.486 0 3.713 1.766 3.955 4.1l.01 .124l.129 .036c3.17 .928 5.754 2.487 5.9 4.556l.006 .184c0 1.427 -1.297 2.322 -2.871 2.733l-.201 .049l.026 .03c.244 .276 .532 .603 .7 .797l.057 .066c.49 .573 .884 1.073 1.216 1.56c.69 1.01 1.073 1.904 1.073 2.765a2 2 0 0 1 -2 2h-5c-1.043 0 -1.344 -.453 -2.394 -2.553c-.29 -.58 -.448 -.882 -.593 -1.118l-.013 -.022l-.013 .022c-.129 .21 -.268 .472 -.5 .935l-.093 .183c-1.05 2.1 -1.351 2.553 -2.394 2.553h-5a2 2 0 0 1 -2 -2c0 -.86 .384 -1.755 1.073 -2.765a18 18 0 0 1 1.216 -1.56c.152 -.178 .482 -.553 .757 -.863l.025 -.03l-.2 -.049c-1.506 -.393 -2.758 -1.23 -2.864 -2.55l-.007 -.183c0 -2.16 2.643 -3.785 5.906 -4.74l.128 -.036l.011 -.124c.235 -2.26 1.394 -3.99 3.726 -4.095z"}}]})(props);
+}
+/**
  * Melon icon from Tabler Icons
  */
 export function TbMelon(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 10c0 5.523 -4.477 10 -10 10a9.967 9.967 0 0 1 -6.984 -2.842l4.343 -4.153a4 4 0 0 0 5.76 -5.51l4.342 -4.153a9.963 9.963 0 0 1 2.539 6.658z"}}]})(props);
+}
+/**
+ * MelonFilled icon from Tabler Icons
+ */
+export function TbMelonFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16.77 2.62a1 1 0 0 1 1.436 .055a10.96 10.96 0 0 1 2.794 7.326c0 6.074 -4.925 10.999 -10.999 10.999a10.97 10.97 0 0 1 -7.684 -3.127a1 1 0 0 1 .008 -1.438l4.343 -4.153a1 1 0 0 1 1.352 -.027a3 3 0 0 0 4.32 -4.133a1 1 0 0 1 .088 -1.35z"}}]})(props);
 }
 /**
  * Menorah icon from Tabler Icons
@@ -20380,6 +22252,18 @@ export function TbMenu(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMenu2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 6l16 0"}},{tag:"path",attr:{d:"M4 12l16 0"},child:[]},{tag:"path",attr:{d:"M4 18l16 0"},child:[]}]})(props);
+}
+/**
+ * Menu3 icon from Tabler Icons
+ */
+export function TbMenu3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 6h10"}},{tag:"path",attr:{d:"M4 12h16"},child:[]},{tag:"path",attr:{d:"M7 12h13"},child:[]},{tag:"path",attr:{d:"M4 18h10"},child:[]}]})(props);
+}
+/**
+ * Menu4 icon from Tabler Icons
+ */
+export function TbMenu4(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 6h10"}},{tag:"path",attr:{d:"M4 12h16"},child:[]},{tag:"path",attr:{d:"M7 12h13"},child:[]},{tag:"path",attr:{d:"M7 18h10"},child:[]}]})(props);
 }
 /**
  * MenuDeep icon from Tabler Icons
@@ -20452,6 +22336,12 @@ export function TbMessage2Down(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMessage2Exclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 9h8"}},{tag:"path",attr:{d:"M8 13h6"},child:[]},{tag:"path",attr:{d:"M15 18l-3 3l-3 -3h-3a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v5.5"},child:[]},{tag:"path",attr:{d:"M19 16v3"},child:[]},{tag:"path",attr:{d:"M19 22v.01"},child:[]}]})(props);
+}
+/**
+ * Message2Filled icon from Tabler Icons
+ */
+export function TbMessage2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-2.586l-2.707 2.707a1 1 0 0 1 -1.32 .083l-.094 -.083l-2.708 -2.707h-2.585a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 4 -4zm-4 9h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m2 -4h-8a1 1 0 1 0 0 2h8a1 1 0 0 0 0 -2"}}]})(props);
 }
 /**
  * Message2Heart icon from Tabler Icons
@@ -20544,6 +22434,12 @@ export function TbMessageChatbot(props: IconBaseProps): VNode<JSX.SVGAttributes>
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z"}},{tag:"path",attr:{d:"M9.5 9h.01"},child:[]},{tag:"path",attr:{d:"M14.5 9h.01"},child:[]},{tag:"path",attr:{d:"M9.5 13a3.5 3.5 0 0 0 5 0"},child:[]}]})(props);
 }
 /**
+ * MessageChatbotFilled icon from Tabler Icons
+ */
+export function TbMessageChatbotFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-4.724l-4.762 2.857a1 1 0 0 1 -1.508 -.743l-.006 -.114v-2h-1a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 4 -4zm-2.8 9.286a1 1 0 0 0 -1.414 .014a2.5 2.5 0 0 1 -3.572 0a1 1 0 0 0 -1.428 1.4a4.5 4.5 0 0 0 6.428 0a1 1 0 0 0 -.014 -1.414m-5.69 -4.286h-.01a1 1 0 1 0 0 2h.01a1 1 0 0 0 0 -2m5 0h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
  * MessageCheck icon from Tabler Icons
  */
 export function TbMessageCheck(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -20554,18 +22450,6 @@ export function TbMessageCheck(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMessageCircle(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1"}}]})(props);
-}
-/**
- * MessageCircle2 icon from Tabler Icons
- */
-export function TbMessageCircle2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1"}}]})(props);
-}
-/**
- * MessageCircle2Filled icon from Tabler Icons
- */
-export function TbMessageCircle2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M5.821 4.91c3.898 -2.765 9.469 -2.539 13.073 .536c3.667 3.127 4.168 8.238 1.152 11.897c-2.842 3.447 -7.965 4.583 -12.231 2.805l-.232 -.101l-4.375 .931l-.075 .013l-.11 .009l-.113 -.004l-.044 -.005l-.11 -.02l-.105 -.034l-.1 -.044l-.076 -.042l-.108 -.077l-.081 -.074l-.073 -.083l-.053 -.075l-.065 -.115l-.042 -.106l-.031 -.113l-.013 -.075l-.009 -.11l.004 -.113l.005 -.044l.02 -.11l.022 -.072l1.15 -3.451l-.022 -.036c-2.21 -3.747 -1.209 -8.392 2.411 -11.118l.23 -.168z"}}]})(props);
 }
 /**
  * MessageCircleBolt icon from Tabler Icons
@@ -20614,6 +22498,12 @@ export function TbMessageCircleDown(props: IconBaseProps): VNode<JSX.SVGAttribut
  */
 export function TbMessageCircleExclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15.02 19.52c-2.34 .736 -5 .606 -7.32 -.52l-4.7 1l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c1.96 1.671 2.898 3.963 2.755 6.227"}},{tag:"path",attr:{d:"M19 16v3"},child:[]},{tag:"path",attr:{d:"M19 22v.01"},child:[]}]})(props);
+}
+/**
+ * MessageCircleFilled icon from Tabler Icons
+ */
+export function TbMessageCircleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M5.821 4.91c3.899 -2.765 9.468 -2.539 13.073 .535c3.667 3.129 4.168 8.238 1.152 11.898c-2.841 3.447 -7.965 4.583 -12.231 2.805l-.233 -.101l-4.374 .931l-.04 .006l-.035 .007h-.018l-.022 .005h-.038l-.033 .004l-.021 -.001l-.023 .001l-.033 -.003h-.035l-.022 -.004l-.022 -.002l-.035 -.007l-.034 -.005l-.016 -.004l-.024 -.005l-.049 -.016l-.024 -.005l-.011 -.005l-.022 -.007l-.045 -.02l-.03 -.012l-.011 -.006l-.014 -.006l-.031 -.018l-.045 -.024l-.016 -.011l-.037 -.026l-.04 -.027l-.002 -.004l-.013 -.009l-.043 -.04l-.025 -.02l-.006 -.007l-.056 -.062l-.013 -.014l-.011 -.014l-.039 -.056l-.014 -.019l-.005 -.01l-.042 -.073l-.007 -.012l-.004 -.008l-.007 -.012l-.014 -.038l-.02 -.042l-.004 -.016l-.004 -.01l-.017 -.061l-.007 -.018l-.002 -.015l-.005 -.019l-.005 -.033l-.008 -.042l-.002 -.031l-.003 -.01v-.016l-.004 -.054l.001 -.036l.001 -.023l.002 -.053l.004 -.025v-.019l.008 -.035l.005 -.034l.005 -.02l.004 -.02l.018 -.06l.003 -.013l1.15 -3.45l-.022 -.037c-2.21 -3.747 -1.209 -8.391 2.413 -11.119z"}}]})(props);
 }
 /**
  * MessageCircleHeart icon from Tabler Icons
@@ -20682,6 +22572,12 @@ export function TbMessageCircleUp(props: IconBaseProps): VNode<JSX.SVGAttributes
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12.004 19.98a9.869 9.869 0 0 1 -4.304 -.98l-4.7 1l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c1.994 1.701 2.932 4.045 2.746 6.349"}},{tag:"path",attr:{d:"M19 22v-6"},child:[]},{tag:"path",attr:{d:"M22 19l-3 -3l-3 3"},child:[]}]})(props);
 }
 /**
+ * MessageCircleUser icon from Tabler Icons
+ */
+export function TbMessageCircleUser(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M22 22a2 2 0 0 0 -2 -2h-2a2 2 0 0 0 -2 2"},child:[]},{tag:"path",attr:{d:"M12.454 19.97a9.9 9.9 0 0 1 -4.754 -.97l-4.7 1l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c1.667 1.423 2.596 3.294 2.747 5.216"},child:[]}]})(props);
+}
+/**
  * MessageCircleX icon from Tabler Icons
  */
 export function TbMessageCircleX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -20722,6 +22618,12 @@ export function TbMessageDown(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMessageExclamation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 9h8"}},{tag:"path",attr:{d:"M8 13h6"},child:[]},{tag:"path",attr:{d:"M15 18h-2l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v5.5"},child:[]},{tag:"path",attr:{d:"M19 16v3"},child:[]},{tag:"path",attr:{d:"M19 22v.01"},child:[]}]})(props);
+}
+/**
+ * MessageFilled icon from Tabler Icons
+ */
+export function TbMessageFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-4.724l-4.762 2.857a1 1 0 0 1 -1.508 -.743l-.006 -.114v-2h-1a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 4 -4zm-4 9h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m2 -4h-8a1 1 0 1 0 0 2h8a1 1 0 0 0 0 -2"}}]})(props);
 }
 /**
  * MessageForward icon from Tabler Icons
@@ -20790,6 +22692,12 @@ export function TbMessageReport(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z"}},{tag:"path",attr:{d:"M12 8v3"},child:[]},{tag:"path",attr:{d:"M12 14v.01"},child:[]}]})(props);
 }
 /**
+ * MessageReportFilled icon from Tabler Icons
+ */
+export function TbMessageReportFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-4.724l-4.762 2.857a1 1 0 0 1 -1.508 -.743l-.006 -.114v-2h-1a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 4 -4zm-6 10a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1m0 -6a1 1 0 0 0 -1 1v3a1 1 0 0 0 2 0v-3a1 1 0 0 0 -1 -1"}}]})(props);
+}
+/**
  * MessageSearch icon from Tabler Icons
  */
 export function TbMessageSearch(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -20814,6 +22722,12 @@ export function TbMessageUp(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 9h8"}},{tag:"path",attr:{d:"M8 13h6"},child:[]},{tag:"path",attr:{d:"M11.99 18.606l-3.99 2.394v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v5.5"},child:[]},{tag:"path",attr:{d:"M19 22v-6"},child:[]},{tag:"path",attr:{d:"M22 19l-3 -3l-3 3"},child:[]}]})(props);
 }
 /**
+ * MessageUser icon from Tabler Icons
+ */
+export function TbMessageUser(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 18l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5"}},{tag:"path",attr:{d:"M19 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]},{tag:"path",attr:{d:"M22 22a2 2 0 0 0 -2 -2h-2a2 2 0 0 0 -2 2"},child:[]}]})(props);
+}
+/**
  * MessageX icon from Tabler Icons
  */
 export function TbMessageX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -20836,6 +22750,12 @@ export function TbMessagesOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMeteor(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 3l-5 9h5l-6.891 7.086a6.5 6.5 0 1 1 -8.855 -9.506l7.746 -6.58l-1 5l9 -5z"}},{tag:"path",attr:{d:"M9.5 14.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0"},child:[]}]})(props);
+}
+/**
+ * MeteorFilled icon from Tabler Icons
+ */
+export function TbMeteorFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M21.874 3.486l-4.174 7.514h3.3c.846 0 1.293 .973 .791 1.612l-.074 .085l-6.9 7.095a7.5 7.5 0 1 1 -10.21 -10.974l7.746 -6.58c.722 -.614 1.814 .028 1.628 .958l-.577 2.879l7.11 -3.95c.88 -.488 1.849 .481 1.36 1.36m-12.374 7.515a3.5 3.5 0 0 0 -3.495 3.308l-.005 .192a3.5 3.5 0 1 0 3.5 -3.5"}}]})(props);
 }
 /**
  * MeteorOff icon from Tabler Icons
@@ -20872,6 +22792,12 @@ export function TbMichelinBibGourmand(props: IconBaseProps): VNode<JSX.SVGAttrib
  */
 export function TbMichelinStar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14.792 17.063c0 .337 .057 .618 .057 .9c0 1.8 -1.238 3.037 -2.982 3.037c-1.8 0 -2.98 -1.238 -2.98 -3.206v-.731c-.957 .675 -1.576 .9 -2.42 .9c-1.518 0 -2.925 -1.463 -2.925 -3.094c0 -1.181 .844 -2.194 2.082 -2.756l.28 -.113c-1.574 -.787 -2.362 -1.688 -2.362 -2.925c0 -1.687 1.294 -3.094 2.925 -3.094c.675 0 1.52 .338 2.138 .788l.281 .112c0 -.337 -.056 -.619 -.056 -.844c0 -1.8 1.237 -3.037 2.98 -3.037c1.8 0 2.981 1.237 2.981 3.206v.394l-.056 .281c.956 -.675 1.575 -.9 2.419 -.9c1.519 0 2.925 1.463 2.925 3.094c0 1.181 -.844 2.194 -2.081 2.756l-.282 .169c1.575 .787 2.363 1.688 2.363 2.925c0 1.688 -1.294 3.094 -2.925 3.094c-.675 0 -1.575 -.281 -2.138 -.788l-.225 -.169z"}}]})(props);
+}
+/**
+ * MichelinStarFilled icon from Tabler Icons
+ */
+export function TbMichelinStarFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.81 2c2.018 0 3.478 1.232 3.874 3.129l.016 .089l.172 -.057c.34 -.104 .684 -.16 1.055 -.175l.227 -.005c2.09 0 3.925 1.93 3.925 4.094c0 1.095 -.51 2.087 -1.364 2.835l-.118 .098l.06 .048c.88 .737 1.36 1.605 1.416 2.656l.006 .213c0 2.24 -1.739 4.094 -3.925 4.094c-.445 0 -.923 -.084 -1.374 -.233l-.043 .193c-.395 1.736 -1.806 2.933 -3.662 3.016l-.208 .005c-2.018 0 -3.477 -1.232 -3.873 -3.13l-.03 -.161l-.011 .006a4.1 4.1 0 0 1 -1.26 .243l-.226 .005c-2.09 0 -3.925 -1.93 -3.925 -4.094c0 -1.096 .51 -2.087 1.378 -2.84l.073 -.062l-.03 -.023c-.88 -.737 -1.359 -1.605 -1.415 -2.656l-.006 -.213c0 -2.239 1.74 -4.094 3.925 -4.094c.44 0 .92 .098 1.391 .27l.036 .013l.008 -.048c.331 -1.84 1.776 -3.125 3.7 -3.211z"}}]})(props);
 }
 /**
  * MichelinStarGreen icon from Tabler Icons
@@ -20961,13 +22887,25 @@ export function TbMilitaryAward(props: IconBaseProps): VNode<JSX.SVGAttributes> 
  * MilitaryRank icon from Tabler Icons
  */
 export function TbMilitaryRank(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 7v13h-10v-13l5 -3z"}},{tag:"path",attr:{d:"M10 13l2 -1l2 1"},child:[]},{tag:"path",attr:{d:"M10 17l2 -1l2 1"},child:[]},{tag:"path",attr:{d:"M10 9l2 -1l2 1"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 7v12a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-12l6 -4z"}},{tag:"path",attr:{d:"M10 13l2 -1l2 1"},child:[]},{tag:"path",attr:{d:"M10 17l2 -1l2 1"},child:[]},{tag:"path",attr:{d:"M10 9l2 -1l2 1"},child:[]}]})(props);
+}
+/**
+ * MilitaryRankFilled icon from Tabler Icons
+ */
+export function TbMilitaryRankFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.555 2.168l6 4a1 1 0 0 1 .445 .832v12a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-12a1 1 0 0 1 .445 -.832l6 -4a1 1 0 0 1 1.11 0m-.108 12.938a1 1 0 0 0 -.894 0l-2 1a1 1 0 0 0 -.447 1.341l.058 .102a1 1 0 0 0 1.283 .345l1.553 -.776l1.553 .776a1 1 0 0 0 .894 -1.788zm0 -4a1 1 0 0 0 -.894 0l-2 1a1 1 0 0 0 -.447 1.341l.058 .102a1 1 0 0 0 1.283 .345l1.553 -.776l1.553 .776a1 1 0 0 0 .894 -1.788zm0 -4a1 1 0 0 0 -.894 0l-2 1a1 1 0 0 0 -.447 1.341l.058 .102a1 1 0 0 0 1.283 .345l1.553 -.776l1.553 .776a1 1 0 0 0 .894 -1.788z"}}]})(props);
 }
 /**
  * Milk icon from Tabler Icons
  */
 export function TbMilk(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 6h8v-2a1 1 0 0 0 -1 -1h-6a1 1 0 0 0 -1 1v2z"}},{tag:"path",attr:{d:"M16 6l1.094 1.759a6 6 0 0 1 .906 3.17v8.071a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8.071a6 6 0 0 1 .906 -3.17l1.094 -1.759"},child:[]},{tag:"path",attr:{d:"M12 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]},{tag:"path",attr:{d:"M10 10h4"},child:[]}]})(props);
+}
+/**
+ * MilkFilled icon from Tabler Icons
+ */
+export function TbMilkFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17.799 7l.144 .23a7 7 0 0 1 1.057 3.7v8.07a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-8.071a7 7 0 0 1 1.057 -3.698l.142 -.231zm-5.799 6a3 3 0 0 0 -2.995 2.824l-.005 .176a3 3 0 1 0 3 -3m0 2a1 1 0 1 1 0 2a1 1 0 0 1 0 -2m2 -6h-4a1 1 0 1 0 0 2h4a1 1 0 0 0 0 -2m1 -7a2 2 0 0 1 2 2v1h-10v-1a2 2 0 0 1 2 -2z"}}]})(props);
 }
 /**
  * MilkOff icon from Tabler Icons
@@ -21042,6 +22980,12 @@ export function TbMoodAngry(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z"}},{tag:"path",attr:{d:"M8 9l2 1"},child:[]},{tag:"path",attr:{d:"M16 9l-2 1"},child:[]},{tag:"path",attr:{d:"M14.5 16.05a3.5 3.5 0 0 0 -5 0"},child:[]}]})(props);
 }
 /**
+ * MoodAngryFilled icon from Tabler Icons
+ */
+export function TbMoodAngryFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10a10 10 0 1 1 0 -20m0 12a4.5 4.5 0 0 0 -3.214 1.35a1 1 0 1 0 1.428 1.4a2.5 2.5 0 0 1 3.572 0a1 1 0 0 0 1.428 -1.4a4.5 4.5 0 0 0 -3.214 -1.35m-3.553 -5.895a1 1 0 0 0 -.894 1.788l2 1a1 1 0 0 0 .894 -1.788zm8.447 .447a1 1 0 0 0 -1.341 -.447l-2 1a1 1 0 0 0 .894 1.788l2 -1a1 1 0 0 0 .447 -1.341"}}]})(props);
+}
+/**
  * MoodAnnoyed icon from Tabler Icons
  */
 export function TbMoodAnnoyed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -21052,6 +22996,12 @@ export function TbMoodAnnoyed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMoodAnnoyed2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z"}},{tag:"path",attr:{d:"M15 14c-2 0 -3 1 -3.5 2.05"},child:[]},{tag:"path",attr:{d:"M10 9.25c-.5 1 -2.5 1 -3 0"},child:[]},{tag:"path",attr:{d:"M17 9.25c-.5 1 -2.5 1 -3 0"},child:[]}]})(props);
+}
+/**
+ * MoodBitcoin icon from Tabler Icons
+ */
+export function TbMoodBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M20.87 10.48a9 9 0 1 0 -7.876 10.465"},child:[]},{tag:"path",attr:{d:"M9 10h.01"},child:[]},{tag:"path",attr:{d:"M15 10h.01"},child:[]},{tag:"path",attr:{d:"M9.5 15c.658 .64 1.56 1 2.5 1c.357 0 .709 -.052 1.043 -.151"},child:[]}]})(props);
 }
 /**
  * MoodBoy icon from Tabler Icons
@@ -21088,6 +23038,12 @@ export function TbMoodConfuzedFilled(props: IconBaseProps): VNode<JSX.SVGAttribu
  */
 export function TbMoodCrazyHappy(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M7 8.5l3 3"},child:[]},{tag:"path",attr:{d:"M7 11.5l3 -3"},child:[]},{tag:"path",attr:{d:"M14 8.5l3 3"},child:[]},{tag:"path",attr:{d:"M14 11.5l3 -3"},child:[]},{tag:"path",attr:{d:"M9.5 15a3.5 3.5 0 0 0 5 0"},child:[]}]})(props);
+}
+/**
+ * MoodCrazyHappyFilled icon from Tabler Icons
+ */
+export function TbMoodCrazyHappyFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-1.8 10.946a1 1 0 0 0 -1.414 .014a2.5 2.5 0 0 1 -3.572 0a1 1 0 0 0 -1.428 1.4a4.5 4.5 0 0 0 6.428 0a1 1 0 0 0 -.014 -1.414m-7.493 -6.493a1 1 0 0 0 -1.414 1.414l.792 .793l-.792 .793a1 1 0 0 0 1.414 1.414l.793 -.792l.793 .792a1 1 0 1 0 1.414 -1.414l-.792 -.793l.792 -.793a1 1 0 1 0 -1.414 -1.414l-.793 .792zm7 0a1 1 0 0 0 -1.414 1.414l.792 .793l-.792 .793a1 1 0 0 0 1.414 1.414l.793 -.792l.793 .792a1 1 0 0 0 1.414 -1.414l-.792 -.793l.792 -.793a1 1 0 1 0 -1.414 -1.414l-.793 .792z"}}]})(props);
 }
 /**
  * MoodCry icon from Tabler Icons
@@ -21312,9 +23268,15 @@ export function TbMoodSmileFilled(props: IconBaseProps): VNode<JSX.SVGAttributes
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.8 10.946a1 1 0 0 0 -1.414 .014a2.5 2.5 0 0 1 -3.572 0a1 1 0 0 0 -1.428 1.4a4.5 4.5 0 0 0 6.428 0a1 1 0 0 0 -.014 -1.414zm-6.19 -5.286l-.127 .007a1 1 0 0 0 .117 1.993l.127 -.007a1 1 0 0 0 -.117 -1.993zm6 0l-.127 .007a1 1 0 0 0 .117 1.993l.127 -.007a1 1 0 0 0 -.117 -1.993z"}}]})(props);
 }
 /**
- * MoodSuprised icon from Tabler Icons
+ * MoodSpark icon from Tabler Icons
  */
-export function TbMoodSuprised(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+export function TbMoodSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 12a9 9 0 1 0 -8.994 9"}},{tag:"path",attr:{d:"M9 10h.01"},child:[]},{tag:"path",attr:{d:"M15 10h.01"},child:[]},{tag:"path",attr:{d:"M9.5 15a3.5 3.5 0 0 0 5 0"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
+ * MoodSurprised icon from Tabler Icons
+ */
+export function TbMoodSurprised(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M9 9l.01 0"},child:[]},{tag:"path",attr:{d:"M15 9l.01 0"},child:[]},{tag:"path",attr:{d:"M12 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]}]})(props);
 }
 /**
@@ -21364,6 +23326,12 @@ export function TbMoodWink2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMoodWrrr(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z"}},{tag:"path",attr:{d:"M8 16l1 -1l1.5 1l1.5 -1l1.5 1l1.5 -1l1 1"},child:[]},{tag:"path",attr:{d:"M8.5 11.5l1.5 -1.5l-1.5 -1.5"},child:[]},{tag:"path",attr:{d:"M15.5 11.5l-1.5 -1.5l1.5 -1.5"},child:[]}]})(props);
+}
+/**
+ * MoodWrrrFilled icon from Tabler Icons
+ */
+export function TbMoodWrrrFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10a10 10 0 1 1 0 -20m3.707 12.293a1 1 0 0 0 -1.262 -.125l-.945 .63l-.945 -.63l-.116 -.066a1 1 0 0 0 -.994 .066l-.945 .63l-.945 -.63a1 1 0 0 0 -1.262 .125l-1 1a1 1 0 0 0 0 1.414l.094 .083a1 1 0 0 0 1.32 -.083l.42 -.42l.818 .545l.116 .066a1 1 0 0 0 .994 -.066l.945 -.63l.945 .63l.116 .066a1 1 0 0 0 .994 -.066l.817 -.545l.42 .42a1 1 0 0 0 1.415 -1.414zm-6.5 -6.5a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l.792 .793l-.792 .793a1 1 0 0 0 1.414 1.414l1.5 -1.5a1 1 0 0 0 0 -1.414zm7 0a1 1 0 0 0 -1.414 0l-1.5 1.5a1 1 0 0 0 0 1.414l1.5 1.5a1 1 0 0 0 1.414 0l.083 -.094a1 1 0 0 0 -.083 -1.32l-.792 -.793l.792 -.793a1 1 0 0 0 0 -1.414"}}]})(props);
 }
 /**
  * MoodX icon from Tabler Icons
@@ -21426,6 +23394,12 @@ export function TbMountain(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 20h18l-6.921 -14.612a2.3 2.3 0 0 0 -4.158 0l-6.921 14.612z"}},{tag:"path",attr:{d:"M7.5 11l2 2.5l2.5 -2.5l2 3l2.5 -2"},child:[]}]})(props);
 }
 /**
+ * MountainFilled icon from Tabler Icons
+ */
+export function TbMountainFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6.18 10.95l2.54 3.175l.084 .093a1 1 0 0 0 1.403 -.01l1.637 -1.638l1.324 1.985a1 1 0 0 0 1.457 .226l3.632 -2.906l3.647 7.697a1 1 0 0 1 -.904 1.428h-18a1 1 0 0 1 -.904 -1.428zm5.82 -7.878a3.3 3.3 0 0 1 2.983 1.888l2.394 5.057l-3.15 2.52l-1.395 -2.092l-.075 -.099a1 1 0 0 0 -1.464 -.053l-1.711 1.709l-1.301 -1.627l-1.151 -1.435l1.888 -3.98a3.3 3.3 0 0 1 2.982 -1.888"}}]})(props);
+}
+/**
  * MountainOff icon from Tabler Icons
  */
 export function TbMountainOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -21478,6 +23452,12 @@ export function TbMovieOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbMug(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.083 5h10.834a1.08 1.08 0 0 1 1.083 1.077v8.615c0 2.38 -1.94 4.308 -4.333 4.308h-4.334c-2.393 0 -4.333 -1.929 -4.333 -4.308v-8.615a1.08 1.08 0 0 1 1.083 -1.077"}},{tag:"path",attr:{d:"M16 8h2.5c1.38 0 2.5 1.045 2.5 2.333v2.334c0 1.288 -1.12 2.333 -2.5 2.333h-2.5"},child:[]}]})(props);
+}
+/**
+ * MugFilled icon from Tabler Icons
+ */
+export function TbMugFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M3.903 4.008l.183 -.008h10.828a2.08 2.08 0 0 1 2.086 2.077v.923h1.5c1.917 0 3.5 1.477 3.5 3.333v2.334c0 1.856 -1.583 3.333 -3.5 3.333h-1.663a5.33 5.33 0 0 1 -5.17 4h-4.334c-2.944 0 -5.333 -2.375 -5.333 -5.308v-8.618a2.08 2.08 0 0 1 1.903 -2.066m13.097 9.992h1.5c.843 0 1.5 -.613 1.5 -1.333v-2.334c0 -.72 -.657 -1.333 -1.5 -1.333h-1.5z"}}]})(props);
 }
 /**
  * MugOff icon from Tabler Icons
@@ -21969,7 +23949,7 @@ export function TbNumber0(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * Number0Small icon from Tabler Icons
  */
 export function TbNumber0Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0z"}}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"}}]})(props);
 }
 /**
  * Number1 icon from Tabler Icons
@@ -21978,16 +23958,34 @@ export function TbNumber1(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 20v-16l-5 5"}}]})(props);
 }
 /**
+ * Number10 icon from Tabler Icons
+ */
+export function TbNumber10(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 20v-16l-5 5"}},{tag:"path",attr:{d:"M16 20a4 4 0 0 0 4 -4v-8a4 4 0 1 0 -8 0v8a4 4 0 0 0 4 4"},child:[]}]})(props);
+}
+/**
+ * Number100Small icon from Tabler Icons
+ */
+export function TbNumber100Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8h1v8"}},{tag:"path",attr:{d:"M9 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"},child:[]},{tag:"path",attr:{d:"M16 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"},child:[]}]})(props);
+}
+/**
  * Number10Small icon from Tabler Icons
  */
 export function TbNumber10Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10l2 -2v8"}},{tag:"path",attr:{d:"M13 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0z"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"},child:[]}]})(props);
+}
+/**
+ * Number11 icon from Tabler Icons
+ */
+export function TbNumber11(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 20v-16l-5 5"}},{tag:"path",attr:{d:"M18 20v-16l-5 5"},child:[]}]})(props);
 }
 /**
  * Number11Small icon from Tabler Icons
  */
 export function TbNumber11Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 10l2 -2v8"}},{tag:"path",attr:{d:"M14 10l2 -2v8"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M14 8h1v8"},child:[]}]})(props);
 }
 /**
  * Number123 icon from Tabler Icons
@@ -21999,55 +23997,55 @@ export function TbNumber123(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * Number12Small icon from Tabler Icons
  */
 export function TbNumber12Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10l2 -2v8"}},{tag:"path",attr:{d:"M13 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M13 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
 }
 /**
  * Number13Small icon from Tabler Icons
  */
 export function TbNumber13Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10l2 -2v8"}},{tag:"path",attr:{d:"M13 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M13 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
 }
 /**
  * Number14Small icon from Tabler Icons
  */
 export function TbNumber14Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10l2 -2v8"}},{tag:"path",attr:{d:"M13 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M17 8v8"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M13 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M17 8v8"},child:[]}]})(props);
 }
 /**
  * Number15Small icon from Tabler Icons
  */
 export function TbNumber15Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10l2 -2v8"}},{tag:"path",attr:{d:"M13 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M13 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
 }
 /**
  * Number16Small icon from Tabler Icons
  */
 export function TbNumber16Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10l2 -2v8"}},{tag:"path",attr:{d:"M17 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M17 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
 }
 /**
  * Number17Small icon from Tabler Icons
  */
 export function TbNumber17Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10l2 -2v8"}},{tag:"path",attr:{d:"M13 8h4l-2 8"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M13 8h4l-2 8"},child:[]}]})(props);
 }
 /**
  * Number18Small icon from Tabler Icons
  */
 export function TbNumber18Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10l2 -2v8"}},{tag:"path",attr:{d:"M15 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M15 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
 }
 /**
  * Number19Small icon from Tabler Icons
  */
 export function TbNumber19Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10l2 -2v8"}},{tag:"path",attr:{d:"M13 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 8h1v8"}},{tag:"path",attr:{d:"M13 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
 }
 /**
  * Number1Small icon from Tabler Icons
  */
 export function TbNumber1Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 10l2 -2v8"}}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11 8h1v8"}}]})(props);
 }
 /**
  * Number2 icon from Tabler Icons
@@ -22059,13 +24057,13 @@ export function TbNumber2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * Number20Small icon from Tabler Icons
  */
 export function TbNumber20Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0z"}},{tag:"path",attr:{d:"M6 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
 }
 /**
  * Number21Small icon from Tabler Icons
  */
 export function TbNumber21Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 10l2 -2v8"}},{tag:"path",attr:{d:"M7 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h1v8"}},{tag:"path",attr:{d:"M7 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
 }
 /**
  * Number22Small icon from Tabler Icons
@@ -22077,7 +24075,7 @@ export function TbNumber22Small(props: IconBaseProps): VNode<JSX.SVGAttributes> 
  * Number23Small icon from Tabler Icons
  */
 export function TbNumber23Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M6 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M6 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
 }
 /**
  * Number24Small icon from Tabler Icons
@@ -22107,7 +24105,7 @@ export function TbNumber27Small(props: IconBaseProps): VNode<JSX.SVGAttributes> 
  * Number28Small icon from Tabler Icons
  */
 export function TbNumber28Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M6 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M6 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
 }
 /**
  * Number29Small icon from Tabler Icons
@@ -22128,6 +24126,66 @@ export function TbNumber3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12a4 4 0 1 0 -4 -4"}},{tag:"path",attr:{d:"M8 16a4 4 0 1 0 4 -4"},child:[]}]})(props);
 }
 /**
+ * Number30Small icon from Tabler Icons
+ */
+export function TbNumber30Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
+ * Number31Small icon from Tabler Icons
+ */
+export function TbNumber31Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h1v8"}},{tag:"path",attr:{d:"M7 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
+ * Number32Small icon from Tabler Icons
+ */
+export function TbNumber32Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
+ * Number33Small icon from Tabler Icons
+ */
+export function TbNumber33Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M6 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
+ * Number34Small icon from Tabler Icons
+ */
+export function TbNumber34Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8v3a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M18 8v8"},child:[]},{tag:"path",attr:{d:"M6 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
+ * Number35Small icon from Tabler Icons
+ */
+export function TbNumber35Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"}},{tag:"path",attr:{d:"M6 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
+ * Number36Small icon from Tabler Icons
+ */
+export function TbNumber36Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}},{tag:"path",attr:{d:"M6 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
+ * Number37Small icon from Tabler Icons
+ */
+export function TbNumber37Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h4l-2 8"}},{tag:"path",attr:{d:"M6 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
+ * Number38Small icon from Tabler Icons
+ */
+export function TbNumber38Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M6 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
+ * Number39Small icon from Tabler Icons
+ */
+export function TbNumber39Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"},child:[]}]})(props);
+}
+/**
  * Number3Small icon from Tabler Icons
  */
 export function TbNumber3Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -22138,6 +24196,66 @@ export function TbNumber3Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbNumber4(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 20v-15l-8 11h10"}}]})(props);
+}
+/**
+ * Number40Small icon from Tabler Icons
+ */
+export function TbNumber40Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
+}
+/**
+ * Number41Small icon from Tabler Icons
+ */
+export function TbNumber41Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h1v8"}},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
+}
+/**
+ * Number42Small icon from Tabler Icons
+ */
+export function TbNumber42Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
+}
+/**
+ * Number43Small icon from Tabler Icons
+ */
+export function TbNumber43Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
+}
+/**
+ * Number44Small icon from Tabler Icons
+ */
+export function TbNumber44Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8v3a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M18 8v8"},child:[]},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
+}
+/**
+ * Number45Small icon from Tabler Icons
+ */
+export function TbNumber45Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"}},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
+}
+/**
+ * Number46Small icon from Tabler Icons
+ */
+export function TbNumber46Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
+}
+/**
+ * Number47Small icon from Tabler Icons
+ */
+export function TbNumber47Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h4l-2 8"}},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
+}
+/**
+ * Number48Small icon from Tabler Icons
+ */
+export function TbNumber48Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
+}
+/**
+ * Number49Small icon from Tabler Icons
+ */
+export function TbNumber49Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 8v3a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M10 8v8"},child:[]}]})(props);
 }
 /**
  * Number4Small icon from Tabler Icons
@@ -22152,6 +24270,66 @@ export function TbNumber5(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 20h4a4 4 0 1 0 0 -8h-4v-8h8"}}]})(props);
 }
 /**
+ * Number50Small icon from Tabler Icons
+ */
+export function TbNumber50Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
+ * Number51Small icon from Tabler Icons
+ */
+export function TbNumber51Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h1v8"}},{tag:"path",attr:{d:"M7 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
+ * Number52Small icon from Tabler Icons
+ */
+export function TbNumber52Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
+ * Number53Small icon from Tabler Icons
+ */
+export function TbNumber53Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
+ * Number54Small icon from Tabler Icons
+ */
+export function TbNumber54Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8v3a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M18 8v8"},child:[]},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
+ * Number55Small icon from Tabler Icons
+ */
+export function TbNumber55Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
+ * Number56Small icon from Tabler Icons
+ */
+export function TbNumber56Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
+ * Number57Small icon from Tabler Icons
+ */
+export function TbNumber57Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h4l-2 8"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
+ * Number58Small icon from Tabler Icons
+ */
+export function TbNumber58Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
+ * Number59Small icon from Tabler Icons
+ */
+export function TbNumber59Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"},child:[]}]})(props);
+}
+/**
  * Number5Small icon from Tabler Icons
  */
 export function TbNumber5Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -22162,6 +24340,66 @@ export function TbNumber5Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbNumber6(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 16a4 4 0 1 0 8 0v-1a4 4 0 1 0 -8 0"}},{tag:"path",attr:{d:"M16 8a4 4 0 1 0 -8 0v8"},child:[]}]})(props);
+}
+/**
+ * Number60Small icon from Tabler Icons
+ */
+export function TbNumber60Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M10 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * Number61Small icon from Tabler Icons
+ */
+export function TbNumber61Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h1v8"}},{tag:"path",attr:{d:"M11 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * Number62Small icon from Tabler Icons
+ */
+export function TbNumber62Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M10 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * Number63Small icon from Tabler Icons
+ */
+export function TbNumber63Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M10 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * Number64Small icon from Tabler Icons
+ */
+export function TbNumber64Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8v3a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M18 8v8"},child:[]},{tag:"path",attr:{d:"M10 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * Number65Small icon from Tabler Icons
+ */
+export function TbNumber65Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"}},{tag:"path",attr:{d:"M10 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * Number66Small icon from Tabler Icons
+ */
+export function TbNumber66Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}},{tag:"path",attr:{d:"M10 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * Number67Small icon from Tabler Icons
+ */
+export function TbNumber67Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h4l-2 8"}},{tag:"path",attr:{d:"M10 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * Number68Small icon from Tabler Icons
+ */
+export function TbNumber68Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M10 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * Number69Small icon from Tabler Icons
+ */
+export function TbNumber69Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M10 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
 }
 /**
  * Number6Small icon from Tabler Icons
@@ -22176,6 +24414,66 @@ export function TbNumber7(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 4h8l-4 16"}}]})(props);
 }
 /**
+ * Number70Small icon from Tabler Icons
+ */
+export function TbNumber70Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 8h4l-2 8"},child:[]}]})(props);
+}
+/**
+ * Number71Small icon from Tabler Icons
+ */
+export function TbNumber71Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h1v8"}},{tag:"path",attr:{d:"M7 8h4l-2 8"},child:[]}]})(props);
+}
+/**
+ * Number72Small icon from Tabler Icons
+ */
+export function TbNumber72Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 8h4l-2 8"},child:[]}]})(props);
+}
+/**
+ * Number73Small icon from Tabler Icons
+ */
+export function TbNumber73Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M6 8h4l-2 8"},child:[]}]})(props);
+}
+/**
+ * Number74Small icon from Tabler Icons
+ */
+export function TbNumber74Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8v3a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M18 8v8"},child:[]},{tag:"path",attr:{d:"M6 8h4l-2 8"},child:[]}]})(props);
+}
+/**
+ * Number75Small icon from Tabler Icons
+ */
+export function TbNumber75Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"}},{tag:"path",attr:{d:"M6 8h4l-2 8"},child:[]}]})(props);
+}
+/**
+ * Number76Small icon from Tabler Icons
+ */
+export function TbNumber76Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}},{tag:"path",attr:{d:"M6 8h4l-2 8"},child:[]}]})(props);
+}
+/**
+ * Number77Small icon from Tabler Icons
+ */
+export function TbNumber77Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h4l-2 8"}},{tag:"path",attr:{d:"M6 8h4l-2 8"},child:[]}]})(props);
+}
+/**
+ * Number78Small icon from Tabler Icons
+ */
+export function TbNumber78Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M6 8h4l-2 8"},child:[]}]})(props);
+}
+/**
+ * Number79Small icon from Tabler Icons
+ */
+export function TbNumber79Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 8h4l-2 8"},child:[]}]})(props);
+}
+/**
  * Number7Small icon from Tabler Icons
  */
 export function TbNumber7Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -22188,16 +24486,136 @@ export function TbNumber8(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"}},{tag:"path",attr:{d:"M12 16m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"},child:[]}]})(props);
 }
 /**
+ * Number80Small icon from Tabler Icons
+ */
+export function TbNumber80Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M8 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * Number81Small icon from Tabler Icons
+ */
+export function TbNumber81Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h1v8"}},{tag:"path",attr:{d:"M9 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * Number82Small icon from Tabler Icons
+ */
+export function TbNumber82Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M8 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * Number83Small icon from Tabler Icons
+ */
+export function TbNumber83Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M8 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * Number84Small icon from Tabler Icons
+ */
+export function TbNumber84Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8v3a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M18 8v8"},child:[]},{tag:"path",attr:{d:"M8 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * Number85Small icon from Tabler Icons
+ */
+export function TbNumber85Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"}},{tag:"path",attr:{d:"M8 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * Number86Small icon from Tabler Icons
+ */
+export function TbNumber86Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}},{tag:"path",attr:{d:"M8 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * Number87Small icon from Tabler Icons
+ */
+export function TbNumber87Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h4l-2 8"}},{tag:"path",attr:{d:"M8 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * Number88Small icon from Tabler Icons
+ */
+export function TbNumber88Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M8 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * Number89Small icon from Tabler Icons
+ */
+export function TbNumber89Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M8 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
  * Number8Small icon from Tabler Icons
  */
 export function TbNumber8Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}}]})(props);
 }
 /**
  * Number9 icon from Tabler Icons
  */
 export function TbNumber9(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 8a4 4 0 1 0 -8 0v1a4 4 0 1 0 8 0"}},{tag:"path",attr:{d:"M8 16a4 4 0 1 0 8 0v-8"},child:[]}]})(props);
+}
+/**
+ * Number90Small icon from Tabler Icons
+ */
+export function TbNumber90Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * Number91Small icon from Tabler Icons
+ */
+export function TbNumber91Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h1v8"}},{tag:"path",attr:{d:"M7 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * Number92Small icon from Tabler Icons
+ */
+export function TbNumber92Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * Number93Small icon from Tabler Icons
+ */
+export function TbNumber93Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * Number94Small icon from Tabler Icons
+ */
+export function TbNumber94Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8v3a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M18 8v8"},child:[]},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * Number95Small icon from Tabler Icons
+ */
+export function TbNumber95Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * Number96Small icon from Tabler Icons
+ */
+export function TbNumber96Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * Number97Small icon from Tabler Icons
+ */
+export function TbNumber97Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 8h4l-2 8"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * Number98Small icon from Tabler Icons
+ */
+export function TbNumber98Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1zh-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * Number99Small icon from Tabler Icons
+ */
+export function TbNumber99Small(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}},{tag:"path",attr:{d:"M6 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"},child:[]}]})(props);
 }
 /**
  * Number9Small icon from Tabler Icons
@@ -22215,13 +24633,25 @@ export function TbNumbers(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * Nurse icon from Tabler Icons
  */
 export function TbNurse(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 6c2.941 0 5.685 .847 8 2.31l-2 9.69h-12l-2 -9.691a14.93 14.93 0 0 1 8 -2.309z"}},{tag:"path",attr:{d:"M10 12h4"},child:[]},{tag:"path",attr:{d:"M12 10v4"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 5c2.941 0 6.685 1.537 9 3l-2 11h-14l-2 -11c2.394 -1.513 6.168 -3.005 9 -3"}},{tag:"path",attr:{d:"M10 12h4"},child:[]},{tag:"path",attr:{d:"M12 10v4"},child:[]}]})(props);
+}
+/**
+ * NurseFilled icon from Tabler Icons
+ */
+export function TbNurseFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.002 4c2.866 0 6.7 1.365 9.532 3.155a1 1 0 0 1 .45 1.024l-2 11a1 1 0 0 1 -.984 .821h-14a1 1 0 0 1 -.984 -.821l-2 -11a1 1 0 0 1 .45 -1.024c2.834 -1.792 6.724 -3.16 9.536 -3.155m-.002 5a1 1 0 0 0 -1 1v1h-1a1 1 0 0 0 -.993 .883l-.007 .117a1 1 0 0 0 1 1h1v1a1 1 0 0 0 .883 .993l.117 .007a1 1 0 0 0 1 -1v-1h1a1 1 0 0 0 .993 -.883l.007 -.117a1 1 0 0 0 -1 -1h-1v-1a1 1 0 0 0 -.883 -.993z"}}]})(props);
 }
 /**
  * Nut icon from Tabler Icons
  */
 export function TbNut(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 6.84a2.007 2.007 0 0 1 1 1.754v6.555c0 .728 -.394 1.4 -1.03 1.753l-6 3.844a1.995 1.995 0 0 1 -1.94 0l-6 -3.844a2.006 2.006 0 0 1 -1.03 -1.752v-6.557c0 -.728 .394 -1.399 1.03 -1.753l6 -3.582a2.049 2.049 0 0 1 2 0l6 3.582h-.03z"}},{tag:"path",attr:{d:"M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"},child:[]}]})(props);
+}
+/**
+ * ObjectScan icon from Tabler Icons
+ */
+export function TbObjectScan(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 8v-2a2 2 0 0 1 2 -2h2"}},{tag:"path",attr:{d:"M4 16v2a2 2 0 0 0 2 2h2"},child:[]},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v2"},child:[]},{tag:"path",attr:{d:"M16 20h2a2 2 0 0 0 2 -2v-2"},child:[]},{tag:"path",attr:{d:"M8 8m0 2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2z"},child:[]}]})(props);
 }
 /**
  * Octagon icon from Tabler Icons
@@ -22422,6 +24852,12 @@ export function TbPalette(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25"}},{tag:"path",attr:{d:"M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]},{tag:"path",attr:{d:"M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]},{tag:"path",attr:{d:"M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]}]})(props);
 }
 /**
+ * PaletteFilled icon from Tabler Icons
+ */
+export function TbPaletteFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2c5.498 0 10 4.002 10 9c0 1.351 -.6 2.64 -1.654 3.576c-1.03 .914 -2.412 1.424 -3.846 1.424h-2.516a1 1 0 0 0 -.5 1.875a1 1 0 0 1 .194 .14a2.3 2.3 0 0 1 -1.597 3.99l-.156 -.009l.068 .004l-.273 -.004c-5.3 -.146 -9.57 -4.416 -9.716 -9.716l-.004 -.28c0 -5.523 4.477 -10 10 -10m-3.5 6.5a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2m8 0a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2m-4 -3a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2"}}]})(props);
+}
+/**
  * PaletteOff icon from Tabler Icons
  */
 export function TbPaletteOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -22434,6 +24870,12 @@ export function TbPanoramaHorizontal(props: IconBaseProps): VNode<JSX.SVGAttribu
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.338 5.53c5.106 1.932 10.211 1.932 15.317 0a1 1 0 0 1 1.345 .934v11c0 .692 -.692 1.2 -1.34 .962c-5.107 -1.932 -10.214 -1.932 -15.321 0c-.648 .246 -1.339 -.242 -1.339 -.935v-11.027a1 1 0 0 1 1.338 -.935z"}}]})(props);
 }
 /**
+ * PanoramaHorizontalFilled icon from Tabler Icons
+ */
+export function TbPanoramaHorizontalFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19.31 4.591a2 2 0 0 1 2.69 1.873v11c0 1.382 -1.38 2.38 -2.694 1.897c-4.879 -1.845 -9.734 -1.845 -14.612 0c-1.304 .495 -2.694 -.481 -2.694 -1.871v-11.032a2 2 0 0 1 2.676 -1.87l.025 .012l.448 .162c4.572 1.623 9.123 1.622 13.703 -.003z"}}]})(props);
+}
+/**
  * PanoramaHorizontalOff icon from Tabler Icons
  */
 export function TbPanoramaHorizontalOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -22444,6 +24886,12 @@ export function TbPanoramaHorizontalOff(props: IconBaseProps): VNode<JSX.SVGAttr
  */
 export function TbPanoramaVertical(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18.463 4.338c-1.932 5.106 -1.932 10.211 0 15.317a1 1 0 0 1 -.934 1.345h-11c-.692 0 -1.208 -.692 -.962 -1.34c1.932 -5.107 1.932 -10.214 0 -15.321c-.246 -.648 .243 -1.339 .935 -1.339h11.028c.693 0 1.18 .691 .935 1.338z"}}]})(props);
+}
+/**
+ * PanoramaVerticalFilled icon from Tabler Icons
+ */
+export function TbPanoramaVerticalFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17.53 2c1.39 0 2.364 1.389 1.87 2.692l-.013 .026l-.156 .431c-1.623 4.572 -1.622 9.123 .003 13.703l.168 .458a2 2 0 0 1 -1.873 2.69h-11c-1.386 0 -2.394 -1.386 -1.897 -2.694c1.845 -4.879 1.845 -9.734 0 -14.612c-.495 -1.304 .48 -2.694 1.87 -2.694z"}}]})(props);
 }
 /**
  * PanoramaVerticalOff icon from Tabler Icons
@@ -22503,7 +24951,13 @@ export function TbParking(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * ParkingCircle icon from Tabler Icons
  */
 export function TbParkingCircle(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-8h2.667c.736 0 1.333 .895 1.333 2s-.597 2 -1.333 2h-2.667"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-8h3.334c.92 0 1.666 .895 1.666 2s-.746 2 -1.666 2h-3.334"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * ParkingCircleFilled icon from Tabler Icons
+ */
+export function TbParkingCircleFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 2c5.523 0 10 4.477 10 10a10 10 0 0 1 -20 0l.004 -.28c.148 -5.393 4.566 -9.72 9.996 -9.72m1.334 5h-3.334a1 1 0 0 0 -1 1v8a1 1 0 0 0 1 1l.117 -.007a1 1 0 0 0 .883 -.993v-3h2.334c1.516 0 2.666 -1.38 2.666 -3s-1.15 -3 -2.666 -3m0 2c.323 0 .666 .411 .666 1s-.343 1 -.666 1h-2.334v-2z"}}]})(props);
 }
 /**
  * ParkingOff icon from Tabler Icons
@@ -22854,6 +25308,96 @@ export function TbPercentage(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M7 7m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]},{tag:"path",attr:{d:"M6 18l12 -12"},child:[]}]})(props);
 }
 /**
+ * Percentage0 icon from Tabler Icons
+ */
+export function TbPercentage0(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"}}]})(props);
+}
+/**
+ * Percentage10 icon from Tabler Icons
+ */
+export function TbPercentage10(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3c1.92 0 3.7 .601 5.16 1.626l-5.16 7.374z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage100 icon from Tabler Icons
+ */
+export function TbPercentage100(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0",fill:"currentColor"}}]})(props);
+}
+/**
+ * Percentage20 icon from Tabler Icons
+ */
+export function TbPercentage20(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 0 1 8.497 6.025l-8.497 2.975z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage25 icon from Tabler Icons
+ */
+export function TbPercentage25(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 12a9 9 0 0 0 -9 -9m0 0v9h9",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage30 icon from Tabler Icons
+ */
+export function TbPercentage30(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 0 1 8.495 11.973l-8.495 -2.973z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage33 icon from Tabler Icons
+ */
+export function TbPercentage33(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 0 1 7.794 13.5l-7.79 -4.497z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage40 icon from Tabler Icons
+ */
+export function TbPercentage40(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 0 1 5.162 16.372l-5.162 -7.372z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage50 icon from Tabler Icons
+ */
+export function TbPercentage50(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 21a9 9 0 0 0 0 -18m0 0v18",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage60 icon from Tabler Icons
+ */
+export function TbPercentage60(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 1 1 -5.162 16.373l5.162 -7.373z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage66 icon from Tabler Icons
+ */
+export function TbPercentage66(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 1 1 -7.795 13.498l7.795 -4.498z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage70 icon from Tabler Icons
+ */
+export function TbPercentage70(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 1 1 -8.495 11.973l8.495 -2.973z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage75 icon from Tabler Icons
+ */
+export function TbPercentage75(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12a9 9 0 1 0 9 -9m0 0v9h-9",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage80 icon from Tabler Icons
+ */
+export function TbPercentage80(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 1 1 -8.497 6.025l8.497 2.975z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
+ * Percentage90 icon from Tabler Icons
+ */
+export function TbPercentage90(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3a9 9 0 1 1 -5.16 1.626l5.16 7.374z",fill:"currentColor",stroke:"none"}},{tag:"path",attr:{d:"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"},child:[]}]})(props);
+}
+/**
  * Perfume icon from Tabler Icons
  */
 export function TbPerfume(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -22896,6 +25440,18 @@ export function TbPhoneCheck(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M15 6l2 2l4 -4"},child:[]}]})(props);
 }
 /**
+ * PhoneDone icon from Tabler Icons
+ */
+export function TbPhoneDone(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2c-8.072 -.49 -14.51 -6.928 -15 -15a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M15 5l2 2l4 -4"},child:[]}]})(props);
+}
+/**
+ * PhoneEnd icon from Tabler Icons
+ */
+export function TbPhoneEnd(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2c-8.072 -.49 -14.51 -6.928 -15 -15a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M17 3l4 4"},child:[]},{tag:"path",attr:{d:"M21 3l-4 4"},child:[]}]})(props);
+}
+/**
  * PhoneFilled icon from Tabler Icons
  */
 export function TbPhoneFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -22917,19 +25473,31 @@ export function TbPhoneOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * PhoneOutgoing icon from Tabler Icons
  */
 export function TbPhoneOutgoing(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M15 9l5 -5"},child:[]},{tag:"path",attr:{d:"M16 4l4 0l0 4"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2c-8.072 -.49 -14.51 -6.928 -15 -15a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M15 5h6"},child:[]},{tag:"path",attr:{d:"M18.5 7.5l2.5 -2.5l-2.5 -2.5"},child:[]}]})(props);
 }
 /**
  * PhonePause icon from Tabler Icons
  */
 export function TbPhonePause(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M20 3l0 4"},child:[]},{tag:"path",attr:{d:"M16 3l0 4"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2c-8.072 -.49 -14.51 -6.928 -15 -15a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M17 3v5"},child:[]},{tag:"path",attr:{d:"M21 3v5"},child:[]}]})(props);
 }
 /**
  * PhonePlus icon from Tabler Icons
  */
 export function TbPhonePlus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M15 6h6m-3 -3v6"},child:[]}]})(props);
+}
+/**
+ * PhoneRinging icon from Tabler Icons
+ */
+export function TbPhoneRinging(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 4l-2 2"}},{tag:"path",attr:{d:"M22 10.5l-2.5 -.5"},child:[]},{tag:"path",attr:{d:"M13.5 2l.5 2.5"},child:[]},{tag:"path",attr:{d:"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2c-8.072 -.49 -14.51 -6.928 -15 -15a2 2 0 0 1 2 -2"},child:[]}]})(props);
+}
+/**
+ * PhoneSpark icon from Tabler Icons
+ */
+export function TbPhoneSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11.584 19.225a16 16 0 0 1 -8.584 -13.225a2 2 0 0 1 2 -2h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l.65 .26"}},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
 }
 /**
  * PhoneX icon from Tabler Icons
@@ -22948,6 +25516,12 @@ export function TbPhoto(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbPhotoAi(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h.01"}},{tag:"path",attr:{d:"M10 21h-4a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v5"},child:[]},{tag:"path",attr:{d:"M3 16l5 -5c.928 -.893 2.072 -.893 3 0l1 1"},child:[]},{tag:"path",attr:{d:"M14 21v-4a2 2 0 1 1 4 0v4"},child:[]},{tag:"path",attr:{d:"M14 19h4"},child:[]},{tag:"path",attr:{d:"M21 15v6"},child:[]}]})(props);
+}
+/**
+ * PhotoBitcoin icon from Tabler Icons
+ */
+export function TbPhotoBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M15 8h.01"},child:[]},{tag:"path",attr:{d:"M13 21h-7a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v5"},child:[]},{tag:"path",attr:{d:"M3 16l5 -5c.928 -.893 2.072 -.893 3 0l2.5 2.5"},child:[]}]})(props);
 }
 /**
  * PhotoBolt icon from Tabler Icons
@@ -23124,6 +25698,12 @@ export function TbPhotoShield(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h.01"}},{tag:"path",attr:{d:"M11.5 20h-4.5a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v4"},child:[]},{tag:"path",attr:{d:"M4 15l4 -4c.928 -.893 2.072 -.893 3 0l1.5 1.5"},child:[]},{tag:"path",attr:{d:"M22 16c0 4 -2.5 6 -3.5 6s-3.5 -2 -3.5 -6c1 0 2.5 -.5 3.5 -1.5c1 1 2.5 1.5 3.5 1.5z"},child:[]}]})(props);
 }
 /**
+ * PhotoSpark icon from Tabler Icons
+ */
+export function TbPhotoSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 8h.01"}},{tag:"path",attr:{d:"M12 21h-6a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v6"},child:[]},{tag:"path",attr:{d:"M3 16l5 -5c.928 -.893 2.072 -.893 3 0l3.993 3.993"},child:[]},{tag:"path",attr:{d:"M14 14l1 -1c.47 -.452 .995 -.675 1.52 -.67"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
+}
+/**
  * PhotoSquareRounded icon from Tabler Icons
  */
 export function TbPhotoSquareRounded(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -23170,6 +25750,12 @@ export function TbPiano(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbPick(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 8l-9.383 9.418a2.091 2.091 0 0 0 0 2.967a2.11 2.11 0 0 0 2.976 0l9.407 -9.385"}},{tag:"path",attr:{d:"M9 3h4.586a1 1 0 0 1 .707 .293l6.414 6.414a1 1 0 0 1 .293 .707v4.586a2 2 0 1 1 -4 0v-3l-5 -5h-3a2 2 0 1 1 0 -4z"},child:[]}]})(props);
+}
+/**
+ * PicnicTable icon from Tabler Icons
+ */
+export function TbPicnicTable(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 7l2 9m-10 -9l-2 9m-1 -9h14m2 5h-18"}}]})(props);
 }
 /**
  * PictureInPicture icon from Tabler Icons
@@ -23250,6 +25836,12 @@ export function TbPill(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.5 12.5l8 -8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1 -7 -7"}},{tag:"path",attr:{d:"M8.5 8.5l7 7"},child:[]}]})(props);
 }
 /**
+ * PillFilled icon from Tabler Icons
+ */
+export function TbPillFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M20.207 3.793a5.95 5.95 0 0 1 0 8.414l-8 8a5.95 5.95 0 0 1 -8.414 -8.414l8 -8a5.95 5.95 0 0 1 8.414 0m-7 1.414l-4.294 4.293l5.586 5.586l4.294 -4.292a3.95 3.95 0 1 0 -5.586 -5.586"}}]})(props);
+}
+/**
  * PillOff icon from Tabler Icons
  */
 export function TbPillOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -23314,6 +25906,12 @@ export function TbPinnedOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbPizza(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 21.5c-3.04 0 -5.952 -.714 -8.5 -1.983l8.5 -16.517l8.5 16.517a19.09 19.09 0 0 1 -8.5 1.983z"}},{tag:"path",attr:{d:"M5.38 15.866a14.94 14.94 0 0 0 6.815 1.634a14.944 14.944 0 0 0 6.502 -1.479"},child:[]},{tag:"path",attr:{d:"M13 11.01v-.01"},child:[]},{tag:"path",attr:{d:"M11 14v-.01"},child:[]}]})(props);
+}
+/**
+ * PizzaFilled icon from Tabler Icons
+ */
+export function TbPizzaFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.89 2.542l8.5 16.517a1 1 0 0 1 -.446 1.354a20.1 20.1 0 0 1 -8.945 2.087l-.522 -.007a20.1 20.1 0 0 1 -8.423 -2.08a1 1 0 0 1 -.443 -1.354l8.5 -16.517a1 1 0 0 1 1.778 0m-7.064 14.64l-.96 1.865l.409 .17a18.2 18.2 0 0 0 6.226 1.276l.5 .007a18.1 18.1 0 0 0 6.708 -1.279l.424 -.176l-.89 -1.728a15.9 15.9 0 0 1 -6.046 1.183a15.9 15.9 0 0 1 -6.37 -1.318m5.174 -4.192a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883m2 -2.99a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883"}}]})(props);
 }
 /**
  * PizzaOff icon from Tabler Icons
@@ -23412,10 +26010,190 @@ export function TbPlayCard(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M12 16l-3 -4l3 -4l3 4z"},child:[]}]})(props);
 }
 /**
+ * PlayCard1 icon from Tabler Icons
+ */
+export function TbPlayCard1(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M12 9v6"},child:[]}]})(props);
+}
+/**
+ * PlayCard10 icon from Tabler Icons
+ */
+export function TbPlayCard10(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M9 9v6"},child:[]},{tag:"path",attr:{d:"M12 13c0 1.105 .672 2 1.5 2s1.5 -.895 1.5 -2v-2c0 -1.105 -.672 -2 -1.5 -2s-1.5 .895 -1.5 2z"},child:[]}]})(props);
+}
+/**
+ * PlayCard10Filled icon from Tabler Icons
+ */
+export function TbPlayCard10Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-8.01 -10a1 1 0 0 0 -1 1v6a1 1 0 0 0 2 0v-6a1 1 0 0 0 -1 -1m4.5 0c-1.453 0 -2.5 1.395 -2.5 3v2c0 1.605 1.047 3 2.5 3s2.5 -1.395 2.5 -3v-2c0 -1.605 -1.047 -3 -2.5 -3m0 2c.203 0 .5 .395 .5 1v2c0 .605 -.297 1 -.5 1s-.5 -.395 -.5 -1v-2c0 -.605 .297 -1 .5 -1m-6.49 -6h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCard1Filled icon from Tabler Icons
+ */
+export function TbPlayCard1Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-5.01 -10a1 1 0 0 0 -1 1v6a1 1 0 0 0 2 0v-6a1 1 0 0 0 -1 -1m-4.99 -4h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCard2 icon from Tabler Icons
+ */
+export function TbPlayCard2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M10 9h3a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * PlayCard2Filled icon from Tabler Icons
+ */
+export function TbPlayCard2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2m-4.01 -10h-3a1 1 0 1 0 0 2h3v1h-2a2 2 0 0 0 -2 2v1a2 2 0 0 0 2 2h3a1 1 0 0 0 0 -2h-3v-1h2a2 2 0 0 0 2 -2v-1a2 2 0 0 0 -2 -2m-5.99 -4h-.01a1 1 0 1 0 0 2h.01a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCard3 icon from Tabler Icons
+ */
+export function TbPlayCard3(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M10 9h2.5a1.5 1.5 0 0 1 0 3h-1.5h1.5a1.5 1.5 0 0 1 0 3h-2.5"},child:[]}]})(props);
+}
+/**
+ * PlayCard3Filled icon from Tabler Icons
+ */
+export function TbPlayCard3Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-4.51 -10h-2.5a1 1 0 1 0 0 2h2.5a.5 .5 0 0 1 .09 .992l-.09 .008h-1.5c-1.287 0 -1.332 1.864 -.133 1.993l.133 .007h1.5a.5 .5 0 1 1 0 1h-2.5a1 1 0 0 0 0 2h2.5a2.5 2.5 0 0 0 2.5 -2.5l-.005 -.164a2.5 2.5 0 0 0 -.477 -1.312l-.019 -.024l.019 -.024a2.5 2.5 0 0 0 -2.018 -3.976m-5.49 -4h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCard4 icon from Tabler Icons
+ */
+export function TbPlayCard4(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M10 9v2a1 1 0 0 0 1 1h3"},child:[]},{tag:"path",attr:{d:"M14 9v6"},child:[]}]})(props);
+}
+/**
+ * PlayCard4Filled icon from Tabler Icons
+ */
+export function TbPlayCard4Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-3.01 -10a1 1 0 0 0 -1 1v2h-2v-2a1 1 0 0 0 -2 0v2a2 2 0 0 0 2 2h2v2a1 1 0 0 0 .883 .993l.117 .007a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1m-6.99 -4h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCard5 icon from Tabler Icons
+ */
+export function TbPlayCard5(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M10 15h3a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1h-3v-3h4"},child:[]}]})(props);
+}
+/**
+ * PlayCard5Filled icon from Tabler Icons
+ */
+export function TbPlayCard5Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2m-3.01 -10h-4a1 1 0 0 0 -1 1v3a1 1 0 0 0 1 1h3v1h-3a1 1 0 0 0 0 2h3a2 2 0 0 0 2 -2v-1l-.005 -.15a2 2 0 0 0 -1.995 -1.85h-2v-1h3a1 1 0 0 0 0 -2m-6.99 -4h-.01a1 1 0 1 0 0 2h.01a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCard6 icon from Tabler Icons
+ */
+export function TbPlayCard6(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M14 9h-3a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1h-3"},child:[]}]})(props);
+}
+/**
+ * PlayCard6Filled icon from Tabler Icons
+ */
+export function TbPlayCard6Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-3.01 -10h-3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2 -2v-1l-.005 -.15a2 2 0 0 0 -1.995 -1.85h-2v-1h3a1 1 0 0 0 0 -2m-1 5v1h-2v-1zm-5.99 -9h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCard7 icon from Tabler Icons
+ */
+export function TbPlayCard7(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M10 9h4l-2 6"},child:[]},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]}]})(props);
+}
+/**
+ * PlayCard7Filled icon from Tabler Icons
+ */
+export function TbPlayCard7Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2m-3.01 -10h-4a1 1 0 0 0 -1 1l.007 .117a1 1 0 0 0 .993 .883h2.612l-1.56 4.684a1 1 0 1 0 1.897 .632l2 -6a1 1 0 0 0 -.949 -1.316m-6.99 -4h-.01a1 1 0 1 0 0 2h.01a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCard8 icon from Tabler Icons
+ */
+export function TbPlayCard8(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M12 12h-1a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1z"},child:[]},{tag:"path",attr:{d:"M12 12h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1"},child:[]}]})(props);
+}
+/**
+ * PlayCard8Filled icon from Tabler Icons
+ */
+export function TbPlayCard8Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-4.01 -10h-2a2 2 0 0 0 -2 2v1c0 .365 .098 .707 .268 1.001c-.17 .293 -.268 .635 -.268 .999v1a2 2 0 0 0 2 2h2a2 2 0 0 0 2 -2v-1a2 2 0 0 0 -.268 -1c.17 -.293 .268 -.635 .268 -1v-1a2 2 0 0 0 -2 -2m0 5v1h-2v-1zm0 -3v1h-2v-1zm-5.99 -6h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCard9 icon from Tabler Icons
+ */
+export function TbPlayCard9(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M10 15h3a1 1 0 0 0 1 -1v-4a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h3"},child:[]}]})(props);
+}
+/**
+ * PlayCard9Filled icon from Tabler Icons
+ */
+export function TbPlayCard9Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2m-4.01 -10h-2a2 2 0 0 0 -2 2v1l.005 .15a2 2 0 0 0 1.995 1.85h2v1h-3a1 1 0 0 0 0 2h3a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2m0 2v1h-2v-1zm-5.99 -6h-.01a1 1 0 1 0 0 2h.01a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCardA icon from Tabler Icons
+ */
+export function TbPlayCardA(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M10 15v-4a2 2 0 1 1 4 0v4"},child:[]},{tag:"path",attr:{d:"M10 13h4"},child:[]}]})(props);
+}
+/**
+ * PlayCardAFilled icon from Tabler Icons
+ */
+export function TbPlayCardAFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-5.01 -10a3 3 0 0 0 -3 3v4a1 1 0 0 0 2 0v-1h2v1a1 1 0 0 0 .883 .993l.117 .007a1 1 0 0 0 1 -1v-4a3 3 0 0 0 -3 -3m0 2a1 1 0 0 1 1 1v1h-2v-1a1 1 0 0 1 .883 -.993zm-4.99 -6h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCardJ icon from Tabler Icons
+ */
+export function TbPlayCardJ(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M10 9h4v4a2 2 0 1 1 -4 0"},child:[]}]})(props);
+}
+/**
+ * PlayCardJFilled icon from Tabler Icons
+ */
+export function TbPlayCardJFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2m-3.01 -10h-4a1 1 0 0 0 -1 1l.007 .117a1 1 0 0 0 .993 .883h3v3a1 1 0 0 1 -2 0a1 1 0 0 0 -2 0a3 3 0 0 0 6 0v-4a1 1 0 0 0 -1 -1m-6.99 -4h-.01a1 1 0 1 0 0 2h.01a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCardK icon from Tabler Icons
+ */
+export function TbPlayCardK(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M10 9v6"},child:[]},{tag:"path",attr:{d:"M14 9l-3 3l3 3"},child:[]},{tag:"path",attr:{d:"M10 12h1"},child:[]}]})(props);
+}
+/**
+ * PlayCardKFilled icon from Tabler Icons
+ */
+export function TbPlayCardKFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-7.01 -10a1 1 0 0 0 -1 1v6a1 1 0 0 0 2 0v-1.585l2.293 2.292a1 1 0 0 0 1.32 .083l.094 -.083l.083 -.094a1 1 0 0 0 -.083 -1.32l-2.292 -2.293l2.292 -2.293a1 1 0 1 0 -1.414 -1.414l-2.293 2.291v-1.584a1 1 0 0 0 -.883 -.993zm-2.99 -4h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
  * PlayCardOff icon from Tabler Icons
  */
 export function TbPlayCardOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 3h10a2 2 0 0 1 2 2v10m0 4a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14"}},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M13.716 13.712l-1.716 2.288l-3 -4l1.29 -1.72"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * PlayCardQ icon from Tabler Icons
+ */
+export function TbPlayCardQ(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M12 9a2 2 0 0 1 2 2v2a2 2 0 1 1 -4 0v-2a2 2 0 0 1 2 -2"},child:[]},{tag:"path",attr:{d:"M13 14l1.5 1.5"},child:[]}]})(props);
+}
+/**
+ * PlayCardQFilled icon from Tabler Icons
+ */
+export function TbPlayCardQFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-5.01 -10a3 3 0 0 0 -3 3v2a3 3 0 0 0 4.293 2.708l.5 .5a1 1 0 0 0 1.414 -1.415l-.499 -.5c.187 -.392 .292 -.83 .292 -1.293v-2a3 3 0 0 0 -3 -3m0 2a1 1 0 0 1 1 1v2a1 1 0 0 1 -2 0v-2a1 1 0 0 1 1 -1m-4.99 -6h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
+}
+/**
+ * PlayCardStar icon from Tabler Icons
+ */
+export function TbPlayCardStar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M8 6h.01"},child:[]},{tag:"path",attr:{d:"M16 18h.01"},child:[]},{tag:"path",attr:{d:"M11.75 14.112l-1.63 .853a.294 .294 0 0 1 -.425 -.307l.31 -1.808l-1.317 -1.28a.292 .292 0 0 1 .163 -.499l1.82 -.264l.815 -1.644a.294 .294 0 0 1 .527 0l.814 1.644l1.82 .264a.292 .292 0 0 1 .164 .499l-1.318 1.28l.31 1.807a.292 .292 0 0 1 -.425 .308z"},child:[]}]})(props);
+}
+/**
+ * PlayCardStarFilled icon from Tabler Icons
+ */
+export function TbPlayCardStarFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm.01 16h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m-4.98 -9.5l-.115 .005c-.384 .04 -.724 .273 -.898 .623l-.51 1.027l-1.138 .166c-.423 .059 -.78 .357 -.914 .768l-.033 .125a1.13 1.13 0 0 0 .322 1.039l.82 .797l-.194 1.127c-.07 .432 .107 .857 .454 1.108l.107 .068a1.13 1.13 0 0 0 1.078 .018l1.022 -.536l1.019 .535c.377 .2 .84 .168 1.19 -.086l.1 -.08c.281 -.259 .416 -.645 .35 -1.028l-.194 -1.126l.823 -.799c.31 -.302 .42 -.752 .287 -1.161l-.042 -.11a1.13 1.13 0 0 0 -.873 -.659l-1.138 -.166l-.508 -1.026a1.13 1.13 0 0 0 -1.014 -.63m-5.021 -4.499h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 1 0 0 -2"}}]})(props);
 }
 /**
  * PlayFootball icon from Tabler Icons
@@ -23856,6 +26634,12 @@ export function TbPoo(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12h.01"}},{tag:"path",attr:{d:"M14 12h.01"},child:[]},{tag:"path",attr:{d:"M10 16a3.5 3.5 0 0 0 4 0"},child:[]},{tag:"path",attr:{d:"M11 4c2 0 3.5 1.5 3.5 4l.164 0a2.5 2.5 0 0 1 2.196 3.32a3 3 0 0 1 1.615 3.063a3 3 0 0 1 -1.299 5.607l-.176 0h-10a3 3 0 0 1 -1.474 -5.613a3 3 0 0 1 1.615 -3.062a2.5 2.5 0 0 1 2.195 -3.32l.164 0c1.5 0 2.5 -2 1.5 -4z"},child:[]}]})(props);
 }
 /**
+ * PooFilled icon from Tabler Icons
+ */
+export function TbPooFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.063 2.995l.086 .009h.07c2.237 .098 3.87 1.686 4.214 4.046l.01 .075l.133 .04a3.5 3.5 0 0 1 1.718 1.22l.125 .179a3.5 3.5 0 0 1 .567 2.243l-.006 .049l.032 .025a4 4 0 0 1 1.476 2.8l.01 .191l.15 .125a4 4 0 0 1 1.29 3.693l-.042 .208c-.4 1.728 -1.89 2.986 -3.72 3.092h-10.176a4 4 0 0 1 -2.638 -7.008l.14 -.118l.011 -.19a4 4 0 0 1 1.476 -2.798l.032 -.025l-.006 -.048a3.5 3.5 0 0 1 .452 -2.058l.114 -.186c.603 -.912 1.598 -1.49 2.755 -1.564h.164c.743 0 1.26 -1.242 .606 -2.553l.006 .015l-.01 -.017a1 1 0 0 1 -.095 -.323l-.007 -.117c0 -.654 .539 -1.031 1.063 -1.005m3.758 12.434a1 1 0 0 0 -1.392 -.25a2.5 2.5 0 0 1 -2.858 0a1 1 0 0 0 -1.142 1.642a4.5 4.5 0 0 0 5.142 0a1 1 0 0 0 .25 -1.392m-4.811 -4.429h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2m4 0h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2"}}]})(props);
+}
+/**
  * Pool icon from Tabler Icons
  */
 export function TbPool(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -23902,6 +26686,18 @@ export function TbPresentation(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbPresentationAnalytics(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 12v-4"}},{tag:"path",attr:{d:"M15 12v-2"},child:[]},{tag:"path",attr:{d:"M12 12v-1"},child:[]},{tag:"path",attr:{d:"M3 4h18"},child:[]},{tag:"path",attr:{d:"M4 4v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-10"},child:[]},{tag:"path",attr:{d:"M12 16v4"},child:[]},{tag:"path",attr:{d:"M9 20h6"},child:[]}]})(props);
+}
+/**
+ * PresentationAnalyticsFilled icon from Tabler Icons
+ */
+export function TbPresentationAnalyticsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M21 3a1 1 0 0 1 0 2v9a3 3 0 0 1 -3 3h-5v2h2a1 1 0 0 1 0 2h-6a1 1 0 0 1 0 -2h2v-2h-5a3 3 0 0 1 -3 -3v-9a1 1 0 1 1 0 -2zm-12 4a1 1 0 0 0 -1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0 -1 -1m6 2a1 1 0 0 0 -1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0 -1 -1m-3 1a1 1 0 0 0 -1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0 -1 -1"}}]})(props);
+}
+/**
+ * PresentationFilled icon from Tabler Icons
+ */
+export function TbPresentationFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M21 3a1 1 0 0 1 0 2v9a3 3 0 0 1 -3 3h-5v2h2a1 1 0 0 1 0 2h-6a1 1 0 0 1 0 -2h2v-2h-5a3 3 0 0 1 -3 -3v-9a1 1 0 1 1 0 -2zm-4.293 4.293a1 1 0 0 0 -1.414 0l-2.293 2.292l-1.293 -1.292a1 1 0 0 0 -1.414 0l-3 3a1 1 0 0 0 0 1.414l.094 .083a1 1 0 0 0 1.32 -.083l2.293 -2.292l1.293 1.292a1 1 0 0 0 1.414 0l3 -3a1 1 0 0 0 0 -1.414"}}]})(props);
 }
 /**
  * PresentationOff icon from Tabler Icons
@@ -24096,6 +26892,12 @@ export function TbQuote(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5"}},{tag:"path",attr:{d:"M19 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5"},child:[]}]})(props);
 }
 /**
+ * QuoteFilled icon from Tabler Icons
+ */
+export function TbQuoteFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M9 5a2 2 0 0 1 2 2v6c0 3.13 -1.65 5.193 -4.757 5.97a1 1 0 1 1 -.486 -1.94c2.227 -.557 3.243 -1.827 3.243 -4.03v-1h-3a2 2 0 0 1 -1.995 -1.85l-.005 -.15v-3a2 2 0 0 1 2 -2z"}},{tag:"path",attr:{d:"M18 5a2 2 0 0 1 2 2v6c0 3.13 -1.65 5.193 -4.757 5.97a1 1 0 1 1 -.486 -1.94c2.227 -.557 3.243 -1.827 3.243 -4.03v-1h-3a2 2 0 0 1 -1.995 -1.85l-.005 -.15v-3a2 2 0 0 1 2 -2z"},child:[]}]})(props);
+}
+/**
  * QuoteOff icon from Tabler Icons
  */
 export function TbQuoteOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -24268,6 +27070,12 @@ export function TbReceiptDollar(props: IconBaseProps): VNode<JSX.SVGAttributes> 
  */
 export function TbReceiptEuro(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2"}},{tag:"path",attr:{d:"M15 7.8c-.523 -.502 -1.172 -.8 -1.875 -.8c-1.727 0 -3.125 1.791 -3.125 4s1.398 4 3.125 4c.703 0 1.352 -.298 1.874 -.8"},child:[]},{tag:"path",attr:{d:"M9 11h4"},child:[]}]})(props);
+}
+/**
+ * ReceiptFilled icon from Tabler Icons
+ */
+export function TbReceiptFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 2a3 3 0 0 1 3 3v16a1 1 0 0 1 -1.555 .832l-2.318 -1.545l-1.42 1.42a1 1 0 0 1 -1.32 .083l-.094 -.083l-1.293 -1.292l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083l-1.421 -1.42l-2.317 1.545l-.019 .012l-.054 .03l-.028 .017l-.054 .023l-.05 .023l-.049 .015l-.06 .019l-.052 .009l-.057 .011l-.084 .006l-.026 .003h-.022l-.049 -.003h-.039l-.013 -.003h-.016l-.041 -.008l-.038 -.005l-.015 -.005l-.018 -.002l-.034 -.011l-.04 -.01l-.019 -.007l-.015 -.004l-.029 -.013l-.04 -.015l-.021 -.011l-.013 -.005l-.028 -.016l-.036 -.018l-.014 -.01l-.018 -.01l-.038 -.027l-.022 -.014l-.01 -.009l-.02 -.014l-.045 -.041l-.012 -.008l-.024 -.024l-.035 -.039l-.02 -.02l-.007 -.011l-.011 -.012l-.032 -.045l-.02 -.025l-.012 -.019l-.03 -.054l-.017 -.028l-.023 -.054l-.023 -.05a1 1 0 0 1 -.034 -.108l-.01 -.057l-.01 -.053l-.009 -.132v-16a3 3 0 0 1 3 -3zm-2 12h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0 -2m0 -4h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m0 -4h-6a1 1 0 1 0 0 2h6a1 1 0 0 0 0 -2"}}]})(props);
 }
 /**
  * ReceiptOff icon from Tabler Icons
@@ -24786,6 +27594,18 @@ export function TbRosetteDiscountCheckFilled(props: IconBaseProps): VNode<JSX.SV
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.01 2.011a3.2 3.2 0 0 1 2.113 .797l.154 .145l.698 .698a1.2 1.2 0 0 0 .71 .341l.135 .008h1a3.2 3.2 0 0 1 3.195 3.018l.005 .182v1c0 .27 .092 .533 .258 .743l.09 .1l.697 .698a3.2 3.2 0 0 1 .147 4.382l-.145 .154l-.698 .698a1.2 1.2 0 0 0 -.341 .71l-.008 .135v1a3.2 3.2 0 0 1 -3.018 3.195l-.182 .005h-1a1.2 1.2 0 0 0 -.743 .258l-.1 .09l-.698 .697a3.2 3.2 0 0 1 -4.382 .147l-.154 -.145l-.698 -.698a1.2 1.2 0 0 0 -.71 -.341l-.135 -.008h-1a3.2 3.2 0 0 1 -3.195 -3.018l-.005 -.182v-1a1.2 1.2 0 0 0 -.258 -.743l-.09 -.1l-.697 -.698a3.2 3.2 0 0 1 -.147 -4.382l.145 -.154l.698 -.698a1.2 1.2 0 0 0 .341 -.71l.008 -.135v-1l.005 -.182a3.2 3.2 0 0 1 3.013 -3.013l.182 -.005h1a1.2 1.2 0 0 0 .743 -.258l.1 -.09l.698 -.697a3.2 3.2 0 0 1 2.269 -.944zm3.697 7.282a1 1 0 0 0 -1.414 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"}}]})(props);
 }
 /**
+ * RosetteDiscountCheckOff icon from Tabler Icons
+ */
+export function TbRosetteDiscountCheckOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 12l2 2l1.5 -1.5m2 -2l.5 -.5"}},{tag:"path",attr:{d:"M8.887 4.89a2.2 2.2 0 0 0 .863 -.53l.7 -.7a2.2 2.2 0 0 1 3.12 0l.7 .7c.412 .41 .97 .64 1.55 .64h1a2.2 2.2 0 0 1 2.2 2.2v1c0 .58 .23 1.138 .64 1.55l.7 .7a2.2 2.2 0 0 1 0 3.12l-.7 .7a2.2 2.2 0 0 0 -.528 .858m-.757 3.248a2.193 2.193 0 0 1 -1.555 .644h-1a2.2 2.2 0 0 0 -1.55 .64l-.7 .7a2.2 2.2 0 0 1 -3.12 0l-.7 -.7a2.2 2.2 0 0 0 -1.55 -.64h-1a2.2 2.2 0 0 1 -2.2 -2.2v-1a2.2 2.2 0 0 0 -.64 -1.55l-.7 -.7a2.2 2.2 0 0 1 0 -3.12l.7 -.7a2.2 2.2 0 0 0 .64 -1.55v-1c0 -.604 .244 -1.152 .638 -1.55"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * RosetteDiscountFilled icon from Tabler Icons
+ */
+export function TbRosetteDiscountFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12.01 2.011c.852 0 1.668 .34 2.267 .942l.698 .698a1.2 1.2 0 0 0 .845 .349h1a3.2 3.2 0 0 1 3.2 3.2v1c0 .316 .126 .62 .347 .843l.698 .698a3.2 3.2 0 0 1 .002 4.536l-.698 .698a1.2 1.2 0 0 0 -.349 .845v1a3.2 3.2 0 0 1 -3.2 3.2h-1a1.2 1.2 0 0 0 -.843 .347l-.698 .698a3.2 3.2 0 0 1 -4.536 .002l-.698 -.698a1.2 1.2 0 0 0 -.845 -.349h-1a3.2 3.2 0 0 1 -3.2 -3.2v-1a1.2 1.2 0 0 0 -.347 -.843l-.698 -.698a3.2 3.2 0 0 1 -.002 -4.536l.698 -.698a1.2 1.2 0 0 0 .349 -.845v-1l.005 -.182a3.2 3.2 0 0 1 3.195 -3.018h1a1.2 1.2 0 0 0 .843 -.347l.698 -.698a3.2 3.2 0 0 1 2.269 -.944m2.49 10.989a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0 -3m1.207 -4.707a1 1 0 0 0 -1.414 0l-6 6a1 1 0 0 0 1.414 1.414l6 -6a1 1 0 0 0 0 -1.414m-6.207 -.293a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0 -3"}}]})(props);
+}
+/**
  * RosetteDiscountOff icon from Tabler Icons
  */
 export function TbRosetteDiscountOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -25044,6 +27864,12 @@ export function TbRulerMeasure(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.875 12c.621 0 1.125 .512 1.125 1.143v5.714c0 .631 -.504 1.143 -1.125 1.143h-15.875a1 1 0 0 1 -1 -1v-5.857c0 -.631 .504 -1.143 1.125 -1.143h15.75z"}},{tag:"path",attr:{d:"M9 12v2"},child:[]},{tag:"path",attr:{d:"M6 12v3"},child:[]},{tag:"path",attr:{d:"M12 12v3"},child:[]},{tag:"path",attr:{d:"M18 12v3"},child:[]},{tag:"path",attr:{d:"M15 12v2"},child:[]},{tag:"path",attr:{d:"M3 3v4"},child:[]},{tag:"path",attr:{d:"M3 5h18"},child:[]},{tag:"path",attr:{d:"M21 3v4"},child:[]}]})(props);
 }
 /**
+ * RulerMeasure2 icon from Tabler Icons
+ */
+export function TbRulerMeasure2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 19.875c0 .621 -.512 1.125 -1.143 1.125h-5.714a1.134 1.134 0 0 1 -1.143 -1.125v-15.875a1 1 0 0 1 1 -1h5.857c.631 0 1.143 .504 1.143 1.125z"}},{tag:"path",attr:{d:"M12 9h-2"},child:[]},{tag:"path",attr:{d:"M12 6h-3"},child:[]},{tag:"path",attr:{d:"M12 12h-3"},child:[]},{tag:"path",attr:{d:"M12 18h-3"},child:[]},{tag:"path",attr:{d:"M12 15h-2"},child:[]},{tag:"path",attr:{d:"M21 3h-4"},child:[]},{tag:"path",attr:{d:"M19 3v18"},child:[]},{tag:"path",attr:{d:"M21 21h-4"},child:[]}]})(props);
+}
+/**
  * RulerOff icon from Tabler Icons
  */
 export function TbRulerOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -25108,6 +27934,12 @@ export function TbSailboatOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbSalad(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5 -2.517 5.573 -4 6.5v1a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-1c-1.687 -1.054 -4 -5 -4 -6.5v-.5a1 1 0 0 1 1 -1z"}},{tag:"path",attr:{d:"M18.5 11c.351 -1.017 .426 -2.236 .5 -3.714v-1.286h-2.256c-2.83 0 -4.616 .804 -5.64 2.076"},child:[]},{tag:"path",attr:{d:"M5.255 11.008a12.204 12.204 0 0 1 -.255 -2.008v-1h1.755c.98 0 1.801 .124 2.479 .35"},child:[]},{tag:"path",attr:{d:"M8 8l1 -4l4 2.5"},child:[]},{tag:"path",attr:{d:"M13 11v-.5a2.5 2.5 0 1 0 -5 0v.5"},child:[]}]})(props);
+}
+/**
+ * SaladFilled icon from Tabler Icons
+ */
+export function TbSaladFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M9.53 3.152l3.742 2.339q 1.492 -.491 3.472 -.491h2.256a1 1 0 0 1 1 1l-.001 1.336l-.05 .895l-.042 .585c-.037 .457 -.08 .84 -.134 1.185l.227 -.001a2 2 0 0 1 2 2v.5c0 1.694 -2.247 5.49 -3.983 6.983l-.017 .013v.504a2 2 0 0 1 -1.85 1.995l-.15 .005h-8a2 2 0 0 1 -2 -2v-.496l-.065 -.053c-1.76 -1.496 -3.794 -4.965 -3.928 -6.77l-.007 -.181v-.5a2 2 0 0 1 2 -2h.078a14 14 0 0 1 -.078 -1v-1a1 1 0 0 1 1 -1h1.755c.138 0 .287 .034 .44 .092l.835 -3.335a1 1 0 0 1 1.5 -.605m-2.193 5.847l-1.335 .001l.027 .42q .025 .292 .064 .58h.942q .078 -.533 .302 -1.001m10.663 -1.999h-1.256c-1.712 0 -3.003 .31 -3.922 .88a3.5 3.5 0 0 1 1.143 2.12h3.774c.127 -.615 .194 -1.4 .261 -2.714zm-7.5 2a1.5 1.5 0 0 0 -1.414 1h2.828a1.5 1.5 0 0 0 -.845 -.888l-.166 -.056a1.5 1.5 0 0 0 -.403 -.056m-.864 -3.424l-.415 1.665a3.5 3.5 0 0 1 1.502 -.234a6 6 0 0 1 .497 -.442z"}}]})(props);
 }
 /**
  * Salt icon from Tabler Icons
@@ -25302,6 +28134,18 @@ export function TbScubaDiving(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 12a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"}},{tag:"path",attr:{d:"M2 2l3 3l1.5 4l3.5 2l6 2l1 4l2.5 3"},child:[]},{tag:"path",attr:{d:"M11 8l4.5 1.5"},child:[]}]})(props);
 }
 /**
+ * ScubaDivingTank icon from Tabler Icons
+ */
+export function TbScubaDivingTank(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 11a4 4 0 1 1 8 0v5h-8z"}},{tag:"path",attr:{d:"M8 16v3a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-3"},child:[]},{tag:"path",attr:{d:"M9 4h6"},child:[]},{tag:"path",attr:{d:"M12 7v-3"},child:[]},{tag:"path",attr:{d:"M8 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"},child:[]},{tag:"circle",attr:{"cx":"12","cy":"4","r":".5",fill:"currentColor"},child:[]}]})(props);
+}
+/**
+ * ScubaDivingTankFilled icon from Tabler Icons
+ */
+export function TbScubaDivingTankFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 17v2a3 3 0 0 1 -3 3h-4a3 3 0 0 1 -3 -3v-2z"}},{tag:"path",attr:{d:"M8 2a2 2 0 0 1 1.732 1h1.15a1.496 1.496 0 0 1 2.236 0h1.882a1 1 0 0 1 0 2l-1.883 .001a2 2 0 0 1 -.115 .116v.983a5 5 0 0 1 3.998 4.9v4h-10v-4a5 5 0 0 1 4 -4.9v-.983a2 2 0 0 1 -.117 -.116h-1.151a2 2 0 1 1 -1.732 -3.001"},child:[]}]})(props);
+}
+/**
  * ScubaMask icon from Tabler Icons
  */
 export function TbScubaMask(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -25354,6 +28198,12 @@ export function TbSectionSign(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbSeeding(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 10a6 6 0 0 0 -6 -6h-3v2a6 6 0 0 0 6 6h3"}},{tag:"path",attr:{d:"M12 14a6 6 0 0 1 6 -6h3v1a6 6 0 0 1 -6 6h-3"},child:[]},{tag:"path",attr:{d:"M12 20l0 -10"},child:[]}]})(props);
+}
+/**
+ * SeedingFilled icon from Tabler Icons
+ */
+export function TbSeedingFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6 3a7 7 0 0 1 6.95 6.155a6.97 6.97 0 0 1 5.05 -2.155h3a1 1 0 0 1 1 1v1a7 7 0 0 1 -7 7h-2v4a1 1 0 0 1 -2 0v-7h-2a7 7 0 0 1 -7 -7v-2a1 1 0 0 1 1 -1z"}}]})(props);
 }
 /**
  * SeedingOff icon from Tabler Icons
@@ -25450,6 +28300,12 @@ export function TbServerCog(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbServerOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12h-6a3 3 0 0 1 -3 -3v-2c0 -1.083 .574 -2.033 1.435 -2.56m3.565 -.44h10a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-2"}},{tag:"path",attr:{d:"M16 12h2a3 3 0 0 1 3 3v2m-1.448 2.568a2.986 2.986 0 0 1 -1.552 .432h-12a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h6"},child:[]},{tag:"path",attr:{d:"M7 8v.01"},child:[]},{tag:"path",attr:{d:"M7 16v.01"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * ServerSpark icon from Tabler Icons
+ */
+export function TbServerSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"}},{tag:"path",attr:{d:"M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z"},child:[]},{tag:"path",attr:{d:"M12 20h-6a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h10.5"},child:[]},{tag:"path",attr:{d:"M7 8v.01"},child:[]},{tag:"path",attr:{d:"M7 16v.01"},child:[]}]})(props);
 }
 /**
  * Servicemark icon from Tabler Icons
@@ -25582,6 +28438,12 @@ export function TbSettingsSearch(props: IconBaseProps): VNode<JSX.SVGAttributes>
  */
 export function TbSettingsShare(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12.004 21c-.732 .002 -1.466 -.437 -1.679 -1.317a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.306 .317 1.64 1.78 1.004 2.684"}},{tag:"path",attr:{d:"M12 15a3 3 0 1 0 0 -6a3 3 0 0 0 0 6z"},child:[]},{tag:"path",attr:{d:"M16 22l5 -5"},child:[]},{tag:"path",attr:{d:"M21 21.5v-4.5h-4.5"},child:[]}]})(props);
+}
+/**
+ * SettingsSpark icon from Tabler Icons
+ */
+export function TbSettingsSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11.992 21c-.728 -.003 -1.455 -.442 -1.667 -1.317a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c.882 .214 1.32 .95 1.317 1.684"}},{tag:"path",attr:{d:"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"},child:[]},{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"},child:[]}]})(props);
 }
 /**
  * SettingsStar icon from Tabler Icons
@@ -25761,7 +28623,7 @@ export function TbShieldHalf(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * ShieldHalfFilled icon from Tabler Icons
  */
 export function TbShieldHalfFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"}},{tag:"path",attr:{d:"M12 3v18"},child:[]},{tag:"path",attr:{d:"M12 11h8.9"},child:[]},{tag:"path",attr:{d:"M12 8h8.9"},child:[]},{tag:"path",attr:{d:"M12 5h3.1"},child:[]},{tag:"path",attr:{d:"M12 17h6.2"},child:[]},{tag:"path",attr:{d:"M12 14h8"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.998 2l.032 .002l.086 .005a1 1 0 0 1 .342 .104l.105 .062l.097 .076l.016 .015l.247 .21a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.791 -2.75l.046 -.036l.053 -.041a1 1 0 0 1 .217 -.112l.075 -.023l.036 -.01a1 1 0 0 1 .12 -.022l.086 -.005zm.002 2.296l-.176 .135a13 13 0 0 1 -7.288 2.572l-.264 .006l-.064 .31a11 11 0 0 0 1.064 7.175l.17 .314a11 11 0 0 0 6.49 5.136l.068 .019z"}}]})(props);
 }
 /**
  * ShieldHeart icon from Tabler Icons
@@ -26226,6 +29088,12 @@ export function TbSitemap(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"},child:[]},{tag:"path",attr:{d:"M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1"},child:[]},{tag:"path",attr:{d:"M12 9l0 3"},child:[]}]})(props);
 }
 /**
+ * SitemapFilled icon from Tabler Icons
+ */
+export function TbSitemapFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M2 16.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z"}},{tag:"path",attr:{d:"M14 16.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z"},child:[]},{tag:"path",attr:{d:"M8 4.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z"},child:[]},{tag:"path",attr:{d:"M12 8a1 1 0 0 0 -1 1v2h-3c-1.645 0 -3 1.355 -3 3v1a1 1 0 0 0 1 1a1 1 0 0 0 1 -1v-1c0 -.564 .436 -1 1 -1h8c.564 0 1 .436 1 1v1a1 1 0 0 0 1 1a1 1 0 0 0 1 -1v-1c0 -1.645 -1.355 -3 -3 -3h-3v-2a1 1 0 0 0 -1 -1z"},child:[]}]})(props);
+}
+/**
  * SitemapOff icon from Tabler Icons
  */
 export function TbSitemapOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -26436,6 +29304,12 @@ export function TbSortAscending2(props: IconBaseProps): VNode<JSX.SVGAttributes>
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 9l3 -3l3 3"}},{tag:"path",attr:{d:"M5 5m0 .5a.5 .5 0 0 1 .5 -.5h4a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-4a.5 .5 0 0 1 -.5 -.5z"},child:[]},{tag:"path",attr:{d:"M5 14m0 .5a.5 .5 0 0 1 .5 -.5h4a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-4a.5 .5 0 0 1 -.5 -.5z"},child:[]},{tag:"path",attr:{d:"M17 6v12"},child:[]}]})(props);
 }
 /**
+ * SortAscending2Filled icon from Tabler Icons
+ */
+export function TbSortAscending2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16.852 5.011l.058 -.007l.09 -.004l.075 .003l.126 .017l.111 .03l.111 .044l.098 .052l.104 .074l.082 .073l3 3a1 1 0 1 1 -1.414 1.414l-1.293 -1.292v9.585a1 1 0 0 1 -2 0v-9.585l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 0 -1.414l3 -3q .053 -.054 .112 -.097l.11 -.071l.114 -.054l.105 -.035z"}},{tag:"path",attr:{d:"M9.5 4a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1 -1.5 1.5h-4a1.5 1.5 0 0 1 -1.5 -1.5v-4a1.5 1.5 0 0 1 1.5 -1.5z"},child:[]},{tag:"path",attr:{d:"M9.5 13a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1 -1.5 1.5h-4a1.5 1.5 0 0 1 -1.5 -1.5v-4a1.5 1.5 0 0 1 1.5 -1.5z"},child:[]}]})(props);
+}
+/**
  * SortAscendingLetters icon from Tabler Icons
  */
 export function TbSortAscendingLetters(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -26452,6 +29326,12 @@ export function TbSortAscendingNumbers(props: IconBaseProps): VNode<JSX.SVGAttri
  */
 export function TbSortAscendingShapes(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 15l3 3l3 -3"}},{tag:"path",attr:{d:"M7 6v12"},child:[]},{tag:"path",attr:{d:"M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-4z"},child:[]},{tag:"path",attr:{d:"M17 14l-3.5 6h7z"},child:[]}]})(props);
+}
+/**
+ * SortAscendingShapesFilled icon from Tabler Icons
+ */
+export function TbSortAscendingShapesFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M7 5a1 1 0 0 1 1 1v9.584l1.293 -1.291a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.112 .097l-.11 .071l-.114 .054l-.105 .035l-.149 .03l-.117 .006l-.075 -.003l-.126 -.017l-.111 -.03l-.111 -.044l-.098 -.052l-.096 -.067l-.09 -.08l-3 -3a1 1 0 0 1 1.414 -1.414l1.293 1.293v-9.586a1 1 0 0 1 1 -1m12 -2a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2zm-1.136 10.496l3.5 6a1 1 0 0 1 -.864 1.504h-7a1 1 0 0 1 -.864 -1.504l3.5 -6a1 1 0 0 1 1.728 0"}}]})(props);
 }
 /**
  * SortAscendingSmallBig icon from Tabler Icons
@@ -26472,6 +29352,12 @@ export function TbSortDescending2(props: IconBaseProps): VNode<JSX.SVGAttributes
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 5m0 .5a.5 .5 0 0 1 .5 -.5h4a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-4a.5 .5 0 0 1 -.5 -.5z"}},{tag:"path",attr:{d:"M5 14m0 .5a.5 .5 0 0 1 .5 -.5h4a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-4a.5 .5 0 0 1 -.5 -.5z"},child:[]},{tag:"path",attr:{d:"M14 15l3 3l3 -3"},child:[]},{tag:"path",attr:{d:"M17 18v-12"},child:[]}]})(props);
 }
 /**
+ * SortDescending2Filled icon from Tabler Icons
+ */
+export function TbSortDescending2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M9.5 4a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1 -1.5 1.5h-4a1.5 1.5 0 0 1 -1.5 -1.5v-4a1.5 1.5 0 0 1 1.5 -1.5z"}},{tag:"path",attr:{d:"M9.5 13a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1 -1.5 1.5h-4a1.5 1.5 0 0 1 -1.5 -1.5v-4a1.5 1.5 0 0 1 1.5 -1.5z"},child:[]},{tag:"path",attr:{d:"M17 5a1 1 0 0 1 1 1v9.584l1.293 -1.291a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.112 .097l-.11 .071l-.114 .054l-.105 .035l-.149 .03l-.117 .006l-.075 -.003l-.126 -.017l-.111 -.03l-.111 -.044l-.098 -.052l-.096 -.067l-.09 -.08l-3 -3a1 1 0 0 1 1.414 -1.414l1.293 1.293v-9.586a1 1 0 0 1 1 -1"},child:[]}]})(props);
+}
+/**
  * SortDescendingLetters icon from Tabler Icons
  */
 export function TbSortDescendingLetters(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -26490,6 +29376,12 @@ export function TbSortDescendingShapes(props: IconBaseProps): VNode<JSX.SVGAttri
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 15l3 3l3 -3"}},{tag:"path",attr:{d:"M7 6v12"},child:[]},{tag:"path",attr:{d:"M14 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-4z"},child:[]},{tag:"path",attr:{d:"M17 4l-3.5 6h7z"},child:[]}]})(props);
 }
 /**
+ * SortDescendingShapesFilled icon from Tabler Icons
+ */
+export function TbSortDescendingShapesFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M7 5a1 1 0 0 1 1 1v9.584l1.293 -1.291a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.112 .097l-.11 .071l-.114 .054l-.105 .035l-.149 .03l-.117 .006l-.075 -.003l-.126 -.017l-.111 -.03l-.111 -.044l-.098 -.052l-.096 -.067l-.09 -.08l-3 -3a1 1 0 0 1 1.414 -1.414l1.293 1.293v-9.586a1 1 0 0 1 1 -1m12 8a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2zm-1.136 -9.504l3.5 6a1 1 0 0 1 -.864 1.504h-7a1 1 0 0 1 -.864 -1.504l3.5 -6a1 1 0 0 1 1.728 0"}}]})(props);
+}
+/**
  * SortDescendingSmallBig icon from Tabler Icons
  */
 export function TbSortDescendingSmallBig(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -26505,7 +29397,7 @@ export function TbSortZA(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  * Sos icon from Tabler Icons
  */
 export function TbSos(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 8h-3a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3"}},{tag:"path",attr:{d:"M10 8h4v8h-4z"},child:[]},{tag:"path",attr:{d:"M17 16h3a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2"}},{tag:"path",attr:{d:"M17 15c.345 .6 1.258 1 2 1a2 2 0 1 0 0 -4a2 2 0 1 1 0 -4c.746 0 1.656 .394 2 1"},child:[]},{tag:"path",attr:{d:"M3 15c.345 .6 1.258 1 2 1a2 2 0 1 0 0 -4a2 2 0 1 1 0 -4c.746 0 1.656 .394 2 1"},child:[]}]})(props);
 }
 /**
  * Soup icon from Tabler Icons
@@ -26830,6 +29722,12 @@ export function TbSquareChevronsUp(props: IconBaseProps): VNode<JSX.SVGAttribute
  */
 export function TbSquareChevronsUpFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M19 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm-6.387 10.21a1 1 0 0 0 -1.32 .083l-3 3l-.083 .094a1 1 0 0 0 .083 1.32l.094 .083a1 1 0 0 0 1.32 -.083l2.293 -2.292l2.293 2.292l.094 .083a1 1 0 0 0 1.32 -1.497l-3 -3zm0 -5a1 1 0 0 0 -1.32 .083l-3 3l-.083 .094a1 1 0 0 0 .083 1.32l.094 .083a1 1 0 0 0 1.32 -.083l2.293 -2.292l2.293 2.292l.094 .083a1 1 0 0 0 1.32 -1.497l-3 -3z"}}]})(props);
+}
+/**
+ * SquareDashed icon from Tabler Icons
+ */
+export function TbSquareDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}}]})(props);
 }
 /**
  * SquareDot icon from Tabler Icons
@@ -28368,6 +31266,12 @@ export function TbSteeringWheel(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{tag:"path",attr:{d:"M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]},{tag:"path",attr:{d:"M12 14l0 7"},child:[]},{tag:"path",attr:{d:"M10 12l-6.75 -2"},child:[]},{tag:"path",attr:{d:"M14 12l6.75 -2"},child:[]}]})(props);
 }
 /**
+ * SteeringWheelFilled icon from Tabler Icons
+ */
+export function TbSteeringWheelFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-13 8.66a8 8 0 0 0 7 7.937v-5.107a3 3 0 0 1 -1.898 -2.05l-5.07 -1.504q -.031 .36 -.032 .725m15.967 -.725l-5.069 1.503a3 3 0 0 1 -1.897 2.051v5.108a8 8 0 0 0 6.985 -8.422zm-11.967 -6.204a8 8 0 0 0 -3.536 4.244l4.812 1.426a3 3 0 0 1 5.448 0l4.812 -1.426a8 8 0 0 0 -11.536 -4.244"}}]})(props);
+}
+/**
  * SteeringWheelOff icon from Tabler Icons
  */
 export function TbSteeringWheelOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -28414,6 +31318,12 @@ export function TbSticker(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbSticker2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 4h12a2 2 0 0 1 2 2v7h-5a2 2 0 0 0 -2 2v5h-7a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2z"}},{tag:"path",attr:{d:"M20 13v.172a2 2 0 0 1 -.586 1.414l-4.828 4.828a2 2 0 0 1 -1.414 .586h-.172"},child:[]}]})(props);
+}
+/**
+ * Stopwatch icon from Tabler Icons
+ */
+export function TbStopwatch(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 13a7 7 0 1 0 14 0a7 7 0 0 0 -14 0z"}},{tag:"path",attr:{d:"M14.5 10.5l-2.5 2.5"},child:[]},{tag:"path",attr:{d:"M17 8l1 -1"},child:[]},{tag:"path",attr:{d:"M14 3h-4"},child:[]}]})(props);
 }
 /**
  * Storm icon from Tabler Icons
@@ -28530,6 +31440,12 @@ export function TbSunglasses(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 4h-2l-3 10"}},{tag:"path",attr:{d:"M16 4h2l3 10"},child:[]},{tag:"path",attr:{d:"M10 16h4"},child:[]},{tag:"path",attr:{d:"M21 16.5a3.5 3.5 0 0 1 -7 0v-2.5h7v2.5"},child:[]},{tag:"path",attr:{d:"M10 16.5a3.5 3.5 0 0 1 -7 0v-2.5h7v2.5"},child:[]},{tag:"path",attr:{d:"M4 14l4.5 4.5"},child:[]},{tag:"path",attr:{d:"M15 14l4.5 4.5"},child:[]}]})(props);
 }
 /**
+ * SunglassesFilled icon from Tabler Icons
+ */
+export function TbSunglassesFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8 3a1 1 0 1 1 0 2h-1.257l-2.4 8h5.657a1 1 0 0 1 1 1v1h2v-1a1 1 0 0 1 1 -1h5.656l-2.4 -8h-1.256a1 1 0 0 1 -.993 -.883l-.007 -.117a1 1 0 0 1 1 -1h2a1 1 0 0 1 .958 .713l3.01 10.036l.022 .112l.008 .08l.002 2.559a4.5 4.5 0 0 1 -8.972 .5h-2.056a4.5 4.5 0 0 1 -8.972 -.5v-2.518l.004 -.071l.014 -.103l.018 -.076l3.006 -10.02a1 1 0 0 1 .958 -.712z"}}]})(props);
+}
+/**
  * Sunrise icon from Tabler Icons
  */
 export function TbSunrise(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -28578,10 +31494,22 @@ export function TbSwipeDown(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 4a4 4 0 1 1 0 8a4 4 0 0 1 0 -8z"}},{tag:"path",attr:{d:"M12 12v8"},child:[]},{tag:"path",attr:{d:"M9 17l3 3l3 -3"},child:[]}]})(props);
 }
 /**
+ * SwipeDownFilled icon from Tabler Icons
+ */
+export function TbSwipeDownFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M12 3a5 5 0 0 1 1.001 9.9l-.001 4.684l1.293 -1.291a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.112 .097l-.11 .071l-.114 .054l-.105 .035l-.149 .03l-.117 .006l-.075 -.003l-.126 -.017l-.111 -.03l-.111 -.044l-.098 -.052l-.096 -.067l-.09 -.08l-3 -3a1 1 0 0 1 1.414 -1.414l1.293 1.292v-4.685a5.002 5.002 0 0 1 1 -9.9"}}]})(props);
+}
+/**
  * SwipeLeft icon from Tabler Icons
  */
 export function TbSwipeLeft(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 12a4 4 0 1 0 -8 0a4 4 0 0 0 8 0z"}},{tag:"path",attr:{d:"M12 12h-8"},child:[]},{tag:"path",attr:{d:"M7 15l-3 -3l3 -3"},child:[]}]})(props);
+}
+/**
+ * SwipeLeftFilled icon from Tabler Icons
+ */
+export function TbSwipeLeftFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16 7a5 5 0 1 1 -4.9 6.001l-4.685 -.001l1.292 1.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.414 0l-3 -3a1 1 0 0 1 -.097 -.112l-.071 -.11l-.054 -.114l-.035 -.105l-.025 -.118l-.007 -.058l-.004 -.09l.003 -.075l.017 -.126l.03 -.111l.044 -.111l.052 -.098l.067 -.096l.08 -.09l3 -3a1 1 0 0 1 1.414 1.414l-1.292 1.293h4.685a5 5 0 0 1 4.9 -4"}}]})(props);
 }
 /**
  * SwipeRight icon from Tabler Icons
@@ -28590,10 +31518,22 @@ export function TbSwipeRight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 12a4 4 0 1 1 8 0a4 4 0 0 1 -8 0z"}},{tag:"path",attr:{d:"M12 12h8"},child:[]},{tag:"path",attr:{d:"M17 15l3 -3l-3 -3"},child:[]}]})(props);
 }
 /**
+ * SwipeRightFilled icon from Tabler Icons
+ */
+export function TbSwipeRightFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8 7a5 5 0 0 1 4.9 4h4.685l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0l3 3q .054 .053 .097 .112l.071 .11l.054 .114l.035 .105l.03 .148l.006 .118l-.003 .075l-.017 .126l-.03 .111l-.044 .111l-.052 .098l-.074 .104l-.073 .082l-3 3a1 1 0 0 1 -1.414 -1.414l1.291 -1.293l-4.684 .001a5.002 5.002 0 0 1 -9.9 -1.001a5 5 0 0 1 5 -5"}}]})(props);
+}
+/**
  * SwipeUp icon from Tabler Icons
  */
 export function TbSwipeUp(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 16m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"}},{tag:"path",attr:{d:"M12 12v-8"},child:[]},{tag:"path",attr:{d:"M9 7l3 -3l3 3"},child:[]}]})(props);
+}
+/**
+ * SwipeUpFilled icon from Tabler Icons
+ */
+export function TbSwipeUpFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.852 3.011l.058 -.007l.09 -.004l.075 .003l.126 .017l.111 .03l.111 .044l.098 .052l.104 .074l.082 .073l3 3a1 1 0 1 1 -1.414 1.414l-1.293 -1.292l.001 4.685a5.002 5.002 0 0 1 -1.001 9.9a5 5 0 0 1 -5 -5l.005 -.217a5 5 0 0 1 3.995 -4.683v-4.685l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 0 -1.414l3 -3q .053 -.054 .112 -.097l.11 -.071l.114 -.054l.105 -.035z"}}]})(props);
 }
 /**
  * Switch icon from Tabler Icons
@@ -28660,6 +31600,12 @@ export function TbTableAlias(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbTableColumn(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z"}},{tag:"path",attr:{d:"M10 10h11"},child:[]},{tag:"path",attr:{d:"M10 3v18"},child:[]},{tag:"path",attr:{d:"M9 3l-6 6"},child:[]},{tag:"path",attr:{d:"M10 7l-7 7"},child:[]},{tag:"path",attr:{d:"M10 12l-7 7"},child:[]},{tag:"path",attr:{d:"M10 17l-4 4"},child:[]}]})(props);
+}
+/**
+ * TableDashed icon from Tabler Icons
+ */
+export function TbTableDashed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{tag:"path",attr:{d:"M3 10h18"},child:[]},{tag:"path",attr:{d:"M10 3v18"},child:[]}]})(props);
 }
 /**
  * TableDown icon from Tabler Icons
@@ -28734,16 +31680,40 @@ export function TbTableShortcut(props: IconBaseProps): VNode<JSX.SVGAttributes> 
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 13v-8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8"}},{tag:"path",attr:{d:"M3 10h18"},child:[]},{tag:"path",attr:{d:"M10 3v11"},child:[]},{tag:"path",attr:{d:"M2 22l5 -5"},child:[]},{tag:"path",attr:{d:"M7 21.5v-4.5h-4.5"},child:[]}]})(props);
 }
 /**
+ * TableSpark icon from Tabler Icons
+ */
+export function TbTableSpark(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"}},{tag:"path",attr:{d:"M12 21h-7a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7"},child:[]},{tag:"path",attr:{d:"M3 10h18"},child:[]},{tag:"path",attr:{d:"M10 3v18"},child:[]}]})(props);
+}
+/**
  * Tag icon from Tabler Icons
  */
 export function TbTag(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z"},child:[]}]})(props);
 }
 /**
+ * TagFilled icon from Tabler Icons
+ */
+export function TbTagFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M11.172 2a3 3 0 0 1 2.121 .879l7.71 7.71a3.41 3.41 0 0 1 0 4.822l-5.592 5.592a3.41 3.41 0 0 1 -4.822 0l-7.71 -7.71a3 3 0 0 1 -.879 -2.121v-5.172a4 4 0 0 1 4 -4zm-3.672 3.5a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2"}}]})(props);
+}
+/**
+ * TagMinus icon from Tabler Icons
+ */
+export function TbTagMinus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M18.898 16.102l.699 -.699l.699 -.699c.941 -.941 .941 -2.467 0 -3.408l-7.71 -7.71c-.375 -.375 -.884 -.586 -1.414 -.586h-5.172c-1.657 0 -3 1.343 -3 3v5.172c0 .53 .211 1.039 .586 1.414l7.71 7.71c.471 .47 1.087 .706 1.704 .706"},child:[]},{tag:"path",attr:{d:"M16 19h6"},child:[]}]})(props);
+}
+/**
  * TagOff icon from Tabler Icons
  */
 export function TbTagOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7.149 7.144a.498 .498 0 0 0 .351 .856a.498 .498 0 0 0 .341 -.135"}},{tag:"path",attr:{d:"M3.883 3.875a2.99 2.99 0 0 0 -.883 2.125v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l2.796 -2.796m2.005 -2.005l.79 -.79a2.41 2.41 0 0 0 0 -3.41l-7.71 -7.71a2 2 0 0 0 -1.412 -.585h-4.173"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * TagPlus icon from Tabler Icons
+ */
+export function TbTagPlus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{tag:"path",attr:{d:"M21.002 13c0 -.617 -.235 -1.233 -.706 -1.704l-7.71 -7.71c-.375 -.375 -.884 -.586 -1.414 -.586h-5.172c-1.657 0 -3 1.343 -3 3v5.172c0 .53 .211 1.039 .586 1.414l7.71 7.71c.471 .47 1.087 .706 1.704 .706"},child:[]},{tag:"path",attr:{d:"M16 19h6"},child:[]},{tag:"path",attr:{d:"M19 16v6"},child:[]}]})(props);
 }
 /**
  * TagStarred icon from Tabler Icons
@@ -28756,6 +31726,12 @@ export function TbTagStarred(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbTags(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 8v4.172a2 2 0 0 0 .586 1.414l5.71 5.71a2.41 2.41 0 0 0 3.408 0l3.592 -3.592a2.41 2.41 0 0 0 0 -3.408l-5.71 -5.71a2 2 0 0 0 -1.414 -.586h-4.172a2 2 0 0 0 -2 2z"}},{tag:"path",attr:{d:"M18 19l1.592 -1.592a4.82 4.82 0 0 0 0 -6.816l-4.592 -4.592"},child:[]},{tag:"path",attr:{d:"M7 10h-.01"},child:[]}]})(props);
+}
+/**
+ * TagsFilled icon from Tabler Icons
+ */
+export function TbTagsFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M9.172 5a3 3 0 0 1 2.121 .879l5.71 5.71a3.41 3.41 0 0 1 0 4.822l-3.592 3.592a3.41 3.41 0 0 1 -4.822 0l-5.71 -5.71a3 3 0 0 1 -.879 -2.121v-4.172a3 3 0 0 1 3 -3zm-2.172 4h-.01a1 1 0 1 0 .01 2a1 1 0 0 0 0 -2"}},{tag:"path",attr:{d:"M14.293 5.293a1 1 0 0 1 1.414 0l4.593 4.592a5.82 5.82 0 0 1 0 8.23l-1.592 1.592a1 1 0 0 1 -1.414 -1.414l1.592 -1.592a3.82 3.82 0 0 0 0 -5.402l-4.592 -4.592a1 1 0 0 1 0 -1.414"},child:[]}]})(props);
 }
 /**
  * TagsOff icon from Tabler Icons
@@ -28816,6 +31792,24 @@ export function TbTargetArrow(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbTargetOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11.286 11.3a1 1 0 0 0 1.41 1.419"}},{tag:"path",attr:{d:"M8.44 8.49a5 5 0 0 0 7.098 7.044m1.377 -2.611a5 5 0 0 0 -5.846 -5.836"},child:[]},{tag:"path",attr:{d:"M5.649 5.623a9 9 0 1 0 12.698 12.758m1.683 -2.313a9 9 0 0 0 -12.076 -12.11"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
+}
+/**
+ * Tax icon from Tabler Icons
+ */
+export function TbTax(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8.487 21h7.026a4 4 0 0 0 3.808 -5.224l-1.706 -5.306a5 5 0 0 0 -4.76 -3.47h-1.71a5 5 0 0 0 -4.76 3.47l-1.706 5.306a4 4 0 0 0 3.808 5.224"}},{tag:"path",attr:{d:"M15 3q -1 4 -3 4t -3 -4z"},child:[]},{tag:"path",attr:{d:"M14 11h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"},child:[]},{tag:"path",attr:{d:"M12 10v1"},child:[]},{tag:"path",attr:{d:"M12 17v1"},child:[]}]})(props);
+}
+/**
+ * TaxEuro icon from Tabler Icons
+ */
+export function TbTaxEuro(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8.487 21h7.026a4 4 0 0 0 3.808 -5.224l-1.706 -5.306a5 5 0 0 0 -4.76 -3.47h-1.71a5 5 0 0 0 -4.76 3.47l-1.706 5.306a4 4 0 0 0 3.808 5.224"}},{tag:"path",attr:{d:"M15 3q -1 4 -3 4t -3 -4z"},child:[]},{tag:"path",attr:{d:"M12 14h-3"},child:[]},{tag:"path",attr:{d:"M14 11.172a3 3 0 1 0 0 5.656"},child:[]}]})(props);
+}
+/**
+ * TaxPound icon from Tabler Icons
+ */
+export function TbTaxPound(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8.487 21h7.026a4 4 0 0 0 3.808 -5.224l-1.706 -5.306a5 5 0 0 0 -4.76 -3.47h-1.71a5 5 0 0 0 -4.76 3.47l-1.706 5.306a4 4 0 0 0 3.808 5.224"}},{tag:"path",attr:{d:"M15 3q -1 4 -3 4t -3 -4z"},child:[]},{tag:"path",attr:{d:"M14 11h-1a2 2 0 0 0 -2 2v2c0 1.105 -.395 2 -1.5 2h4.5"},child:[]},{tag:"path",attr:{d:"M10 14h3"},child:[]}]})(props);
 }
 /**
  * Teapot icon from Tabler Icons
@@ -28930,6 +31924,12 @@ export function TbTestPipe(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbTestPipe2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 3v15a3 3 0 0 1 -6 0v-15"}},{tag:"path",attr:{d:"M9 12h6"},child:[]},{tag:"path",attr:{d:"M8 3h8"},child:[]}]})(props);
+}
+/**
+ * TestPipe2Filled icon from Tabler Icons
+ */
+export function TbTestPipe2Filled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M16 2a1 1 0 0 1 0 2v14a4 4 0 1 1 -8 0v-14a1 1 0 1 1 0 -2zm-2 2h-4v7h4z"}}]})(props);
 }
 /**
  * TestPipeOff icon from Tabler Icons
@@ -29136,6 +32136,12 @@ export function TbTiltShift(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8.56 3.69a9 9 0 0 0 -2.92 1.95"}},{tag:"path",attr:{d:"M3.69 8.56a9 9 0 0 0 -.69 3.44"},child:[]},{tag:"path",attr:{d:"M3.69 15.44a9 9 0 0 0 1.95 2.92"},child:[]},{tag:"path",attr:{d:"M8.56 20.31a9 9 0 0 0 3.44 .69"},child:[]},{tag:"path",attr:{d:"M15.44 20.31a9 9 0 0 0 2.92 -1.95"},child:[]},{tag:"path",attr:{d:"M20.31 15.44a9 9 0 0 0 .69 -3.44"},child:[]},{tag:"path",attr:{d:"M20.31 8.56a9 9 0 0 0 -1.95 -2.92"},child:[]},{tag:"path",attr:{d:"M15.44 3.69a9 9 0 0 0 -3.44 -.69"},child:[]},{tag:"path",attr:{d:"M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"},child:[]}]})(props);
 }
 /**
+ * TiltShiftFilled icon from Tabler Icons
+ */
+export function TbTiltShiftFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M8.178 2.766a1 1 0 1 1 .764 1.848a8 8 0 0 0 -2.595 1.733a1 1 0 1 1 -1.414 -1.414a10 10 0 0 1 3.245 -2.167"}},{tag:"path",attr:{d:"M2.767 8.176a1 1 0 1 1 1.846 .768a8 8 0 0 0 -.613 3.058a1 1 0 0 1 -2 -.004a10 10 0 0 1 .767 -3.822"},child:[]},{tag:"path",attr:{d:"M3.308 14.516a1 1 0 0 1 1.306 .542a8 8 0 0 0 1.733 2.595a1 1 0 1 1 -1.414 1.414a10 10 0 0 1 -2.167 -3.245a1 1 0 0 1 .542 -1.306"},child:[]},{tag:"path",attr:{d:"M7.637 19.926a1 1 0 0 1 1.307 -.54a8 8 0 0 0 3.058 .614a1 1 0 0 1 -.004 2a10 10 0 0 1 -3.822 -.767a1 1 0 0 1 -.54 -1.307"},child:[]},{tag:"path",attr:{d:"M17.653 17.653a1 1 0 1 1 1.414 1.414a10 10 0 0 1 -3.245 2.167a1 1 0 1 1 -.764 -1.848a8 8 0 0 0 2.595 -1.733"},child:[]},{tag:"path",attr:{d:"M21.002 11a1 1 0 0 1 .998 1.002a10 10 0 0 1 -.767 3.822a1 1 0 1 1 -1.846 -.768a8 8 0 0 0 .613 -3.058a1 1 0 0 1 1.002 -.998"},child:[]},{tag:"path",attr:{d:"M17.653 4.933a1 1 0 0 1 1.414 0a10 10 0 0 1 2.167 3.245a1 1 0 1 1 -1.848 .764a8 8 0 0 0 -1.733 -2.595a1 1 0 0 1 0 -1.414"},child:[]},{tag:"path",attr:{d:"M12.002 2a10 10 0 0 1 3.822 .767a1 1 0 1 1 -.768 1.846a8 8 0 0 0 -3.058 -.613a1 1 0 0 1 .004 -2"},child:[]},{tag:"path",attr:{d:"M12 9a3 3 0 1 1 -3 3l.005 -.176a3 3 0 0 1 2.995 -2.824"},child:[]}]})(props);
+}
+/**
  * TiltShiftOff icon from Tabler Icons
  */
 export function TbTiltShiftOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -29242,6 +32248,30 @@ export function TbTimelineEventText(props: IconBaseProps): VNode<JSX.SVGAttribut
  */
 export function TbTimelineEventX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{tag:"path",attr:{d:"M10 20h-6"},child:[]},{tag:"path",attr:{d:"M14 20h6"},child:[]},{tag:"path",attr:{d:"M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z"},child:[]},{tag:"path",attr:{d:"M13.5 9.5l-3 -3"},child:[]},{tag:"path",attr:{d:"M10.5 9.5l3 -3"},child:[]}]})(props);
+}
+/**
+ * Timezone icon from Tabler Icons
+ */
+export function TbTimezone(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20.884 10.554a9 9 0 1 0 -10.337 10.328"}},{tag:"path",attr:{d:"M3.6 9h16.8"},child:[]},{tag:"path",attr:{d:"M3.6 15h6.9"},child:[]},{tag:"path",attr:{d:"M11.5 3a17 17 0 0 0 -1.502 14.954"},child:[]},{tag:"path",attr:{d:"M12.5 3a17 17 0 0 1 2.52 7.603"},child:[]},{tag:"path",attr:{d:"M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"},child:[]},{tag:"path",attr:{d:"M18 16.5v1.5l.5 .5"},child:[]}]})(props);
+}
+/**
+ * TipJar icon from Tabler Icons
+ */
+export function TbTipJar(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 10h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"}},{tag:"path",attr:{d:"M12 9v1"},child:[]},{tag:"path",attr:{d:"M12 16v1"},child:[]},{tag:"path",attr:{d:"M17 4v1.882c0 .685 .387 1.312 1 1.618s1 .933 1 1.618v8.882a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-8.882c0 -.685 .387 -1.312 1 -1.618s1 -.933 1 -1.618v-1.882"},child:[]},{tag:"path",attr:{d:"M6 4h12z"},child:[]}]})(props);
+}
+/**
+ * TipJarEuro icon from Tabler Icons
+ */
+export function TbTipJarEuro(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 4v1.882c0 .685 .387 1.312 1 1.618s1 .933 1 1.618v8.882a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-8.882c0 -.685 .387 -1.312 1 -1.618s1 -.933 1 -1.618v-1.882"}},{tag:"path",attr:{d:"M6 4h12z"},child:[]},{tag:"path",attr:{d:"M12 13h-3"},child:[]},{tag:"path",attr:{d:"M14 10.172a3 3 0 1 0 0 5.656"},child:[]}]})(props);
+}
+/**
+ * TipJarPound icon from Tabler Icons
+ */
+export function TbTipJarPound(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 4v1.882c0 .685 .387 1.312 1 1.618s1 .933 1 1.618v8.882a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-8.882c0 -.685 .387 -1.312 1 -1.618s1 -.933 1 -1.618v-1.882"}},{tag:"path",attr:{d:"M6 4h12z"},child:[]},{tag:"path",attr:{d:"M14 10h-1a2 2 0 0 0 -2 2v2c0 1.105 -.395 2 -1.5 2h4.5"},child:[]},{tag:"path",attr:{d:"M10 13h3"},child:[]}]})(props);
 }
 /**
  * Tir icon from Tabler Icons
@@ -29934,10 +32964,34 @@ export function TbUfoOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16.95 9.01c3.02 .739 5.05 2.123 5.05 3.714c0 1.08 -.931 2.063 -2.468 2.814m-3 1c-1.36 .295 -2.9 .462 -4.531 .462c-5.52 0 -10 -1.909 -10 -4.276c0 -1.59 2.04 -2.985 5.07 -3.724"}},{tag:"path",attr:{d:"M14.69 10.686c1.388 -.355 2.31 -.976 2.31 -1.686v-.035c0 -2.742 -2.239 -4.965 -5 -4.965c-1.125 0 -2.164 .37 -3 .992m-1.707 2.297a4.925 4.925 0 0 0 -.293 1.676v.035c0 .961 1.696 1.764 3.956 1.956"},child:[]},{tag:"path",attr:{d:"M15 17l2 3"},child:[]},{tag:"path",attr:{d:"M8.5 17l-1.5 3"},child:[]},{tag:"path",attr:{d:"M12 14h.01"},child:[]},{tag:"path",attr:{d:"M7 13h.01"},child:[]},{tag:"path",attr:{d:"M17 13h.01"},child:[]},{tag:"path",attr:{d:"M3 3l18 18"},child:[]}]})(props);
 }
 /**
+ * Uhd icon from Tabler Icons
+ */
+export function TbUhd(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 16v-8"}},{tag:"path",attr:{d:"M10 12h4"},child:[]},{tag:"path",attr:{d:"M14 8v8"},child:[]},{tag:"path",attr:{d:"M17 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z"},child:[]},{tag:"path",attr:{d:"M3 8v6a2 2 0 1 0 4 0v-6"},child:[]}]})(props);
+}
+/**
  * Umbrella icon from Tabler Icons
  */
 export function TbUmbrella(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 12a8 8 0 0 1 16 0z"}},{tag:"path",attr:{d:"M12 12v6a2 2 0 0 0 4 0"},child:[]}]})(props);
+}
+/**
+ * Umbrella2 icon from Tabler Icons
+ */
+export function TbUmbrella2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5.343 7.343a8 8 0 1 1 11.314 11.314z"}},{tag:"path",attr:{d:"M10.828 13.34l-4.242 4.243a2 2 0 1 0 2.828 2.828"},child:[]}]})(props);
+}
+/**
+ * UmbrellaClosed icon from Tabler Icons
+ */
+export function TbUmbrellaClosed(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 16l3 -13l3 13z"}},{tag:"path",attr:{d:"M12 16v3c0 2.667 4 2.667 4 0"},child:[]}]})(props);
+}
+/**
+ * UmbrellaClosed2 icon from Tabler Icons
+ */
+export function TbUmbrellaClosed2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6.697 12.071l11.313 -7.071l-7.07 11.314z"}},{tag:"path",attr:{d:"M8.743 14.475l-2.121 2.121c-1.886 1.886 .943 4.715 2.828 2.829"},child:[]}]})(props);
 }
 /**
  * UmbrellaFilled icon from Tabler Icons
@@ -29992,6 +33046,12 @@ export function TbUsb(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbUser(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"}},{tag:"path",attr:{d:"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"},child:[]}]})(props);
+}
+/**
+ * UserBitcoin icon from Tabler Icons
+ */
+export function TbUserBitcoin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 21v-6m2 0v-1.5m0 9v-1.5m-2 -3h3m-1 0h.5a1.5 1.5 0 0 1 0 3h-3.5m3 -3h.5a1.5 1.5 0 0 0 0 -3h-3.5"}},{tag:"path",attr:{d:"M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"},child:[]},{tag:"path",attr:{d:"M6 21v-2a4 4 0 0 1 4 -4h3"},child:[]}]})(props);
 }
 /**
  * UserBolt icon from Tabler Icons
@@ -30348,6 +33408,12 @@ export function TbVideo(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z"}},{tag:"path",attr:{d:"M3 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"},child:[]}]})(props);
 }
 /**
+ * VideoFilled icon from Tabler Icons
+ */
+export function TbVideoFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M20.117 7.625a1 1 0 0 0 -.564 .1l-4.553 2.275v4l4.553 2.275a1 1 0 0 0 1.447 -.892v-6.766a1 1 0 0 0 -.883 -.992z"}},{tag:"path",attr:{d:"M5 5c-1.645 0 -3 1.355 -3 3v8c0 1.645 1.355 3 3 3h8c1.645 0 3 -1.355 3 -3v-8c0 -1.645 -1.355 -3 -3 -3z"},child:[]}]})(props);
+}
+/**
  * VideoMinus icon from Tabler Icons
  */
 export function TbVideoMinus(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -30405,13 +33471,25 @@ export function TbViewfinderOff(props: IconBaseProps): VNode<JSX.SVGAttributes> 
  * ViewportNarrow icon from Tabler Icons
  */
 export function TbViewportNarrow(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12h7l-3 -3m0 6l3 -3"}},{tag:"path",attr:{d:"M21 12h-7l3 -3m0 6l-3 -3"},child:[]},{tag:"path",attr:{d:"M9 6v-3h6v3"},child:[]},{tag:"path",attr:{d:"M9 18v3h6v-3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 12h7l-3 -3"}},{tag:"path",attr:{d:"M7 15l3 -3"},child:[]},{tag:"path",attr:{d:"M21 12h-7l3 -3"},child:[]},{tag:"path",attr:{d:"M17 15l-3 -3"},child:[]},{tag:"path",attr:{d:"M9 6v-1a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1"},child:[]},{tag:"path",attr:{d:"M9 18v1a2 2 0 0 0 2 2h2a2 2 0 0 0 2 -2v-1"},child:[]}]})(props);
+}
+/**
+ * ViewportShort icon from Tabler Icons
+ */
+export function TbViewportShort(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 3v7l3 -3"}},{tag:"path",attr:{d:"M9 7l3 3"},child:[]},{tag:"path",attr:{d:"M12 21v-7l3 3"},child:[]},{tag:"path",attr:{d:"M9 17l3 -3"},child:[]},{tag:"path",attr:{d:"M18 9h1a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-1"},child:[]},{tag:"path",attr:{d:"M6 9h-1a2 2 0 0 0 -2 2v2a2 2 0 0 0 2 2h1"},child:[]}]})(props);
+}
+/**
+ * ViewportTall icon from Tabler Icons
+ */
+export function TbViewportTall(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 10v-7l3 3"}},{tag:"path",attr:{d:"M9 6l3 -3"},child:[]},{tag:"path",attr:{d:"M12 14v7l3 -3"},child:[]},{tag:"path",attr:{d:"M9 18l3 3"},child:[]},{tag:"path",attr:{d:"M18 3h1a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-1"},child:[]},{tag:"path",attr:{d:"M6 3h-1a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h1"},child:[]}]})(props);
 }
 /**
  * ViewportWide icon from Tabler Icons
  */
 export function TbViewportWide(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12h-7l3 -3m0 6l-3 -3"}},{tag:"path",attr:{d:"M14 12h7l-3 -3m0 6l3 -3"},child:[]},{tag:"path",attr:{d:"M3 6v-3h18v3"},child:[]},{tag:"path",attr:{d:"M3 18v3h18v-3"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10 12h-7l3 -3"}},{tag:"path",attr:{d:"M6 15l-3 -3"},child:[]},{tag:"path",attr:{d:"M14 12h7l-3 -3"},child:[]},{tag:"path",attr:{d:"M18 15l3 -3"},child:[]},{tag:"path",attr:{d:"M3 6v-1a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v1"},child:[]},{tag:"path",attr:{d:"M3 18v1a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-1"},child:[]}]})(props);
 }
 /**
  * Vinyl icon from Tabler Icons
@@ -30780,6 +33858,18 @@ export function TbWeight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{tag:"path",attr:{d:"M6.835 9h10.33a1 1 0 0 1 .984 .821l1.637 9a1 1 0 0 1 -.984 1.179h-13.604a1 1 0 0 1 -.984 -1.179l1.637 -9a1 1 0 0 1 .984 -.821z"},child:[]}]})(props);
 }
 /**
+ * Wheat icon from Tabler Icons
+ */
+export function TbWheat(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12.014 21.514v-3.75"}},{tag:"path",attr:{d:"M5.93 9.504l-.43 1.604c-.712 2.659 .866 5.391 3.524 6.105c.997 .268 1.993 .535 2.99 .801v-3.44c-.164 -2.105 -1.637 -3.879 -3.676 -4.426l-2.408 -.644z"},child:[]},{tag:"path",attr:{d:"M13.744 11.164c.454 -.454 .815 -.994 1.061 -1.587c.246 -.594 .372 -1.23 .372 -1.873c0 -.643 -.126 -1.279 -.372 -1.872c-.246 -.594 -.606 -1.133 -1.061 -1.588l-1.73 -1.73l-1.73 1.73c-.454 .454 -.815 .994 -1.06 1.588c-.246 .594 -.372 1.23 -.373 1.872c0 .643 .127 1.279 .373 1.873c.246 .594 .606 1.133 1.06 1.587"},child:[]},{tag:"path",attr:{d:"M18.099 9.504l.43 1.604c.712 2.659 -.866 5.391 -3.525 6.105c-.997 .268 -1.994 .535 -2.99 .801v-3.44c.164 -2.105 1.637 -3.879 3.677 -4.426l2.408 -.644z"},child:[]}]})(props);
+}
+/**
+ * WheatOff icon from Tabler Icons
+ */
+export function TbWheatOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3l18 18"}},{tag:"path",attr:{d:"M12 21.5v-3.75"},child:[]},{tag:"path",attr:{d:"M5.916 9.49l-.43 1.604c-.712 2.659 .866 5.392 3.524 6.104c.997 .268 1.994 .535 2.99 .802v-3.44c-.164 -2.105 -1.637 -3.879 -3.677 -4.426l-2.407 -.644z"},child:[]},{tag:"path",attr:{d:"M10.249 4.251c.007 -.007 .014 -.014 .021 -.021l1.73 -1.73"},child:[]},{tag:"path",attr:{d:"M10.27 11.15c-.589 -.589 -1.017 -1.318 -1.246 -2.118"},child:[]},{tag:"path",attr:{d:"M14.988 8.988c.229 -.834 .234 -1.713 .013 -2.549c-.221 -.836 -.659 -1.598 -1.271 -2.209l-1.73 -1.73"},child:[]},{tag:"path",attr:{d:"M16.038 10.037l2.046 -.547l.431 1.604c.142 .53 .193 1.063 .162 1.583"},child:[]},{tag:"path",attr:{d:"M16.506 16.505c-.45 .307 -.959 .544 -1.516 .694c-.997 .268 -1.994 .535 -2.99 .801v-3.44c.055 -.708 .259 -1.379 .582 -1.978"},child:[]}]})(props);
+}
+/**
  * Wheel icon from Tabler Icons
  */
 export function TbWheel(props: IconBaseProps): VNode<JSX.SVGAttributes> {
@@ -30898,6 +33988,12 @@ export function TbWindowOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
  */
 export function TbWindsock(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 3v18"}},{tag:"path",attr:{d:"M6 11l12 -1v-4l-12 -1"},child:[]},{tag:"path",attr:{d:"M10 5.5v5"},child:[]},{tag:"path",attr:{d:"M14 6v4"},child:[]},{tag:"path",attr:{d:"M4 21h4"},child:[]}]})(props);
+}
+/**
+ * WindsockFilled icon from Tabler Icons
+ */
+export function TbWindsockFilled(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"currentColor"},child:[{tag:"path",attr:{d:"M6 2a1 1 0 0 1 1 1v1.079l11.083 .924a1 1 0 0 1 .917 .997v4a1 1 0 0 1 -.917 .997l-11.083 .923v8.08h1a1 1 0 0 1 0 2h-4a1 1 0 0 1 0 -2h1v-17a1 1 0 0 1 1 -1m1 4.086v3.827l3 -.25v-3.327zm7 .584v2.659l3 -.25v-2.159z"}}]})(props);
 }
 /**
  * Wiper icon from Tabler Icons
@@ -31120,6 +34216,12 @@ export function TbWritingSignOff(props: IconBaseProps): VNode<JSX.SVGAttributes>
  */
 export function TbX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 6l-12 12"}},{tag:"path",attr:{d:"M6 6l12 12"},child:[]}]})(props);
+}
+/**
+ * XPowerY icon from Tabler Icons
+ */
+export function TbXPowerY(props: IconBaseProps): VNode<JSX.SVGAttributes> {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 3l3 5.063"}},{tag:"path",attr:{d:"M5 12l6 6"},child:[]},{tag:"path",attr:{d:"M5 18l6 -6"},child:[]},{tag:"path",attr:{d:"M21 3l-4.8 9"},child:[]}]})(props);
 }
 /**
  * XboxA icon from Tabler Icons
