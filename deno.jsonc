@@ -1,6 +1,7 @@
 {
   "lock": false,
   "name": "@preact-icons/tb",
+  "license": "MIT",
   "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
