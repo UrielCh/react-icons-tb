@@ -11,8 +11,8 @@
 ## install the module
 
 ```bash
-deno add @preact-icons/tb
-dnpx jsr add @preact-icons/tb
+deno add jsr:@preact-icons/tb
+npx jsr add @preact-icons/tb
 pnpm dlx jsr add @preact-icons/tb
 bunx jsr add @preact-icons/tb
 ```
