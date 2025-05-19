@@ -5770,9 +5770,9 @@
   },
   "imports": {
     "@preact-icons/common": "jsr:@preact-icons/common@^1.0.12",
-    "preact": "npm:preact@10.22.1",
-    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
-    "preact/hooks": "npm:preact@10.22.1/hooks"
+    "preact": "npm:preact@^10.22.1",
+    "preact/jsx-runtime": "npm:preact@^10.22.1/jsx-runtime",
+    "preact/hooks": "npm:preact@^10.22.1/hooks"
   },
   "publish": {
     "exclude": [
